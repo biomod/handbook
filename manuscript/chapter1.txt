@@ -145,7 +145,7 @@ This is the day the Jamboree really kicks off. Participants gather in a room, an
 
 There are two 15 minute coffee breaks, one in the morning and one in the afternoon, and you can drink some coffee and eat snacks to relax, or do a final check of your presentation. At lunch (usually buffet), people eat in ones, twos and threes, and seem a little too nervous to become friends with other teams yet. There is a group photo time just before/after lunch. During the coffee break, a photographer comes around to take team photos. See [2].  After the presentations are done, Day 2 is over. You can enjoy dinner and relax. The Jamboree included a party night in 2013 but not in 2014.
 
-> **A Day of 25 Hours
+> **A Day of 25 Hours**
 > Daylight Saving Time ends in the first week in November, when BIOMOD is held. This means that clocks are set back one hour at 2:00 a.m. There is no special ceremony such as bell ringing, because it is midnight. Nevertheless, it is surely a special night that you cannot experience in Japan.
 
 ### Day 3: End of Jamboree
@@ -160,7 +160,7 @@ During the BIOMOD Jamboree, you will meet students from various countries at cof
 > Once BIOMOD is over, you are free, released from days of struggle. The world looks brighter again. Now you can enjoy Boston. There are a bunch of sights including the souvenir and other shops, restaurants, and so on at Quincy Market, Safeco Field (home stadium of Red Sox, MLB), and Museum of Fine Arts. Another recommendation is a University tour. Harvard University, where the final is held, has classical, solemn buildings made of bricks. Squirrels are hopping around. The campus is full of a relaxed and peaceful atmosphere. In contrast, Massachusetts Institute of Technology (MIT), several ten minutes walk from Harvard University, has many buildings of strange appearance. Inside the buildings, you sometimes encounter as strange artworks created in joke. If you love such MIT-flavored artworks, MIT Museum is another must-see. Also at MIT, a similar student competition, iGEM, is held around this time of the year (note: the competition moved out of MIT in 2014). To stop at iGEM might open up a new world for you.
 > I will close this section with two unique places to buy souvenirs. One is the Harvard Coop, a large shop with a variety of souvenirs. Harvard Logo hoodie is one of the souvenirs many students choose. Another place is a large grocery store that stays open until midnight, next to Le Méridien, which sells 1L bottles of energy drink, truly "American-size" packs of snack, and various other things except alcohols. You might like it because of the cheaper, grocery store price.
 
-__— Kei Fujiwara (Keio University)_
+_— Kei Fujiwara (Keio University)_
  
 ## Learn from Previous Winners
 
@@ -221,11 +221,11 @@ This chapter describes a standard working schedule and team organization. Becaus
 BIOMOD starts in Spring and ends in early Winter. The 6 months will pass quickly.  You have to work with it in parallel to your regular classes, so the schedule is relatively tight. A standard schedule is as follows.
 
 - April Start a team
-- June  Literature review and brainstorming of project ideas
-- August  Start the experiment
+- June Literature review and brainstorming of project ideas
+- August Start the experiment
 - September Domestic trial @ Tokyo
 - October Prepare for the presentation
-- November  Final @ San Francisco
+- November Final @ San Francisco
 
 The team starts in April. The team can be put together in various ways: with friends, with members of a single laboratory, etc. The BIOMOD website (HP) recommends no more than 10 team members. Somewhere between 4 and 10 seems appropriate. Some say that the team members should have different backgrounds and others like a group with similar backgrounds. Either seems fine.  Having different backgrounds will introduce a variety of ideas and skills into the team, but runs the risk of causing the project to be less focused. Similar backgrounds will facilitate mutual understanding, but may not be good for the brainstorming of project ideas. Good team organization is key.
 
@@ -401,8 +401,10 @@ Put all the shots together, roughly or not. (This can be done in parallel with t
 This section has summarized the basic process for making a BIOMOD video, starting from the importance of the video and along the actual video production process. Of course you don't necessarily have to go through all of these process steps, but with such a process always in your mind you can make a better video. The judges and the audience are the same as you_—humans. Thus,  your video should be amusing and interesting to yourselves too.
 
 _— Shogo Hamada (Cornell University)_
- 
+
+
 ## Tips on Presentation in English
+
 For Japanese students, the greatest problem at BIOMOD is giving a presentation in English. You have to get through it in order to get a good score. This might be your first presentation, and in English. What if you cannot understand the questions? There are a lot of what-ifs, so just do your best to prepare.
 
 ### Logical Story Will Get You Through
@@ -424,9 +426,11 @@ This "straightness" can be depicted as follows.
 __ Figure: Good presentation / Bad one __
 
 ### Staging in Presentation
+
 Presenting at BIOMOD is very different from presenting at scientific meetings in general. At scientific meetings, you will only have to describe the content of your study and its value as clearly as possible. BIOMOD, as a student competition, allows you to present more freely in an original way, and originality is also evaluated. In fact, the judging criteria include how impressive and interesting your presentation is  (see section 3). Therefore, staging of your presentation is important.
 
 ### Staging Techniques
+
 - Dramatization: Incorporation of some sort of fictional drama.
 - Dialogue: Cross-talk of more than one member.
 - Cosplay: Use of a puppet, Kigurumi (character costume), or the like (in the middle of the presentation).
@@ -443,14 +447,17 @@ Jokes can spice up your presentation. If you succeed in making the audience laug
 At BIOMOD, there have been a variety of styles of presentation. In 2014, there was a team that incorporated audience participation into the presentation for the first time. They asked the audience to make a motion that is related to the story of the presentation (to wave or to pretend to have a balloon over their heads), which helped the audience understand the project. I expect a more innovative idea from you.
 
 ### Rehearsal, Rehearsal, Rehearsal
+
 In order to be successful in your presentation in English, you have to rehearse. Eye contact is always demanded in a presentation in English, and the speaker has to look at the audience while talking. As a result, the speaker cannot read the script and must memorize the lines. Because of this, the script must be polished and short. Have the mentors and native English speakers critique the script in advance. Although it may be practically difficult, the script should be ready by one week before Jamboree.
 
 Once the script is done, you should rehearse by reading the lines slowly and with pauses. Let someone good at English correct any incorrect pronunciation or intonation, before it's too late. Rehearse again and again on a stopwatch. The number of rehearsals will be proportional to the quality of your presentation. You can do rehearsals on the way to the USA or at the hotel, too. Try to rehearse just before the competition. (Because the presenter's talk must be synchronized with the slides, the slide assistant should join at least a few rehearsals.)
 
 ### Another hurdle: Discussion
+
 The presentation is over. Fortunately the audience seems to have enjoyed your presentation. Then the discussion time comes. The impression of the discussion will greatly affect the score, although it is not included in the list of judging criteria. Non-native English speakers like Japanese students are greatly handicapped. You might not hear the question well, and, if you were able to understand it, you might not know how to answer. The team members on the stage look at each other's faces, standing still in an awkward silence... which is the worst situation of all. Below is the list of what you can do in advance to avoid this. At the domestic trial held around September, you are also required to do the presentation and discussion in English, where you can get a hint of the atmosphere at the final.
 
 ### How to Get Ready for Discussion
+
 - Prepare a list of expected questions. (Also prepare answers to difficult questions.)
 - Assign different expected questions to different members. You should have a rehearsal for responding to the question(s) assigned to you within 3 seconds.
 - Appoint a good English-speaking member (e.g., an overseas student) as the answerer.
@@ -458,12 +465,14 @@ The presentation is over. Fortunately the audience seems to have enjoyed your pr
 
 _— Satoshi Murata (Tohoku University)_
 
- 
+{pagebreak}
+
 ## What You'll Get From BIOMOD
 
 The summer vacation is not long enough to prepare for BIOMOD. You will continue to struggle with preparation in September and October. Sometimes you might have to work all night, and sometimes you might quarrel with the team members. What will you get after all that? Here are some recollections of previous student participants and a comment of a mentor.
 
 ### Recollection of Student Participants
+
 You can best understand what BIOMOD is like from the voice of previous student participants. Many of the previous student participants have reported on BIOMOD in Newsletters of Grant-in-Aid for Scientific Research on Innovative Areas "Molecular Robotics" [1]. Here are just two of them [2].
 
 ### Ko-ichiro Katayama (Team Sendai 2013)
@@ -476,7 +485,7 @@ You can best understand what BIOMOD is like from the voice of previous student p
 
 > At the final, I was shocked that my English skills were so awful compared to the presenters of foreign teams and to other Japanese teams. BIOMOD was a miniature of the world to me, and taught me that English was essential to work in an international field. I want to improve my English skills not only in terms of writing/reading but also communication, to be good at using English as a tool.
 
-### Risa Matsudo (Titech Nano-Jugglers 2012)*
+### Risa Matsudo (Titech Nano-Jugglers 2012)
 
 > If someone asks me: "What did you do during this summer vacation?" I will say: "BIOMOD!" with pride.
 
@@ -502,4 +511,5 @@ You can best understand what BIOMOD is like from the voice of previous student p
 
 _— Kei Fujiwara (Keio University)_
 
-__ Figure here: Tokyo University, Kashiwa, 2014 __
+
+_ Figure here: Tokyo University, Kashiwa, 2014 _
