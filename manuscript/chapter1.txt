@@ -117,7 +117,7 @@ A perfect overall score is 100, with the Website category worth up to 50 points,
 
 For each category, the judges consist of mentors of participating teams and invited experts. Judging is done on an anonymous basis, and each mentor is not allowed to evaluate her/his team. For each team, online content evaluation (Website and YouTube) is allotted to five randomly chosen judges. Live presentation evaluation is done by all judges present. Highest and lowest judges' scores are excluded, and the three remaining judges' scores are averaged.
 
-### Judging Criteria for Website
+### Judging Criteria for Websites
 
 Criteria include the evaluation of three elements: Project Ideas (worth up to 20 points), Project Documentation (worth up to 20 points), and Project Execution (worth up to 10 points).
 
@@ -125,7 +125,7 @@ Criteria include the evaluation of three elements: Project Ideas (worth up to 20
 -	Project Documentation. (1) Clarity (worth up to 10 points): Is the project description well-written and easy to understand? Does it include the necessary background information and motivation for the project, methods, results, and discussion? Are the figures easy to understand? (2) Transparency (worth up to 5 points): Are all of the raw experimental data and source files easily accessible? Would it be straightforward to attempt to reproduce the team's results? (3) Layout (worth up to 5 points): Is the team's project page arranged in a clear and logical fashion?
 -	Execution: Did the team accomplish what they set out to do?
 
-### Judging Criteria for YouTube
+### Judging Criteria for YouTube Videos
 
 Criteria include the evaluation of three elements: Overall Impact (worth up to 10 points), Clarity (worth up to 10 points), and Production (worth up to 5 points).
 
@@ -133,13 +133,15 @@ Criteria include the evaluation of three elements: Overall Impact (worth up to 1
 -	Clarity: Was the project described in a simple and clear manner that could be easily understood by a wide audience? Basically, any BIOMOD project of any team is complicated. You must describe your project simply and without too many details. Watch the videos made by any of the top three teams in previous competitions and you can learn a lot.
 -	Production: Were the sound and video high quality? Were the images focused and scaled properly? In most cases, a high scorer in other criteria also gets a high score here. Top teams score similarly for this criterion; noisy video, either visual or auditory, can easily lose points.
 
-### Judging Criteria for Presentation
+### Judging Criteria for Presentations
 
 Criteria includes evaluation of three elements: Content (worth up to 10 points), Delivery (worth up to 10 points), and Impact (worth up to 5 points).
 
 -	Content: Were the slides clear and easy to understand? Did the project narrative have a logical flow, with clearly stated goals and results?
 -	Delivery: Did the speaker(s) give a well-rehearsed, well-paced presentation? Did the speaker(s) engage with the audience and maintain good eye contact?
 -	Impact: Was the presentation interesting? Fun? Clever? Memorable?
+
+{pagebreak}
 
 {aside}
 **MOLBOT Award**
@@ -242,6 +244,8 @@ The keys to preparing good slides are the same among presentation styles. Refer 
 
 If you are unable to memorize the script for the presentation in any way, do not worry. You can perform a puppet show while a narrator reads the script behind the curtain. You can also have one of the members show you cue cards from an audience seat, or you can have the script written on your hand or accessory (fan, scroll, or the like).
 
+{pagebreak}
+
 {aside}
 **Do NOT rely on judges to fill in the blanks**
 
@@ -320,7 +324,7 @@ Because you and the members have separate brains, you need meetings. Find a plac
 
 Check the entire schedule/current problems/process steps/task assignment, share information, and discuss possible solutions to problems. Brainstorming of project ideas may seem to be the most important task, but will be discussed later.
 Meeting Organization
--	Chaired by the team leader. Does not need to be a funny guy.
+-	Chaired by the team leader. Does not need to be a funny comedian.
 -	A record keeper is a must. Let the proceedings be read by everyone just after the meeting.
 -	Distribute handouts. One-way traffic information through slides is insufficient.
 -	Bring a list of the problems to be discussed.
