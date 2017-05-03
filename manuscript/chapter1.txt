@@ -134,9 +134,13 @@ Criteria includes evaluation of three elements: Content (worth up to 10 points),
 - Delivery: Did the speaker(s) give a well-rehearsed, well-paced presentation? Did the speaker(s) engage with the audience and maintain good eye contact?
 - Impact: Was the presentation interesting? Fun? Clever?  Memorable?
 
-> **MOLBOT Award**
-> The MOLBOT Award, sponsored by Molecular Robotics Research Group from Japan, is given to the project that most contributed to molecular robotics in the BIOMOD competition of the year. The winner is determined by the judges, based only on the live presentation score. Thus, in order to win this award, you must emphasize in the presentation how you tried to assemble a molecular robot.
-> Japanese teams have been dominating in this category. In the 1st and 3rd competitions, Japanese teams won this award. In 2014, the Columbia University team won the award, a non-Japanese winner for the first time. Competition for this award will become more and more intense. However, because molecular robot projects are of high difficulty and thus not much attempted by the students, a project with a good concept can compensate for less than prefect results. I hope the readers of this book try for this award.
+{aside}
+**MOLBOT Award**
+
+The MOLBOT Award, sponsored by Molecular Robotics Research Group from Japan, is given to the project that most contributed to molecular robotics in the BIOMOD competition of the year. The winner is determined by the judges, based only on the live presentation score. Thus, in order to win this award, you must emphasize in the presentation how you tried to assemble a molecular robot.
+
+Japanese teams have been dominating in this category. In the 1st and 3rd competitions, Japanese teams won this award. In 2014, the Columbia University team won the award, a non-Japanese winner for the first time. Competition for this award will become more and more intense. However, because molecular robot projects are of high difficulty and thus not much attempted by the students, a project with a good concept can compensate for less than prefect results. I hope the readers of this book try for this award.
+{/aside}
 
 _—Kei Fujiwara (Keio University)_
 
@@ -161,8 +165,10 @@ This is the day the Jamboree really kicks off. Participants gather in a room, an
 
 There are two 15 minute coffee breaks, one in the morning and one in the afternoon, and you can drink some coffee and eat snacks to relax, or do a final check of your presentation. At lunch (usually buffet), people eat in ones, twos and threes, and seem a little too nervous to become friends with other teams yet. There is a group photo time just before/after lunch. During the coffee break, a photographer comes around to take team photos. See [2].  After the presentations are done, Day 2 is over. You can enjoy dinner and relax. The Jamboree included a party night in 2013 but not in 2014.
 
-> **A Day of 25 Hours**
-> Daylight Saving Time ends in the first week in November, when BIOMOD is held. This means that clocks are set back one hour at 2:00 a.m. There is no special ceremony such as bell ringing, because it is midnight. Nevertheless, it is surely a special night that you cannot experience in Japan.
+{aside}
+**A Day of 25 Hours**
+Daylight Saving Time ends in the first week in November, when BIOMOD is held. This means that clocks are set back one hour at 2:00 a.m. There is no special ceremony such as bell ringing, because it is midnight. Nevertheless, it is surely a special night that you cannot experience in Japan.
+{/aside}
 
 ### Day 3: End of Jamboree
 
