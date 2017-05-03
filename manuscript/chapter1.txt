@@ -88,7 +88,8 @@ However, Japanese researchers thought that the judging system of iGEM was not fu
 As a result, we proposed the introduction of as fair judging criteria as possible, and a Robocon-like pilot competition and Molecular Robotics Award, which in the long term could turn into a more Robocon-like competition. Our proposal was to introduce the essence of the open and fair judging system of Robocon into the framework of iGEM. Our proposal combined advantages of two competitions of totally different origins and most of the ideas were adopted. However, the proposed judging system based on point scoring is still utilized essentially in its original form in BIOMOD. After the Robocon-like pilot competition and Molecular Robotics Award at the 1st competition in 2011, we concluded that it was too early to have a Robocon-like competition as part of BIOMOD. The award remains as a special award given to the project contributed the most to molecular robotics among the projects of all participating teams.
 
 _—Shogo Hamada (Cornell University)_
- 
+
+
 ## Judging System of BIOMOD
 
 BIOMOD is comprised of 3 categories: Website, YouTube, and Presentation. It’s important to understand the judging system in order for your project to be competitive. This section describes the types of awards in BIOMOD and the scoring system to determine the award winners.
@@ -197,7 +198,8 @@ San Francisco has great restaurants. If you are in the mood for Mexican food, he
 {/aside}
 
 _— Kei Fujiwara (Keio University)_
- 
+
+
 ## Learn from Previous Winners
 
 BIOMOD is a biomolecule design competition, and there is a high degree of freedom in what you do. In this section, we will take a look at the projects of previous Grand, Website, YouTube, and Presentation Award winners to understand the project genres and styles that can end up with a high score.
