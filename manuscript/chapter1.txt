@@ -1,4 +1,4 @@
-{book: true, sample: false}
+{book: true, sample: true}
 
 # About
 
