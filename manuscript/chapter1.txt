@@ -24,6 +24,8 @@ Molecular biology, which began with the discovery of DNA by Watson and Crick in 
 
 It is still a tall order to generate, or to design the amino acid sequence of, a protein with a desired shape and/or function. There are 20 different amino acids, several hundreds to several thousands of which polymerize to form a string of protein. Therefore, there are 20N possible sequences for a protein of N amino acid residues. The number of possible sequences, or sequence space, is too huge to identify a particular desired sequence. In the case of DNA, however, there are only 4 kinds of bases (A, C, G, and T), resulting in 4N sequences at most. This means that the power of a standard personal computer suffices to search the sequence space of DNA (see sections 63 and 64). Only since the late 1990s, however, have researchers attempted to generate a wide variety of parts using only DNA. BIOMOD is a two-day jamboree and competition to bring together people interested in the design of DNA molecules.
 
+![Biology vs Molecular Design](figures/ch1fig1.png)
+
 ### Structural DNA Nanotechnology (see section 17)
 
 The purpose of structural nanotechnology is to manufacture nanostructures of various shapes using DNA. One typical example is the methodology of "DNA Origami", a design technology that uses the principles of folding dictated by DNA to create molecules with complex shapes on a computer. Stuctural DNA nanotechnology also tries to combine DNA nanostructures with other molecules such as proteins and lipids (see section 49).
@@ -40,9 +42,9 @@ Based on the complementarity of DNA, a reaction system can be made in which the 
 
 Moore's law is the observation that the packaging density in an integrated circuit increases exponentially over time. We now realize that this principle also applies to DNA molecule design. The length of designable DNA has reached an order of several ten thousand bases and is expected to keep increasing. The time is coming when large and complex articles can be made at the level of molecular design.
 
-### Increasing Complexity of DNA Molecular System
 
-_Figure goes here_
+![Increasing Complexity of DNA Molecular System](figures/ch1fig2.png)
+
 
 {aside}
 **Molecular Robotics Research Group and Molecular Robotics Project**
@@ -281,6 +283,8 @@ The team starts in April. The team can be put together in various ways: with fri
 
 Once the team is agreed on, you need to go through lectures and textbooks and literature reviews to find project ideas. The University of Tokyo Kashiwa team assigned relevant chapters of the textbooks "Molecular Biology of the Cell" and "DNA Nanoengineering" to team members in a journal club format. Note that too much textbook learning will take away the time and energy for the brainstorming of project ideas, and may make it feel like another regular class, resulting in a passive attitude of the members. The Kashiwa team also introduced a literature review in a journal format, assigning about 2 papers per student. Based on such knowledge, you will start brainstorming project ideas. This brainstorming is an important factor for the success of the project, and is described in another section.
 
+![Typical team meeting in Japan](figures/ch1fig3.png)
+
 When summer vacation comes, the experiment starts. The experiment can be carried out by all of the team members or only by the experimenter(s), depending on the team. In the case of the University of Tokyo Kashiwa team, every member worked on the experiment at least 3 days a week during the summer vacation (except during Obon or other holidays). Many of the members worked for much longer hours.
 
 A month after the beginning of the summer vacation, there is a trial in Japan. It is held at the Hongo campus of Tokyo University in the beginning of September every year. At this domestic trial, the primary purpose is to determine the direction of many aspects of the team, so the project does not need to be complete at this point. Nevertheless, because you will be judged in the same format as the final, you have to make some preparations for it. The presentation must be in English, so you will have to do exercises in English in addition to presentation. The result of the domestic trial does not necessarily correlate with the result at the final. Many teams were motivated by their defeat at the trial and had a good result at the final. If your result at the domestic trial is not good, just cheer up and work hard again toward the final.
@@ -435,7 +439,8 @@ Empirically, many teams are panicked and start making the video when the last mo
 
 Before shooting, you should check the schedule. After you begin shooting, you should collect 80% of the required shots in the first 20% of the remaining days. In the last lap, you will be often occupied by the experiment or Website writing. Finishing predetermined parts of the video as soon as possible will help out later. The entire process can be viewed as follows.
 
-_Figure goes here: Timeline_
+![Video Timeline](figures/ch1fig4.png)
+
 
 ### Scenario
 
@@ -484,7 +489,9 @@ This framework is very different from "Introduction-Development-Twist-Conclusion
 -	Conclusion: What the results mean and what they make possible.
 This "straightness" can be depicted as follows.
 
-_Figure goes here: Good presentation / Bad one_
+
+![Good vs Bad Presentation Flow](figures/ch1fig5.png)
+
 
 ### Staging in Presentation
 
@@ -573,4 +580,4 @@ You can best understand what BIOMOD is like from the voice of previous student p
 _— Kei Fujiwara (Keio University)_
 
 
-_Figure goes here: Tokyo University, Kashiwa, 2014_
+![Tokyo University, Kashiwa, 2014](figures/ch1fig6.png)
