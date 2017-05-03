@@ -1,40 +1,40 @@
 {book: true, sample: false}
 
-# Let's Go to BIOMOD
+## Let's Go to BIOMOD
 
-## Welcome to the World of DNA Molecule Design
+### Welcome to the World of DNA Molecule Design
 
 It is now possible to design biological macromolecules, typically DNA sequences, to create complex nanodevices and nanostructures. This is a revolution that is comparable to the industrial revolution but occurring at the molecular level. Molecule design will could into a gargantuan field of technology comparable to silicon semiconductor technology developed in the 20th century. Welcome to a world of molecular design that holds infinite potential.
 
-## Fundamental Differences between Manufactured Articles and Organisms
+### Fundamental Differences between Manufactured Articles and Organisms
 
 Our world holds an endless variety of manufactured articles made of metal, plastic, wood and clay, and other materials. Shapes of these objects are formed through cutting and molding of bulk materials. Essentially all manufactured articles, including buildings, machines, and daily goods are made in this way, which requires bulk materials and tools and factories to work them.
 
 On the other hand, how are organisms made? We eat and degrade other organisms, which are then turned into energy and life materials for our bodies without the use of any tools or factories. We turn the materials into a highly structured system by means of incredibly complex chemical reactions. Cells in our body are each made of innumerable biological macromolecules synthesized with extreme precision. They are by far more complex and far larger in scale than the most complex semiconductor circuit ever designed.
 
-## The Central Dogma of Biological Design  
+### The Central Dogma of Biological Design
 We know a great deal about chemical reactions that occur inside organisms. At the center of these processes is a series of conversion reactions involving three kinds of macromolecules: DNA -> RNA -> protein. The sequences of these macromolecule chains (e.g. base and amino acid sequences) are of significant. DNA, composed of strings four types of bases (A, C, T, and G), is a macromolecule that stores genetic information. It is converted to an intermediate string of RNA (transcription), which in turn is converted to amino acid sequences of proteins (translation). Therefore, the shape and other properties of any protein primarily depend on the base sequence of the corresponding DNA. Proteins are responsible for innumerable biological functions. In other words, biological functions are written in the base sequence of DNA.
 
-## Manufacturing Based on Biological Principles
+### Manufacturing Based on Biological Principles
 Molecular biology, which began with the discovery of DNA by Watson and Crick in 1950s (see section 41), has developed into one of the largest field of science, i.e., life sciences. Scientists have studied the constituent parts of the biological system one by one, and functional relationships between the parts are becomingly better understood. Richard Feynman said, "What I cannot create, I do not understand." In terms of contraposition, anything can be manufactured once its mechanism is  understood. Thus, the idea of applying biological principles to manufactured articles emerged. It began with the idea by N. Seeman to produce DNA-based nanostructures (1984). By regarding DNA not as only a genetic information carrier but also as a nanostructure material, Seeman noticed that only mixing DNA molecules of particular base sequences could produce nanomaterials of various shapes.
 
-## DNA-based Manufacturing: Design of DNA Molecules
+### DNA-based Manufacturing: Design of DNA Molecules
 
 It is still a tall order to generate, or to design the amino acid sequence of, a protein with a desired shape and/or function. There are 20 different amino acids, several hundreds to several thousands of which polymerize to form a string of protein. Therefore, there are 20N possible sequences for a protein of N amino acid residues. The number of possible sequences, or sequence space, is too huge to identify a particular desired sequence. In the case of DNA, however, there are only 4 kinds of bases (A, C, G, and T), resulting in 4N sequences at most. This means that the power of a standard personal computer suffices to search the sequence space of DNA (see sections 63 and 64). Only since the late 1990s, however, have researchers attempted to generate a wide variety of parts using only DNA.  BIOMOD is a two-day jamboree and competition to bring together people interested in the  design of DNA molecules.
 
-**Structural DNA Nanotechnology (see section 17)**
+### Structural DNA Nanotechnology (see section 17)
 The purpose of structural nanotechnology is to manufacture nanostructures of various shapes using DNA. One typical example is the methodology of "DNA Origami", a design technology that uses the principles of folding dictated by DNA to create molecules with complex shapes on a computer. Stuctural DNA nanotechnology also tries to combine DNA nanostructures with other molecules such as proteins and lipids (see section 49).
 
-**DNA Computing (see section 29)**
+### DNA Computing (see section 29)
 Based on the complementarity of DNA, a reaction system can be made in which the concentration of a particular DNA molecule in a solution reflects the result of a logical operation. This field has progressed rapidly in recent years, now allowing successful fabrication of a complex molecular computing circuit with several hundred logic gates.
 
-**Molecular Robotics (see section 24)**
-A molecular robot is a DNA-based structure combined with a sensor, actuator, and DNA computer. A molecular robot is a molecule-sized system that can autonomously react to its environment, e.g., one that can find diseased cells and deliver a drug to them. Structural DNA nanotechnology has allowed some static structures to be made, but has not yet successfully created many dynamic structures. 
+### Molecular Robotics (see section 24)
+A molecular robot is a DNA-based structure combined with a sensor, actuator, and DNA computer. A molecular robot is a molecule-sized system that can autonomously react to its environment, e.g., one that can find diseased cells and deliver a drug to them. Structural DNA nanotechnology has allowed some static structures to be made, but has not yet successfully created many dynamic structures.
 
-**Moore's Law in Design of DNA Molecules
+### Moore's Law in Design of DNA Molecules
 Moore's law is the observation that the packaging density in an integrated circuit increases exponentially over time. We now realize that this principle also applies to DNA molecule design. The length of designable DNA has reached an order of several ten thousand bases and is expected to keep increasing.  The time is coming when large and complex articles can be made at the level of molecular design.
- 
-**Increasing Complexity of DNA Molecular System**
+
+### Increasing Complexity of DNA Molecular System
 
 __ Figure goes here __
 
@@ -43,20 +43,20 @@ __ Figure goes here __
 > A big research project proposed by this group has been funded through a Grant-in-Aid for Scientific Research on Innovative Areas  in the field of molecular robotics (2012-2016). http://www.molecular-robotics.org/
 > The purposes of this project include the enlightenment of students and training of young researchers. It supports various aspects of BIOMOD (see section 2).
 
-—Satoshi Murata (Tohoku University)
+_—Satoshi Murata (Tohoku University)_
 
 
-# What is BIOMOD?
+## What is BIOMOD?
 
 This section describes previous competitions of BIOMOD, its relation to Robocon Japan, and how it all started.
 
-**Introduction**
-Welcome to BIOMOD. Ina few months, you will be trying to create an unprecedented molecular robot/device by trial and error, from the brainstorming of project ideas to the final presentation. Before that, you should make sure you understand the logic and rules of the BIOMOD competition. 
+### Introduction
+Welcome to BIOMOD. Ina few months, you will be trying to create an unprecedented molecular robot/device by trial and error, from the brainstorming of project ideas to the final presentation. Before that, you should make sure you understand the logic and rules of the BIOMOD competition.
 
-**Background**
+### Background
 Progress in molecular biology, organic chemistry, and other disciplines in the past several decades has revealed a trove of information about biomolecules. In particular, we have gained a great deal of information on nucleic acids (DNA and RNA) and related matters. The famous discovery of the double helix structure by Watson and Crick was followed by the establishment of enzymatic manipulation, and the introduction of novel functions by means of artificial bases. Such progress in basic science and the resultant technologies together provide a basis to develop novel fields in engineering such as modern biotechnology and nanotechnology. Only decades ago, we considered the rules of biological phenomena to be ungovernable using engineering methodology. Now we understand them by means of biology, chemistry, and computer science, and are ready to apply our knowledge to manufacturing. We are facing a historical turning point.
 
-**DNA Nanotechnology and BIOMOD**
+### DNA Nanotechnology and BIOMOD
 
 Progress in nucleic acid science has led to novel fields of engineering, one of which is DNA Nanotechnology. DNA Nanotechnology originated from an idea of making a "nanoscale DNA scaffold" to facilitate the crystallization of a protein. This idea was proposed by Seeman, an American chemist, in the 1980s. After more than 30 years of extensive study by many researchers, his idea of combining DNA double helices into a desired shape was realized by Rothemund and termed "DNA Origami". DNA origami, in addition to creating DNA shapes, has also created nucleic acid-based "sensors" made of aptamers, described assembly techniques, and devised "information processing systems" and "motors" based on "strand displacement" reactions. These are some of the key innovations of DNA Nanotechnology (see corresponding sections and columns for details and references of these technologies).
 
@@ -64,29 +64,29 @@ As a natural consequence of such progress in biomolecule manipulation technology
 
 Meanwhile, in 2010, American groups published on "prototype" molecular robots based on DNA origami core structures [3,4]. At the end of 2010, Shawn Douglas, a researcher at UCSF and one of the authors of the molecular robot paper from USA, proposed organizing the first BIOMOD to research groups all over the world.
 
-**BIOMOD’s Relationship to Robocon in Japan**
+### BIOMOD’s Relationship to Robocon in Japan
 
 BIOMOD and robotics are closely intertwined. When Japanese researchers received the proposal, they wanted to apply know-how from Robocon, a popular engineering competition in Japan, to participating in this new competition.
 
 Originally, BIOMOD planned to borrow the entire competition framework of iGEM (International Genetically Engineered Machine competition) [5], a student competition in synthetic biology. The idea was that incorporating the similarly standardized methodology of DNA origami and CAD (for easy design of DNA origami) into the framework of iGEM and applying it to BIOMOD should result in similarly rapid progress in the competition, and thus in the field of molecular robotics.
 
-However, Japanese researchers thought that the judging system of iGEM was not fully transparent, and, in terms of both scientific progress and education, they wanted a more transparent and more equitable judging system that would still be suitable for student participants and teachers.  
+However, Japanese researchers thought that the judging system of iGEM was not fully transparent, and, in terms of both scientific progress and education, they wanted a more transparent and more equitable judging system that would still be suitable for student participants and teachers.
 
 As a result, we proposed the introduction of as fair judging criteria as possible, and a Robocon-like pilot competition and Molecular Robotics Award, which in the long term could turn into a more Robocon-like competition. Our proposal was to introduce the essence of the open and fair judging system of Robocon into the framework of iGEM. Our proposal combined advantages of two competitions of totally different origins and most of the ideas were adopted. However,  the proposed judging system based on point scoring is still utilized essentially in its original form in BIOMOD. After the Robocon-like pilot competition and Molecular Robotics Award at the 1st competition in 2011, we concluded that it was too early to have a Robocon-like competition as part of BIOMOD. The award remains as a special award given to the project contributed the most to molecular robotics among the projects of all participating teams.
 
-Shogo Hamada (Cornell University)
+_—Shogo Hamada (Cornell University)_
  
-# Judging System of BIOMOD
+## Judging System of BIOMOD
 
 BIOMOD is comprised of 3 categories: Website, YouTube, and Presentation. It’s important to understand the judging system in order for your project to be competitive. This section describes the types of awards in BIOMOD and the scoring system to determine the award winners.
 
-## Overview of Judging System of BIOMOD
+### Overview of Judging System of BIOMOD
 About a week before the final judging, each participating team must upload a Website that provides a detailed description of the team's project and a project video (YouTube) of about 3 minutes long. The video should give a lucid explanation of the project. At the final judging, each team is given 12 minutes to do a presentation on their project. Based on these three categories, Top Prizes (overall score ranking), Gold, Silver, and Bronze Award winners are determined.
 
-## Kinds of Awards of BIOMOD
+### Kinds of Awards of BIOMOD
 
-- Bronze: Team satisfied all minimum requirements for judging (i.e. submitted a complete project Website and uploaded a YouTube video). 
-- Silver: Satisfied criteria for Bronze, plus at least one device (part of the system) in the team's design worked as expected. 
+- Bronze: Team satisfied all minimum requirements for judging (i.e. submitted a complete project Website and uploaded a YouTube video).
+- Silver: Satisfied criteria for Bronze, plus at least one device (part of the system) in the team's design worked as expected.
 - Gold: Satisfied criteria for Silver, and overall point score from Website + YouTube + Jamboree presentation are in top 50% of all teams.
 
 Most of the awards celebrate top three teams. The Website, YouTube, and presentation scores are independent of each other. As of March 2016, the Tohoku University team is the only Japanese team to won first place in any of the major categories (YouTube Award, Presentation Award, and Grand Prize in 2012, and YouTube Award and Grand Prize in 2015). In the Website category, the best Japanese team was the Tohoku University team in 2014, which won 2nd place.
@@ -95,83 +95,82 @@ The Audience Choice Award, not included in overall score ranking, is given to th
 
 There are two more awards, each of which is given to only one team: the Best T-shirt Award (TEAM TITECH won this in 2013) based on the vote of participants and MOLBOT Award supported by Molecular Robotics Research Group from Japan (see the column for details).
 
-**Specifics of Judging System of BIOMOD**
+### Specifics of Judging System of BIOMOD
 A perfect overall score is 100, with the Website category worth up to 50 points, YouTube worth up to 25 points, and presentation worth up to 25 points. Judging criteria for the three categories are fully provided on the judging criteria page [1]. Because the judges also read this page to learn how to judge, you should thoroughly read and understand the judging criteria. Even with an epic project, you cannot win the competition if you ignore key elements of the judging criteria.
 
-**About Judges**
+### About Judges
 For each category, the judges consist of mentors of participating teams and invited experts. Judging is done on an anonymous basis, and each mentor is not allowed to evaluate her/his team. For each team, online content evaluation (Website and YouTube) is allotted to five randomly chosen judges. Live presentation evaluation is done by all judges present. Highest and lowest judges' scores are excluded, and the three remaining judges' scores are averaged.
 
-**Judging Criteria for Website**
+### Judging Criteria for Website
+Criteria include the evaluation of three elements: Project Ideas (worth up to 20 points), Project Documentation (worth up to 20 points), and Project Execution (worth up to 10 points).
+- Project Ideas. (1) Relevance (worth up to 5 points): Has the team made a strong case that their project idea is scientifically and/or technologically interesting? (2) Specification (worth up to 5 points): Are the project goals well-defined? (3) Feasibility (worth up to 5 points): Was it reasonable to expect that the proposed solution could be implemented by a BIOMOD team in one summer? (4) Merit (worth up to 5 points): Is the proposed solution a good one? Is it particularly elegant or innovative?
+- Project Documentation. (1) Clarity (worth up to 10 points): Is the project description well-written and easy to understand? Does it include the necessary background information and motivation for the project, methods, results, and discussion? Are the figures easy to understand? (2) Transparency (worth up to 5 points): Are all of the raw experimental data and source files easily accessible? Would it be straightforward to attempt to reproduce the team's results? (3) Layout (worth up to 5 points): Is the team's project page arranged in a clear and logical fashion?
+- Execution: Did the team accomplish what they set out to do?
 
-Criteria include the evaluation of three elements: Project Ideas (worth up to 20 points), Project Documentation (worth up to 20 points), and Project Execution (worth up to 10 points). 
--	Project Ideas. (1) Relevance (worth up to 5 points): Has the team made a strong case that their project idea is scientifically and/or technologically interesting? (2) Specification (worth up to 5 points): Are the project goals well-defined? (3) Feasibility (worth up to 5 points): Was it reasonable to expect that the proposed solution could be implemented by a BIOMOD team in one summer? (4) Merit (worth up to 5 points): Is the proposed solution a good one? Is it particularly elegant or innovative?
--	Project Documentation. (1) Clarity (worth up to 10 points): Is the project description well-written and easy to understand? Does it include the necessary background information and motivation for the project, methods, results, and discussion? Are the figures easy to understand? (2) Transparency (worth up to 5 points): Are all of the raw experimental data and source files easily accessible? Would it be straightforward to attempt to reproduce the team's results? (3) Layout (worth up to 5 points): Is the team's project page arranged in a clear and logical fashion?
--	Execution: Did the team accomplish what they set out to do?
-
-**Judging Criteria for YouTube**
-
+### Judging Criteria for YouTube
 Criteria include the evaluation of three elements: Overall Impact (worth up to 10 points), Clarity (worth up to 10 points), and Production (worth up to 5 points).
--	Overall Impact: Was the video interesting? Did you want to watch it more than once? A beautiful image, interesting trick, and unexpected story will help. It’s best to keep the video under five minutes because most people will not want to watch a video longer than four minutes twice.
--	Clarity: Was the project described in a simple and clear manner that could be easily understood by a wide audience? Basically, any BIOMOD project of any team is complicated. You must describe your project simply and without too many details. Watch the videos made by any of the top three teams in previous competitions and you can learn a lot.
--	Production: Were the sound and video high quality? Were the images focused and scaled properly? In most cases, a high scorer in other criteria also gets a high score here. Top teams score similarly for this criterion; noisy video, either visual or auditory, can easily lose points.
+- Overall Impact: Was the video interesting? Did you want to watch it more than once? A beautiful image, interesting trick, and unexpected story will help. It’s best to keep the video under five minutes because most people will not want to watch a video longer than four minutes twice.
+- Clarity: Was the project described in a simple and clear manner that could be easily understood by a wide audience? Basically, any BIOMOD project of any team is complicated. You must describe your project simply and without too many details. Watch the videos made by any of the top three teams in previous competitions and you can learn a lot.
+- Production: Were the sound and video high quality? Were the images focused and scaled properly? In most cases, a high scorer in other criteria also gets a high score here. Top teams score similarly for this criterion; noisy video, either visual or auditory, can easily lose points.
 
-**Judging Criteria for Presentation**
+### Judging Criteria for Presentation
 Criteria includes evaluation of three elements: Content (worth up to 10 points), Delivery (worth up to 10 points), and Impact (worth up to 5 points).
--	Content: Were the slides clear and easy to understand? Did the project narrative have a logical flow, with clearly stated goals and results?
--	Delivery: Did the speaker(s) give a well-rehearsed, well-paced presentation? Did the speaker(s) engage with the audience and maintain good eye contact?
--	Impact: Was the presentation interesting? Fun? Clever?  Memorable?
+- Content: Were the slides clear and easy to understand? Did the project narrative have a logical flow, with clearly stated goals and results?
+- Delivery: Did the speaker(s) give a well-rehearsed, well-paced presentation? Did the speaker(s) engage with the audience and maintain good eye contact?
+- Impact: Was the presentation interesting? Fun? Clever?  Memorable?
 
 > **MOLBOT Award**
 > The MOLBOT Award, sponsored by Molecular Robotics Research Group from Japan, is given to the project that most contributed to molecular robotics in the BIOMOD competition of the year. The winner is determined by the judges, based only on the live presentation score. Thus, in order to win this award, you must emphasize in the presentation how you tried to assemble a molecular robot.
 > Japanese teams have been dominating in this category. In the 1st and 3rd competitions, Japanese teams won this award. In 2014, the Columbia University team won the award, a non-Japanese winner for the first time. Competition for this award will become more and more intense. However, because molecular robot projects are of high difficulty and thus not much attempted by the students, a project with a good concept can compensate for less than prefect results. I hope the readers of this book try for this award.
 
-—Kei Fujiwara (Keio University)
+_—Kei Fujiwara (Keio University)_
 
 
-# Days at the BIOMOD Jamboree
+## Days at the Jamboree
 
 The BIOMOD Jamboree was held at Harvard Univeristy but has now been moved to the University of California, San Francisco, USA [1]. "Jamboree", which sounds unfamiliar to Japanese, means a competition to be enjoyed like a festival. BIOMOD is and should be fun, in addition to being a learning experience.
 
-**Schedule before/during BIOMOD Jamboree**
+### Schedule before/during BIOMOD Jamboree
 
 After you upload your Website and YouTube, and prepare your presentation materials, you are heading for the BIOMOD Jamboree (the final). The Jamboree schedule is divided into three parts: Registration on Day 1, Presentations on Day 2, and Awards & Closing Ceremony on Day 3.
 
-**Day 1: Registration**
+### Day 1: Registration
 
 You can take a direct flight from Narita, or a connecting flight from Chicago or Minneapolis, to Logan Airport, Boston. A bus-like train named Silver Line runs between the airport and South Station, where you transfer to Red Line to Central Station. The main hotel for BIOMOD, Le Méridien, is within about 5 minutes' walk of the station. At the registration desk in the hotel lobby, you will get a Charlie Card ("Suica" in Japan), a name card, and a BIOMOD original T-shirt. If you arrive after 20:00, you can register at the competition place on the morning of the Jamboree.
 
 On Day 1, conference rooms in the hotel are usually available for practicing presentations. This is a good idea, but you have reserve them. Rehearsing is crucial to success on Day 2. Some of the teams keep rehearsing until midnight. Sometimes teams are still rehearsing on the day of presentation, but generally this didn't seem to result in a good presentation. Make everything ready by the day of presentation.
 
-**Day 2: Start of the Jamboree**
+### Day 2: Start of the Jamboree
 This is the day the Jamboree really kicks off. Participants gather in a room, and the session starts at 08:00 AM. Dr. Shawn Douglas gives the opening remarks, after which the participating teams  present one after another. Each team is allotted twelve minutes of presentation plus 3 minutes of discussion. All the teams have different vibes which contributes to the festival-like atmosphere. In some teams, everyone wears a solid suit, some teams entertain the audience with cosplay or tricks, and some teams appeal to the audience with a play or cross-talk. The photos on the BIOMOD Facebook page [2] give a good idea of the atmosphere.
 
-There are two 15 minute coffee breaks, one in the morning and one in the afternoon, and you can drink some coffee and eat snacks to relax, or do a final check of your presentation. At lunch (usually buffet), people eat in ones, twos and threes, and seem a little too nervous to become friends with other teams yet. There is a group photo time just before/after lunch. During the coffee break, a photographer comes around to take team photos. See [2]. 	After the presentations are done, Day 2 is over. You can enjoy dinner and relax. The Jamboree included a party night in 2013 but not in 2014. 
+There are two 15 minute coffee breaks, one in the morning and one in the afternoon, and you can drink some coffee and eat snacks to relax, or do a final check of your presentation. At lunch (usually buffet), people eat in ones, twos and threes, and seem a little too nervous to become friends with other teams yet. There is a group photo time just before/after lunch. During the coffee break, a photographer comes around to take team photos. See [2].  After the presentations are done, Day 2 is over. You can enjoy dinner and relax. The Jamboree included a party night in 2013 but not in 2014.
 
-> **A Day of 25 Hours**
+> **A Day of 25 Hours
 > Daylight Saving Time ends in the first week in November, when BIOMOD is held. This means that clocks are set back one hour at 2:00 a.m. There is no special ceremony such as bell ringing, because it is midnight. Nevertheless, it is surely a special night that you cannot experience in Japan.
 
-**Day 3: End of Jamboree**
-Day 3 begins with a Sponsor Workshop by Autodesk (this was after the presentation of the last team in 2014-2015), followed by the Awards & Closing Ceremony. In the ceremony, Bronze, Silver, and then Gold Award winners are called up and receive award certificates. Then Category Awards, MOLBOT Award, Grand Prizes, etc. are awarded. Videos of the top 3 YouTube Award winners from the previous year are run on a large screen at the competition place at full volume. There is a photo session, but no winner's speech. 
+### Day 3: End of Jamboree
+Day 3 begins with a Sponsor Workshop by Autodesk (this was after the presentation of the last team in 2014-2015), followed by the Awards & Closing Ceremony. In the ceremony, Bronze, Silver, and then Gold Award winners are called up and receive award certificates. Then Category Awards, MOLBOT Award, Grand Prizes, etc. are awarded. Videos of the top 3 YouTube Award winners from the previous year are run on a large screen at the competition place at full volume. There is a photo session, but no winner's speech.
 
 After the Jamboree is over, you are free until the return flight (sometimes there is an optional walking tour of the Wyss Institute). Let's stroll around Harvard University and Boston. Some sites of interest are listed in the column.
 
-**Talk to Other Teams**
+### Talk to Other Teams
 During the BIOMOD Jamboree, you will meet students from various countries at coffee break, lunch, and social times, to whom you can talk, with a little courage, to speak English. Japanese students are relatively shy and tend to flock together, possibly due to lack of confidence in English skills. You should try and talk to students from different countries. Exchanging greetings, asking where they come from, introducing your team, and asking about theirs will start the conversation. Tell them how you enjoyed their project, and they will be more excited about the conversation. The foreign student participants I talked to always welcomed me. Only the Japanese students, who didn't want to speak English, appeared a bit standoff ish. It would be a pity if you end up getting new but only Japanese friends at the international competition. Try and explore the world.
 
 > How to Enjoy Boston
 > Once BIOMOD is over, you are free, released from days of struggle. The world looks brighter again. Now you can enjoy Boston. There are a bunch of sights including the souvenir and other shops, restaurants, and so on at Quincy Market, Safeco Field (home stadium of Red Sox, MLB), and Museum of Fine Arts. Another recommendation is a University tour. Harvard University, where the final is held, has classical, solemn buildings made of bricks. Squirrels are hopping around. The campus is full of a relaxed and peaceful atmosphere. In contrast, Massachusetts Institute of Technology (MIT), several ten minutes walk from Harvard University, has many buildings of strange appearance. Inside the buildings, you sometimes encounter as strange artworks created in joke. If you love such MIT-flavored artworks, MIT Museum is another must-see. Also at MIT, a similar student competition, iGEM, is held around this time of the year (note: the competition moved out of MIT in 2014). To stop at iGEM might open up a new world for you.
 > I will close this section with two unique places to buy souvenirs. One is the Harvard Coop, a large shop with a variety of souvenirs. Harvard Logo hoodie is one of the souvenirs many students choose. Another place is a large grocery store that stays open until midnight, next to Le Méridien, which sells 1L bottles of energy drink, truly "American-size" packs of snack, and various other things except alcohols. You might like it because of the cheaper, grocery store price.
 
-— Kei Fujiwara (Keio University)
+__— Kei Fujiwara (Keio University)_
  
-# Learn from Previous Winners
+## Learn from Previous Winners
 
 BIOMOD is a biomolecule design competition, and there is a high degree of freedom in what you do. In this section, we will take a look at the projects of previous Grand, Website, YouTube, and Presentation Award winners to understand the project genres and styles that can end up with a high score.
 
-**Previous Grand Prize Winners**
+### Previous Grand Prize Winners
+
 Below are the projects that won a Grand Prize in the 1st to 4th competitions. In the 1st competition, the winning project was a DNA/RNA nanostructure with potential clinical applicability, demonstrating that a nanoscale octahedron carrying a siRNA drug with potential therapeutic use was actually able to act on a cell. In the 2nd, the winning team created a DNA nanostructure that made a channel in a cell membrane and actively transported DNA molecules. It featured a DNA transport system driven by the stretching/contraction of "porter" DNA molecules. In the 3rd, it was a system with improved arrangeability that consisted of a DNA nanostructure combined with a nanodiamond useful for bioimaging. In the 4th, the winning project was a sensor whose design was based on  cooperation between neighboring molecular beacons, in which a DNA nanostructure recognized an environmental substance to emit light with high precision.
 
-**Highly Evaluated Projects**
+### Highly Evaluated Projects
 
 These previous Grand Prize winners all focused on DNA-based nanostructures. Because the establishment of BIOMOD itself was an effort to spur innovation in the technology of molecular self-assembly of DNA at the nanoscale, projects based on this technology tend to get a high score.
 
@@ -179,23 +178,25 @@ On the other hand, projects focusing on the construction of protein-based system
 
 In between these two types of projects are those that apply the sequence specificity of DNA to logical operation or DNA amplification. This is probably because they score high in terms of design and execution, but tend to score low in terms of clarity in presentation and Website. To avoid this, you should use simple schematics and similes instead of symbols like A-B-C and D-B’-A’ (the trade might like the latter, but not other people).
 
-**Highly Evaluated Websites**
+### Highly Evaluated Websites
+
 You can read any of the Websites of previous participants [1]. If a team deleted their data, you can trace the page history and access it.
 
-Example of good Websites include those of Team Dresden (Germany) 2012-2014, and Team TITECH, 2012. The most likely "winner's formats" for BIOMOD can be found in the Websites of the Harvard University team, 2012, the LMU team, 2013, and the Tohoku University team, 2014. Their wikis describe briefly results that align with BIOMOD’s goals and accord well with all judging criteria. 
+Example of good Websites include those of Team Dresden (Germany) 2012-2014, and Team TITECH, 2012. The most likely "winner's formats" for BIOMOD can be found in the Websites of the Harvard University team, 2012, the LMU team, 2013, and the Tohoku University team, 2014. Their websites describe briefly results that align with BIOMOD’s goals and accord well with all judging criteria.
 
 Your Website should include a figure that describes the degree of Execution of the project. The judges will refer to this figure to understand other data in the Website page and properly evaluate what your team achieved. If there is no such figure, they will start looking for what has not been achieved.
 
 Since Execution and Feasibility are each worth up to 15 points and Relevance and Merit are each worth up to only 5 points. Therefore, a subject matter that is fairly interesting (Relevance ~3 points) but has high feasibility (~12 points; thus high Execution points) will result in a better total score. Therefore, it is better to assemble an achievable unique structure, instead of trying for medical and industrial products that are not easily achievable (and not unique) and thus are likely to lose points.
 
-**Highly Evaluated YouTube Videos**
+### Highly Evaluated YouTube Videos
+
 There are two major factions competing for YouTube Award: one of them clearly explains their project based on beautiful images ("image faction"), and the other based on comedic value ("comedy faction"). In short, clarity is a prerequisite, and you just choose which faction you want to belong to: image or comedy. Image won in 2011, 2013, and 2014, and the comedy in 2012. The comedy faction dominates in the 2nd and 3rd place. An image faction team will need a flawless project (no excuses) and a very high quality video to win. If you want to win 1st place, try for the quality of the 2013 winner (3D) or the 2014 winner (2D) project.
 
 A comedy faction team will need something more than ordinary gags to make an audience of different nationalities laugh. Intelligent comedy (for example, the Tohoku University team, 2012-2013) or a standard funny video (for example, Team TITECH, 2011-2013) have been winning choices.
 
 Because YouTube does not need to include the results of the project, a team with a good project idea but without experimental results can win this Award with good technique and scenario. If you are not successful in the experiment, put all your efforts into YouTube.
 
-**Highly Evaluated Presentations**
+### Highly Evaluated Presentations
 
 Remember that this is not a presentation in a meeting. Judges do not always have an interest in your project or your presentation. You must appeal to them in order to win. Previous winners tried in various ways to make the audience interested and the project well understood: e.g., through drama, by the use of props and characters, and through cross-talk. In particular, cross-talk of two or more, with one speaker pointing out illogicalities and obscurities in the story and another solving the problems, can be appealing to the audience. Such efforts will be reflected in the Delivery score of the Presentation category.
 
@@ -203,34 +204,34 @@ The keys to preparing good slides are the same among presentation styles. Refer 
 
 A short presentation is not a problem but a long one will offend the judges and consequently may lose points. When the Tohoku University team won Best Presentation Award, the presentation was about 10 minutes long.
 
-If you are unable to memorize the script for the presentation in any way, do not worry. You can perform a puppet show while a narrator reads the script behind the curtain. You can also have one of the members show you cue cards from an audience seat, or you can have the script written on your hand or accessory (fan, scroll, or the like). 
+If you are unable to memorize the script for the presentation in any way, do not worry. You can perform a puppet show while a narrator reads the script behind the curtain. You can also have one of the members show you cue cards from an audience seat, or you can have the script written on your hand or accessory (fan, scroll, or the like).
 
-> **Do NOT rely on judges to fill in the blanks**
+> **Do NOT rely on judges to fill in the blanks
 > Students tend to make the mistake of thinking that the judges will understand your project because you have told them or written it down. The judges have a very short time to evaluate your team, usually 15 minutes and up to 1 hour at most. To make judges "understand" in such a short period of time, being logically clear and straightforward is not enough. You must check every detail. Can the judges understand the presentation only by looking at the figures? Is the script polished and of a minimal length? Are the necessity of each experiment and the interpretation of the results clearly described? Will people think the project is great at a glance at the front-page image?
 
-— Kei Fujiwara (Keio University)
+_—Kei Fujiwara (Keio University)_
  
 
-# BIOMOD Calendar
+## BIOMOD Calendar
 
 This chapter describes a standard working schedule and team organization. Because BIOMOD is a team competition with a defined deadline, choice of team organization is very important. Appropriate team organization will depend on your team members and on support from laboratories.
 
-**Standard Schedule for BIOMOD**
+### Standard Schedule for BIOMOD
 
 BIOMOD starts in Spring and ends in early Winter. The 6 months will pass quickly.  You have to work with it in parallel to your regular classes, so the schedule is relatively tight. A standard schedule is as follows.
 
-- April	Start a team
-- June	Literature review and brainstorming of project ideas
-- August	Start the experiment
-- September	Domestic trial @ Tokyo
-- October	Prepare for the presentation
-- November	Final @ San Francisco
+- April Start a team
+- June  Literature review and brainstorming of project ideas
+- August  Start the experiment
+- September Domestic trial @ Tokyo
+- October Prepare for the presentation
+- November  Final @ San Francisco
 
-The team starts in April. The team can be put together in various ways: with friends, with members of a single laboratory, etc. The BIOMOD website (HP) recommends no more than 10 team members. Somewhere between 4 and 10 seems appropriate. Some say that the team members should have different backgrounds and others like a group with similar backgrounds. Either seems fine.  Having different backgrounds will introduce a variety of ideas and skills into the team, but runs the risk of causing the project to be less focused. Similar backgrounds will facilitate mutual understanding, but may not be good for the brainstorming of project ideas. Good team organization is key. 
+The team starts in April. The team can be put together in various ways: with friends, with members of a single laboratory, etc. The BIOMOD website (HP) recommends no more than 10 team members. Somewhere between 4 and 10 seems appropriate. Some say that the team members should have different backgrounds and others like a group with similar backgrounds. Either seems fine.  Having different backgrounds will introduce a variety of ideas and skills into the team, but runs the risk of causing the project to be less focused. Similar backgrounds will facilitate mutual understanding, but may not be good for the brainstorming of project ideas. Good team organization is key.
 
 Once the team is agreed on, you need to go through lectures and textbooks and literature reviews to find project ideas. The University of Tokyo Kashiwa team assigned relevant chapters of the textbooks "Molecular Biology of the Cell" and "DNA Nanoengineering" to team members in a journal club format. Note that too much textbook learning will take away the time and energy for the brainstorming of project ideas, and may make it feel like another regular class, resulting in a passive attitude of the members. The Kashiwa team also introduced a literature review in a journal format, assigning about 2 papers per student. Based on such knowledge, you will start brainstorming project ideas. This brainstorming is an important factor for the success of the project, and is described in another section.
- 
-When summer vacation comes, the experiment starts. The experiment can be carried out by all of the team members or only by the experimenter(s), depending on the team. In the case of the University of Tokyo Kashiwa team, every member worked on the experiment at least 3 days a week during the summer vacation (except during Obon or other holidays). Many of the members worked for much longer hours. 
+
+When summer vacation comes, the experiment starts. The experiment can be carried out by all of the team members or only by the experimenter(s), depending on the team. In the case of the University of Tokyo Kashiwa team, every member worked on the experiment at least 3 days a week during the summer vacation (except during Obon or other holidays). Many of the members worked for much longer hours.
 
 A month after the beginning of the summer vacation, there is a trial in Japan.  It is held at the Hongo campus of Tokyo University in the beginning of September every year. At this domestic trial, the primary purpose is to determine the direction of many aspects of the team, so the project does not need to be complete at this point. Nevertheless, because you will be judged in the same format as the final, you have to make some preparations for it. The presentation must be in English, so you will have to do exercises in English in addition to presentation. The result of the domestic trial does not necessarily correlate with the result at the final. Many teams were motivated by their defeat at the trial and had a good result at the final. If your result at the domestic trial is not good, just cheer up and work hard again toward the final.
 
@@ -238,83 +239,86 @@ After the summer vacation passes and Autumn comes, the team will have to push to
 
 The final is the presentation in San Francisco. You may feel nervous to see foreign teams, but they are too. Make the best preparations that you can and rehearse so you are prepared. The result will reflect the amount of your preparations. In BIOMOD, many of the presentations are in a drama format.  Observe previous presentations to learn how to appeal to the audience.
 
-**Team Organization**
+### Team Organization
 As in a club or a part-time job, the most important position is the leader. However, the type of leader required will depend on the team members so there is no single universal solution. Usually, anyone who wants to be the leader should be. In addition to this general leader, the University of Tokyo Kashiwa team also included sub-leaders such as a principal experimenter. This was because the team leader, who oversees the entire project, might not to be able to make an objective decision due to being too concerned about the experiment if she/he were concurrently the leader of the experiment. Because BIOMOD is a short-term battle, it is necessary to balance ideals with reality and short-term considerations with long-term considerations. The leader should be able to consider everything and make decisions when necessary. The principal experimenter is responsible for the execution of the experiment, and should communicate with the leader and the mentors and TA to decide the experimental plan and the goal, and share information with other experimenters to direct the experiment. During this process, data should be filed and processed whenever it is appropriate. In the battle against the deadline, there is a great difference between preparing a Website and its figures from scratch and preparing it from figures already finished or half-finished for the presentation slides.
 
-**Brainstorming Project Ideas**
+### Brainstorming Project Ideas
 The success of a project principally depends on its ideas. You should spend as much energy and time as possible on generating project ideas. If nobody comes up with a good idea, you can modify existing projects or brainstorm ideas with other members. Alternatively, you can find problems that you want to solve in your daily life. Note that, although brainstorming is fun, ideas are often raised but not discussed.  You may need an organizer, someone to gather feedback, or make other rules.  You should present your ideas, even if premature, to other members, and have them scored by other members (if possible, like at the competition). This will reveal advantages and disadvantages of the ideas, which will be helpful in choosing the subject matter. On the University of Tokyo Kashiwa team, groups of 2-3 members each presented their ideas weekly for a month (once a week, about 4 times in total), and then all voted on their topic. Once you have chosen the subject matter, discuss it with the mentors and TA to decide the experiment required and the goal to be achieved by BIOMOD. You may have to switch to a more practical plan in the course of the project. The domestic trial is a good opportunity to assess this; take advantage of it as much as possible.
 
-— Hisashi Tadakuma (Kyoto University)
+_— Hisashi Tadakuma (Kyoto University)_
 
 
-# Tips on Group Work
+## Tips on Group Work
 
 In BIOMOD, undergraduates with almost no laboratory research experience make a team, and go through project proposal, planning, experiment, and making a video, Website, and presentation slides  in 6 months. The efficiency of group work [0] is a critical factor in success. Here are some tips that have been/will be effective.
 
-**What Is Group Work**
+### What Is Group Work
 Group work (teamwork) originated in the Stone Age, when people needed to cooperate, i.e., to make a team, to hunt large animals that they were unable to fight against individually [1]. In the three elements essential for the success of a project, "human, material, and financial resources", the effectiveness of the latter two depends on the cooperation of members.
 
-**Divide the Work**
+### Divide the Work
 Even Leonardo da Vinci, an "all-round genius", might not be able to win BIOMOD all by himself. Assign tasks, such as leader, designer, experimenter, Web manager, Youtube producer, BGM producer, CG producer, and presenter, to members, taking the schedule of each task into consideration. Members usually work independently with minimal teamwork and the results combined are enough to win the competition [2].If the project is well defined and strong points of individual members are known, task assignment will be effective. As the project proceeds, task reassignment may be possible based on the strong points and weak points of the members. The strong point, if any, of a freshman who is new to BIOMOD is difficult to see. Work in an atmosphere that allows the members to find out strong points of each other. Around the sophomore grade, students begin to exhibit interesting personal variation. Produce a more than additive effect out of individual strong points through meetings and information sharing.
 
-**Group Work Cycle**
+### Group Work Cycle
 Up until the deadline (see section 6), follow a pattern of "Meeting (report/discussion, task assignment, deadlines set) -> Execution of individual tasks (experiment, data analysis, report writing) -> [Repeat these 2 steps] -> Jamboree".
 
-**Before Meeting**
+### Before Meeting
 Because you and the members have separate brains, you need meetings. Find a place for both meeting and working where the team members can come together anytime and even make noise. You can use club rooms in the University or meeting room rentals, but you may have extra troubles in the final stage before the deadline if the meeting spot is located far from the advisers. In Tohoku University, it should be in a student room. I never recommend a house of any member for these reasons: The place should be equipped with a fast Internet connection and a whiteboard, to which a hard copy can be also attached with a magnet. Digitizing technology such as electronic whiteboards is attractive but still expensive and slow in response, and also not good at distinguishing texts from figures. Both handouts and whiteboard content can be conveniently recorded by cellular phone -> digitized -> shared. The frequency of meeting at Tohoku University was once a week usually and twice a week or on demand from Autumn to the deadline. Put the calendar in the meeting room so that everyone can see it, with the schedules of the different tasks aligned with each other from the start to November, which facilitates sharing schedules. Count down by the week will make people aware of the deadline. Also write in the schedules of the advisers.
 
-**What to Do at Meeting**
+### What to Do at Meeting
 Check the entire schedule/current problems/process steps/task assignment, share information, and discuss possible solutions to problems. Brainstorming of project ideas may seem to be the most important task, but will be discussed later.
 Meeting Organization
--	Chaired by the team leader. Does not need to be a funny guy.
--	A record keeper is a must. Let the proceedings be read by everyone just after the meeting.
--	Distribute handouts. One-way traffic information through slides is insufficient.
--	Bring a list of the problems to be discussed.
--	Any problem unsolved at the meeting should be assigned to any of the members, with a defined deadline.
--	Thank the observer(s).
--	Do not get personal.
--	Do not repeat the discussion after the meeting. If you have to, do it at the next meeting.
--	Time >>>> (Impassable barrier) >>>> Money
-Regularly holding meetings can help you identify problems, and thus are good for the mental and physical health of the members. 
+- Chaired by the team leader. Does not need to be a funny guy.
+- A record keeper is a must. Let the proceedings be read by everyone just after the meeting.
+- Distribute handouts. One-way traffic information through slides is insufficient.
+- Bring a list of the problems to be discussed.
+- Any problem unsolved at the meeting should be assigned to any of the members, with a defined deadline.
+- Thank the observer(s).
+- Do not get personal.
+- Do not repeat the discussion after the meeting. If you have to, do it at the next meeting.
+- Time >>>> (Impassable barrier) >>>> Money
+Regularly holding meetings can help you identify problems, and thus are good for the mental and physical health of the members.
 
-**Brainstorming Project Ideas**
+### Brainstorming Project Ideas
 There is a saying that a good idea shall win BIOMOD (see section 12). An excellent idea excites you and will have a long half-life. It may even allow the undergraduates to compete with professionals. Thus, you should brainstorm ideas (see section 13) at a different time from meeting times. However, a feasibility study is the highest hurdle, and the most time-consuming. Once you have explained an idea to others, the idea has to be evaluated. Either bring it back home for reconsideration or have it judged by the advisers if it is promising. Of course, the greatest idea would be one that has never occurred to (outwits) the advisers. The advisers are professional scientists, who have survived by outwitting existing ideas, so that they would be pleased to be outwitted.
 Share Your Information with Other Members
 
 If you don't share information among the team members, it can result in a tragedy such as a plurality of members happening to do the same task separately. Share the address of team members to send/receive a meeting schedule/room number, sick note, etc. Personal information management is important.
 
--	E-mail: Be polite. Avoid sending a file to the mailing list (should be shared on a cloud storage).
--	Twitter:  Fast. Stable. For announcements. Not suitable for discussion.
--	Facebook: Pretty fast. Communication before/after journal club or meeting. Not suitable for storing experimental data.
--	Line: Fast. Stable. For announcements. Lubricant.
--	Skype and other TV meeting systems: Basically for information sharing between two people. Check also prepared data and discussion. Seems to allow a conclusion faster than telephone. Facial effects?
--	Google Docs: Fast. Fairly stable. Because it allows simultaneous editing, you and other members can edit the proceedings over a Skype chat to save time. Also this can be run on a projector for brainstorming of project ideas.
--	Evernote: Powerful note-taking tool. Fast. Group sharing is a little bit slow (as of March 2015).
--	Face-to-face discussion: Super effective. Courtesy should exist even among intimate friends. Prior appointment and punctuality essential for persons who are busy or whom you meet for the first time.
--	Telephone: Fast. Stable. A double-edged sword that is convenient for the caller but takes away the time of the other once answered. Do not hesitate to use in emergency.
+- E-mail: Be polite. Avoid sending a file to the mailing list (should be shared on a cloud storage).
+- Twitter:  Fast. Stable. For announcements. Not suitable for discussion.
+- Facebook: Pretty fast. Communication before/after journal club or meeting. Not suitable for storing experimental data.
+- Line: Fast. Stable. For announcements. Lubricant.
+- Skype and other TV meeting systems: Basically for information sharing between two people. Check also prepared data and discussion. Seems to allow a conclusion faster than telephone. Facial effects?
+- Google Docs: Fast. Fairly stable. Because it allows simultaneous editing, you and other members can edit the proceedings over a Skype chat to save time. Also this can be run on a projector for brainstorming of project ideas.
+- Evernote: Powerful note-taking tool. Fast. Group sharing is a little bit slow (as of March 2015).
+- Face-to-face discussion: Super effective. Courtesy should exist even among intimate friends. Prior appointment and punctuality essential for persons who are busy or whom you meet for the first time.
+- Telephone: Fast. Stable. A double-edged sword that is convenient for the caller but takes away the time of the other once answered. Do not hesitate to use in emergency.
 
-**How to Share Data**
+### How to Share Data
 Whether it relates to group work or BIOMOD, those who have materials shall survive. Every detail of your experiment must be recorded in a laboratory notebook. It is convenient to share digital data, including experimental data and presentation data, on a cloud storage which is accessible to every member. Be careful not to delete the data during editing. Free data storage service include Google Drive (15 GB for free), One Drive (15 GB for free), Drop Box (2 GB for free), iCloud (5 GB for free), and so on. You can set up your own server, which is safer, but its maintenance will take a lot of time. Previous Tohoku University teams all used Google Drive. When you have uploaded data, don't forget to tell everyone. It’s important to standardize the format of files. The background in image files should be transparent, which reduces time lost due to piles of file editing. Image files should be in PNG format which is small in size. See sections 9 and 59 for video, sections 56 and 57 for image files, and sections 54 and 56 for other key contents.
 
-**Conclusion**
+### Conclusion
 At BIOMOD, your project will be evaluated by other people. In order to get as good an evaluation as possible, you should have as many people as possible comment on the project beforehand. You must decide which comments to listen to and which to discard. No questions asked at the competition should be new to you. Always prepare for the discussion as a team.
 
-— Shinichiro M. Nomura (Tohoku University)
+_— Shinichiro M. Nomura (Tohoku University)_
 
 
-# Tips on Website Writing
+## Tips on Website Creation
 
 Website is worth up a relatively high number of points, which makes it very important at the BIOMOD competition. It also reflects the character of your team explicitly, including the layout, so you should never make light of it. Refer to sections 53-59 for the basic procedure to make a Website.
 
-**Importance of Website**
+### Importance of Website
 A good Website is key to success, because it accounts for up to 50 points of a perfect total score of 100 points. In order to win the competition, it is important to make the team Website clear and interesting.
-Judging criteria for Website
--	Project Idea (worth up to 20 points): Relevance, feasibility, etc.
--	Project Documentation (worth up to 20 points): Layout, clarity, etc.
--	Project Execution (worth up to 10 points): Did the team accomplish what they set out to do?
 
-**Design of Website**
+**Judging criteria for Website**
+- Project Idea (worth up to 20 points): Relevance, feasibility, etc.
+- Project Documentation (worth up to 20 points): Layout, clarity, etc.
+- Project Execution (worth up to 10 points): Did the team accomplish what they set out to do?
+
+### Design of Website
+
 The Website should consist of more than one page for reasons of clarity. A standard construction is as follows.
+
 1. Top Page: Usually this includes figures and YouTube so that the overview and results of the project can be understood at a glance. Some teams only describe the project overview here.
 2. Project Overview: Briefly describe the background and goal of the project, using a figure(s). In particular,  clearly describe "the necessity of the use of a DNA nanostructure for the purpose" to justify the project.
 3. Experiments/Calculation: Arrange figures into a clear story, not just a list of the results. If you have too many figures to show, you can include less important figures in a supplementary information page.
@@ -322,98 +326,113 @@ The Website should consist of more than one page for reasons of clarity. A stand
 5. Protocols: Like paper writing, the project will be forgotten if others cannot reproduce your results based on the Website. Describe your protocols in as clear and detailed a manner as possible. The underclass students will enjoy learning from it in the next year.
 6. About the Team: Introduce your team members. Also include acknowledgements and links to the sponsors who support multiple aspects of BIOMOD.
 
-**How to Write a Website**
-There are two ways. You can use either OpenWetWare or GitHub/GitLab.
+### How to Setup A Website
 
-OpenWetWare seems good in that it can be operated intuitively, and has been employed since the first competition so that it has a lot of scripts and other merits. It is also highly compatible with image and video files. However, it does not support simultaneous editing of a single page, which means you will have to work in a place where you can talk with other editors just before the deadline, for the sake of efficiency.
+There are many ways including GitLab Pages, GitHub Pages, OpenWetWare, Weebly, or Wordpress.
 
-GitHub was introduced in 2014, and supports simultaneous editing and allows you to easily restore previous versions because it retains the edit history. Also, it can highlight changes in the file, so that it is convenient for simultaneous editing. On the other hand, it requires HTML skills. 
+[GitLab Pages](https://pages.gitlab.io/) is currently the preferred option for hosting BIOMOD websites. It allows the greatest flexibility in that any major static-site generator can be used. On the other hand, it may requiring learning some skills with HTML and git-based version control.
 
-**Tips on Website Writing**
+[GitHub Pages](https://pages.github.com/) was introduced as a website option for BIOMOD in 2014. Like GitLab, it supports simultaneous editing and allows you to easily restore previous versions because it retains the edit history. [GitHub Desktop](https://desktop.github.com/) can be used to highlight changes to your files, so that it is convenient for simultaneous editing.
+
+Early BIOMOD teams used [OpenWetWare](http://www.openwetware.org/wiki/Biomod). OpenWetWare seems good in that it can be operated intuitively, and has been employed since the first competition so that it has a lot of scripts and other merits. It is also highly compatible with image and video files. However, it does not support simultaneous editing of a single page, which means you will have to work in a place where you can talk with other editors just before the deadline, for the sake of efficiency.
+
+[Weebly](https://www.weebly.com/), and [Wordpress](https://wordpress.org/) are allowed. These are likely the most user-friendly options if your team does not have a technical lead, but they can be inconvenient to archive for viewing by future generations of BIOMOD students.
+
+
+### Tips on Website Writing
+
 Website writing is not a task to be done just before BIOMOD. Whenever it's appropriate, process obtained data to facilitate Website writing. For this purpose, draw hypothetical figures based on the expected results  that you will need to demonstrate the story, before the experiment starts. At first such a figure might be hard to imagine. Published information and discussion with the mentors and TA will help you. You should train in this way already (plan backward from the goal). It will be useful when you join a laboratory.
 
 Technically, fixing the format (size, font, etc.) of the figures to be uploaded on Website and them filing them will facilitate Website writing. Figure titles, legends, and other considerations should be attached to the figures, so that a person who processes/uploads the figures will not have to ask for the information later . Another hurdle in Website writing is English. In order to make a good Website in English, read papers to learn technical terms/phrases, and let your draft be reviewed by the mentor, TA, etc.
 
-— Hisashi Tadakuma (Kyoto University)
+_— Hisashi Tadakuma (Kyoto University)_
  
 
-# Tips on Making YouTube Video
+## Tips on Making YouTube Video
 
 The YouTube video is the introduction for the judges to come and see the content of your project. Below are some tips on making it.
 
-**Why Video Is Important**
+### Why Video Is Important
+
 The video category makes BIOMOD unique among and other student competitions. You have to upload a video of about 2 to 3 minute long that introduces the content of your project on Youtube, Vimeo, or any other online video-hosting website, which is then scored by judges. The judging criteria are as follows.
 
 Online video (worth up to 25 points/perfect total score of 100)
--	Overall impact: Was the video interesting? Did you want to watch more than once? (worth up to 10 points)
--	Clarity: Was the project described in a simple and clear manner that could be easily understood by a wide audience? (worth up to 10 points)
--	Production: Was the sound and video high quality? Were the images focused and scaled properly? (worth up to 5 points)
+- Overall impact: Was the video interesting? Did you want to watch more than once? (worth up to 10 points)
+- Clarity: Was the project described in a simple and clear manner that could be easily understood by a wide audience? (worth up to 10 points)
+- Production: Was the sound and video high quality? Were the images focused and scaled properly? (worth up to 5 points)
 
-The video is the introduction to your project. First impression is always important. Most people will decide whether to read over the detailed content of your project based on the video. This also applies to the judges to some extent. An easy-to-understand video will make the judges understand your Website and presentation to a greater extent, and even make them more eager to read/listen. Also, a clear and impressive video will be helpful in describing the project in the following Website and at the presentation. This section will introduce tips on making a video in the order of the process steps.
+The video is the introduction to your project. First impression is always important. Most people will decide whether to read over the detailed content of your project based on the video. This also applies to the judges to some extent. An easy-to-understand video will make the judges understand your Website and Presentation to a greater extent, and even make them more eager to read/listen. Also, a clear and impressive video will be helpful in describing the project in the following Website and at the Presentation. This section will introduce tips on making a video in the order of the process steps.
 
-**Story**
+### Story
+
 However beautiful your graphics are, the most important thing in your video is the story. A good video must be based on a story that clearly describes the project and at the same time has an impact.
-This piece is dependent on how well you brainstormed project ideas to decide the subject matter. Always keep in mind whether a given idea will turn into an interesting video (or how the idea can turn into a story with an impact). 
+This piece is dependent on how well you brainstormed project ideas to decide the subject matter. Always keep in mind whether a given idea will turn into an interesting video (or how the idea can turn into a story with an impact).
 
-**Planning**
+### Planning
+
 Empirically, many teams are panicked and start making the video when the last month comes. You should avoid this if possible.  I recommend that each team have a director. The director should watch and study previous BIOMOD videos, and practice camerawork, video editing, and the like by herself/himself. If the director is also an audio engineer and CG engineer, she/he should practice these tasks, too. Filming a documentary of a team meeting and editing it will be an effective practice. After the domestic trial (or alternatively some modification of the project), you will have picked the specific subject matter of the project. Ideally, the director should have acquired enough know-how to start shooting the video by this time.
 
 Before shooting, you should check the schedule. After you begin shooting, you should collect 80% of the required shots in the first 20% of the remaining days. In the last lap, you will be often occupied by the experiment or Website writing. Finishing predetermined parts of the video as soon as possible will help out later. The entire process can be viewed as follows.
 
 __ Timeline Figure here __
 
-**Scenario**
+### Scenario
+
 To start with, decide exactly what kind of flavor and story the video should have. The scenario is important, which you have to fully work out in advance to make the entire process of video production go smoothly. Needless to say, the scenario also affects the description of your project in Website and Presentation categories, so that it should consist of a story acceptable to all members and a clear description. You can run a scenario competition to choose one of those written by the team members. Alternatively, you can borrow a standard genre format as a sample form to write your scenario, though it is not good for your originality. In order to engage the audience within just 3 minutes, you can adapt styles of well-known video games, movies, and TV dramas to introduce your story. (Anyway, enjoy this process.)
 
 At this point, the director should, if necessary, correct the scenario in terms of the impact of the story, clarity of the description, and even the feasibility of the story, based on the know-how obtained so far. If the description part cannot include many CG shots, look for alternative means, such as reduction of the shots. You can also write individual lines for specific actors ("Ategaki" in Japanese), so that these amateurs can act easily. Location shooting outside the University will usually take too much time. You can write the scenario so that it will take as little time as possible. A green/blue screen is convenient, but note that it takes much time in the postproduction step.
 
 Once the casting has been set, gather the actors in one place to rehearse the voice recording at least one time. In particular, if the actors are to talk in English without any subtitles, every actor has to do a thorough rehearsal in advance. Here, the director should watch the actors speaking carefully.  If there is anyone who cannot talk in English in any way, all the lines can be displayed as English subtitles. In this case, you need English subtitles translated from the original script written in Japanese. (Each subtitle should be of a length that can deliver the meaning of the subtitle at a glance.)
 
-**Storyboard**
+### Storyboard
+
 Once the scenario has been written, the entire story should be somewhat clear. The director has one more step to prepare for the shooting: the storyboard. This places individual shots into the scenario (storyboarding), based on which specific camera techniques, SE, and BGM are assigned to the shots. Once the shots are determined, get a stopwatch and count the individual shot lengths, with their lines and the acting imagined in your head, to adjust these and other factors including staging. If any subtitles are to be used, balance the lengths with those of the shots and lines at this step. (Actually, some directors skip the latter steps and start shooting at once. Since the total length of the video and the deadline are predetermined and tight, these steps will help you imagine the actual shots and avoid retakes at the filming site, especially if you are new to filming.) At this point, you should be able to imagine the entire video in your head and to share the images with the actors and film crews. If there are any props required, manufacture them during this step. If you have a CG engineer and/or a sound engineer, let them start their job at this point. Confirm that the lengths of the shots do not exceed the total film length and that the shots balance with each other in length.
 
-**Filming**
+### Filming
+
 A rule for filming is to do it at one sitting, to film all required shots in as short a period of time as possible. First of all, decide the order in which the shots in the storyboard will be filmed. Because you already have details of each shot in the storyboard, you don't need to start from the first page of the storyboard. Basically, you will film the shots as you have imagined them from the storyboard. Of course, you can adopt a good shot that happens accidentally.  Easy shots that can be filmed independently of others, such as landscape shots, may be assigned to different members.
 
-**Postproduction (Editing, Sound, and VFX)**
+### Postproduction (Editing, Sound, and VFX)
+
 Put all the shots together, roughly or not. (This can be done in parallel with the filming.) If there are any shots lacking, do additional filming at this off-line step. Put the selected shots into place according to the storyboard, like puzzle pieces, and fine-tune the length of each shot to adjust the overall balance and the tempo of the shots. Also arrange the sounds roughly in place, and then edit the timing and the sounds themselves in detail. Synchronizing the sound with the shots makes your video look solid. (When you have no sound engineer, you can rely on the loops included in Garageband, free sound resources available online, and the like.) When you are almost done, you should improve the sound quality by dubbing the voices. At every opportunity, show the video to other members and get feedback. Let them point out problems that the editor cannot notice, such as any gap in the story or script, and improve it. (Such unclear problems are usually corrected at the scenario writing step, but a kind of tempo, joining of shots, or staging may sometimes make the audience misinterpret the story in an unexpected manner.) A finished storyboard is advantageous because you can get this feedback at an early stage even when the shots are yet to come.
 
-**Conclusion**
-This section has summarized the basic process for making a BIOMOD video, starting from the importance of the video and along the actual video production process. Of course you don't necessarily have to go through all of these process steps, but with such a process always in your mind you can make a better video. The judges and the audience are the same as you—humans. Thus,  your video should be amusing and interesting to yourselves too. 
+### Conclusion
 
-— Shogo Hamada (Cornell University)
+This section has summarized the basic process for making a BIOMOD video, starting from the importance of the video and along the actual video production process. Of course you don't necessarily have to go through all of these process steps, but with such a process always in your mind you can make a better video. The judges and the audience are the same as you_—humans. Thus,  your video should be amusing and interesting to yourselves too.
+
+_— Shogo Hamada (Cornell University)_
  
-# Tips on Presentation in English
-For Japanese students, the greatest problem at BIOMOD is giving a presentation in English. You have to get through it in order to get a good score. This might be your first presentation, and in English. What if you cannot understand the questions? There are a lot of what-ifs, so just do your best to prepare. 
+## Tips on Presentation in English
+For Japanese students, the greatest problem at BIOMOD is giving a presentation in English. You have to get through it in order to get a good score. This might be your first presentation, and in English. What if you cannot understand the questions? There are a lot of what-ifs, so just do your best to prepare.
 
-**Logical Story Will Get You Through**
+### Logical Story Will Get You Through
 
 The greatest problem with the presentation in English is not your English skills. It is whether the story of your presentation is based on a clear logic (see section 12). A clear story will not be difficult for you to express in English. The logic of presentation does not have many variations and the following framework will always work.
--	Background: Why you chose that subject matter.
--	Purpose: What goal you set.
--	Methods: What experiment you did to reach the goal.
--	Results: What the result of the experiment was.
+- Background: Why you chose that subject matter.
+- Purpose: What goal you set.
+- Methods: What experiment you did to reach the goal.
+- Results: What the result of the experiment was.
 
 This framework is very different from "Introduction-Development-Twist-Conclusion", which you learned for school composition. You can use "Twist" (i.e., subject matter and/or scene change) in a school composition but not in a presentation, especially in English. You should develop the story of a single subject matter in a straightforward manner from the start to the end: i.e., Introduction-Development-"Do it straight"-Conclusion.
 
--	Introduction: Background.
--	Development: The resultant subject matter of your project (Purpose).
--	Do it straight: Develop the story of the subject matter (Methods and Results).
--	Conclusion: What the results mean and what they make possible.
+- Introduction: Background.
+- Development: The resultant subject matter of your project (Purpose).
+- Do it straight: Develop the story of the subject matter (Methods and Results).
+- Conclusion: What the results mean and what they make possible.
 This "straightness" can be depicted as follows.
- 
+
 __ Figure: Good presentation / Bad one __
 
-**Staging in Presentation**
+### Staging in Presentation
 Presenting at BIOMOD is very different from presenting at scientific meetings in general. At scientific meetings, you will only have to describe the content of your study and its value as clearly as possible. BIOMOD, as a student competition, allows you to present more freely in an original way, and originality is also evaluated. In fact, the judging criteria include how impressive and interesting your presentation is  (see section 3). Therefore, staging of your presentation is important.
 
-**Staging Techniques**
--	Dramatization: Incorporation of some sort of fictional drama.
--	Dialogue: Cross-talk of more than one member.
--	Cosplay: Use of a puppet, Kigurumi (character costume), or the like (in the middle of the presentation).
--	Visual effects:  Use of a video projector.
--	Joke: Talk with humor and wit.
--	Audience participation: Ask the audience to move their bodies.
+### Staging Techniques
+- Dramatization: Incorporation of some sort of fictional drama.
+- Dialogue: Cross-talk of more than one member.
+- Cosplay: Use of a puppet, Kigurumi (character costume), or the like (in the middle of the presentation).
+- Visual effects:  Use of a video projector.
+- Joke: Talk with humor and wit.
+- Audience participation: Ask the audience to move their bodies.
 
 A typical staging is to explain the motivation or background of the project in a dramatic way, e.g., a story. For example: "A crime organization generated a dangerous virus. The properties of the virus were... We had to find measures against it as soon as possible. Therefore we started..." Such a story makes the subject matter more interesting to the audience.
 
@@ -423,52 +442,64 @@ Jokes can spice up your presentation. If you succeed in making the audience laug
 
 At BIOMOD, there have been a variety of styles of presentation. In 2014, there was a team that incorporated audience participation into the presentation for the first time. They asked the audience to make a motion that is related to the story of the presentation (to wave or to pretend to have a balloon over their heads), which helped the audience understand the project. I expect a more innovative idea from you.
 
-**Rehearsal, Rehearsal, Rehearsal**
+### Rehearsal, Rehearsal, Rehearsal
 In order to be successful in your presentation in English, you have to rehearse. Eye contact is always demanded in a presentation in English, and the speaker has to look at the audience while talking. As a result, the speaker cannot read the script and must memorize the lines. Because of this, the script must be polished and short. Have the mentors and native English speakers critique the script in advance. Although it may be practically difficult, the script should be ready by one week before Jamboree.
 
 Once the script is done, you should rehearse by reading the lines slowly and with pauses. Let someone good at English correct any incorrect pronunciation or intonation, before it's too late. Rehearse again and again on a stopwatch. The number of rehearsals will be proportional to the quality of your presentation. You can do rehearsals on the way to the USA or at the hotel, too. Try to rehearse just before the competition. (Because the presenter's talk must be synchronized with the slides, the slide assistant should join at least a few rehearsals.)
 
-**Another hurdle: Discussion**
+### Another hurdle: Discussion
 The presentation is over. Fortunately the audience seems to have enjoyed your presentation. Then the discussion time comes. The impression of the discussion will greatly affect the score, although it is not included in the list of judging criteria. Non-native English speakers like Japanese students are greatly handicapped. You might not hear the question well, and, if you were able to understand it, you might not know how to answer. The team members on the stage look at each other's faces, standing still in an awkward silence... which is the worst situation of all. Below is the list of what you can do in advance to avoid this. At the domestic trial held around September, you are also required to do the presentation and discussion in English, where you can get a hint of the atmosphere at the final.
 
-**How to Get Ready for Discussion**
--	Prepare a list of expected questions. (Also prepare answers to difficult questions.)
--	Assign different expected questions to different members. You should have a rehearsal for responding to the question(s) assigned to you within 3 seconds.
--	Appoint a good English-speaking member (e.g., an overseas student) as the answerer.
--	The domestic trial serves as a good rehearsal. Fix the problems found in your presentation before the final.
+### How to Get Ready for Discussion
+- Prepare a list of expected questions. (Also prepare answers to difficult questions.)
+- Assign different expected questions to different members. You should have a rehearsal for responding to the question(s) assigned to you within 3 seconds.
+- Appoint a good English-speaking member (e.g., an overseas student) as the answerer.
+- The domestic trial serves as a good rehearsal. Fix the problems found in your presentation before the final.
 
+_— Satoshi Murata (Tohoku University)_
 
-— Satoshi Murata (Tohoku University)
  
-# What You'll Get in BIOMOD
+## What You'll Get From BIOMOD
+
 The summer vacation is not long enough to prepare for BIOMOD. You will continue to struggle with preparation in September and October. Sometimes you might have to work all night, and sometimes you might quarrel with the team members. What will you get after all that? Here are some recollections of previous student participants and a comment of a mentor.
 
-**Recollection of Student Participants**
+### Recollection of Student Participants
 You can best understand what BIOMOD is like from the voice of previous student participants. Many of the previous student participants have reported on BIOMOD in Newsletters of Grant-in-Aid for Scientific Research on Innovative Areas "Molecular Robotics" [1]. Here are just two of them [2].
 
-**Ko-ichiro Katayama (Team Sendai 2013)**
+### Ko-ichiro Katayama (Team Sendai 2013)
 
 > When looking back on these 6 months, it seems like I was haunted by BIOMOD, 24 hours a day. I was always thinking about BIOMOD: design of experiments, a protocol to be modified, unfinished Website articles and presentation slides, etc. What was the reason for such obsession? The pressure as the previous winner and responsibility as an upper class student were surely part of it. However, the greatest reason was that it was so much fun.
 
-> The greatest feature of BIOMOD is that it is a "competition of total skills to work on a project from scratch". You have to decide what to do and how to achieve it, conceive all the ideas by yourselves, and work by trial and error toward the goal. You have to not only carry out the experiment, but also prepare a Website, YouTube video, and presentation that provide a clear and attractive explanation of your project. It requires a wide variety of skills of the members and good total skills as the team. Surely, it was a hard thing. However, to work hard with other team members for BIOMOD was so much fun to me that, after BIOMOD, I felt they were the most fruitful, really happy days in my university life. 
+> The greatest feature of BIOMOD is that it is a "competition of total skills to work on a project from scratch". You have to decide what to do and how to achieve it, conceive all the ideas by yourselves, and work by trial and error toward the goal. You have to not only carry out the experiment, but also prepare a Website, YouTube video, and presentation that provide a clear and attractive explanation of your project. It requires a wide variety of skills of the members and good total skills as the team. Surely, it was a hard thing. However, to work hard with other team members for BIOMOD was so much fun to me that, after BIOMOD, I felt they were the most fruitful, really happy days in my university life.
+
 > On the way to BIOMOD, I acquired skills too. BIOMOD forced me to acquire basic skills in laboratory experiments, PC skills to handle Website and use Illustrator, and other skills. For me, however, the greatest thing about it was that it taught me the importance of English.
+
 > At the final, I was shocked that my English skills were so awful compared to the presenters of foreign teams and to other Japanese teams. BIOMOD was a miniature of the world to me, and taught me that English was essential to work in an international field. I want to improve my English skills not only in terms of writing/reading but also communication, to be good at using English as a tool.
 
-**Risa Matsudo (Titech Nano-Jugglers 2012)*
+### Risa Matsudo (Titech Nano-Jugglers 2012)*
+
 > If someone asks me: "What did you do during this summer vacation?" I will say: "BIOMOD!" with pride.
+
 > In April of sophomore year, I felt somewhat unsatisfied with my university life. I had been thinking that a university student should actively study what she/he wanted at her/his own will, but I was always occupied with tasks given by others. That was why I was moved by the passion of the upper class students for BIOMOD and decided to join the team.
+
 > In the brainstorming of project ideas, I often spent a day in the library looking for something useful in the literature. After the project was set up, often the experiment didn't work well for many days and we had to discuss the possible cause for several hours. At BIOMOD Japan, we had to make a presentation using slides and a script that had been just prepared that morning. During the presentation I felt so desperate and nervous that my hands started shaking and I was not able to  smile naturally. When we won Grand Prize, I was so happy that I could not stop crying.
+
 > The days before the final passed quickly. The place of BIOMOD, Harvard University, had a large, relaxing campus surrounded by greenery. This allowed everyone of us to carry out her/his role in the presentation, which was based on the motto of the team "Involvement of all members," without any pressure. I don't know if it was because we kept on improving both Website and YouTube until just before the deadline, but we won more than one award, which I'm really proud of. The lobster served at the night of the Awards Ceremony really tasted good.
+
 > I owe all the results and pleasure to the advice and cooperation of the mentors. At the same time, I'm very grateful to the support from my family and friends, and hard work of the team members. In order to make it better and better, I spent a very enjoyable, fruitful 6 months discussing, colliding, studying, and laughing a lot with the team members.
+
 > Hard work with the team members toward this one goal made me very happy, making it a lifetime memory. To devote one summer to BIOMOD will certainly reward you in the end.
 
-**Mentor's comment (Tohoku University, 2011-2013)**
+### Mentor's comment (Tohoku University, 2011-2013)
 
-> Observing the challenge of about 30 students preparing for BIOMOD, I was surprised by their hidden talents. One student acquired 3D graphics skills starting as a rank amateur, one came to make a high-level video, another made a molecular dynamics program, etc. None of these students seemed to have such talents when we first met, and even a few months after the project started. Probably they were not aware of it either. They happened to participate in BIOMOD, were forced to devote themselves to it, and improved to a great extent. 
+> Observing the challenge of about 30 students preparing for BIOMOD, I was surprised by their hidden talents. One student acquired 3D graphics skills starting as a rank amateur, one came to make a high-level video, another made a molecular dynamics program, etc. None of these students seemed to have such talents when we first met, and even a few months after the project started. Probably they were not aware of it either. They happened to participate in BIOMOD, were forced to devote themselves to it, and improved to a great extent.
+
 > Some of the students were not able to contribute much to the BIOMOD project, but were kind of awakened after BIOMOD. For example, one of the students improved in English skills from around 700 points of TOEIC to a nearly perfect score in two years, and even mastered French by the junior grade. More than one student obtained experimental results enough to write a paper in one year. I have worked in more than 5 laboratories, but I have never encountered such a group of students who had so many hidden talents or were awakened at such a high rate.
+
 > You will get not only skills/abilities/ambitions, but also a friendship with other members through the hard work during Summer. BIOMOD is tough. Before Summer, you might not find a good project. During Summer, the experiment might not proceed as you have expected. Your Website and YouTube might still be unfinished when Autumn comes. Criticisms from the mentors will often make you feel down. You are sure to feel nervous before the deadline and the presentation, and might be frustrated with a member who is not cooperative. The leader might sometimes request too much from you. After you have got over all these troubles, however, the team members will become comrades in arms.
+
 > Such skills, awakening, and friendships won't come for free. You may get these things after you have really devoted yourself to the project, working late, forgetting about lunch until you have done everything you can. At a meeting after a crushing defeat at the domestic trial, one of the students, who had always seemed to be a happy-go-lucky one, groaned out: "I want to win. We have to change ourselves." Through these moments of passionate determination, the students really start improving through BIOMOD.
 
-— Kei Fujiwara (Keio University)
+_— Kei Fujiwara (Keio University)_
 
 __ Figure here: Tokyo University, Kashiwa, 2014 __
