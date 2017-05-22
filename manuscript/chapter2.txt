@@ -1,7 +1,337 @@
 {book: true, sample: true}
 
-# Chapter 2
+# Before Starting Your Project
 
-## Coming soon!
+## Subject Matter of Project
 
-We expect Chapter 2 to be completed later in May 2017.
+It may be difficult to choose a topic for your project. In addition to accommodating different intersts of the team members, you will have to learn about designing biomolecules. Below are some important points to consider when choosing a project.
+
+### What Do You Want to Do? Setting Priorities
+
+BIOMOD is not an ordinary competition in which participants compete for a single, defined goal. That is, you can choose your own goal as well as your methods of reaching it. Anything goes as long as the subject matter of the project relates to "designing biomolecules". In such an open-ended project, having team consensus is important. Teams should have a solid consensus about the group’s activities.
+
+Your team should agree as to how to prioritize these considerations:
+
+- Something no one has tried
+- Applicability and practicality
+- Is it of interest to other people
+- Showy staging
+- Importance of technical execution of project
+
+### Brainstorming
+Once these priorities have been agreed on, you can start to narrow down the specifics of the project. It can be any project that relates to the designing of biomolecules. You may not exactly know what it is like to design a biomolecule, so you should consult this book, YouTube videos of previous participants, and discuss the question with upper-class students and teachers. Then you need to discuss your possible ideas with other team members to generate more ideas and refine the ideas that come up--brainstorming. There are different types of brainstorming (see section: Types of Brainstorming).
+
+### Turn Tough Times into Opportunities
+Sometimes brainstorming may not bring new ideas and you may be caught in a circle of fruitless discussion. However, this is really an opportunity for you to generate good ideas. Brainstorm over several sessions until, after days of discussion, you think you have investigated as many things as possible but in vain, and you can come up with no more ideas. At this point, consult the mentors. They will give you some good hints.
+
+### A Good Idea Has Clear Logic
+
+What is a good idea, and how can you judge whether an idea is a good one. A good idea needs to be logical. "Logical" means:
+  1. The team’s priority is clear.
+  2. The question is in line with that priority.
+  3. The process to solve that question is fairly clear.
+
+You should be able to summarize these three points clearly and simply. For example, a good idea might be summarized as:
+  1. The subject matter must be universal.
+  2. Let's make a tool that is applicable to a wide variety of situations.
+  3. This should be feasible by combining/developing tools from previously reported studies.
+
+However, the last one might be difficult for you to judge. Again, you can consult the mentors.
+
+### Turning an Idea into a Topic
+
+An idea with clear logic is relatively easy to turn into a project. Next, you should make a list of prerequisites:
+  What will be required to complete the project ?
+  Are there methods available to demonstrate (experiment  with) it?
+  Are the necessary materials available?
+Is the experimental equipment available?
+  Do we enough manpower? Enough time?
+
+### Keep in Mind the System for Judging the BIOMOD Competition
+
+You should design your project with an aim to win, not just participate. At BIOMOD, all projects are scored by judges. Judges are selected from the mentors of participating teams, who are professionals in this field. You have to satisfy these people to get a high score, regardless of how confident you are in your project. Check the judging criteria of BIOMOD as you design your project (see section 3).
+
+  This competition is good practice for getting grants, where your work is also evaluated by others. Evaluations depend on the value system of the community of researchers, and of academic and human society.
+
+### Rise and Fall of a Project
+
+Once you have chosen a topic, the project starts. You don't have much time until the final (see section 6). However, sometimes you may have to change topics. If you have enough team members, you can run more than one project in parallel and then narrow the list down to a single project that seems promising. In the course of the experiment, however, you may encounter an obstacle that you cannot overcome, in which case you may have to reconsider the subject matter itself. In that case, you should construct the overall logic of a new topic all over again. The judges and the audience will only see the final presentation. Changing topics midstream is difficult, but sometimes necessary. In the process of reconsideration, the logic is polished and becomes clearer. The victory will be yours after you get through it.
+
+
+{aside}
+**Copyright**
+Your YouTube video and project Wiki for BIOMOD will be made public online. You must make sure that the figures, videos, and sounds included are either original or in the public domain. Any publication that you consulted should be cited with appropriate information (authors, paper title, journal, year, and so on). Respect for the work of others is very important in the academic world too.
+{/aside}
+
+_—Satoshi Murata (Tohoku University)_
+ 
+
+## Types of Brainstorming
+
+Four eyes see more than two. Generating ideas in a group setting can be far more productive than  individuals trying to generate ideas on their own. Brainstorming should be done in a divergent, free-flowing manner [1]. This section introduces brainstorming and other techniques to generate ideas in a group setting.
+
+
+### Brainstorming
+
+Brainstorming is a techniques to find new ideas and perspectives through divergent thinking. More than one member gathers to have a free, extensive discussion on a given subject matter. It is the most orthodox process for generating creative ideas, and can be conducted in a very straightforward manner.
+
+First, decide together on a concrete topic. For example, the subject matter "how to make every worker wear a hard hat" is better than "how to reduce construction site accidents". Then, individual members write ideas relating to the subject matter on a large sheet of paper or whiteboard, and all discuss them one by one. The number of members and the length of the whole process are not particularly limited, but several to 10 members and about 1 hour work well. If you want go it for  longer, the group should take a break about every 1 hour to refresh yourselves.
+
+In brainstorming, you can present essentially any idea but you should note the following four points:
+
+1. Welcome wild ideas: Free yourself from common sense and good sense to present any idea. Never mind if it is strange or unusual.
+2. Withhold criticism: Evaluation of proposed ideas should be put on hold. Do not criticize other members' ideas or your own, however ridiculous or uninteresting they seem.
+3. Go for quantity: Instead of looking for the finest ideas, present as many ideas as possible.
+4. Combine and improve ideas: Active utilization of existing ideas is also important. Modifying and combining different ideas can effectively generate new advanced ideas. As described in (2), do not criticize ideas of others unless it improves the ideas and as a consequence generates new ideas.
+
+### How to Generate Ideas
+
+It is up to you how to generate ideas. Below are some tips on generating ideas.
+
+1. Free association: this includes association by contrast, association by contiguity, and association by similarity.
+- Example of association by contrast: "day <-> night", "female <-> male"
+- Example of association by contiguity: "sea <-> beach", "car <-> road"
+- Example of association by similarity: "ball <-> earth", "bird <-> airplane"
+2. Nonrandom association: this includes "forced association" and "analogy". Forced association is a technique to impose some condition on the subject matter, and then generate ideas. Analogy is a technique to get inspiration from something that is essentially analogous to the subject matter.
+- Example of forced association: Choose "novel scissors" as the subject matter. Impose a condition such as "they are to be transformed", " they are for seniors", etc.
+- Example of analogy: Choose "novel scissors" as the subject matter. Think "The role of scissors is to cut" -> "Cutting is the purpose of guillotines, too" -> "Let's make novel scissors based on guillotines".
+3. Different perspectives: Think about different "products", "properties", "functions", "combinations", and so on, from "bird's eye view/bug's eye view" or the like [2].
+
+### Brainwriting
+
+"Brainwriting" is similar to brainstorming [3]. It is effective in generating many ideas in a short time, generating ideas in a group of rather reticent people, etc. Below is an example of the process, applied to six people.
+  1. Participants sit in a circle or square.
+  1. Prepare six worksheets, each with 6 rows and 3 columns.
+  1. Distribute the worksheets to the participants, one sheet per participant. Write the subject matter at the top of the worksheet.
+  1. Generate 3 ideas that relate to the subject matter and write them in the 3 blanks in the first row, within 3 to 5 minutes.
+  1. Then, pass on your worksheet to the neighbor on your left and receive another worksheet from your neighbor.
+  1. Look at the ideas in the first row in the worksheet that was passed to you, and write 3 new ideas in the 3 blanks in the second row. Again, pass on the worksheet in the same pattern--to the left.  7) Every time you receive a worksheet, add new ideas inspired by the ideas in it (you can develop ideas of the previous participant or propose totally different ideas inspired by them).
+Repeat the steps 6 times in total. This takes 30 minutes or less, and you will get as many as 108 ideas (= 6 members x 3 ideas x 6 rounds).
+
+### Mind Map
+
+In this technique, a list of ideas inspired by the subject matter is generated by drawing pictures.  Draw the subject matter in the center of a blank page.
+  2) Write ideas inspired by the subject matter around it, and connect the subject matter and each idea with a line.
+  3) Add new ideas inspired by each written idea. Connect each of the former ideas and the latter with a line.
+  You can make use of curves, colored pencils, or something to make it more fun and visually interesting. This idea generation technique can be used in an individual setting.
+
+### KJ Method
+
+The 3 techniques described above are for divergent idea generation. Sometimes you may have to sort the ideas generated. One technique to sort ideas is the KJ method [4], which can be summarized as follows.
+
+1. Record ideas on cards (or notes). One idea per card.
+1. Sort the cards into groups based on the content, and give a representative title to each group.
+1. Sort the groups into larger clusters based on the title, and give a representative title to each cluster. Repeat this step.
+In the course of this process, the divergent list of ideas gains become s organized by theme.
+
+_—Ken Sugawara (Tohoku University)_
+ 
+
+## 14. Design Process
+
+BIOMOD is a competition for "design" of biomolecules. "Design" is to prepare a plan for manufacturing a product. Basically it is the same as designing a handicraft for summer homework, but has to be done more carefully because molecules are not visible to the naked eye.
+
+### Fiat Specification
+
+As described in section 12, the logical basis of the project is important. If the logic is clear enough, the functions and properties of the desired product will be self-evident. Specification is making a list of the functions and properties the project is aiming for. The design process starts with specification.
+
+The difficulty of a design will depend on the specification. A specification that includes conflicting requirements (e.g., a car with good speed and high fuel efficiency) is not feasible (i.e. has no design solution). However, an easily achievable specification, e.g. one that doesn’t need an elaborate design may result in an ordinary product.
+
+### Design Process
+
+Below is a breakdown of the design process.  Repeat steps 1 to 6 as many times as necessary. In other words, successful design by its nature requires trial and error.
+
+{aside}
+**Design process**
+1. Establish specification: Define the desired functions.
+2. Choice of parts: Choose parts required for the functions.
+3. Design: Combine the parts into a system.
+4. Experiment: Test the system by simulation and/or experiment.
+5. Evaluation: Analyze the results to identify problems.
+6. Repeat the process from step 3 (or 2 or 1).
+{/aside}
+
+At each step, check the following points. Check points of each step:
+  1. Is specification the right level of difficulty—not too easy and not too hard.
+  2. Choice of parts: Are they readily available, e.g. mass produced (see section 73). Avoid too many parts (different molecules). Cost should be appropriate (see section 73).
+  3. Design: Avoid any non-practical assumption or wishful thinking.
+  4. Experiment: Simulation model possible? (see section 62). Experimentable? (see sections 69 and 70).
+  5. Evaluation: Reproducible? Accurate? (see section 70)
+
+Basics of Design
+In principle, the design should proceed from the whole to details, from abstractness to concreteness.
+  1. Conceptual design: Specify the required functions based on the overall image.
+  2. Preliminary design: Specify the structure and shape to achieve each function.
+  3. Detailed design: Specify the size and material of each part.
+
+The process of dividing a system into smaller concrete parts is called decomposition, and the process of combining the resultant parts back is called integration. Successful design requires going from decomposition to integration and vice versa to specify details of the system. Remember this important constraint: one function per part. Any part with more than one function will hinder design changes and error corrections. Such "optimization" should be done, if any, after the basic design has been established.
+
+![Decomposition and Integration](images/ch2fig2.png)
+
+Conceptual design Preliminary design  Detailed design
+
+    Decomposition
+          Part
+        Partial function  Part
+Requirements specification      Partial function    Part
+  Total function    Partial function  Part
+
+        Partial function  Part
+      Partial function    Part
+        Partial function  Part
+          Part
+    Integration
+
+### Talent for Handicraft: Pessimism [1]
+
+Designing DNA molecules is like a form of handicraft. Handicraft is a standard of summer homework. Most of you must have experience with it, such as when you have made something from waste cardboard or disposable chopsticks, but may not have succeeded in making what you had expected. Most of you probably got something that didn't look like what you were envisioning at all.
+  In handicraft, most things don't proceed as expected. Unexpected problems will happen, and your determination will be tested.
+Required talents for handicraft
+⇓
+Pessimism that most things don't proceed as expected
+Imagination: the ability to visualize a thing before it is made.
+Observation: the ability to find the cause of a trouble.
+Flexibility: the ability to make use of resources around you.
+Stamina: the ability to seek for the best result.
+
+  __Imagination__, or the ability to visualize, means having a concrete image of an object, to clearly imagine its shape, size, weight, texture, motion, and so on. In molecular design, you have to learn chemistry and molecular biology in order to imagine the properties and motion of a molecule. It is not possible in a day, so start with anything that interests you in a textbook, making steady efforts (see chapter 4). Various examples of research will be helpful (see chapter 3).
+  __Observation__ is the ability to identify something that is wrong. This is done by examining experimental results, making a hypothesis about the cause of any trouble, modifying the conditions, and working with patience. If you can find out the cause of the problem, you can find a solution.
+  __Flexibility__ is the ability to make use of various resources around you, to find useful things and possible applications of things from everyday life. However, flexibility doesn’t mean anything goes: thoughtless application of these things to your project might distort it.
+  __Stamina__ is the patience to pursue optimization. If you have made a system but are still anxious about possible hidden problems in it, and if it seems more and more incomplete to you as you keep working with it, then you surely have a talent for handicraft.
+  You are going to combine all these abilities to design a molecular system. There is no easy way out, and remember that you should not make the schedule too tight. Otherwise you can't examine the design from various perspectives, and you can't deal with troubles. Good schedule management is a prerequisite for a good design (see sections 6 and 7).
+  In most cases, it is no use making a final spurt just before the deadline in order to solve any technical problems.
+  You will have nothing to learn from "Project X"-like success stories.
+
+{aside}
+**MIRACLES**
+One more thing is important to designing. Only one MIRACLE at a time. MIRACLE means an unknown element required to attain the desired function, which is not described in any textbook or paper and thus has to be newly developed. A project without any MIRACLE tends to be just a combination of previously reported results, and thus not very exciting. On the contrary, a project with more than one MIRACLE will not be achievable in 6 months and thus is unsuitable for BIOMOD.
+{/aside}
+
+_—Satoshi Murata (Tohoku University)_
+ 
+
+## 15. How to Collect Information
+
+You need information to choose the subject matter of the project, to conduct the project, to learn something, to make a research plan, to carry out an experiment, etcetera.  This section introduces some information sources and how to access them [1].
+
+
+### Textbooks and Published Papers
+
+In the course of your BIOMOD project, you will have to study many things. First, what is DNA? What can you do with DNA? You have found a good subject matter, but hasn't someone already done it? How to construct an experiment like this? There are two main kinds of information sources to study these things: books (textbooks) and papers. Books are suitable for learning basic knowledge systematically. Papers describe the results of specific research in detail, and are more timely  than books.  In the actual course of your project, you will read quite a few papers. In rare cases, you may read papers with incorrect information. Sometimes you may have to critically examine the information you find.
+
+### Literature Search
+
+You will usually use the Internet for a literature search. There are several literature search sites. One that is accessible from anywhere is Google Scholar [2]. For example, when the keywords "DNA origami" (see section 18) are entered in the search window, the search results are like the figure below. You can look at these titles and abstracts to find papers of interest.
+
+External link (publisher etc.)
+Partial contents (abstract)
+Other links providing the article (If you don't like the above)
+Related articles (according to Google)
+Articles citing this article
+
+If you are not getting good search results, try modifying search keywords as follows.
+  Try synonyms and different expressions to prevent drop-out.
+  Use adequately defined keywords to reduce noise in search results.
+  Use search operators to narrow down search conditions.
+
+![Use operators to narrow down search conditions](images/ch2fig5.png)
+
+AND: Insert space
+DNA_origami
+OR: Insert "OR" or "|"
+DNA_OR_origami
+DNA_|_origami
+NOT: Put "-" before the word
+DNA_-origami
+Phrase: Include the phrase between "“”"
+“DNA_origami”
+
+*Operators differ among search engines.
+
+  Once you have found a paper of interest, you can check references listed in/papers citing that paper, to find related information.
+
+### Make Use of A Library
+
+How should you access these textbooks and papers? Of course you may buy them, but textbooks are fairly expensive and financial resources are always limited. Because you are a university student, the cleverest way is to make use of the university library. If you have ever visited it, you know how large a collection of scientific textbooks and journals it has. In most universities, the library HP provides a service by which you can search the library catalogue based on book title, author name, journal name, and so on. So you can check if a book of interest is in the library in advance. Often journals are not allowed to be taken out, but you can still copy the paper of interest at the library. Note that a journal or book is copyrighted, and thus its copy is restricted to "no more than half of the total pages" [3]. Even if the journal of interest is not in the library of your university, you can use the copying service system to order it from other universities. Please refer to a detailed user guide provided on each university's HP.
+
+### Electronic Journals
+
+In recent years, most papers are also published electronically on the Internet, so that you don't have to go to the library to read them. Papers are sometimes open access (free access), but most charge a fee.  However, you can access any paper from the university's network and read/download it for free, as long as your university is under contract with the journal.  As mentioned above, a paper is still cpyrighted, and thus should not be modified or redistributed without permission. In addition, massive download in a short time might result in university-wide suspension of service.
+
+### Let's Read a Paper
+
+Many of you will be reading papers for the first time. In your everyday life, you read a book or newspaper from the front page to the back page. However, reading a paper in this manner is inefficient. You should skip through it once to get the outline, and then read it again in detail. This will help you to understand the content more easily.
+
+A typical paper includes the following sections. These sections or their order may differ between papers, but, for any paper, what you see first is the title. The title expresses the content of the paper explicitly, such as "Folding DNA to create nanoscale shapes and patterns" [4]. Then, read the abstract and figures to get the outline of the paper. To that end, you should also refer to the  Introduction (i.e., brief description of the aim and results of the study) and Conclusions as appropriate. Then read through the paper once. You don't need to understand everything in it on the first read.  Read it again, referring to textbooks and references to address any confusion.  It will be fun to discuss the paper with your BIOMOD team members and upper-class students.
+
+![Sections of a Paper](images/ch2fig5.png)
+
+Read as many papers as you can. Practice makes perfect. In doing so, you should also record these papers in a file of reference management software or any other tools, which will help you make create the references for the Wiki (see section 8). You can try Mendeley, ReadCube, JabRef, and various other tools. Please visit the web site for details.
+
+
+_—Fumi Takabatake (Tohoku University)_
+ 
+
+## 16. More About Papers
+In BIOMOD, reading papers is essential for training yourselves as well as for choosing the subject matter. Papers are published reports of research results. This section describes the process of publishing a paper, its contents, and how to read it.
+
+
+### Introduction
+Scientific research consists of an endless cycle of investigating something, reporting the results, and being judged by others. Through this cycle, researchers enrich the world little by little. This section focuses on papers which are a very important part of scientific research.(
+
+
+### About Papers
+
+Papers report on a specific subject matter, and are published in a scientific journal (figures and videos included). Because a paper reports a new discovery by the researcher (or team), it is called primary information. A textbook summarizes the essence of the results of papers into a learner-friendly form, which is called secondary information. There are fee-charging papers and free ones. A university is a public institute that provides access to primary information, i.e., papers, which allows you to do a wide variety of in-depth research. For example, access to the latest issue of Nature if you were in your home and not logged on to a university would cost you 3300 yen per letter. There are peer-reviewed papers and non peer-reviewed ones. In addition to journal articles, there are papers published in international conference proceedings ("international conference papers"). In some fields, papers of this type are peer-reviewed more strictly than journal articles, and thus more appreciated.
+
+
+### Scientific Journals
+
+A publication that includes more than one paper is called a journal, or proceedings, Since 1996, many journals have gone to electronic publication. General and multidisciplinary journals include Nature, Science, and PNAS. Journals for specific fields include J. Am. Chem. Soc. and Biophysics J.
+
+### Peer Review
+
+A paper sent from the author or researcher to a scientific journal will not be published as received. The received paper is first read by the editor, and then passed on to reviewers if it is of interest and describing sufficiently high quality research. Usually, more than one reviewer in the relevant field reviews the paper and returns comments to the editor, and the editor decides whether to publish it. In most cases, the comments are fed back to the author, and the author can revise the paper based on the comments. After one or more cycles of this process, the editor decides to accept or reject the paper. This is called the peer review system. Rejection at the first step ("editor kick") can be disappointing.
+
+### Types of Paper
+
+The types of original papers for a typical journal include "communication" (about 2 pages), "letter" (about 4 pages), and "full paper" (about 5 pages or more). Full papers are the most common type of publication. A review paper summarizes the state of the art and remaining challenges in a specific field, citing related papers in the field. Remember that authors of reviews are still humans and not free of bias when they lists references.
+
+### Sections of a Paper
+
+Below are the sections of a typical full paper.
+  __Title__: Important.. It sometimes shows the author's struggle to make it witty.
+  __Author(s)__: The first author is usually the one who actually wrote the paper. The corresponding author(s) [*] assumes overall responsibility for the manuscript.
+  __Affiliation__: Tells you were the authors work and do their research.
+  __Abstract__: Very Important. If the content is not what you expected, look for other papers.
+  __Introduction__: Describes the background of the paper. You can skip it if it's familiar to you.
+  __Materials & Methods__: Important. Describes details of the experimental methods used to evaluate the hypothesis of the paper.
+  __Figure(s)__: Very important. Presents data.
+  __Results__: Describes experimental results. As you get used to reading papers, sometimes you can understand a paper by only looking at figures.
+  __Discussion__: Important. The results of the paper are discussed. This often occupies a relatively large portion in a paper written by a native English speaker.
+  __Conclusion__: Usually no tricks here.
+  __Acknowledgment__: Appreciation for those who provided advice, technical support, samples, and financial support for the research.
+  __References__: Very important. Papers cited here have been chosen because they are worth discussing; i.e. the number of citations is sometimes more important than the number of accepted papers.
+  Supplementary Information: Important. Because experimental procedures nowadays are getting more and more complicated, some results and details are too lengthy to be described in the article body, and thus are provided separately as supplementary information. Sequences for DNA origami are usually found here. Most videos are found here too. This section may even include something like an essay on twists and turns of the study.
+
+### Let's Read a Paper
+
+Find a paper that relates to the subject matter of interest (see section 15). You can ask the upper-class students and teachers. Read through it once as written, then in depth with a critical eye. Particularly in an experimental paper, the focus is on whether the experiment described really supports the author's conclusion. Again, criticism is important. If you have any doubts, check related references. You should always read with skepticism.. A paper with an exciting conclusion and very little room for criticism is a good one.
+
+### Value of a Paper
+
+Writing a paper is fun. Publishing it is fun. Having other people citing it is fun. Researcher productivity is measured by number of publications that person has.  As mentioned above, a paper’s value is measured by how much that paper enriches the world in terms of its originality, reproducibility, and wide applicability. These criteria can be judged based on the number of citations, impact factor (a measure of the relative importance of a journal), and so on. The simplest way to collect information for your project is to investigate a specific subject matter. On the other hand, because both research and publications are the result of human activity, you may have fun tracking a favorite author or the author of a favorite paper. Every paper includes the e-mail address of the corresponding author. If the paper interests you, you can ask for advice from her/him via e-mail, which should be welcomed.
+
+### Let's Write a Paper [1]
+
+A paper is an outcome, a place for discussion, and a launch pad for the next generation. After reading it, you should have some kind of feeling. Age and gender should not be relevant in writing a paper. If you have collected a lot of data in the course of your BIOMOD project, go ahead and write a paper.
+
+### References
+
+[*] Corresponding author mark, common to most journals. An underclass student's name with this mark is terrible.
+[1] A lot has been published. Koreo Kinoshita "Writing Science" (ISBN 9784121006240) may be sufficient for most of you.
+
+_—Shin-ichiro M. Nomura (Tohoku University)_
+ 
+
+![Team Hokudai, Hokkaido University 2014](images/ch2fig6.png)
