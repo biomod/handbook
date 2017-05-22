@@ -171,7 +171,7 @@ The process of dividing a system into smaller concrete parts is called decomposi
 
 ![Decomposition and Integration](images/ch2fig2.png)
 
-### Talent for Handicraft: Pessimism [1]
+### Talents for Handicraft
 
 Designing DNA molecules is like a form of handicraft. Handicraft is a standard of summer homework. Most of you must have experience with it, such as when you have made something from waste cardboard or disposable chopsticks, but may not have succeeded in making what you had expected. Most of you probably got something that didn't look like what you were envisioning at all. In handicraft, most things don't proceed as expected. Unexpected problems will happen, and your determination will be tested.
 
@@ -195,3 +195,118 @@ One more thing is important to designing. Only one MIRACLE at a time. MIRACLE me
 {/aside}
 
 _—Satoshi Murata (Tohoku University)_
+
+
+## How to Collect Information
+
+You need information to choose the subject matter of the project, to conduct the project, to learn something, to make a research plan, to carry out an experiment, etcetera.  This section introduces some information sources and how to access them [1].
+
+### Textbooks and Published Papers
+
+In the course of your BIOMOD project, you will have to study many things. First, what is DNA? What can you do with DNA? You have found a good subject matter, but hasn't someone already done it? How to construct an experiment like this? There are two main kinds of information sources to study these things: books (textbooks) and papers. Books are suitable for learning basic knowledge systematically. Papers describe the results of specific research in detail, and are more timely  than books.  In the actual course of your project, you will read quite a few papers. In rare cases, you may read papers with incorrect information. Sometimes you may have to critically examine the information you find.
+
+### Literature Search
+
+You will usually use the Internet for a literature search. There are several literature search sites. One that is accessible from anywhere is Google Scholar [2]. For example, when the keywords "DNA origami" (see section 18) are entered in the search window, the search results are like the figure below. You can look at these titles and abstracts to find papers of interest.
+
+![Google Scholar](images/ch2fig3.png)
+
+External link (publisher etc.)
+Partial contents (abstract)
+Other links providing the article (If you don't like the above)
+Related articles (according to Google)
+Articles citing this article
+
+If you are not getting good search results, try modifying search keywords as follows.
+- Try synonyms and different expressions to prevent drop-out.
+- Use adequately defined keywords to reduce noise in search results.
+- Use search operators to narrow down search conditions.
+
+![Use operators to narrow down search conditions](images/ch2fig4.png)
+
+AND: Insert space `DNA origami`
+OR: Insert "OR" or "|" `DNA OR origami`, `DNA |origami`
+NOT: Put "-" before the word `DNA -origami`
+Phrase: Include the phrase between quotations `"DNA origami"`
+
+Operators may differ among search engines. Once you have found a paper of interest, you can check references listed in/papers citing that paper, to find related information.
+
+### Make Use of A Library
+
+How should you access these textbooks and papers? Of course you may buy them, but textbooks are fairly expensive and financial resources are always limited. Because you are a university student, the cleverest way is to make use of the university library. If you have ever visited it, you know how large a collection of scientific textbooks and journals it has. In most universities, the library HP provides a service by which you can search the library catalog based on book title, author name, journal name, and so on. So you can check if a book of interest is in the library in advance. Often journals are not allowed to be taken out, but you can still copy the paper of interest at the library. Note that a journal or book is copyrighted, and thus its copy is restricted to "no more than half of the total pages" [3]. Even if the journal of interest is not in the library of your university, you can use the copying service system to order it from other universities. Please refer to a detailed user guide provided on each university's HP.
+
+### Electronic Journals
+
+In recent years, most papers are also published electronically on the Internet, so that you don't have to go to the library to read them. Papers are sometimes open access (free access), but most charge a fee.  However, you can access any paper from the university's network and read/download it for free, as long as your university is under contract with the journal.  As mentioned above, a paper is still cpyrighted, and thus should not be modified or redistributed without permission. In addition, massive download in a short time might result in university-wide suspension of service.
+
+### Let's Read a Paper
+
+Many of you will be reading papers for the first time. In your everyday life, you read a book or newspaper from the front page to the back page. However, reading a paper in this manner is inefficient. You should skip through it once to get the outline, and then read it again in detail. This will help you to understand the content more easily.
+
+A typical paper includes the following sections. These sections or their order may differ between papers, but, for any paper, what you see first is the title. The title expresses the content of the paper explicitly, such as "Folding DNA to create nanoscale shapes and patterns" [4]. Then, read the abstract and figures to get the outline of the paper. To that end, you should also refer to the  Introduction (i.e., brief description of the aim and results of the study) and Conclusions as appropriate. Then read through the paper once. You don't need to understand everything in it on the first read.  Read it again, referring to textbooks and references to address any confusion.  It will be fun to discuss the paper with your BIOMOD team members and upper-class students.
+
+![Sections of a Paper](images/ch2fig5.png)
+
+Read as many papers as you can. Practice makes perfect. In doing so, you should also record these papers in a file of reference management software or any other tools, which will help you make create the references for the Wiki (see section 8). You can try Mendeley, ReadCube, JabRef, and various other tools. Please visit the web site for details.
+
+_—Fumi Takabatake (Tohoku University)_
+
+
+
+## More About Papers
+
+In BIOMOD, reading papers is essential for training yourselves as well as for choosing the subject matter. Papers are published reports of research results. This section describes the process of publishing a paper, its contents, and how to read it.
+
+### Introduction
+
+Scientific research consists of an endless cycle of investigating something, reporting the results, and being judged by others. Through this cycle, researchers enrich the world little by little. This section focuses on papers which are a very important part of scientific research.(
+
+### About Papers
+
+Papers report on a specific subject matter, and are published in a scientific journal (figures and videos included). Because a paper reports a new discovery by the researcher (or team), it is called primary information. A textbook summarizes the essence of the results of papers into a learner-friendly form, which is called secondary information. There are fee-charging papers and free ones. A university is a public institute that provides access to primary information, i.e., papers, which allows you to do a wide variety of in-depth research. For example, access to the latest issue of Nature if you were in your home and not logged on to a university would cost you 3300 yen per letter. There are peer-reviewed papers and non peer-reviewed ones. In addition to journal articles, there are papers published in international conference proceedings ("international conference papers"). In some fields, papers of this type are peer-reviewed more strictly than journal articles, and thus more appreciated.
+
+### Scientific Journals
+
+A publication that includes more than one paper is called a journal, or proceedings, Since 1996, many journals have gone to electronic publication. General and multidisciplinary journals include Nature, Science, and PNAS. Journals for specific fields include J. Am. Chem. Soc. and Biophysics J.
+
+### Peer Review
+
+A paper sent from the author or researcher to a scientific journal will not be published as received. The received paper is first read by the editor, and then passed on to reviewers if it is of interest and describing sufficiently high quality research. Usually, more than one reviewer in the relevant field reviews the paper and returns comments to the editor, and the editor decides whether to publish it. In most cases, the comments are fed back to the author, and the author can revise the paper based on the comments. After one or more cycles of this process, the editor decides to accept or reject the paper. This is called the peer review system. Rejection at the first step ("editor kick") can be disappointing.
+
+### Types of Paper
+
+The types of original papers for a typical journal include "communication" (about 2 pages), "letter" (about 4 pages), and "full paper" (about 5 pages or more). Full papers are the most common type of publication. A review paper summarizes the state of the art and remaining challenges in a specific field, citing related papers in the field. Remember that authors of reviews are still humans and not free of bias when they lists references.
+
+### Sections of a Paper
+
+Below are the sections of a typical full paper.
+
+- __Title__: Important.. It sometimes shows the author's struggle to make it witty.
+- __Author(s)__: The first author is usually the one who actually wrote the paper. The corresponding author(s) [*] assumes overall responsibility for the manuscript.
+- __Affiliation__: Tells you were the authors work and do their research.
+- __Abstract__: Very Important. If the content is not what you expected, look for other papers.
+- __Introduction__: Describes the background of the paper. You can skip it if it's familiar to you.
+- __Materials & Methods__: Important. Describes details of the experimental methods used to evaluate the hypothesis of the paper.
+- __Figure(s)__: Very important. Presents data.
+- __Results__: Describes experimental results. As you get used to reading papers, sometimes you can understand a paper by only looking at figures.
+- __Discussion__: Important. The results of the paper are discussed. This often occupies a relatively large portion in a paper written by a native English speaker.
+- __Conclusion__: Usually no tricks here.
+- __Acknowledgment__: Appreciation for those who provided advice, technical support, samples, and financial support for the research.
+- __References__: Very important. Papers cited here have been chosen because they are worth discussing; i.e. the number of citations is sometimes more important than the number of accepted papers.
+- __Supplementary Information__: Important. Because experimental procedures nowadays are getting more and more complicated, some results and details are too lengthy to be described in the article body, and thus are provided separately as supplementary information. Sequences for DNA origami are usually found here. Most videos are found here too. This section may even include something like an essay on twists and turns of the study.
+
+### Let's Read a Paper
+
+Find a paper that relates to the subject matter of interest (see section 15). You can ask the upper-class students and teachers. Read through it once as written, then in depth with a critical eye. Particularly in an experimental paper, the focus is on whether the experiment described really supports the author's conclusion. Again, criticism is important. If you have any doubts, check related references. You should always read with skepticism.. A paper with an exciting conclusion and very little room for criticism is a good one.
+
+### Value of a Paper
+
+Writing a paper is fun. Publishing it is fun. Having other people citing it is fun. Researcher productivity is measured by number of publications that person has.  As mentioned above, a paper’s value is measured by how much that paper enriches the world in terms of its originality, reproducibility, and wide applicability. These criteria can be judged based on the number of citations, impact factor (a measure of the relative importance of a journal), and so on. The simplest way to collect information for your project is to investigate a specific subject matter. On the other hand, because both research and publications are the result of human activity, you may have fun tracking a favorite author or the author of a favorite paper. Every paper includes the e-mail address of the corresponding author. If the paper interests you, you can ask for advice from her/him via e-mail, which should be welcomed.
+
+### Let's Write a Paper
+
+A paper is an outcome, a place for discussion, and a launch pad for the next generation. After reading it, you should have some kind of feeling. Age and gender should not be relevant in writing a paper. If you have collected a lot of data in the course of your BIOMOD project, go ahead and write a paper. A good starting point is GM Whitesides [Writing a Paper](http://onlinelibrary.wiley.com/doi/10.1002/adma.200400767/abstract) (doi 10.1002/adma.200400767).
+
+_—Shin-ichiro M. Nomura (Tohoku University)_
+
+![Team Hokudai, Hokkaido University 2014](images/ch2fig6.png)
