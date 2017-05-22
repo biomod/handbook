@@ -27,36 +27,38 @@ Sometimes brainstorming may not bring new ideas and you may be caught in a circl
 ### A Good Idea Has Clear Logic
 
 What is a good idea, and how can you judge whether an idea is a good one. A good idea needs to be logical. "Logical" means:
-  1. The team’s priority is clear.
-  2. The question is in line with that priority.
-  3. The process to solve that question is fairly clear.
+
+1. The team’s priority is clear.
+2. The question is in line with that priority.
+3. The process to solve that question is fairly clear.
 
 You should be able to summarize these three points clearly and simply. For example, a good idea might be summarized as:
-  1. The subject matter must be universal.
-  2. Let's make a tool that is applicable to a wide variety of situations.
-  3. This should be feasible by combining/developing tools from previously reported studies.
+
+1. The subject matter must be universal.
+2. Let's make a tool that is applicable to a wide variety of situations.
+3. This should be feasible by combining/developing tools from previously reported studies.
 
 However, the last one might be difficult for you to judge. Again, you can consult the mentors.
 
 ### Turning an Idea into a Topic
 
 An idea with clear logic is relatively easy to turn into a project. Next, you should make a list of prerequisites:
-  What will be required to complete the project ?
-  Are there methods available to demonstrate (experiment  with) it?
-  Are the necessary materials available?
-Is the experimental equipment available?
-  Do we enough manpower? Enough time?
+
+- What will be required to complete the project ?
+- Are there methods available to demonstrate (experiment  with) it?
+- Are the necessary materials available?
+- Is the experimental equipment available?
+- Do we enough bandwidth? Enough time?
 
 ### Keep in Mind the System for Judging the BIOMOD Competition
 
 You should design your project with an aim to win, not just participate. At BIOMOD, all projects are scored by judges. Judges are selected from the mentors of participating teams, who are professionals in this field. You have to satisfy these people to get a high score, regardless of how confident you are in your project. Check the judging criteria of BIOMOD as you design your project (see section 3).
 
-  This competition is good practice for getting grants, where your work is also evaluated by others. Evaluations depend on the value system of the community of researchers, and of academic and human society.
+This competition is good practice for getting grants, where your work is also evaluated by others. Evaluations depend on the value system of the community of researchers, and of academic and human society.
 
 ### Rise and Fall of a Project
 
 Once you have chosen a topic, the project starts. You don't have much time until the final (see section 6). However, sometimes you may have to change topics. If you have enough team members, you can run more than one project in parallel and then narrow the list down to a single project that seems promising. In the course of the experiment, however, you may encounter an obstacle that you cannot overcome, in which case you may have to reconsider the subject matter itself. In that case, you should construct the overall logic of a new topic all over again. The judges and the audience will only see the final presentation. Changing topics midstream is difficult, but sometimes necessary. In the process of reconsideration, the logic is polished and becomes clearer. The victory will be yours after you get through it.
-
 
 {aside}
 **Copyright**
@@ -69,7 +71,6 @@ _—Satoshi Murata (Tohoku University)_
 ## Types of Brainstorming
 
 Four eyes see more than two. Generating ideas in a group setting can be far more productive than  individuals trying to generate ideas on their own. Brainstorming should be done in a divergent, free-flowing manner [1]. This section introduces brainstorming and other techniques to generate ideas in a group setting.
-
 
 ### Brainstorming
 
@@ -100,12 +101,12 @@ It is up to you how to generate ideas. Below are some tips on generating ideas.
 ### Brainwriting
 
 "Brainwriting" is similar to brainstorming [3]. It is effective in generating many ideas in a short time, generating ideas in a group of rather reticent people, etc. Below is an example of the process, applied to six people.
-  1. Participants sit in a circle or square.
-  1. Prepare six worksheets, each with 6 rows and 3 columns.
-  1. Distribute the worksheets to the participants, one sheet per participant. Write the subject matter at the top of the worksheet.
-  1. Generate 3 ideas that relate to the subject matter and write them in the 3 blanks in the first row, within 3 to 5 minutes.
-  1. Then, pass on your worksheet to the neighbor on your left and receive another worksheet from your neighbor.
-  1. Look at the ideas in the first row in the worksheet that was passed to you, and write 3 new ideas in the 3 blanks in the second row. Again, pass on the worksheet in the same pattern--to the left.  7) Every time you receive a worksheet, add new ideas inspired by the ideas in it (you can develop ideas of the previous participant or propose totally different ideas inspired by them).
+1. Participants sit in a circle or square.
+1. Prepare six worksheets, each with 6 rows and 3 columns.
+1. Distribute the worksheets to the participants, one sheet per participant. Write the subject matter at the top of the worksheet.
+1. Generate 3 ideas that relate to the subject matter and write them in the 3 blanks in the first row, within 3 to 5 minutes.
+1. Then, pass on your worksheet to the neighbor on your left and receive another worksheet from your neighbor.
+1. Look at the ideas in the first row in the worksheet that was passed to you, and write 3 new ideas in the 3 blanks in the second row. Again, pass on the worksheet in the same pattern--to the left.  7) Every time you receive a worksheet, add new ideas inspired by the ideas in it (you can develop ideas of the previous participant or propose totally different ideas inspired by them).
 Repeat the steps 6 times in total. This takes 30 minutes or less, and you will get as many as 108 ideas (= 6 members x 3 ideas x 6 rounds).
 
 ### Mind Map
@@ -168,39 +169,22 @@ The process of dividing a system into smaller concrete parts is called decomposi
 
 ![Decomposition and Integration](images/ch2fig2.png)
 
-Conceptual design Preliminary design  Detailed design
-
-    Decomposition
-          Part
-        Partial function  Part
-Requirements specification      Partial function    Part
-  Total function    Partial function  Part
-
-        Partial function  Part
-      Partial function    Part
-        Partial function  Part
-          Part
-    Integration
-
 ### Talent for Handicraft: Pessimism [1]
 
-Designing DNA molecules is like a form of handicraft. Handicraft is a standard of summer homework. Most of you must have experience with it, such as when you have made something from waste cardboard or disposable chopsticks, but may not have succeeded in making what you had expected. Most of you probably got something that didn't look like what you were envisioning at all.
-  In handicraft, most things don't proceed as expected. Unexpected problems will happen, and your determination will be tested.
-Required talents for handicraft
-⇓
-Pessimism that most things don't proceed as expected
-Imagination: the ability to visualize a thing before it is made.
-Observation: the ability to find the cause of a trouble.
-Flexibility: the ability to make use of resources around you.
-Stamina: the ability to seek for the best result.
+Designing DNA molecules is like a form of handicraft. Handicraft is a standard of summer homework. Most of you must have experience with it, such as when you have made something from waste cardboard or disposable chopsticks, but may not have succeeded in making what you had expected. Most of you probably got something that didn't look like what you were envisioning at all. In handicraft, most things don't proceed as expected. Unexpected problems will happen, and your determination will be tested.
 
-  __Imagination__, or the ability to visualize, means having a concrete image of an object, to clearly imagine its shape, size, weight, texture, motion, and so on. In molecular design, you have to learn chemistry and molecular biology in order to imagine the properties and motion of a molecule. It is not possible in a day, so start with anything that interests you in a textbook, making steady efforts (see chapter 4). Various examples of research will be helpful (see chapter 3).
-  __Observation__ is the ability to identify something that is wrong. This is done by examining experimental results, making a hypothesis about the cause of any trouble, modifying the conditions, and working with patience. If you can find out the cause of the problem, you can find a solution.
-  __Flexibility__ is the ability to make use of various resources around you, to find useful things and possible applications of things from everyday life. However, flexibility doesn’t mean anything goes: thoughtless application of these things to your project might distort it.
-  __Stamina__ is the patience to pursue optimization. If you have made a system but are still anxious about possible hidden problems in it, and if it seems more and more incomplete to you as you keep working with it, then you surely have a talent for handicraft.
-  You are going to combine all these abilities to design a molecular system. There is no easy way out, and remember that you should not make the schedule too tight. Otherwise you can't examine the design from various perspectives, and you can't deal with troubles. Good schedule management is a prerequisite for a good design (see sections 6 and 7).
-  In most cases, it is no use making a final spurt just before the deadline in order to solve any technical problems.
-  You will have nothing to learn from "Project X"-like success stories.
+Required talents for handicraft
+- __Pessimism__ that most things don't proceed as expected.
+- __Imagination__: the ability to visualize a thing before it is made.
+- __Observation__: the ability to find the cause of a trouble.
+- __Flexibility__: the ability to make use of resources around you.
+- __Stamina__: the ability to seek for the best result.
+- __Imagination__, or the ability to visualize, means having a concrete image of an object, to clearly imagine its shape, size, weight, texture, motion, and so on. In molecular design, you have to learn chemistry and molecular biology in order to imagine the properties and motion of a molecule. It is not possible in a day, so start with anything that interests you in a textbook, making steady efforts (see chapter 4). Various examples of research will be helpful (see chapter 3).
+- __Observation__ is the ability to identify something that is wrong. This is done by examining experimental results, making a hypothesis about the cause of any trouble, modifying the conditions, and working with patience. If you can find out the cause of the problem, you can find a solution.
+- __Flexibility__ is the ability to make use of various resources around you, to find useful things and possible applications of things from everyday life. However, flexibility doesn’t mean anything goes: thoughtless application of these things to your project might distort it.
+- __Stamina__ is the patience to pursue optimization. If you have made a system but are still anxious about possible hidden problems in it, and if it seems more and more incomplete to you as you keep working with it, then you surely have a talent for handicraft.
+
+You are going to combine all these abilities to design a molecular system. There is no easy way out, and remember that you should not make the schedule too tight. Otherwise you can't examine the design from various perspectives, and you can't deal with troubles. Good schedule management is a prerequisite for a good design (see sections 6 and 7). In most cases, it is no use making a final spurt just before the deadline in order to solve any technical problems. You will have nothing to learn from "Project X"-like success stories.
 
 {aside}
 **MIRACLES**
@@ -214,7 +198,6 @@ _—Satoshi Murata (Tohoku University)_
 
 You need information to choose the subject matter of the project, to conduct the project, to learn something, to make a research plan, to carry out an experiment, etcetera.  This section introduces some information sources and how to access them [1].
 
-
 ### Textbooks and Published Papers
 
 In the course of your BIOMOD project, you will have to study many things. First, what is DNA? What can you do with DNA? You have found a good subject matter, but hasn't someone already done it? How to construct an experiment like this? There are two main kinds of information sources to study these things: books (textbooks) and papers. Books are suitable for learning basic knowledge systematically. Papers describe the results of specific research in detail, and are more timely  than books.  In the actual course of your project, you will read quite a few papers. In rare cases, you may read papers with incorrect information. Sometimes you may have to critically examine the information you find.
@@ -223,6 +206,8 @@ In the course of your BIOMOD project, you will have to study many things. First,
 
 You will usually use the Internet for a literature search. There are several literature search sites. One that is accessible from anywhere is Google Scholar [2]. For example, when the keywords "DNA origami" (see section 18) are entered in the search window, the search results are like the figure below. You can look at these titles and abstracts to find papers of interest.
 
+![Google Scholar](images/ch2fig3.png)
+
 External link (publisher etc.)
 Partial contents (abstract)
 Other links providing the article (If you don't like the above)
@@ -230,29 +215,22 @@ Related articles (according to Google)
 Articles citing this article
 
 If you are not getting good search results, try modifying search keywords as follows.
-  Try synonyms and different expressions to prevent drop-out.
-  Use adequately defined keywords to reduce noise in search results.
-  Use search operators to narrow down search conditions.
+- Try synonyms and different expressions to prevent drop-out.
+- Use adequately defined keywords to reduce noise in search results.
+- Use search operators to narrow down search conditions.
 
-![Use operators to narrow down search conditions](images/ch2fig5.png)
+![Use operators to narrow down search conditions](images/ch2fig4.png)
 
-AND: Insert space
-DNA_origami
-OR: Insert "OR" or "|"
-DNA_OR_origami
-DNA_|_origami
-NOT: Put "-" before the word
-DNA_-origami
-Phrase: Include the phrase between "“”"
-“DNA_origami”
+AND: Insert space `DNA origami`
+OR: Insert "OR" or "|" `DNA OR origami`, `DNA |origami`
+NOT: Put "-" before the word `DNA -origami`
+Phrase: Include the phrase between quotations `"DNA origami"`
 
-*Operators differ among search engines.
-
-  Once you have found a paper of interest, you can check references listed in/papers citing that paper, to find related information.
+Operators may differ among search engines. Once you have found a paper of interest, you can check references listed in/papers citing that paper, to find related information.
 
 ### Make Use of A Library
 
-How should you access these textbooks and papers? Of course you may buy them, but textbooks are fairly expensive and financial resources are always limited. Because you are a university student, the cleverest way is to make use of the university library. If you have ever visited it, you know how large a collection of scientific textbooks and journals it has. In most universities, the library HP provides a service by which you can search the library catalogue based on book title, author name, journal name, and so on. So you can check if a book of interest is in the library in advance. Often journals are not allowed to be taken out, but you can still copy the paper of interest at the library. Note that a journal or book is copyrighted, and thus its copy is restricted to "no more than half of the total pages" [3]. Even if the journal of interest is not in the library of your university, you can use the copying service system to order it from other universities. Please refer to a detailed user guide provided on each university's HP.
+How should you access these textbooks and papers? Of course you may buy them, but textbooks are fairly expensive and financial resources are always limited. Because you are a university student, the cleverest way is to make use of the university library. If you have ever visited it, you know how large a collection of scientific textbooks and journals it has. In most universities, the library HP provides a service by which you can search the library catalog based on book title, author name, journal name, and so on. So you can check if a book of interest is in the library in advance. Often journals are not allowed to be taken out, but you can still copy the paper of interest at the library. Note that a journal or book is copyrighted, and thus its copy is restricted to "no more than half of the total pages" [3]. Even if the journal of interest is not in the library of your university, you can use the copying service system to order it from other universities. Please refer to a detailed user guide provided on each university's HP.
 
 ### Electronic Journals
 
@@ -273,17 +251,16 @@ _—Fumi Takabatake (Tohoku University)_
  
 
 ## 16. More About Papers
+
 In BIOMOD, reading papers is essential for training yourselves as well as for choosing the subject matter. Papers are published reports of research results. This section describes the process of publishing a paper, its contents, and how to read it.
 
-
 ### Introduction
-Scientific research consists of an endless cycle of investigating something, reporting the results, and being judged by others. Through this cycle, researchers enrich the world little by little. This section focuses on papers which are a very important part of scientific research.(
 
+Scientific research consists of an endless cycle of investigating something, reporting the results, and being judged by others. Through this cycle, researchers enrich the world little by little. This section focuses on papers which are a very important part of scientific research.(
 
 ### About Papers
 
 Papers report on a specific subject matter, and are published in a scientific journal (figures and videos included). Because a paper reports a new discovery by the researcher (or team), it is called primary information. A textbook summarizes the essence of the results of papers into a learner-friendly form, which is called secondary information. There are fee-charging papers and free ones. A university is a public institute that provides access to primary information, i.e., papers, which allows you to do a wide variety of in-depth research. For example, access to the latest issue of Nature if you were in your home and not logged on to a university would cost you 3300 yen per letter. There are peer-reviewed papers and non peer-reviewed ones. In addition to journal articles, there are papers published in international conference proceedings ("international conference papers"). In some fields, papers of this type are peer-reviewed more strictly than journal articles, and thus more appreciated.
-
 
 ### Scientific Journals
 
@@ -300,19 +277,20 @@ The types of original papers for a typical journal include "communication" (abou
 ### Sections of a Paper
 
 Below are the sections of a typical full paper.
-  __Title__: Important.. It sometimes shows the author's struggle to make it witty.
-  __Author(s)__: The first author is usually the one who actually wrote the paper. The corresponding author(s) [*] assumes overall responsibility for the manuscript.
-  __Affiliation__: Tells you were the authors work and do their research.
-  __Abstract__: Very Important. If the content is not what you expected, look for other papers.
-  __Introduction__: Describes the background of the paper. You can skip it if it's familiar to you.
-  __Materials & Methods__: Important. Describes details of the experimental methods used to evaluate the hypothesis of the paper.
-  __Figure(s)__: Very important. Presents data.
-  __Results__: Describes experimental results. As you get used to reading papers, sometimes you can understand a paper by only looking at figures.
-  __Discussion__: Important. The results of the paper are discussed. This often occupies a relatively large portion in a paper written by a native English speaker.
-  __Conclusion__: Usually no tricks here.
-  __Acknowledgment__: Appreciation for those who provided advice, technical support, samples, and financial support for the research.
-  __References__: Very important. Papers cited here have been chosen because they are worth discussing; i.e. the number of citations is sometimes more important than the number of accepted papers.
-  Supplementary Information: Important. Because experimental procedures nowadays are getting more and more complicated, some results and details are too lengthy to be described in the article body, and thus are provided separately as supplementary information. Sequences for DNA origami are usually found here. Most videos are found here too. This section may even include something like an essay on twists and turns of the study.
+
+- __Title__: Important.. It sometimes shows the author's struggle to make it witty.
+- __Author(s)__: The first author is usually the one who actually wrote the paper. The corresponding author(s) [*] assumes overall responsibility for the manuscript.
+- __Affiliation__: Tells you were the authors work and do their research.
+- __Abstract__: Very Important. If the content is not what you expected, look for other papers.
+- __Introduction__: Describes the background of the paper. You can skip it if it's familiar to you.
+- __Materials & Methods__: Important. Describes details of the experimental methods used to evaluate the hypothesis of the paper.
+- __Figure(s)__: Very important. Presents data.
+- __Results__: Describes experimental results. As you get used to reading papers, sometimes you can understand a paper by only looking at figures.
+- __Discussion__: Important. The results of the paper are discussed. This often occupies a relatively large portion in a paper written by a native English speaker.
+- __Conclusion__: Usually no tricks here.
+- __Acknowledgment__: Appreciation for those who provided advice, technical support, samples, and financial support for the research.
+- __References__: Very important. Papers cited here have been chosen because they are worth discussing; i.e. the number of citations is sometimes more important than the number of accepted papers.
+- __Supplementary Information__: Important. Because experimental procedures nowadays are getting more and more complicated, some results and details are too lengthy to be described in the article body, and thus are provided separately as supplementary information. Sequences for DNA origami are usually found here. Most videos are found here too. This section may even include something like an essay on twists and turns of the study.
 
 ### Let's Read a Paper
 
@@ -332,6 +310,5 @@ A paper is an outcome, a place for discussion, and a launch pad for the next gen
 [1] A lot has been published. Koreo Kinoshita "Writing Science" (ISBN 9784121006240) may be sufficient for most of you.
 
 _—Shin-ichiro M. Nomura (Tohoku University)_
- 
 
 ![Team Hokudai, Hokkaido University 2014](images/ch2fig6.png)
