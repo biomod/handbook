@@ -128,4 +128,70 @@ The 3 techniques described above are for divergent idea generation. Sometimes yo
 In the course of this process, the divergent list of ideas gains become s organized by theme.
 
 _—Ken Sugawara (Tohoku University)_
- 
+
+## Design Process
+
+BIOMOD is a competition for "design" of biomolecules. "Design" is to prepare a plan for manufacturing a product. Basically it is the same as designing a handicraft for summer homework, but has to be done more carefully because molecules are not visible to the naked eye.
+
+### Fiat Specification
+
+As described in section 12, the logical basis of the project is important. If the logic is clear enough, the functions and properties of the desired product will be self-evident. Specification is making a list of the functions and properties the project is aiming for. The design process starts with specification.
+
+The difficulty of a design will depend on the specification. A specification that includes conflicting requirements (e.g., a car with good speed and high fuel efficiency) is not feasible (i.e. has no design solution). However, an easily achievable specification, e.g. one that doesn’t need an elaborate design may result in an ordinary product.
+
+### Breakdown of Design Process
+
+Below is a breakdown of the design process. Repeat steps 1 to 6 as many times as necessary. In other words, successful design by its nature requires trial and error.
+
+{aside}
+**Design process**
+1. Establish specification: Define the desired functions.
+2. Choice of parts: Choose parts required for the functions.
+3. Design: Combine the parts into a system.
+4. Experiment: Test the system by simulation and/or experiment.
+5. Evaluation: Analyze the results to identify problems.
+6. Repeat the process from step 3 (or 2 or 1).
+{/aside}
+
+At each step, check the following points. Check points of each step:
+
+1. Is specification the right level of difficulty—not too easy and not too hard.
+1. Choice of parts: Are they readily available, e.g. mass produced (see section 73). Avoid too many parts (different molecules). Cost should be appropriate (see section 73).
+1. Design: Avoid any non-practical assumption or wishful thinking.
+1. Experiment: Simulation model possible? (see section 62). Experimentable? (see sections 69 and 70).
+1. Evaluation: Reproducible? Accurate? (see section 70)
+
+In principle, the design should proceed from the whole to details, from abstractness to concreteness.
+
+1. Conceptual design: Specify the required functions based on the overall image.
+1. Preliminary design: Specify the structure and shape to achieve each function.
+1. Detailed design: Specify the size and material of each part.
+
+The process of dividing a system into smaller concrete parts is called decomposition, and the process of combining the resultant parts back is called integration. Successful design requires going from decomposition to integration and vice versa to specify details of the system. Remember this important constraint: one function per part. Any part with more than one function will hinder design changes and error corrections. Such "optimization" should be done, if any, after the basic design has been established.
+
+![Decomposition and Integration](images/ch2fig2.png)
+
+### Talent for Handicraft: Pessimism [1]
+
+Designing DNA molecules is like a form of handicraft. Handicraft is a standard of summer homework. Most of you must have experience with it, such as when you have made something from waste cardboard or disposable chopsticks, but may not have succeeded in making what you had expected. Most of you probably got something that didn't look like what you were envisioning at all. In handicraft, most things don't proceed as expected. Unexpected problems will happen, and your determination will be tested.
+
+Required talents for handicraft:
+
+- __Pessimism__ that most things don't proceed as expected.
+- __Imagination__: the ability to visualize a thing before it is made.
+- __Observation__: the ability to find the cause of a trouble.
+- __Flexibility__: the ability to make use of resources around you.
+- __Stamina__: the ability to seek for the best result.
+- __Imagination__, or the ability to visualize, means having a concrete image of an object, to clearly imagine its shape, size, weight, texture, motion, and so on. In molecular design, you have to learn chemistry and molecular biology in order to imagine the properties and motion of a molecule. It is not possible in a day, so start with anything that interests you in a textbook, making steady efforts (see chapter 4). Various examples of research will be helpful (see chapter 3).
+- __Observation__ is the ability to identify something that is wrong. This is done by examining experimental results, making a hypothesis about the cause of any trouble, modifying the conditions, and working with patience. If you can find out the cause of the problem, you can find a solution.
+- __Flexibility__ is the ability to make use of various resources around you, to find useful things and possible applications of things from everyday life. However, flexibility doesn’t mean anything goes: thoughtless application of these things to your project might distort it.
+- __Stamina__ is the patience to pursue optimization. If you have made a system but are still anxious about possible hidden problems in it, and if it seems more and more incomplete to you as you keep working with it, then you surely have a talent for handicraft.
+
+You are going to combine all these abilities to design a molecular system. There is no easy way out, and remember that you should not make the schedule too tight. Otherwise you can't examine the design from various perspectives, and you can't deal with troubles. Good schedule management is a prerequisite for a good design (see sections 6 and 7). In most cases, it is no use making a final spurt just before the deadline in order to solve any technical problems. You will have nothing to learn from "Project X"-like success stories.
+
+{aside}
+**MIRACLES**
+One more thing is important to designing. Only one MIRACLE at a time. MIRACLE means an unknown element required to attain the desired function, which is not described in any textbook or paper and thus has to be newly developed. A project without any MIRACLE tends to be just a combination of previously reported results, and thus not very exciting. On the contrary, a project with more than one MIRACLE will not be achievable in 6 months and thus is unsuitable for BIOMOD.
+{/aside}
+
+_—Satoshi Murata (Tohoku University)_
