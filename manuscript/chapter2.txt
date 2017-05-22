@@ -177,15 +177,15 @@ Designing DNA molecules is like a form of handicraft. Handicraft is a standard o
 
 Required talents for handicraft:
 
-- __Pessimism__ that most things don't proceed as expected.
-- __Imagination__: the ability to visualize a thing before it is made.
-- __Observation__: the ability to find the cause of a trouble.
-- __Flexibility__: the ability to make use of resources around you.
-- __Stamina__: the ability to seek for the best result.
-- __Imagination__, or the ability to visualize, means having a concrete image of an object, to clearly imagine its shape, size, weight, texture, motion, and so on. In molecular design, you have to learn chemistry and molecular biology in order to imagine the properties and motion of a molecule. It is not possible in a day, so start with anything that interests you in a textbook, making steady efforts (see chapter 4). Various examples of research will be helpful (see chapter 3).
-- __Observation__ is the ability to identify something that is wrong. This is done by examining experimental results, making a hypothesis about the cause of any trouble, modifying the conditions, and working with patience. If you can find out the cause of the problem, you can find a solution.
-- __Flexibility__ is the ability to make use of various resources around you, to find useful things and possible applications of things from everyday life. However, flexibility doesn’t mean anything goes: thoughtless application of these things to your project might distort it.
-- __Stamina__ is the patience to pursue optimization. If you have made a system but are still anxious about possible hidden problems in it, and if it seems more and more incomplete to you as you keep working with it, then you surely have a talent for handicraft.
+- **Pessimism** that most things don't proceed as expected.
+- **Imagination**: the ability to visualize a thing before it is made.
+- **Observation**: the ability to find the cause of a trouble.
+- **Flexibility**: the ability to make use of resources around you.
+- **Stamina**: the ability to seek for the best result.
+- **Imagination**, or the ability to visualize, means having a concrete image of an object, to clearly imagine its shape, size, weight, texture, motion, and so on. In molecular design, you have to learn chemistry and molecular biology in order to imagine the properties and motion of a molecule. It is not possible in a day, so start with anything that interests you in a textbook, making steady efforts (see chapter 4). Various examples of research will be helpful (see chapter 3).
+- **Observation** is the ability to identify something that is wrong. This is done by examining experimental results, making a hypothesis about the cause of any trouble, modifying the conditions, and working with patience. If you can find out the cause of the problem, you can find a solution.
+- **Flexibility** is the ability to make use of various resources around you, to find useful things and possible applications of things from everyday life. However, flexibility doesn’t mean anything goes: thoughtless application of these things to your project might distort it.
+- **Stamina** is the patience to pursue optimization. If you have made a system but are still anxious about possible hidden problems in it, and if it seems more and more incomplete to you as you keep working with it, then you surely have a talent for handicraft.
 
 You are going to combine all these abilities to design a molecular system. There is no easy way out, and remember that you should not make the schedule too tight. Otherwise you can't examine the design from various perspectives, and you can't deal with troubles. Good schedule management is a prerequisite for a good design (see sections 6 and 7). In most cases, it is no use making a final spurt just before the deadline in order to solve any technical problems. You will have nothing to learn from "Project X"-like success stories.
 
@@ -287,19 +287,19 @@ The types of original papers for a typical journal include "communication" (abou
 
 Below are the sections of a typical full paper.
 
-- __Title__: Important. It sometimes shows the author's struggle to make it witty.
-- __Author(s)__: The first author is usually the one who actually wrote the paper. The corresponding author(s) assume overall responsibility for the manuscript, including compliance with journal policies, vouching for data veracity, and handling any questions that arise during and after publication.
-- __Affiliation__: Tells you were the authors work and do their research.
-- __Abstract__: Very Important. If the content is not what you expected, look for other papers.
-- __Introduction__: Describes the background of the paper. You can skip it if it's familiar to you.
-- __Materials & Methods__: Important. Describes details of the experimental methods used to evaluate the hypothesis of the paper.
-- __Figure(s)__: Very important. Presents data.
-- __Results__: Describes experimental results. As you get used to reading papers, sometimes you can understand a paper by only looking at figures.
-- __Discussion__: Important. The results of the paper are discussed. This often occupies a relatively large portion in a paper written by a native English speaker.
-- __Conclusion__: Usually no tricks here.
-- __Acknowledgment__: Appreciation for those who provided advice, technical support, samples, and financial support for the research.
-- __References__: Very important. Papers cited here have been chosen because they are worth discussing; i.e. the number of citations is sometimes more important than the number of accepted papers.
-- __Supplementary Information__: Important. Because experimental procedures nowadays are getting more and more complicated, some results and details are too lengthy to be described in the article body, and thus are provided separately as supplementary information. Sequences for DNA origami are usually found here. Most videos are found here too. This section may even include something like an essay on twists and turns of the study.
+- **Title**: Important. It sometimes shows the author's struggle to make it witty.
+- **Author(s)**: The first author is usually the one who actually wrote the paper. The corresponding author(s) assume overall responsibility for the manuscript, including compliance with journal policies, vouching for data veracity, and handling any questions that arise during and after publication.
+- **Affiliation**: Tells you were the authors work and do their research.
+- **Abstract**: Very Important. If the content is not what you expected, look for other papers.
+- **Introduction**: Describes the background of the paper. You can skip it if it's familiar to you.
+- **Materials & Methods**: Important. Describes details of the experimental methods used to evaluate the hypothesis of the paper.
+- **Figure(s)**: Very important. Presents data.
+- **Results**: Describes experimental results. As you get used to reading papers, sometimes you can understand a paper by only looking at figures.
+- **Discussion**: Important. The results of the paper are discussed. This often occupies a relatively large portion in a paper written by a native English speaker.
+- **Conclusion**: Usually no tricks here.
+- **Acknowledgment**: Appreciation for those who provided advice, technical support, samples, and financial support for the research.
+- **References**: Very important. Papers cited here have been chosen because they are worth discussing; i.e. the number of citations is sometimes more important than the number of accepted papers.
+- **Supplementary Information**: Important. Because experimental procedures nowadays are getting more and more complicated, some results and details are too lengthy to be described in the article body, and thus are provided separately as supplementary information. Sequences for DNA origami are usually found here. Most videos are found here too. This section may even include something like an essay on twists and turns of the study.
 
 ### Let's Read a Paper
 
