@@ -275,9 +275,7 @@ A paper sent from the author or researcher to a scientific journal will not be p
 
 ### Pre-prints
 
-![ [YouTube: What are preprints?](http://bit.ly/2rMUyme) ](images/ch2fig2.png)
-
-Preprints are a way in which a scientific manuscript can be rapidly shared with the scientific community prior to completion of peer review. Preprints are rapidly gaining adoption. More information is available at [Ten simple rules to consider regarding preprint submission](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005473) (doi: 10.1371/journal.pcbi.1005473).
+Preprints are a means to rapidly share scientific manuscripts with the scientific community prior to completion of peer review. Preprints are rapidly gaining adoption. More information is available at [YouTube: What are preprints?](http://bit.ly/2rMUyme) and [Ten simple rules to consider regarding preprint submission](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005473).
 
 ### Types of Papers
 
