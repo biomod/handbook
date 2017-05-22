@@ -92,9 +92,9 @@ In brainstorming, you can present essentially any idea but you should note the f
 It is up to you how to generate ideas. Below are some tips on generating ideas.
 
 1. Free association: this includes association by contrast, association by contiguity, and association by similarity.
-- Example of association by contrast: "day <-> night", "female <-> male"
-- Example of association by contiguity: "sea <-> beach", "car <-> road"
-- Example of association by similarity: "ball <-> earth", "bird <-> airplane"
+- Example of association by contrast: "day / night", "female / male"
+- Example of association by contiguity: "sea / beach", "car / road"
+- Example of association by similarity: "ball / earth", "bird / airplane"
 2. Nonrandom association: this includes "forced association" and "analogy". Forced association is a technique to impose some condition on the subject matter, and then generate ideas. Analogy is a technique to get inspiration from something that is essentially analogous to the subject matter.
 - Example of forced association: Choose "novel scissors" as the subject matter. Impose a condition such as "they are to be transformed", " they are for seniors", etc.
 - Example of analogy: Choose "novel scissors" as the subject matter. Think "The role of scissors is to cut" -> "Cutting is the purpose of guillotines, too" -> "Let's make novel scissors based on guillotines".
