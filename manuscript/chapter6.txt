@@ -1,6 +1,6 @@
 {book: true, sample: false}
 
-# Software Techniques
+# Chapter 6 Software Techniques
 
 ## 53. Basic Software Programs: Overview
 

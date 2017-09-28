@@ -1,6 +1,6 @@
 {book: true, sample: false}
 
-# Techniques/Materials to Boost DNA
+# Chapter 5 Techniques/Materials to Boost DNA
 
 ## 45. Enzymes
 
@@ -127,7 +127,8 @@ Note: - indicates the absence of the corresponding activity, and the number of +
 {aside}
 **Column: PCR**
 
-The below PCR technique is among the most popular DNA polymerase-based reactions, (see the figure below); it can amplify any desired portion of a double strand DNA. First, the double strand DNA is heated in an aqueous solution into single strand DNAs. The solution includes a large amount of primers that specify the portion to be amplified (green and red arrows in the figure) in advance, which undergo hybridization as a result of annealing. In this state, DNA polymerase starts extension to synthesize mutually complementary DNA strands (light green and light red). After that, it is heated back into the single strand DNA state and subjected to annealing again, which allows the primers to hybridize to the synthesized DNA, to initiate another extension reaction. By repeating this cycle, a double strand DNA solely composed of the desired portion is replicated exponentially, as indicated by yellow in the figure. Thanks to thermostable DNA polymerase, you no longer have to add enzyme after each cycle. {/aside}
+The below PCR technique is among the most popular DNA polymerase-based reactions, (see the figure below); it can amplify any desired portion of a double strand DNA. First, the double strand DNA is heated in an aqueous solution into single strand DNAs. The solution includes a large amount of primers that specify the portion to be amplified (green and red arrows in the figure) in advance, which undergo hybridization as a result of annealing. In this state, DNA polymerase starts extension to synthesize mutually complementary DNA strands (light green and light red). After that, it is heated back into the single strand DNA state and subjected to annealing again, which allows the primers to hybridize to the synthesized DNA, to initiate another extension reaction. By repeating this cycle, a double strand DNA solely composed of the desired portion is replicated exponentially, as indicated by yellow in the figure. Thanks to thermostable DNA polymerase, you no longer have to add enzyme after each cycle.
+{/aside}
 
 ![](images/ch5/ch5fig09.png)
 
