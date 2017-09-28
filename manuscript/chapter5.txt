@@ -1,0 +1,438 @@
+{book: true, sample: false}
+
+# Techniques/Materials to Boost DNA
+
+## 45. Enzymes
+
+Most enzymes are proteins and can catalyze a variety of chemical reactions with remarkable efficiency. Some of them are driven by a nucleotide energy source such as ATP or GTP, while others are nucleotide-independent. This section summarizes the most basic enzymes that can manipulate DNA.
+
+### How Enzymes Behave
+
+Let’s discuss a reaction between reactants A and B to form a product C that proceeds through a transition state AB‡. An enzyme can promote the reaction by stabilizing (lowering the energy required for) the transition state.
+
+![Michaelis-Menten Equation](images/ch5/ch5fig01.png)
+
+The reactants A and B are called substrates (S) of the enzyme (E). With the product C being P, the rate equation of the reaction can be as follows.
+
+![equation 2](images/ch5/ch5fig02.png)
+
+If the first step (E + S &lt;-&gt; ES) in the reaction readily reaches chemical equilibrium, the second step (ES -&gt; E + P) is the rate-limiting step in the reaction. When the dissociation constant *K~s~* = \[*E*\]\[*S*\]/\[*ES*\] (equation 1) and the total enzyme concentration \[*E*\]~0~ = \[*E*\]+\[*ES*\] (equation 2), equation 2 can be substituted into equation 1 to provide the following equation.
+
+![equation 3](images/ch5/ch5fig03.png)
+
+The rate *v* to yield the product can be written as follows.
+
+![equation 4](images/ch5/ch5fig04.png)
+
+Equation 3 can be substituted into equation 4, with *V*~max~ = *k~+2~*\[*E*\]~0~, to provide the well-known Michaelis-Menten equation, as follows.
+
+![equation 5](images/ch5/ch5fig05.png)
+
+Equation 5 holds true when the second step (ES -&gt; E+P) is the rate-limiting step (i.e., k~-1~ &gt;&gt; k~+2~). You can derive a similar equation assuming a steady state.. In that case, *K~s~* in the equation 5 is substituted by *K~m~* as follows.
+
+![equation 6](images/ch5/ch5fig06.png)
+
+If *k~-1~* &gt;&gt; *k~+2~* in the equation 6, then k~+2~ can be ignored so that *K~m\ ~*= *K~s~*.
+
+### Kinetic Parameters and Thermodynamics
+
+The corresponding changes in the energy can be schematized as follows based on E, S, and P.
+
+![](images/ch5/ch5fig07.png)
+
+The energy change dG^0^ in the first step (E+S &lt;-&gt; ES) takes a negative value, and is related to *K~m~* (see above). After that, the energy change dG‡ in ES -&gt; ES‡ takes a positive value, and is related to *k*~+2~ (see above). An enzyme can stabilize the transition state ES‡ (i.e., lower the energy) to promote the reaction. As a result, the sum of the two energy changes (dGT‡ = dG^0^ + dG‡) is important for the overall reaction rate, and its value can vary greatly among different enzymatic reactions.
+
+### Enzymes Relevant to BIOMOD
+
+In BIOMOD, you probably will use nucleic acids as building blocks, and thus will need enzymes that act on nucleic acids. Below is a brief summary of enzymes that can amplify nucleic acid production (polymerases), cleavage (restriction enzyme/nucleases), and connection (ligases). See the following sections for details.
+
+#### Polymerases
+
+This family of enzymes synthesizes a nucleic acid macromolecule, such as DNA or RNA, using DNA or RNA as a template.
+
+DNA polymerase, which synthesizes DNA, can add a nucleotide to the OH group (hydroxyl group) at the 3' end of a DNA strand (i.e., the nascent chain extends in the 5' to 3' direction). It requires a "primer" sequence to initiate synthesis.
+
+RNA polymerases, which synthesize RNA, include those which use DNA as a template, those which use RNA as a template, and those which do not require any template (e.g., poly(A) polymerase, which add a polyA sequence to the 3' end of mRNA). Some RNA polymerases can synthesize an artificial nucleic acid, and some can even synthesize a natural nucleic acid using an artificial nucleic acid as template.
+
+#### Restriction Enzymes
+
+A restriction enzyme can recognize a specific sequence to cleave it. Each cleaved fragment ends up with either a blunt end, in which the ends of both strands are cut evenly, or a sticky end, in which one strand overhangs. The most popular ones are so-called "type II" restriction enzymes, each of which recognizes a palindrome sequence (i.e., a sequence that reads the same on one strand in the 5'-3' direction and on its complementary sequence in the 5'-3' direction).
+
+#### Nucleases
+
+This family of enzymes hydrolyzes the phosphodiester bond between the sugar and the phosphate. An endonuclease cleaves a nucleic acid sequence in the middle (endo) of it, whereas an exonuclease cleaves it from its end (exo).
+
+#### Ligases
+
+A ligase connects the 5' end of a nucleic acid molecule to the 3' end of the same or another molecule through a phosphate diester bond. These enzymes can cut and sew polynucleic acids.
+
+Hisashi Tadakuma (Kyoto University)
+
+## 46. Polymerase Reactions
+
+Polymerases are among the most commonly used enzymes in DNA computing and assembly. This section outlines polymerase as a replication tool, and PCR as an example of replication using a polymerase.
+
+### DNA Polymerase
+
+Enzymatic reactions are important to build for nucleic acid building blocks because they can directly manipulate/process DNA/RNA strands of interest. There are many examples of enzymatic reactions producing a desired design, e.g. in the implementation of a DNA computing reaction or the preparation of a DNA hydrogel. Polymerase enzymes are in charge of "copying", which is particularly important for bioengineering. The structures and mechanisms of polymerases have been extensively studied from a purely scientific viewpoint, but are not discussed in this section.
+
+By definition, DNA polymerase is an enzyme that extends (polymerizes) DNA. Along a template DNA, it synthesizes the complementary DNA sequence in the 5’-3’ direction, which starts from a primer DNA that has been hybridized to part of the template. During this process, one of the dNTPs (deoxynucleoside triphosphates) in the solution, i.e. dATP, dTTP, dCTP, or dGTP, is consumed as a substrate per corresponding base.
+
+![](images/ch5/ch5fig08.png)
+
+Figure based on \[2\].
+
+There are many types of DNA polymerase. For example, a major manufacturer, NEB (New England Biolabs), now lists as many as 25 different DNA polymerases in its catalogue \[1\], all of which have individual characteristics. Several parameters useful to compare them are described below.
+
+3’-&gt;5’ Exonuclease activity: An exonuclease activity is the ability to degrade DNA from its end, base by base. In this case, the degradation occurs in the 3’ to 5’ direction. It may seem somewhat contradictory to have both extension and degradation functions, but both are required for replication error correction. If an incorrect base is inserted, this function can remove the base and repeat synthesis at that position.
+
+5’-&gt;3’ Exonuclease activity: Likewise, this can degrade DNA in the 5’-3’ direction.
+
+Strand displacement activity: When the extension proceeds in the 5’-3’ direction and finds any DNA already hybridized to the template, this function removes it to continue the synthesis.
+
+Thermostability: At high temperature, most proteins are denatured and lose their function. Thermostable DNA polymerases that remain active even at high temperatures exist and are very useful for facilitating the PCR technique as described below. For example, DNA polymerases that appear in this book have the following characteristics according to NEB \[1\].
+
+Bst DNA polymerase, large fragment (used for DNA Toolbox)
+
+3’-&gt;5’ Exonuclease: -
+
+5’-&gt;3’ Exonuclease: -
+
+Strand displacement: ++++
+
+Thermal stability: +
+
+Phi29 DNA polymerase (used to form DNA physical hydrogel)
+
+3’-&gt;5’ Exonuclease: ++++
+
+5’-&gt;3’ Exonuclease: -
+
+Strand displacement: +++++
+
+Thermal stability: -
+
+Taq DNA polymerase with standard Taq buffer (used for PCR)
+
+3’-&gt;5’ Exonuclease: -
+
+5’-&gt;3’ Exonuclease: +
+
+Strand displacement: +\*
+
+Thermal stability: ++
+
+Note: - indicates the absence of the corresponding activity, and the number of + indicates the activity level. \* The displaced DNA strand is degraded.
+
+{aside}
+**Column: PCR**
+
+The below PCR technique is among the most popular DNA polymerase-based reactions, (see the figure below); it can amplify any desired portion of a double strand DNA. First, the double strand DNA is heated in an aqueous solution into single strand DNAs. The solution includes a large amount of primers that specify the portion to be amplified (green and red arrows in the figure) in advance, which undergo hybridization as a result of annealing. In this state, DNA polymerase starts extension to synthesize mutually complementary DNA strands (light green and light red). After that, it is heated back into the single strand DNA state and subjected to annealing again, which allows the primers to hybridize to the synthesized DNA, to initiate another extension reaction. By repeating this cycle, a double strand DNA solely composed of the desired portion is replicated exponentially, as indicated by yellow in the figure. Thanks to thermostable DNA polymerase, you no longer have to add enzyme after each cycle. {/aside}
+
+![](images/ch5/ch5fig09.png)
+
+Figure based on \[2\].
+
+### RNA Polymerase
+
+RNA polymerase is an important enzyme that serves as a central component of transcription machinery *in vivo*. In particular, DNA-dependent RNA polymerase uses a DNA template to synthesize its complementary RNA strand.
+
+One representative RNA polymerase is so-called T7 RNA polymerase. As shown in the figure below, T7 RNA polymerase uses NTPs (nucleoside triphosphates) as substrate to synthesize RNA from a double stranded DNA template, proceeding from a specific "initiation sequence" called T7 promoter sequence toward the 3’ direction. This enzyme is commonly employed in the field of DNA/RNA nanotechnology and DNA computing, e.g. in reaction systems such as RNA tiles \[3, 4\] and RTRACS \[4\].
+
+![](images/ch5/ch5fig10.png)
+
+_—Shogo Hamada (Cornell University)_
+
+## 47. Restriction Enzymes
+
+A restriction enzyme can recognize a specific sequence to cleave it or a nearby sequence. In BIOMOD, this kind of enzyme is employed not only as a processor of DNA materials, but also as a system component for signal generation etc.
+
+### History of Restriction Enzymes
+
+Restriction enzyme research started after WW II, and great progress was made in the 1970s (Smith, Arber, and Nathans won the Nobel Prize in Physiology or Medicine 1978).
+
+In 1952, Luria et al. (University of Illinois; developed LB medium for *E. coli*) found that a phage grown in a bacterial strain somehow became unable to infect another host strain. This phenomenon of "host-controlled restriction" suggested that certain bacterial strains might have a defense mechanism that could recognize and degrade a foreign DNA such as that of phage (but not their own DNA).
+
+In 1968, Yuan et al. (University of Cambridge) hypothesized that *E. coli* K12 should have a "restriction" enzyme for specific DNA degradation; they tried to purify it, and discovered type I restriction enzymes. However, type I restriction enzymes are no longer used as a genetic engineering tool because they can only randomly cleave at sites that are at least 1 kbp away from a recognition site.
+
+Type II restriction enzymes, now commonly used, were proposed and discovered by Werner Arber (University of Geneva) and Hamilton Othanel Smith et al. (Johns Hopkins University) in 1968.
+
+### Restriction Enzymes for DNA Manipulation
+
+Each cleaved fragment has either a blunt end, in which the ends of both strands are cut even, or a sticky end, in which one strand overhangs. The most popular ones are so-called type II restriction enzymes, each of which recognizes a palindrome sequence. In both of the examples shown below, it reads the same on one strand in the 5'-3' direction and on its complementary sequence in the 5'-3' direction. *Hind*III produces sticky ends (left), while *Eco*RV produces blunt ends (right).
+
+![](images/ch5/ch5fig11.png)
+
+When you use a restriction enzyme, you must pay attention to the salt concentration. The activity of a typical restriction enzyme is dependent on monovalent ion (K^+^, Na^+^, Cl^-^, OAc, etc.), divalent ion (Mg^2+^ etc.), and/or pH. From optimized buffer solutions available from enzyme manufacturers, you can choose one appropriate for the enzyme to be used. When you have to use more than one enzyme in combination, you can refer to buffer compatibility charts and apps provided by the same manufacturers. Recombinantly improved enzymes that can function in a single buffer solution have also been developed.
+
+Even when following the manufacturers’ instructions, you need to monitor the enzymes carefully. Each enzyme is shipped in a 50% glycerol solution for storage purposes, and too much glycerol impairs the recognition specificity of the enzyme, inducing off-target cleavage ("star activity"). There are commercially available recombinant enzymes that have less star activity.
+
+### Restriction Enzyme as Signal Generator
+
+For BIOMOD, you might want to construct a multi-component system. For this purpose, a restriction enzyme that only cleaves a specific recognition sequence can serve as a useful tool in information processing. For example, in a process that receives an external signal and generates an output signal, the restriction enzyme can be kept in an inactive state by any means (e.g., a steric effect such as caging) until the signal input, and upon the stimulus input can be turned into an active state to cleave a DNA substrate, releasing an amplified secondary signal. Alternatively, it can be used as an external trigger signal. For these purposes, you should make sure that the enzyme maintains the recognition/cleavage activity in a buffer for a different reaction system (e.g., a DNA computing circuit). Alternatively, you can choose a restriction enzyme that seems compatible with that buffer.
+
+{aside}
+**Column: Gibson Assembly**
+
+This technique was developed by Daniel Gibson at the J. Craig Venter Institute. Advantageously, compared to the classical procedure based on restriction enzymes and DNA ligase, it can join multiple DNA fragments more efficiently, in a shorter time and with fewer steps, and does not leave additional sequences derived from restriction sites (because such additional sequences may affect the activity, their absence is particularly important in protein expression). Specifically, it involves three enzymes as listed below (also available as a kit from NEB: E2611S or L). Although it employs the same basic strategy (i.e. annealing of complementary sequences and filling of any inter-strand gap) as the procedure solely based on restriction enzymes and DNA ligase, the combination of the three enzymes allows an efficient, one-pot reaction. Because it also allows the use of synthetic DNA fragments as starting material, this methods is getting more popular.
+
+T5 exonuclease: Degrades the 5' end of the starting material (double strand DNA) to expose shared single-stranded sequences for annealing.
+
+Thermostable DNA polymerase (Phusion polymerase etc.): Fills a gap between annealed DNA strands by synthesizing a complementary strand along the single-stranded region.
+
+Taq ligase: Sews up the nick that remains after the polymerase has filled the gap between annealed DNA strands.
+{/aside}
+
+{aside}
+**Column: Total Gene Synthesis**
+
+Thanks to recent advances in DNA synthesis techniques, high-fidelity DNA synthesis has become much less expensive. Now it is practical to synthesize previously impossible long strands. Specifically, organisms can synthesize DNA at a fidelity of 10^-6^ to 10^-7^, but chemical synthesis also has reached a fidelity of 10^-2^ to 10^-3^. For example, commercial DNA synthesis services for up to about 200 bp are available (IDT etc.). In addition, because these chemically synthesized DNA strands can be joined together or combined with natural enzymatic reactions, gene synthesis services for more than 10 kbp have become popular. For these services, you send sequence information through a website form or e-mail and get DNA of any desired sequence in several days to weeks. As a result, instead of gene manipulation based on restriction enzymes and ligase, you can obtain any desired DNA by just placing an order. This may be good news for non-biologist BIOMODers.
+{/aside}
+
+_—Hisashi Tadakuma (Kyoto University)_
+
+## 48. Artificial Bases
+
+Researchers conducting chemical synthesis of DNA (see section 44) made remarkable progress in 1980s. Researchers all over the world have been competing to develop artificial nucleic acid bases with useful functions that are never found in nature. Japanese researchers also have contributed much to this field. This section introduces commercially available artificial bases with unique functions that might be applicable to your BIOMOD project.
+
+### Azobenzene Photoswitch \[1\]
+
+This artificial base, developed by Hiroyuki Asanuma (Nagoya University) and Xingguo Liang (Ocean University of China) et al., can photo-switch DNA double helix formation/dissociation.
+
+![](images/ch5/ch5fig12.png)
+
+When this azobenzene residue absorbs UV light with a long wavelength (300 to 400 nm), it can photo-isomerize from the *trans* form (top) to the *cis* form (bottom). Upon absorption of visible light of &gt;400 nm, it can photo-isomerize from the *cis* form to the *trans* form. The standard *trans* form has a planar structure, and thus stabilizes the DNA double helix when inserted between base pairs in DNA. The *cis* form has a slightly twisted, bulky structure due to steric repulsion between the benzene rings, and thus greatly destabilizes the DNA double helix. This difference allows the selective dissociation of a DNA double helix controlled by UV irradiation and its selective formation by visible light irradiation. Because the isomerization efficiency is below 100%, it may not be effective to insert only one moiety. Amazingly, multiple moieties, with one inserted after every two bases, greatly stabilize the double helix in the *trans* form, and greatly destabilize it when isomerized to the *cis* form. If financially feasible, you should include multiple moieties.
+
+### Photo-Crosslinkable Artificial Base ^CNV^K \[2\]
+
+When exposed to light, this artificial base, developed by Kenzo Fujimoto et al. (JAIST), can fix a DNA double helix through covalent bonding.
+
+![](images/ch5/ch5fig13.png)
+
+When it is incorporated into one of the strands, it can be covalently bonded to T in the complementary strand upon one second of 366 nm UV irradiation. In order to separate them, you only have to expose them to 312 nm light. To make the connection more efficient, the base T in the complementary strand should be in the position facing **^CNV^**K or in a position next to that.
+
+### Photocleavable PC Linker \[3\]
+
+Another photo-controllable artificial base is the photocleavable (PC) linker, which allows you to cleave DNA by means of light.
+
+![p117-3.gif](images/ch5/ch5fig14.png)
+
+When this linker is inserted in the backbone of DNA, you can readily cleave the backbone by just exposing it to long wavelength UV (&gt; 300 nm) from a transilluminator or portable UV lamp. After the reaction, the ends of both fragments, i.e. the fragments 3’ and 5’ to the PC linker, have a phosphate monoester. Accordingly, you cannot ligate the 5’ fragment to any other fragment unless you dephosphorylate it.
+
+### Universal Bases dK and dP \[4\]
+
+These artificial bases have been developed to take advantage of the tautomerism of nucleic acid bases to allow base pairing with more than one type of base.
+
+![p118-1.gif](images/ch5/ch5fig15.png)
+
+dK is an analog of A and G, and can form a stable base pair with either of T and C. Likewise, dP is capable of base pairing with either of A and G.
+
+### Artificial Base Pair isoG-isoC \[5\]
+
+This world's first artificial base pair was developed by Benner et al. (formerly of Florida University) as a third base pair to add to A-T and G-C pairs.
+
+![p118-2.gif](images/ch5/ch5fig16.png)
+
+Compared to naturally occurring G and C, the positions of the amino and carbonyl substituents are all inverted. They are not recognized well by enzymes such as polymerases, but will suffice to serve as a third base pair in ordinary DNA computing systems.
+
+### Artificial Base Pair Ds-Pa \[5\]
+
+Below is another third type of base pair developed by Ichiro Hirao et al. (RIKEN).
+
+![p118-3.gif](images/ch5/ch5fig17.png)
+
+Surprisingly, this only relies on shape complementarity and not on hydrogen bond in base pairing, and can still be recognized by enzymes and correctly replicated.
+
+{aside}
+**Column: Biotin-Streptavidin Interaction**
+
+Streptavidin is one of the proteins most commonly used in the field of biochemistry. This protein, made of four identical subunits associated with each other, can bind to a compound called biotin (vitamin B7) with extreme strength (highest in biological systems), and is employed in many applications, e.g. in the immobilization of an enzyme. Biotin amidite, applicable to DNA synthesis, is also commercially available and can be introduced anywhere in a DNA strand, i.e. in the 5’ end, the 3’ end, or even the middle of it.
+
+![](images/ch5/ch5fig18.png){width="1.3452088801399824in" height="0.7768755468066492in"}
+
+Chemical structure of biotin. It can be conjugated to a different molecule through the carboxylate side chain.
+
+Biotin has many merits in DNA nanotechnology. For example, it is free of nonspecific adsorption onto mica, and can be observed as a bright 5 nm dot, which is taller than DNA. Our laboratory is so fond of this protein that there is a proverb: "Call streptavidin if you need help".
+
+![](images/ch5/ch5fig19.png){width="0.9441666666666667in" height="0.8616666666666667in"}
+
+Streptavidin (bright dot) caught by closed DNA pliers.
+{/aside}
+
+_—Akinori Kuzuya (Kansai University)_
+
+## 49. Non-Watson-Crick Structure
+
+A-T and G-C pairs, which are the source of DNA complementary, are called Watson-Crick base pairs after their discoverers. Most of naturally occurring DNA molecules exist as a double helix formed through these Watson-Crick base pairs, but some have been reported to form a triplex or even a quadruplex.
+
+In Watson-Crick base pairs, the imino proton (the 1 position) of a purine base participates in base pairing. In "Hoogsteen" base pairs, the 2 and 7 positions participate in base pairing, wherein T binds to an A-T pair and protonated C^+^ binds to a G-C pair.
+
+![DNA Triplex](images/ch5/ch5fig20.png)
+
+As seen from the figure above, only pyrimidines are capable of Hoogsteen bonding with normal Watson-Crick base (purine-pyrimidine) pairs. In line with this, naturally occurring DNA triplexes have been discovered that are each formed by Hoogsteen bonding between a homopurine-homopyrimidine region in a double helix (a sequence of consecutive purines or pyrimidines in one strand, such as AAAAAAAA/TTTTTTTT) and a third homopyrimidine strand (TTTTTTTT), which have been implicated in the regulation of gene expression.
+
+![](images/ch5/ch5fig21.png)
+
+Of the two kinds of triplets (triplet = a combination of three bases), the T-A-T triplet can form under any conditions. The C^+^-G-C triplet can only form under acidic conditions, because it requires protonated C^+^.
+
+In general, the binding of the third strand is less stable than the formation of the duplex. In the UV melting curve of such a triplex (see section 82), two-step melting is observed.
+
+Because a DNA triplex is not very stable, you may not be willing to use it in your BIOMOD project. Anyway, a sequence that includes consecutive purines or pyrimidines is not recommended in DNA sequence design.
+
+### G quadruplex
+
+Naturally occurring DNA quadruplexes \[2\], composed of even more strands, have also been discovered. The most famous one is the guanine quadruplex.
+
+![](images/ch5/ch5fig22.png)
+
+This is derived from a G quartet structure that is formed by Hoogsteen bonding among four guanine bases surrounding a coordinated metal ion. The metal ion trapped in the center is usually Na^+^ or K^+^ (K^+^ provides a stronger bond).
+
+In general, a sequence with three or more consecutive G bases tends to make this structure. *In vivo*, especially the telomere region at each end of a chromosome is enriched in G-repeat sequences (in the case of human genome, TTAGGG is repeated over and over). It has been proposed that possible quadruplex structure formation in this terminal single-stranded region may contribute to the stability of the chromosome itself.
+
+In principle, a typical guanine quadruplex is more stable than a DNA double helix. In sequence design, you should avoid three or more consecutive G bases. If a single strand has too many G-repeat sequences, it might be folded in a complex manner into a stable intramolecular quadruplex. For example, a strand with four repeats of a sequence, (TTAGGG)~4~, is well known to be folded in diverse fashions to form an intramolecular quadruplex.
+
+Conversely, you can make use of a guanine quadruplex to make a DNA-based molecular machine that can be triggered by Na^+^ and/or K^+^. For example, it’s possible to make a single molecule metal ion sensor, made of DNA pliers that detect Na^+^ and/or K^+,^ close by introducing a plurality of (TTAGGG)~2~ into the levers in the pliers (see section 26).
+
+### i-Motif
+
+The so-called i-motif\[3\] structure is another DNA quadruplex.. This structure does not involve Hoogsteen bonding, but is derived from mismatched base pairing between C and protonated C^+^.
+
+![](images/ch5/ch5fig23.png)
+
+One C-C^+^ base pair only results in a double strand. The i-motif is formed as a very unique structure; i.e., two double strands each formed by the C-C^+^ base-pairing align with each other in a head-to-tail orientation, through mutual intercalation of the hydrogen bonds in the two double strands.
+
+![](images/ch5/ch5fig24.png)
+
+Like the C^+^-G-C triplet, this requires the protonation of C, which means that an i-motif can be formed only under acidic conditions. Accordingly, several i-motif-based, pH-responsive DNA molecular machines have been reported.
+
+_—Akinori Kuzuya (Kansai University)_
+
+## 50. Protein Motors
+
+Protein motors are a class of proteins that can convert the chemical energy of the hydrolysis reaction of adenosine triphosphate (ATP), which is an energy currency *in vivo*, to a kinetic energy. These include myosin, which moves along actin and is involved in muscle contraction, and kinesin, which moves along microtubules and is involved in the intracellular transport of transport vesicles and organelles.
+
+### Myosin Structure and Function
+
+The most important function of muscle is to generate a force to move the body. The principal source of its contraction force is two different proteins, myosin and actin.
+
+Myosin has a molecular weight of 520,000, which contains a head for actin binding and ATP hydrolysis and a tail for self-assembly into a filament (FIG. 1(A)). Actin filament is a filamentous polymer of a right-handed double helix structure, with about 13 monomers of globular (G) actin per turn, which has a molecular weight of about 42,000 (FIG. 1(B)). G-actin is composed of four subdomains that are different in size, conferring a polarity to actin filament. Myosin moves actin toward the minus end to cause muscle contraction.
+
+![Actin (A) and myosin (B) filaments](images/ch5/ch5fig25.png)
+
+### Molecular Mechanism of Muscle Contraction
+
+The swinging crossbridge hypothesis has been proposed to explain contraction by myosin and actin; in this hypothesis, the myosin head binds to actin and changes its angle to generate a force. This hypothesis has been examined using X-ray crystallography, optical tweezers, etc. After measurement with optical tweezers, the step length of myosin proved to be 9 to 13 nm. A glass needle measuring the displacement of myosin revealed that myosin moves through successive sub-steps of about 5.3 nm, which is comparable to the diameter of the actin monomer. Moreover, a single-molecule observation of myosin under a varying external load has demonstrated that the step length of myosin decreases in response to an increase in the load; i.e. it is load-dependent.
+
+![](images/ch5/ch5fig26.png)
+
+(A) The use of a biotin-streptavidin interaction to observe the displacement of a myosin head moving along an actin filament. (B) Step length observed by the needle. An average sub-step of 5.3 nm was observed. Reprinted with permission from *Nature*, 1999 \[2\].
+
+### Kinesin Structure and Function
+
+Because a kinesin protein, which is necessary for *in vitro* motility assays, can be recombinantly expressed in *E. coli* and purified, we can prepare either its pure form or a recombinant mutant. Another characteristic of kinesin is the capability to move continuously. Once kinesin interacts with a microtubule, it continuously moves about 100 steps. This is suitable for single-molecule observation.
+
+The structure of kinesin is a tetramer made of two heavy chains and two light chains. The heavy chain has a motor domain (head) composed of an ATP-hydrolyzing subdomain and a microtubule-binding subdomain, a stalk domain composed of coiled-coil regions, and a tail to bind to a cargo. The rail for kinesin, i.e. microtubule, is a hollow tube made by the polymerization of tubulin dimers, which is composed of α-tubulin and β-tubulin. A microtubule has polarity, i.e. a plus end and a minus end defined by their polymerization rate.
+
+Kinesin can bind a cargo to its tail, and repeat ATP hydrolysis and the association to and dissociation from a microtubule through its motor domain to move toward the plus end, resulting in the transport of transport vesicles and organelles.
+
+### Mechanism of Kinesin Motion
+
+Characteristically, kinesin is capable of continuous motion, which has been demonstrated in *in vitro* motility assays. Principally, there are two types of such assays. One works by immobilizing kinesin on a glass surface and observing a microtubule moving over it (FIG. 3(A)); the other works by immobilizing a microtubule on a glass surface and observing the movement of a kinesin-adsorbed bead or fluorescently labeled kinesin along it (FIG. 3(B)). The latter assay has also been combined with optical tweezers to demonstrate that kinesin moves along a microtubule with a step length of 8 nm.
+
+![*In vitro* motility assays](images/ch5/ch5fig27.png)
+
+The "hand-over-hand" model has been proposed to explain the mechanism of kinesin moving along a microtubule. In this model, kinesin alternately moves two heads to "walk" like a human (FIG. 4). In the solution, each kinesin head has ADP bound to it but, upon microtubule binding, one of the heads dissociates from ADP and binds to ATP. Then, ADP dissociation from another head is promoted. In this manner, the two heads alternately repeat ADP dissociation, allowing the stepwise movement of kinesin along a microtubule.
+
+By attaching a fluorescent dye to one motor domain of kinesin and subjecting it to a single-molecule measurement, researchers have demonstrated that the motor domain achieves an average step length of about 17 nm and that kinesin moves hand-over-hand.
+
+![Hand-over-hand model](images/ch5/ch5fig28.png)
+
+_—Ren Sasaki and Akira Kakugo (Hokkaido University)_
+
+## 51. FRET and Molecular Beacons
+
+Light can be useful in detecting an interaction, because it can pass through a wide range of materials and detect the interaction state in a non-destructive manner. Fluorescence is a light emitted by fluorescent dye, which only requires excitation light. You can choose an appropriate one for your purpose from a variety of fluorescent molecules in the visible spectrum. A reaction that emits light upon the interaction is useful for detecting an interaction. "FRET" and "molecular beacon" techniques are often used in BIOMOD.
+
+### FRET and Molecular Beacons
+
+FRET is short for fluorescence resonance energy transfer or Förster resonance energy transfer. Only when the distance between two dyes is very short (about 10 nm) can the fluorescence can be detected. Therefore, FRET is used to detect whether two substances are in proximity and/or interacting with each other.
+
+In principle, a molecular beacon is similar to FRET, except that one of two dyes is a quencher, which only absorbs and does not emit light. By attaching a fluorescent dye to one end of a DNA or RNA strand and a quencher to another end of the same strand, with the sequence designed to be capable of intra-strand hybridization, the fluorescence is usually not observed because the fluorescent dye and the quencher are positioned very close to each other so that the fluorescence is quenched. However, once the molecular beacon binds to its target, the distance between the fluorescent dye and the quencher gets longer so that the light emitted by the fluorescent dye can be observed.
+
+### Fluorescence
+
+Fluorescence is emitted during the process of a molecule being excited from its ground state (S0) to an excited state (S1) and then returning to the ground state, releasing energy. This process can be illustrated by a Jablonski diagram. The time scale of the entire phenomenon is in nanoseconds, wherein the transition to the excited state occurs on a scale of femto (10^-15^) seconds, and the emission of fluorescence occurs on a scale of nano (10^-9^) seconds. Due to thermal vibration etc., the energy of the fluorescence is lower than that absorbed by the fluorescent dye (i.e. the wavelength shifts to a longer wavelength), which is called a Stokes shift. Because the properties of the fluorescence (wavelength and half-life) can be affected by the motion of the fluorescent molecule and its interaction with its surroundings, various fluorescence spectroscopy techniques have been developed.
+
+![](images/ch5/ch5fig29.png)
+
+### Principles of FRET
+
+A fluorescent molecule (donor) emits energy as fluorescence and returns to the ground state. When another fluorescent molecule (acceptor) that can receive the energy is present in close proximity, a dipole-dipole interaction occurs between the transition dipoles, and the energy is transferred. One result is that, even when the donor is excited, the energy is transferred to the acceptor, which (instead of the donor) then emits light. The probability of the energy transfer depends on the relative orientation of the donor and the acceptor. The efficiency of the transfer is inversely proportional to the distance between them^6^. In commonly used organic fluorescent dyes and fluorescent proteins such as GFP, energy transfer occurs at a distance of about 10 nm.
+
+The energy transfer efficiency E~FRET~, which is a measure of the energy transfer, can be expressed as
+
+![equation 1](images/ch5/ch5fig30.png)
+
+with R being the distance between the two fluorescent dyes, I~D~ being the fluorescence intensity of the donor, and I~A~ being the fluorescence intensity of the acceptor. R~0~ is the distance at which E~FRET~ is 50% (Förster distance), calculated as follows.
+
+![equation 2](images/ch5/ch5fig31.png)
+
+![equation 3](images/ch5/ch5fig32.png)
+
+εA(λ) : molar extinction coefficient of the acceptor at wavelength λ
+
+F~D~(λ) : fluorescence intensity of the donor at wavelength λ
+
+λ: wavelength
+
+κ^2^: orientation factor
+
+Φ~D~: quantum efficiency of donor
+
+n : refractive index of solvent
+
+J represents the spectral overlap between donor emission and acceptor absorption, and has a unit of \[M^-1^ cm^3^\].
+
+### Principles of Molecular Beacons
+
+In FRET, an acceptor that receives energy and converts it into heat, instead of fluorescence, is called a dark quencher (quencher). No fluorescence is detected when the donor and the acceptor are in close proximity to each other, but the donor fluorescence becomes detectable when they move apart.
+
+Usually, they are attached to both ends of a single-stranded nucleic acid (artificial nucleic acid) of a stem loop structure. In the absence of target binding, the donor and the quencher are in close proximity to each other, so that the donor fluorescence is not emitted. When the molecular beacon binds to its target through a probe sequence included in the beacon (a sequence complementary to the target sequence), the distance between the donor and the quencher becomes longer as the hybridization proceeds, allowing the donor fluorescence to be observed. This method can be used to detect an information state by means of fluorescence.
+
+_—Hisashi Tadakuma (Kyoto University)_
+
+## 52. Artificial Cell and Liposome (and Some Related Topics)
+
+Lipid bilayer membranes hold promise for use in DNA nanotechnology. The membrane’s closed vesicle (microcapsule) provides a supramolecular structure called a liposome or a shell for artificial cell \[1\]. In the future, molecular designs will increase in scale from single molecule to supramolecule and even supramolecular complexes. Lipid vesicles may serve as a platform for design, so we will outline some principles in this section.
+
+### Introduction
+
+Unlike a programmable artificial life model in a computer, artificial life in the real world is difficult to realize. Practically, all you can expect is to reconstitute parts of the various functions of a cell. A simple set of molecules can be introduced into a microcapsule as a model of a cell, to produce a so-called artificial cell \[1\]. A lipid membrane vesicle, i.e. liposome, is often used as a carrier.
+
+### Lipid Membrane
+
+Lipid molecules are amphiphilic; each contains both hydrophilic and hydrophobic functional groups. When dispersed in water, they assemble into a structure that hides the hydrophobic portions inside. Different shapes of lipid molecules can produce different structures, including a sphere (micelle), rod (micelle), film (membrane), and plate (membrane). The field of research studying these assemblies of molecules based on non-covalent weak interactions is called supramolecular science (chemistry). In addition to macromolecular chemistry, you should learn about supramolecular chemistry if you want to win BIOMOD \[3\]. Well-known examples of artificial lipid membranes include black film, LB membrane, water-in-oil (w/o) emulsion, and liposomes (FIG. 1).
+
+### Liposome
+
+A liposome is a closed vesicle made of a lipid bilayer membrane, first reported in 1964 by Bangham. The lipid membrane is an excellent hydrophobic barrier to enclose and separate the inside microvolume from the outside. It has a lipid bilayer structure similar to a cell membrane, and thus its application to the biological membrane model, cosmetics, DDS (drug delivery system \[4\]), and artificial cells has been extensively studied. A liposome can be classified as SUV, LUV, MLV, or GUV depending on its size and membrane structure. There is also growing interest in polymersomes, which are made of amphiphilic macromolecules (polymers), because of their robustness and ease of functionalization. Since Hotani et al. succeeded in the direct observation of GUV by dark field microscopy in 1980s, high-resolution observation techniques using fluorescently labeled molecules to look at cell-sized liposomes have also been developed \[1\]. There have been a number of attempts to install a biochemical reaction system inside a liposome, and monitor/assess it. Thanks to advances in microprocessing technology and other techniques, it has become much easier to prepare cell-sized liposomes of a uniform size (see section 89).
+
+![](images/ch5/ch5fig33.png)
+
+### Artificial Cell
+
+Attempts to assemble an imitation of a cell or even a true cell from substances, together with questions about the origin of life and xenobiology, have produced a wide range of models, the most famous of which are those by Traube and Oparin. Artificial cells can be used to solve the mystery of the asymmetry of a cell or how cells accomplish one-way traffic at certain times. It is possible to operationally clarify how the substances and their systems behave by observing an artificial, "cell-like" environment instead of a cell. For example, researchers have already achieved a simplified protein synthesis system \[5\], mimicry of Darwinian evolution by incorporating spontaneous mutation into RNA replication \[6\], synthetic lipid-based coupling of membrane replication with DNA replication \[7\], a mycoplasma cell with a fully synthetic genome (dubbed as Synthia) \[8\], and protein synthesis by a liposome that contains *E. coli* extract, which aims at manufacturing a whole cell \[9\]. In Japan, the Japanese Society for Cell Synthesis Research was launched in 2005 \[10\].
+
+### "Synthetic Biology" in Short
+
+Synthetic biology is a novel discipline that seeks to modify and extend the molecular system of a cell. Although it partially overlaps with artificial cell/molecular robotics, which is usually focused on scratch building, it is thought to be important primarily in terms of applied science. Synthetic biology has a large advantage in that it can rely on self-replication mechanisms of an organism. An international student competition of synthetic biology, iGEM, is an elder sibling of BIOMOD.
+
+### Artificial Cell and DNA Nanotechnology
+
+A typical lipid membrane is a loose supramolecular structure in which each lipid molecule continuously undergoes translational diffusion. If a DNA origami structure is put on the membrane, it will show a two-dimensional diffusion movement similar to the movement of a raft on the sea. The Tohoku University team won BIOMOD 2012 with a project called "Cell Gate", which used DNA origami to build a transmembrane channel for DNA transport from scratch and introduced it into the cell membrane. One week after this group returned from BIOMOD, Langecker et al. reported an origami channel in Science \[10\] . In 2013, the Dresden team won 2nd place with a polymersome loaded with a prototype Cell Gate. In 2013 and 2014, the University of Tokyo Kashiwa team reported the construction of an artificial origami receptor and discussed its application to artificial cells. Non-student researchers have also published a series of related papers, including a report on the implementation of DNA computing in an artificial cell system. Artificial membrane/artificial cell systems are highly compatible with DNA nanotechnology in nature. The next challenge will be to fuse them with living cells. A report published by S. Douglas et al. in the first year of BIOMOD \[11\] has set a high hurdle. Maybe your team will be able to clear it.
+
+### Concluding Remarks
+
+DNA, lipid membranes, liposomes, cells, and organisms are all tangible, i.e. engineerable entities, but "life" is just a word and a concept. What kind of system is needed to produce an artificial cell that surpasses life? This is an interesting question to think about. It might be that the engineering technology of mankind leaves much to be desired as long as artifacts belong to a subset of life. Feynman asked how to put a toothed gear meshing with another into words. Let's try to create something hard to express in words, taking advantage of this engineering opportunity \[12\].
+
+_—Shinichiro M. Nomura (Tohoku University)_
