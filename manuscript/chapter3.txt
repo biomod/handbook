@@ -574,9 +574,8 @@ Some examples of large-scale systems that combine DNAzyme logic gates have been 
 
 Another system is a display \[7\] (Fig. 4, right). In response to a combination of inputs, the display outputs the result of decimal to binary conversion, four arithmetic operations, or the like as a digit from 1 to 9 on an array of wells.
 
-![](images/ch3fig42.png)
-
-**Fig. 4.** DNAzyme-based tic-tac-toe \[6\] and display \[7\]. Reprinted with permission from American Chemical Society, 2006 and Angewandte Chemie International Edition, 2014.
+![**Fig. 4.** DNAzyme-based tic-tac-toe \[6\] and display \[7\]. ](images/ch3fig42.png)
+Reprinted with permission from American Chemical Society, 2006 and Angewandte Chemie International Edition, 2014.
 
 _—Ibuki Kawamata (Tohoku University)_
 
@@ -596,9 +595,8 @@ When the catalyst as input is present, it hybridizes to the domain E, initiating
 
 The activity of the catalyst is not affected by the reaction. Once released after the reaction, it can drive another cycle and function endlessly as long as the substrate is present.
 
-![](images/ch3fig43.png)
+![**Fig. 1.** Reaction mechanism of an entropy-driven gate.](images/ch3fig43.png)
 
-**Fig. 1.** Reaction mechanism of an entropy-driven gate.
 
 ### Experimental Evidence of Amplification Reaction
 
@@ -608,9 +606,8 @@ As seen from the graph, the concentration of the output is higher than that of t
 
 Some researchers have reported a two-level gate system such as an autocatalytic reaction with the output and input having an identical sequence. Experimental and model analysis results of the two-level system suggests that 12 hours of the reaction can even determine the presence/absence of the input molecule at a concentration of 0.01% (in chemical equivalent). However, the autocatalytic reaction generates some amount of the output also in the absence of the input (leak reaction) as another consequence of the exponential amplification.
 
-![](images/ch3fig44.png)
+![**Fig. 2.** Results of a simulation of an entropy-driven gate](images/ch3fig44.png)
 
-**Fig. 2.** Results of a simulation of an entropy-driven gate (based on \[1\])
 
 ### Entropy
 
@@ -622,9 +619,8 @@ What does not stay the same after the reaction is the number of molecules (from 
 
 Because it is an entropy-driven system, the reaction is relatively resistant to the influence of temperature and salt concentration on DNA hybridization. Thus, various applications are conceivable besides amplification.
 
-![](images/ch3fig45.png)
+![Fig. 3. Only the catalytic reaction step is depicted.](images/ch3fig45.png)
 
-**Fig. 3.** Only the catalytic reaction step is depicted.
 
 _—Ibuki Kawamata (Tohoku University)_
 
@@ -827,8 +823,7 @@ Among them, a genetic algorithm is a methodology to find a candidate solution wi
 
 On the other hand, there is an established method to search for a molecule with a particular function (e.g., affinity to a target molecule) by subjecting a library of polymeric molecules such as DNA, RNA, and proteins for artificial evolution. This is called artificial evolution of molecules or *in-vitro* selection. In other words, this is a solution method for optimization problems about molecules.
 
-Masami Hagiya (Tokyo University)
+_—Masami Hagiya (Tokyo University)_
 
-![p89.gif](media/image60.gif)
+![NanoQRcode Kansai University 2014](images/ch3fig60.png)
 
-NanoQRcode Kansai University 2014
