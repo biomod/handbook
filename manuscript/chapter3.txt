@@ -546,17 +546,14 @@ Upon Mg^2+^ addition, the backbone of the blue substrate molecule is cleaved. As
 
 In addition to the Mg^2+^-dependent sequence, known examples of DNAzyme with degradation activity include Zn^2+^- and Pb^2+^-dependent sequences \[2\]. Apart from degradation activity, a sequence with a ligase activity that connects backbone fragments and the like have also been reported \[3\].
 
-![](images/ch3fig39.png)
+![Schematic of DNAzyme](images/ch3fig39.png)
 
-**Fig. 1.** Schematic of DNAzyme.
 
 ## DNAzyme-Based Systems
 
 A DNAzyme is not only applicable to a metal ion detection system, but also to more complex systems that are driven by DNA inputs. Typical examples include walkers and logic gates. In a walker system, a DNAzyme repeats the degradation reaction, causing the site of degradation to move around \[4\] (see section 25).
 
-![](images/ch3fig40.png)
-
-**Fig. 2.** DNAzyme-based AND gate.
+![DNAzyme-based AND gate.](images/ch3fig40.png)
 
 A DNA logic gate has been implemented so that a substrate is cleaved only when a desired hybridization has occurred \[1\]. Fig. 2 shows an AND gate. In the initial state, the hairpin structures in the top and bottom portions of the red DNA prevent its hybridization to the substrate. Either input can open one of the hairpin structures, which is still not sufficient for the substrate to be cleaved. Only in the presence of both inputs can the substrate be cleaved to emit the fluorescence as output.
 
@@ -564,7 +561,7 @@ On the contrary, a system that is initially active but is inactivated by an inpu
 
 A cascade of such DNAzyme logic gates has also been attempted \[5\]. The system is schematically shown in Fig. 3. Each cleaved product activates or inactivates the next cleavage reaction, allowing a particular combination of inputs to generate a fluorescence as output.
 
-![](images/ch3fig41.png)
+![Multilayered DNAzyme logic gate cascade](images/ch3fig41.png)
 
 **Fig. 3.** Multilayered DNAzyme logic gate cascade \[5\]. Reprinted with permission from Nature Publishing Group, 2010.
 
@@ -574,7 +571,8 @@ Some examples of large-scale systems that combine DNAzyme logic gates have been 
 
 Another system is a display \[7\] (Fig. 4, right). In response to a combination of inputs, the display outputs the result of decimal to binary conversion, four arithmetic operations, or the like as a digit from 1 to 9 on an array of wells.
 
-![**Fig. 4.** DNAzyme-based tic-tac-toe \[6\] and display \[7\]. ](images/ch3fig42.png)
+![DNAzyme-based tic-tac-toe](images/ch3fig42.png)
+
 Reprinted with permission from American Chemical Society, 2006 and Angewandte Chemie International Edition, 2014.
 
 _—Ibuki Kawamata (Tohoku University)_
@@ -595,7 +593,7 @@ When the catalyst as input is present, it hybridizes to the domain E, initiating
 
 The activity of the catalyst is not affected by the reaction. Once released after the reaction, it can drive another cycle and function endlessly as long as the substrate is present.
 
-![**Fig. 1.** Reaction mechanism of an entropy-driven gate.](images/ch3fig43.png)
+![Reaction mechanism of an entropy-driven gate](images/ch3fig43.png)
 
 
 ### Experimental Evidence of Amplification Reaction
@@ -606,7 +604,7 @@ As seen from the graph, the concentration of the output is higher than that of t
 
 Some researchers have reported a two-level gate system such as an autocatalytic reaction with the output and input having an identical sequence. Experimental and model analysis results of the two-level system suggests that 12 hours of the reaction can even determine the presence/absence of the input molecule at a concentration of 0.01% (in chemical equivalent). However, the autocatalytic reaction generates some amount of the output also in the absence of the input (leak reaction) as another consequence of the exponential amplification.
 
-![**Fig. 2.** Results of a simulation of an entropy-driven gate](images/ch3fig44.png)
+![Results of a simulation of an entropy-driven gate](images/ch3fig44.png)
 
 
 ### Entropy
@@ -619,7 +617,7 @@ What does not stay the same after the reaction is the number of molecules (from 
 
 Because it is an entropy-driven system, the reaction is relatively resistant to the influence of temperature and salt concentration on DNA hybridization. Thus, various applications are conceivable besides amplification.
 
-![Fig. 3. Only the catalytic reaction step is depicted.](images/ch3fig45.png)
+![The catalytic reaction step](images/ch3fig45.png)
 
 
 _—Ibuki Kawamata (Tohoku University)_
@@ -669,7 +667,7 @@ Further elaborate circuits are also possible. For example, a seesaw gate-based n
 
 ![](images/ch3fig50.png)
 
-Reprinted with permission from Nature, 2011 \[3\]
+Reprinted with permission from Nature, 2011 \[3\].
 {/aside}
 
 _—Takashi Nakakuki (Kyushu Institute of Technology)_
@@ -702,9 +700,7 @@ As already described, the single-strand signal DNA is degraded by an exonuclease
 
 DNA toolboxes include three basic modules of activation, autocatalysis, and inhibition. Fig 2 shows their mechanism, behavior, and graph representation. In the graph representation, a circular node represents signal, an arrow represents template, and the T-shaped line represents inhibition.
 
-![](images/ch3fig52.png)
-
-**Fig. 2:** DNA toolbox modules.
+![DNA toolbox modules](images/ch3fig52.png)
 
 The third module for inhibition is driven by a type of signal DNA called an "inhibitor". The inhibitor can bind to more than one site in the target template, but does not elicit polymerase or nickase reactions (due to sequence mismatch and incomplete recognition sequence, respectively). Until dissociation of the inhibitor, the template is kept inactive. Note that the inhibitor cannot be used as an input DNA.
 
@@ -826,4 +822,3 @@ On the other hand, there is an established method to search for a molecule with 
 _—Masami Hagiya (Tokyo University)_
 
 ![NanoQRcode Kansai University 2014](images/ch3fig60.png)
-
