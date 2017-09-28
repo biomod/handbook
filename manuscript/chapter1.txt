@@ -4,7 +4,9 @@
 
 The BIOMOD Handbook is an English-language translation of the following book:
 
-瀧ノ上正浩・他 (共著), 分子ロボティクス研究会 (編), “DNA分子デザインのすべて～BIOMOD虎の巻（2016年度版）”, CBI eBook Series No. 2, 情報計算化学生物学会 (CBI 学会) 出版, (2016/04/15), 224ページ, ISBN 978-4-9903708-9-3 [PDF](http://cbi-society.org/home/documents/eBook/Biomod2016.pdf) Open Access.
+![](images/aboutfig1.png)
+
+[PDF](http://cbi-society.org/home/documents/eBook/Biomod2016.pdf) Open Access.
 
 The authors retain the copyright to the original book, and the CBI society holds the rights to copy/distribute/edit/republish Japanese version.
 
