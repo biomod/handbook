@@ -491,3 +491,132 @@ Strand displacement (branch migration): replaces one strand in a double strand.
 ![](images/ch3fig36.png)
 
 _—Masami Hagiya (Tokyo University)_
+
+
+
+## 29. DNA Logic Gates
+
+There have been many attempts to implement a logic circuit using DNA molecules. This section summarizes basic concepts of logic circuits, general principles in their implementation by molecules, and examples of an enzyme-free logic gate (Seelig _et al._) and a reversible logic circuit (Genot _et al._).
+
+### Logic Circuit
+
+Logic circuit is one of the most basic computation models. Why? A bit is the most fundamental data unit. Thus a function that receives a bit sequence as input and generates a bit as output (Boolean function) provides the most basic operation. Such a function is implemented by logic circuit. This type of logic circuit is called a "combinatorial circuit". A sequential circuit is another type of logic circuit, one that has a memory section. This section will focus on combinatorial circuits
+
+In mathematics, a logic circuit is a digraph without cycles. In general, the number of directed edges entering a node in a digraph is called the indegree of the node, while the number leaving it is called the outdegree. In a logic circuit, a node is classified as an input node or logic gate. The indegree of an input node is 0. Basic logic gates include AND, OR, and NOT. AND and OR have an indegree of 2, while NOT has an indegree of 1. One of the logic gates is defined as an output node. The length of the longest path from the input node to the output node is called the depth of the logic circuit.
+
+From the viewpoint of computational complexity, the logic circuit as a computation model has been extensively studied. For example, the "NC" class of computational complexity has been defined. When a Boolean function family with an input of n bits belongs to NC, it means that there is a logic circuit family to implement the function, with the number of gates being a polynomial of n and the depth of the circuit being a polynomial of log n. Note that a Turing machine with limited computational resources exists, and receives n as input and generates (the representation of) a logic circuit for an input of n bits as output.
+
+### Implementation by Molecules
+
+Implementing logic circuits by molecular reactions is the most basic subject in the field of molecular computing. In order to design a molecular reaction-based logic circuit, you must define how to represent the bits 0 and 1, first of all. Generally, a bit can be represented by voltage, light intensity/wavelength, magnetic field direction, temperature, and many other physical phenomena. You have to assign a specific molecule species to each gate in order to make a plurality of molecular reaction-based gates operate in a chain reaction, with an output of one gate being an input to another gate.
+
+Accordingly, in the most basic case, different molecular species are assigned to different gates. For example, molecular species G is assigned to gate g. When the output of gate g is 0, it is represented by the absence of molecular species G (concentration = 0), and when the output of gate g is 1, it is represented by the presence of molecular species G (concentration ≥ a predetermined threshold). Theoretically, an output of 1 can be represented by as little as one molecule. Practically, a threshold concentration is defined so that an output is determined to be 1 when the concentration of G is equal to or more than the threshold. It’s best to have the concentration as close to 0 as possible when the output is 0. This representation method is called single-rail representation in comparison with dual-rail representation, which is as follows.
+
+In so-called dual-rail representation, two molecular species G and H are assigned to each gate g. An output of g of 1 is represented by the presence of molecule G (concentration ≥ a predetermined threshold), whereas an output of g of 0 is represented by the presence of molecule H (concentration ≥ a predetermined threshold).
+
+**Enzyme-Free Logic Circuits of Seelig**
+
+Below is a schematic of an enzyme-free logic gate by Seelig _et al._
+
+![](images/ch3fig37.png)
+
+In this figure, an AND gate is implemented. Gin and Fin are inputs. First, Gin binds to the toe-hold in the single strand G in the gate, which results in a double strand formation between Gin and G by strand displacement reaction. Then the newly exposed toe-hold is bound by Fin, which results in a double strand formation between F and Fin by strand displacement reaction. As a result, when the inputs Gin and Fin are both present, the output Eout is released as a single strand.
+
+The single stranded (or partially single-stranded) DNA molecules each represent a bit, and the gate operates by generating new single strands depending on the combination of the inputs. The strand displacement reaction to form a stable double strand is irreversible, i.e. proceeds only unidirectionally. Therefore, this system cannot drive a reaction by the absence of a molecular species, making it hard to implement a NOT gate in single-rail representation. When NOT is present, dual-rail representation is required.
+
+Reversible Logic Circuit of Genot _et al._
+
+Genot _et al._ has implemented a reversible logic gate as shown in the following figure, which is also an AND gate.
+
+![](images/ch3fig38.png)
+
+Each of the two inputs (Fin and Gin) can alter the structure of the AND gate, but the single strand region Eout as output is exposed only when both inputs are present. These reactions, though with different reaction rates, each can proceed in either direction. Thus, when one of the inputs is removed, the reaction proceeds in the reverse direction and the output is lost.
+
+Therefore, a NOT gate is also possible in single-rail representation. A single strand G, which represents the NOT gate, is put in the system in advance. An input to the NOT gate is a single strand complementary to G. The input can form a double strand with G to remove it from the system, meaning that G has been denied. Once G is removed, the gate reaction in the later step proceeds reversibly, so that the logic circuit operates correctly.
+
+_—Masami Hagiya (Tokyo University)_
+
+## 30. DNAzyme Logic Gates
+
+There is a particular type of DNA sequence that has enzyme-like functions, called a "DNAzyme." This chapter introduces DNAzymes that can degrade a ribonucleotide backbone in a metal ion-dependent manner. An example of DNAzyme-based logic gate is also introduced.
+
+Metal Ion-Dependent DNAzyme
+
+This section describes a DNAzyme with metal ion-dependent endonuclease activity. Fig. 1 is a schematic of an Mg^2+^-dependent DNAzyme \[1\]. The red arrow represents the DNAzyme and the blue arrow represents its substrate molecule. The blue molecule is a DNA/RNA chimera, which is cleaved by the DNAzyme at the ribose in the backbone. In order to observe the reaction, its ends are modified with fluorescent and quencher molecules. In the initial state, the fluorescence is suppressed by FRET (see section 51).
+
+Upon Mg^2+^ addition, the backbone of the blue substrate molecule is cleaved. As a result, the distance between the fluorescent and quencher molecules increases and the FRET is lost, emitting fluorescence. The curved portion in the red arrow is the essential catalytic domain. On the other hand, virtually any complementary sequence pairs can be used for the hybridization regions between the red DNA and the blue substrate, without affecting the activity.
+
+In addition to the Mg^2+^-dependent sequence, known examples of DNAzyme with degradation activity include Zn^2+^- and Pb^2+^-dependent sequences \[2\]. Apart from degradation activity, a sequence with a ligase activity that connects backbone fragments and the like have also been reported \[3\].
+
+![Schematic of DNAzyme](images/ch3fig39.png)
+
+## DNAzyme-Based Systems
+
+A DNAzyme is not only applicable to a metal ion detection system, but also to more complex systems that are driven by DNA inputs. Typical examples include walkers and logic gates. In a walker system, a DNAzyme repeats the degradation reaction, causing the site of degradation to move around \[4\] (see section 25).
+
+![DNAzyme-based AND gate](images/ch3fig40.png)
+
+A DNA logic gate has been implemented so that a substrate is cleaved only when a desired hybridization has occurred \[1\]. Fig. 2 shows an AND gate. In the initial state, the hairpin structures in the top and bottom portions of the red DNA prevent its hybridization to the substrate. Either input can open one of the hairpin structures, which is still not sufficient for the substrate to be cleaved. Only in the presence of both inputs can the substrate be cleaved to emit the fluorescence as output.
+
+On the contrary, a system that is initially active but is inactivated by an input can be constructed by placing a similar hairpin in the active site. In addition to AND, ⊅ (non-implication) and XNOR have also been reported \[1\].
+
+A cascade of such DNAzyme logic gates has also been attempted \[5\]. The system is schematically shown in Fig. 3. Each cleaved product activates or inactivates the next cleavage reaction, allowing a particular combination of inputs to generate a fluorescence as output.
+
+![Multilayered DNAzyme logic gate cascade](images/ch3fig41.png)
+
+**Fig. 3.** Multilayered DNAzyme logic gate cascade \[5\]. Reprinted with permission from Nature Publishing Group, 2010.
+
+## Tic-tac-toe and Display
+
+Some examples of large-scale systems that combine DNAzyme logic gates have been reported. One is a tic-tac-toe system \[6\] (Fig. 4, left). Instead of a grid, it contains wells that represent the grid, and a human pipets DNA into the system and is represented by a particular square (input). The system player in this game emits fluorescence from a well that represents another particular square (output). The game proceeds by repeating the pipetting and fluorescence readout. The game is programmed so that the system beats the human.
+
+Another system is a display \[7\] (Fig. 4, right). In response to a combination of inputs, the display outputs the result of decimal to binary conversion, four arithmetic operations, or the like as a digit from 1 to 9 on an array of wells.
+
+![DNAzyme-based tic-tac-toe](images/ch3fig42.png)
+
+Reprinted with permission from American Chemical Society, 2006 and Angewandte Chemie International Edition, 2014.
+
+_—Ibuki Kawamata (Tohoku University)_
+
+## 31. Entropy-Driven Gate
+
+An entropy-driven gate is an example of a system based on DNA strand displacement reactions. An input DNA is used as catalyst to activate an amplification reaction that generates an output DNA. Comparison of free energy before and after the reaction reveals that this system is driven by the entropy term rather than the enthalpy term.
+
+### Strand Displacement-Based Gate
+
+In order to output a high concentration of DNA from a low concentration of DNA as an input, some amplification mechanism is required. This section introduces an enzyme-free amplification gate that is solely driven by a strand displacement reaction (see section 42) \[1\].
+
+Fig. 1 summarizes the reaction mechanism. Each arrow represents a single strand DNA, and each single letter represents a base sequence. Each pair of capital and small letters represents mutually complementary sequences. The reaction starts at the top left and proceeds counterclockwise. Elementary reactions are hybridization (double helix formation), branch migration by replacing hydrogen bonds, and denaturation (dissociation).
+
+The gate is composed of a substrate made of three DNA strands (top left) and a fuel molecule (bottom right). When there is no input of the catalyst (top), the reaction does not occur and the output molecule (right) remains bound to the substrate.
+
+When the catalyst as input is present, it hybridizes to the domain E, initiating the reaction. Branch migration and denaturation follow to release the signal molecule (left), resulting in the state represented by Intermediate 1 (bottom). The domain C is now in a single strand state, to which the fuel molecule hybridizes, inducing branch migration to form the structure intermediate 2 (middle right), generating the output molecule. Then the denaturation reaction releases the catalyst and a waste product (shown in purple and blue), and the latter cannot participate in the reaction any more (top right).
+
+The activity of the catalyst is not affected by the reaction. Once released after the reaction, it can drive another cycle and function endlessly as long as the substrate is present.
+
+![Reaction mechanism of an entropy-driven gate](images/ch3fig43.png)
+
+
+### Experimental Evidence of Amplification Reaction
+
+The output molecule is read by FRET (see section 51) as shown in Fig. 2. The x and y axes represent time and normalized fluorescence intensity, respectively. A higher fluorescence intensity indicates a higher concentration of the output, wherein an intensity of 1 means the release of all output molecules. The figure shows a simulation result based on the numerical analysis (see sections 60 and 67) of a differential equation derived from a chemical reaction model \[2\]. The amount of input DNA molecules relative to that of substrate molecules (in chemical equivalent) is indicated on the right.
+
+As seen from the graph, the concentration of the output is higher than that of the input, proving the amplification. For example, the intensity of the line marked with 0.1x has exceeded 0.5 after 2 hours. This means that an output of more than 50% was obtained from an input of 10%; i.e. one input drove 5 cycles or more on average.
+
+Some researchers have reported a two-level gate system such as an autocatalytic reaction with the output and input having an identical sequence. Experimental and model analysis results of the two-level system suggests that 12 hours of the reaction can even determine the presence/absence of the input molecule at a concentration of 0.01% (in chemical equivalent). However, the autocatalytic reaction generates some amount of the output also in the absence of the input (leak reaction) as another consequence of the exponential amplification.
+
+![Results of a simulation of an entropy-driven gate](images/ch3fig44.png)
+
+### Entropy
+
+What kind of energy is driving the catalytic amplification reaction system in Fig. 1? Let's examine the catalytic reaction step as shown in Fig. 3. Before the reaction, two molecules (i.e. substrate and fuel) are present. The addition of the catalyst drives the reaction, which results in three molecules (i.e. waste, signal, and output).
+
+When looking at the hybridized domains, all the domains B, C, and D are bound before and after the reaction. In other words, the number of hydrogen bonds stays the same before and after the reaction. Thus, the number of hydrogen bonds, which affects the enthalpy term (see section 37) of free energy (see section 38), does not matter much in this reaction.
+
+What does not stay the same after the reaction is the number of molecules (from 2 molecules to 3 molecules, as described above); i.e., the degree of freedom of molecules becomes higher, increasing the configuration entropy (see section 37). An experiment with a shorter fuel is described in the paper, to show that it is really entropy-driven.
+
+Because it is an entropy-driven system, the reaction is relatively resistant to the influence of temperature and salt concentration on DNA hybridization. Thus, various applications are conceivable besides amplification.
+
+![The catalytic reaction step](images/ch3fig45.png)
+
+_—Ibuki Kawamata (Tohoku University)_
