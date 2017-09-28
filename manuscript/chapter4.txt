@@ -36,7 +36,7 @@ This section introduces internal energy, enthalpy, entropy, and other concepts t
 
 The universe is divided into two parts: a system and its surroundings. A system is what can be analyzed, and all the rest is the surroundings. Every thermodynamic system can be classified into one of three kinds: an open system, where transfer of matter and energy between the system and the surroundings can occur, a closed system, where only energy can be transferred, and an isolated system, where there is no transfer of energy or matter.
 
-![](images/ch4fig1.png)
+![](images/ch4/ch4fig01.png)
 
 The energy of a system means the ability of the system to perform work. Work is the energy required to move something against a resisting force. For example, when a gas has expanded, it has exerted work on its surroundings. In thermodynamics, the energy contained in the system is called the internal energy. It has been experimentally demonstrated that work and/or heat from the surroundings cause a change in internal energy.
 
@@ -44,7 +44,7 @@ The energy of a system means the ability of the system to perform work. Work is 
 
 The internal energy *U* is a state function that is defined solely by the system's current state (temperature, volume, etc.) and is independent of the path between states. Therefore, when a system is changed from its initial state to another state, the sum of work and heat exerted on the system is always the same and path-independent. We also know empirically that the internal energy of an isolated system is constant. This is the first law of thermodynamics (the law of conservation of energy), and expressed as follows.
 
-![](images/ch4fig2.png)
+![](images/ch4/ch4fig02.png)
 
 (*w*: work exerted on the system, *Q*: heat transfer to the system, ∆*U*: change in the internal energy)
 
@@ -52,25 +52,25 @@ The internal energy *U* is a state function that is defined solely by the system
 
 When the volume of a system undergoes an infinitesimal volume change d*V* under a pressure *p*, infinitesimal work d'*w* from the surroundings can be expressed as follows (pressure-volume work).
 
-![](images/ch4fig3.png)
+![](images/ch4/ch4fig03.png)
 
 When the pressure-volume work is the only work done on the system, the infinitesimal change in internal energy d*U* can be written as follows, from the equations (1) and (2).
 
-![](images/ch4fig4.png)
+![](images/ch4/ch4fig04.png)
 
 (d′*Q*: infinitesimal heat, d′*w*: infinitesimal work)
 
 When the internal energy is changed at a constant volume, then d*V* = 0. Therefore, the change in internal energy is equal to the heat transferred to the system. When the internal energy is changed under constant pressure, the heat transferred is not equal to the change in the internal energy, because the volume of the system can change. Therefore, a new state variable, enthalpy, is introduced as follows.
 
-![](images/ch4fig5.png)
+![](images/ch4/ch4fig05.png)
 
 An infinitesimal change in enthalpy can be written as follows.
 
-![](images/ch4fig6.png)
+![](images/ch4/ch4fig06.png)
 
 Thus, when only pressure-volume work is exerted on the system under a constant pressure, from the equation (3),
 
-![](images/ch4fig7.png)
+![](images/ch4/ch4fig07.png)
 
 That is, the change in the enthalpy is equal to the heat transferred. In other words, enthalpy is the energy contained in a system under a constant pressure.
 
@@ -82,13 +82,13 @@ In our daily life, some phenomena can occur spontaneously and others not. For ex
 
 ### Inequality of Clausius
 
-Imagine a heat engine that receives heat *Q~i~* from ![](images/ch4fig8.png)*n* heat sources to perform work *w* in a cyclic process, then returns to the original state. With the temperature of each heat source being *T ~i~*,
+Imagine a heat engine that receives heat *Q~i~* from ![](images/ch4/ch4fig08.png)*n* heat sources to perform work *w* in a cyclic process, then returns to the original state. With the temperature of each heat source being *T ~i~*,
 
-![](images/ch4fig9.png)
+![](images/ch4/ch4fig09.png)
 
 holds\*. This is a mathematical representation of the second law of thermodynamics, called the inequality of Clausius. When *n* → ∞,
 
-![](images/ch4fig10.png)
+![](images/ch4/ch4fig10.png)
 
 holds for any heat engine that continuously changes its state. In the inequalities (7) and (8), the left and right hand sides are equal when the cycle is a reversible process.
 
@@ -96,23 +96,23 @@ holds for any heat engine that continuously changes its state. In the inequaliti
 
 Entropy *S* is defined as follows.
 
-![](images/ch4fig11.png)
+![](images/ch4/ch4fig11.png)
 
 The left-hand side represents a reversible change from state A to a state B. In a cycle in which the system is changed from state A to B through an irreversible process, and then returned to A through a reversible process,
 
-![](images/ch4fig12.png)
+![](images/ch4/ch4fig12.png)
 
 based on the inequality (8). Therefore,
 
-![](images/ch4fig13.png)
+![](images/ch4/ch4fig13.png)
 
 based on the equation (9). Thus, for any change of state in general,
 
-![](images/ch4fig14.png)
+![](images/ch4/ch4fig14.png)
 
 holds. For an infinitesimal change, it can be written as: d*S* ≥ d*Q*/*T*. In an adiabatic process,
 
-![](images/ch4fig15.png)
+![](images/ch4/ch4fig15.png)
 
 because d′*Q* = 0. This is called the law of entropy increase, meaning that any spontaneous change in an isolated system does not cause a decrease in the entropy.
 
@@ -120,7 +120,7 @@ because d′*Q* = 0. This is called the law of entropy increase, meaning that an
 
 In statistical mechanics, entropy can be expressed as follows (Boltzmann's Principle).
 
-![](images/ch4fig16.png)
+![](images/ch4/ch4fig16.png)
 
 *W* is the number of possible microscopic states of the system in a given macroscopic state. For example, for a given volume, the position of molecules in the system cannot be determined unequivocally. When a space of a volume *V* is divided into infinitesimal spaces of a volume δ*V* and n molecules are placed therein, the number of possible states is: *W* = (*V*⁄𝛿*V*)^n^. Therefore, most simply, an increase in the number of molecules and/or the volume results in an increase in the entropy.
 
@@ -138,11 +138,11 @@ Free energy is an important thermodynamic state variable that can serve as a mea
 
 When a state changes under a constant pressure and there is no work except pressure-volume work, then d*H* = d′*Q* (see section 37). Because d*S* ≥ d′*Q*⁄*T* from entropy equations, d*H* -*T*d*S* ≤ 0. Gibbs energy, a new thermodynamic state variable, is defined as follows.
 
-![](images/ch4fig17.png)
+![](images/ch4/ch4fig17.png)
 
 An infinitesimal change can be written as d*G* = d*H* - *T*d*S* - *S*d*T*. In an isothermal process,
 
-![](images/ch4fig18.png)
+![](images/ch4/ch4fig18.png)
 
 from the above-mentioned inequality. In other words, in a system at constant pressure and temperature, a spontaneous change proceeds toward a minimum of the Gibbs energy. This principle is used to measure the favorability of a reaction in a typical chemical experiment, which is usually focused on a chemical reaction under a constant pressure.
 
@@ -150,33 +150,33 @@ from the above-mentioned inequality. In other words, in a system at constant pre
 
 A reversible change in a closed system where the work is only pressure-volume work is discussed below. An infinitesimal change in three state variables (internal energy *U*, enthalpy *H*, and Gibbs energy *G*) can be rewritten as follows,
 
-![](images/ch4fig19.png)
+![](images/ch4/ch4fig19.png)
 
 wherein each depends on infinitesimal changes in two other state variables. Then, when *G* is regarded as a function of temperature and pressure and totally differentiated, it can be expressed as follows.
 
-![](images/ch4fig20.png)
+![](images/ch4/ch4fig20.png)
 
 The subscripts in the derivative terms indicate the partial differentiation of *G* by *T* and *p*, with *p* and *T* being constant, respectively. By comparing the equations (5) and (6),
 
-![](images/ch4fig21.png)
+![](images/ch4/ch4fig21.png)
 
 Because *S* and *V* always have positive values, Gibbs energy is decreased by an increase in temperature and increased by an increase in pressure.
 
 When the pressure is changed from *p*~1~ to *p*~2~ at a constant temperature (d*T* = 0), the change in *G* is as follows based on the equation (5).
 
-![](images/ch4fig22.png)
+![](images/ch4/ch4fig22.png)
 
 In the case of ideal gas, wherein *pV* = *nRT* (the combined gas law),
 
-![](images/ch4fig23.png)
+![](images/ch4/ch4fig23.png)
 
 Based on the Gibbs energy *G*^0^ for the state of a pure form (standard conditions) under the standard pressure (*p*^0^ = 1 bar), the Gibbs energy under pressure *p* can be expressed as follows.
 
-![](images/ch4fig24.png)
+![](images/ch4/ch4fig24.png)
 
 Alternatively, it can be written as follows by choosing a system of measurement in which *p*^0^ = 1.
 
-![](images/ch4fig25.png)
+![](images/ch4/ch4fig25.png)
 
 ### Chemical Equilibrium
 
@@ -184,71 +184,71 @@ In a reversible reaction, when the rate of the forward reaction and the rate of 
 
 Look at the reversible reaction below.
 
-![](images/ch4fig26.png)
+![](images/ch4/ch4fig26.png)
 
 The upper-case letters A, B, Y, and Z represent molecular species. Each *v~i~* is a stoichiometric coefficient for the corresponding species (the relative molar amount used in the reaction). When dn~A~ mol of A and dn~B~ mol of B have reacted in the forward reaction to produce dn~Y~ mol of Y and dn~Z~ mol of Z,
 
-![](images/ch4fig27.png)
+![](images/ch4/ch4fig27.png)
 
 Therefore,
 
-![](images/ch4fig28.png)
+![](images/ch4/ch4fig28.png)
 
 𝜉 is the advancement (see section 39).
 
 At a constant temperature and pressure, the total differentiation of the Gibbs energy in this chemical reaction system is expressed as follows.
 
-![](images/ch4fig29.png)
+![](images/ch4/ch4fig29.png)
 
 𝜇~𝑖~ is a state variable called "chemical potential", and this can be regarded as the Gibbs energy per amount of substance of the component *i*. From the equation (12), the equation (13) can be rewritten as follows.
 
-![](images/ch4fig30.png)
+![](images/ch4/ch4fig30.png)
 
 Here, reaction Gibbs energy Δ~r~*G* is introduced as the change in the Gibbs energy due to the advancement of the reaction. Based on the equation (15),
 
-![](images/ch4fig31.png)
+![](images/ch4/ch4fig31.png)
 
 Thus, Δ~r~*G* can be expressed as the difference in chemical potential between the reactants and the products in the reaction mixture composition. Because a spontaneous reaction proceeds toward a decrease in Gibbs energy, the forward reaction will dominate when Δ~r~*G* &lt; 0, whereas the reverse reaction will dominate when Δ~r~*G* &gt; 0. When Δ~r~*G* = 0, the reaction no longer proceeds in either direction, resulting in an equilibrium state.
 
-![](images/ch4fig32.png)
+![](images/ch4/ch4fig32.png)
 
 ### Equilibrium Constant and Gibbs Energy
 
 In the case of an ideal gas, based on the equations (11) and (14),
 
-![](images/ch4fig33.png)
+![](images/ch4/ch4fig33.png)
 
 *p*~i~ is the partial pressure of substance 𝑖. Therefore, using the standard Gibbs energy change,
 
-![](images/ch4fig34.png)
+![](images/ch4/ch4fig34.png)
 
 the reaction Gibbs energy can be written as follows.
 
-![](images/ch4fig35.png)
+![](images/ch4/ch4fig35.png)
 
 Because Δ~r~*G* = 0 in an equilibrium state,
 
-![](images/ch4fig36.png)
+![](images/ch4/ch4fig36.png)
 
 based on the partial pressure *p*~i~^eq^ of each substance in the equilibrium state. When the ratio of the partial pressure of the reactants and products in the equilibrium state is represented by *K~p~*,
 
-![](images/ch4fig37.png)
+![](images/ch4/ch4fig37.png)
 
 *K~p~* is called a pressure equilibrium constant.
 
 If we consider a typical solution instead of an ideal gas, we use a physical quantity *a*~i~, called activity, instead of partial pressure, to express the following relationship:
 
-![](images/ch4fig38.png)
+![](images/ch4/ch4fig38.png)
 
 The activity is usually a complex function of temperature, pressure, and amount of substance. The equation is similar to that of a molar fraction or any other concentration. In particular, in a dilute solution, it is equal to molar fraction 𝑥~𝑖~ = *n~𝑖~/n* \[1\]. An equilibrium constant based on activity
 
-![](images/ch4fig39.png)
+![](images/ch4/ch4fig39.png)
 
 is called the "thermodynamic equilibrium constant", based on which Δ~r~*G*^0^ = −*RT* ln*K* in a typical solution.
 
 In a dilute solution, the molar fraction of the solvent is substantially proportional to the molar concentration. Therefore, by approximation, the activity is often replaced with the concentration and the following equation based on the concentration equilibrium constant *K~c~* is used \[2\].
 
-![](images/ch4fig40.png)
+![](images/ch4/ch4fig40.png)
 
 _—Fumi Takabatake (Tohoku University)_
 
@@ -260,23 +260,23 @@ Reaction kinetics is deals with the temporal advancement of a reaction (reaction
 
 Look at a chemical reaction below.
 
-![](images/ch4fig41.png)
+![](images/ch4/ch4fig41.png)
 
 The advancement ξ, which describes the extent of the advancement of the reaction from the initial state, is used to express the molar amount of each component at time *t* as follows.
 
-![](images/ch4fig42.png)
+![](images/ch4/ch4fig42.png)
 
 Thus, the infinitesimal change in molar amount can be written as follows, relative to time.
 
-![](images/ch4fig43.png)
+![](images/ch4/ch4fig43.png)
 
 When the volume *V* of the system is constant, the temporal change in the concentration of each component (\[A\] = *n*A⁄*V*, ...) can be written as follows.
 
-![](images/ch4fig44.png)
+![](images/ch4/ch4fig44.png)
 
 *v* is called the reaction rate. An experimentally obtained reaction rate usually depends on the reactant concentration, which is expressed by the following equation using a reaction rate constant *k*.
 
-![](images/ch4fig45.png)
+![](images/ch4/ch4fig45.png)
 
 This type of equation is called a "reaction rate equation", and the sum of the exponents *n* = *α* + *ß* +... is called the "overall reaction order". The exponent of each molecular species is called the order of reaction for that molecular species. In this case, the reaction is said to be *α*th in A and *ß*th in B.
 
@@ -306,63 +306,63 @@ A -&gt; B
 
 The reaction rate equation is as follows.
 
-![](images/ch4fig46.png)
+![](images/ch4/ch4fig46.png)
 
 This differential equation can be solved easily to provide the following integrated rate equation, with the initial concentration of A being \[A\]~0~.
 
-![](images/ch4fig47.png)
+![](images/ch4/ch4fig47.png)
 
 Thus, in the first-order reaction, the reactant concentration decreases exponentially with time from the initial concentration. This equation can be rewritten as follows.
 
-![](images/ch4fig48.png)
+![](images/ch4/ch4fig48.png)
 
 This means that if a chemical reaction has been observed experimentally or otherwise to be a first-order reaction, the logarithm of the concentration will make a linear graph when plotted against time, and we can obtain reaction rate constant from the slope.
 
 Below is an example of a second-order reaction. When there is only one reactant, the reaction rate equation is
 
-![](images/ch4fig49.png)
+![](images/ch4/ch4fig49.png)
 
 and the integrated rate equation can be written as
 
-![](images/ch4fig50.png)
+![](images/ch4/ch4fig50.png)
 
 or
 
-![](images/ch4fig51.png)
+![](images/ch4/ch4fig51.png)
 
 When it includes two reactants, the reaction rate equation can be written as follows.
 
-![](images/ch4fig52.png)
+![](images/ch4/ch4fig52.png)
 
 When the two reactants have the same concentration (\[A\] = \[B\]), the equation is the same as the equation for a single reactant. When they have different concentrations, an integrated rate equation can be written as follows.
 
-![](images/ch4fig53.png)
+![](images/ch4/ch4fig53.png)
 
 ### Reversible Reaction and Concentration Equilibrium Constant
 
 Here we illustrate how to express a complex reaction using a reaction rate equation, with a simple reversible reaction as an example.
 
-![](images/ch4fig54.png)
+![](images/ch4/ch4fig54.png)
 
 This reversible reaction is composed of the following two elementary reactions (forward (-&gt;) and reverse (&lt;-)).
 
-\(1) ![](images/ch4fig55.png)
+\(1) ![](images/ch4/ch4fig55.png)
 
-\(2) ![](images/ch4fig56.png)
+\(2) ![](images/ch4/ch4fig56.png)
 
 The molecule A is consumed in the reaction (1) at the rate of *k*~1~\[A\]\[B\] and produced in the reaction (2) at the rate of *k* ~-1~\[Y\]\[Z\]. Thus, the apparent rate equation of the entire reaction can be written as follows.
 
-![](images/ch4fig57.png)
+![](images/ch4/ch4fig57.png)
 
 This can be solved either analytically or numerically to provide a concentration equation relative to time.
 
 At equilibrium, where the reaction rates of the forward and reverse reactions are equal, the following equation holds.
 
-![](images/ch4fig58.png)
+![](images/ch4/ch4fig58.png)
 
 This means that the concentration equilibrium constant *K~c~* and the reaction rate constant have the following relation.
 
-![](images/ch4fig59.png)
+![](images/ch4/ch4fig59.png)
 
 ### DNA Reactions and Reaction Kinetics
 
@@ -370,15 +370,15 @@ By approximation, a DNA reaction can also be described by a similar chemical rea
 
 For example, the reaction shown in the figure below can be regarded as a second-order elementary reaction as follows.
 
-![](images/ch4fig60.png)
+![](images/ch4/ch4fig60.png)
 
 Therefore, you can experimentally observe the temporal change in fluorescence intensity (change in the concentration of *QL(overlined)*) by fluorometry (see section 81) and fit it to the integrated rate equation of a second-order reaction
 
-![](images/ch4fig61.png)
+![](images/ch4/ch4fig61.png)
 
 to estimate the reaction rate constant *k* \[1\].
 
-![](images/ch4fig62.png)
+![](images/ch4/ch4fig62.png)
 
 A schematic of the reaction and a graph of the corresponding fluorescence intensity \[1\]. Reprinted with permission from PRL, 2003.
 
@@ -392,7 +392,7 @@ DNA, or *d*eoxyribo*n*ucleic *a*cid, is a macromolecule that carries genetic inf
 
 The double helix structure of DNA was reported by Watson and Crick in 1953 (Fig. 1)\[1\]. The diameter of the double helix is about 2 nm, and its length is about 3.4 nm per turn. The double helix contains two kinds of grooves that are different in width, with the wider one referred to as major groove and the narrower one as minor groove. When two DNA molecules wind around each other to form a double helix, we call this double-stranded DNA or a DNA double strand. When they are separated from each other, each we call them single-stranded DNA or a DNA single strand. A double helix usually exists as a "B form" structure, and as "A form" and "Z form" structures only under particular conditions. These forms have different geometries and dimensions (see the table below).
 
-![Fig. 1. DNA double helix.](images/ch4fig63.png)
+![Fig. 1. DNA double helix.](images/ch4/ch4fig63.png)
 
 Form |Chirality     |Diameter |Bases per turn |Rise between neighboring bases
 ----:|-------------:|--------:|--------------:|------------------------------:
@@ -400,12 +400,11 @@ A    |Right-handed  |2.3 nm   |11             |0.26 nm
 B    |Right-handed  |2 nm     |10.5           |0.34 nm
 Z    |Left-handed   |1.8 nm   |12             |0.37 nm
 
-
 ### Bases
 
 DNA is composed of four distinct bases, i.e., adenine (A), guanine (G), cytosine (C), and thymine (T) (Fig. 2). Each base, together with a sugar and a phosphate, forms a "nucleotide" unit (Fig. 2). A compound made of a base bound to the 1' carbon atom in the sugar is called a nucleoside, and an ester compound made of a phosphate bound to the 5' position of the nucleoside is called a nucleotide \[2\]. In a single strand DNA, its terminus at a 5' carbon atom is called a 5' end, and that at a 3' carbon atom is called a 3' end. The strand is written in the 5' to 3' direction (see Fig. 2). Two DNA strands in a double strand DNA run in opposite directions (antiparallel).
 
-![](images/ch4fig64.png)
+![](images/ch4/ch4fig64.png)
 
 ### Fig. 2.** Nucleotide and bases.
 
@@ -413,7 +412,7 @@ DNA is composed of four distinct bases, i.e., adenine (A), guanine (G), cytosine
 
 In a DNA double helix, bases in the DNA form Watson-Crick base pairs through hydrogen bonding. A Watson-Crick base pair can be formed only between A and T or between G and C (Fig. 3). An A/T pair is formed by two hydrogen bonds, while a G/C pair is formed by three hydrogen bonds, providing a stronger interaction. As a result, a double helix with a higher GC content is more stable \[2\]. For example, the sequence 5'-ATGCGTA-3' can form a stable double helix only with 5'-TACGCAT-3'. This property of bases is called complementarity, and these sequences are called mutually complementary sequences or complementary strands. In addition, when multiple base pairs are formed consecutively in a helix, they stack up to stabilize each other. This interaction between base pairs is called stacking. In this manner, the DNA double helix is stabilized both through the hydrogen bonding of Watson-Crick base pairs and the stacking between base pairs. The length of DNA is expressed in the number of nucleotides (bases) (nt) when it is in a single-strand state, and in the number of base pairs (bp) when in a double-strand state. For example, a single strand DNA of 20 bases is 20 nt long, a double strand DNA made of two completely complementary 20 nt-long strands is 20 bp long.
 
-![](images/ch4fig65.png)
+![](images/ch4/ch4fig65.png)
 
 ### Fig. 3.** Base pairing between DNA strands.
 
@@ -441,11 +440,11 @@ In a short DNA strand of about 100 bases or less, the hybridization can be model
 
 Let a single strand DNA be *S*, a complementary single strand DNA be S*(overlined)*, and a double strand DNA formed by them be *D*. In the two-state model, the chemical equilibrium is as follows.
 
-![](images/ch4fig66.png)
+![](images/ch4/ch4fig66.png)
 
 With the initial DNA concentration (concentration immediately after mixing) being \[*S*\] = \[*S(overlined)*\] = *C* and the hybridized fraction in the equilibrium state being *α,* the equilibrium constant K is as follows.
 
-![](images/ch4fig67.png)
+![](images/ch4/ch4fig67.png)
 
 Thermodynamically (see sections 37 and 38), with regard to free energy ∆*G*, enthalpy ∆*H*, and entropy ∆*S*,
 
@@ -455,11 +454,11 @@ Thermodynamically (see sections 37 and 38), with regard to free energy ∆*G*, e
 
 holds (*T*: absolute temperature; *R* =1.987 x 10^-3^ \[kcal mol^-1^ K^-1^\]: gas constant; ln: log~e~ ). From this,
 
-![](images/ch4fig68.png)
+![](images/ch4/ch4fig68.png)
 
 Here, the temperature at which the ratio of hybridized DNA molecules to single-stranded DNA molecules is 1:1 is called the melting temperature (*T~m~*). Because *α* = 0.5 and T = *T~m~*, the equation \[5\] can be transformed into
 
-![](images/ch4fig69.png).
+![](images/ch4/ch4fig69.png).
 
 If the initial concentration *C* and the thermodynamic parameters ∆*H* and ∆*S* are known, *T~m~* can be calculated. *T~m~* is a widely used measure of stability of DNA hybridization. A higher *T~m~* indicates a higher stability of hybridization.
 
@@ -467,15 +466,15 @@ If the initial concentration *C* and the thermodynamic parameters ∆*H* and ∆
 
 The stability of a DNA structure with intramolecular base pairing, such as a hairpin, can also be estimated from its melting temperature. Such an intramolecular reaction is not called hybridization, but still can be handled similarly. Imagine a single strand DNA *S* and its hairpin structure state *H*. In the two-state model,
 
-![](images/ch4fig70.png){width="3.75625in" height="0.5399617235345582in"}
+![](images/ch4/ch4fig70.png){width="3.75625in" height="0.5399617235345582in"}
 
 With the initial DNA concentration being \[*S*\] = *C* and the fraction of the hairpin form in an equilibrium state being *α*,
 
-![](images/ch4fig71.png){width="3.75625in" height="0.5465037182852144in"}
+![](images/ch4/ch4fig71.png){width="3.75625in" height="0.5465037182852144in"}
 
 Similarly,
 
-![](images/ch4fig72.png)
+![](images/ch4/ch4fig72.png)
 
 *T~m~* does not depend on *C*, unlike in a hybridization reaction.
 
@@ -483,11 +482,11 @@ Similarly,
 
 Now you can calculate the *T~m~*, i.e. the stability of DNA, once you know its thermodynamic parameters ∆*H* and ∆*S*. This is called the Nearest-Neighbor (NN) method. The NN method calculates ∆*H* and ∆*S*, and is introduced using the DNA in FIG. 1 as an example. In this model, the stacking interaction between neighboring base pairs, rather than the energy of hydrogen bonding in each base pair, is considered to dominate the stability of hybridization. In the case of the DNA in FIG. 1, each base pair is paired with a neighboring base pair, from the left to the right, as follows.
 
-![](images/ch4fig73.png)
+![](images/ch4/ch4fig73.png)
 
 ∆*H* and ∆*S* for each pair (Table 1) are summed up to obtain the ∆*H* and ∆*S* of the entire DNA hybridized. The effect of strand termini can be calculated using GC-term and AT-term in Table 1. Thus,
 
-![](images/ch4fig74.png)
+![](images/ch4/ch4fig74.png)
 
 Similarly,
 
@@ -521,7 +520,7 @@ Last, we discuss a structure with an unpaired base (mismatch) such as a hairpin 
 
 ∆*S* for *n* ≤ 9 is shown in Table 2.
 
-![](images/ch4fig75.png)
+![](images/ch4/ch4fig75.png)
 Fig. 1. Hybridized DNA. Each vertical line indicates base pair formation.
 
 **Table 1. Thermodynamic parameters (1 M Na^+^)\[2\].**
@@ -575,7 +574,7 @@ Techniques to assemble static nanostructures from double helical DNA units have 
 
 In the initial state, the green and red DNA strands form a double helix. When the blue single strand DNA is inputted, it forms a double helix with the red DNA, releasing the green DNA as a single strand. The number of hydrogen bonds between complementary bases is greater after the reaction, indicating that the post-reaction state is more favorable in terms of free energy (see section 38).
 
-![](images/ch4fig76.png)
+![](images/ch4/ch4fig76.png)
 
 Fig. 1. Strand displacement reaction.
 
@@ -585,7 +584,7 @@ This reaction proceeds from the left to the right through more than one intermed
 
 The site of the competition is called a "branching point", which wanders to the left and the right. This reaction is called "branch migration". In the end, as shown in the right in Fig. 1, the blue DNA completely replaces the green DNA to form a stable double helix with the red DNA, releasing the green DNA as a single strand.
 
-![](images/ch4fig77.png)
+![](images/ch4/ch4fig77.png)
 
 Fig. 2. Intermediate states in the strand displacement reaction with the branching point wandering to the left and the right, which is called branch migration.
 
@@ -595,7 +594,7 @@ Usually, the reaction is schematically depicted by omitting the double helix str
 
 When the green single strand DNA is regarded as an output, the blue DNA is a "fuel" to drive the reaction, and the blue/red complete double helix after the reaction is a waste product. The region a in the red DNA, which is initially single-stranded, is called a "toehold" to initiate the reaction.
 
-![](images/ch4fig78.png)
+![](images/ch4/ch4fig78.png)
 
 ### Fig. 3.** Schematically depicted strand displacement reaction and components.
 
@@ -603,7 +602,7 @@ When the green single strand DNA is regarded as an output, the blue DNA is a "fu
 
 The reaction rate depends on the length of the toehold sequence and the DNA concentration. To understand the reaction rate, we can consider Fig. 3 to be a two-molecule reaction that can be expressed by a chemical reaction equation. The reaction rate constant (*k*) can be changed by manipulating the length (*n*) of the toehold sequence a. According to \[2\], when the sequence b to be displaced is 20 base long in 11.5 mM MgCl~2~ at 25˚C, the following equation can estimate an approximate value of *k*.
 
-![](images/ch4fig79.png)
+![](images/ch4/ch4fig79.png)
 
 As understood from the equation, when the toehold sequence is lengthened by 1, 2, …, 6 bases, the value of the rate constant increases exponentially, by 10, 100, …, 1000000-fold. Above 6 bases, it reaches a plateau. For example, when the initial concentration of two molecules in the left hand side is 10 nM, the time necessary to consume 50% of the starting material can be adjusted by orders of magnitude, eg. 3 minutes for 6 bases, 30 minutes for 5 bases, 5 hours for 4 bases.... This property is important when applying the strand displacement reaction to more complex systems (see section 28).
 
@@ -613,7 +612,7 @@ For more detailed analysis, the reaction can be divided into three steps: hybrid
 
 The above is a basic strand displacement reaction. Many variations have been reported that incorporate ingenious sequence combinations. Fig. 4 schematically shows a "toehold exchange"\[2\], which employs two toehold sequences to allow both forward and reverse reactions, a "remote toehold"\[3\], which controls the reaction rate by placing a linker between the toehold sequence and the sequence to be displaced, and an "associative toehold activation" \[4\], which is based on a fuel composed of multiple molecules.
 
-![](images/ch4fig80.png) Fig. 4. Variations of strand displacement.
+![](images/ch4/ch4fig80.png) Fig. 4. Variations of strand displacement.
 
 _—Ibuki Kawamata (Tohoku University)_
 
@@ -625,7 +624,7 @@ The secondary structure of a DNA molecule is defined by the set of base pairs fo
 
 In solution, DNA can form a variety of structures. This is because it contains a multiple base pairs made through hydrogen bonding between mutually complementary bases (see section 41). Here, the structure of a DNA described by the identity of base pairs along the base sequence is called the secondary structure of DNA (see below).
 
-![](images/ch4fig81.png)
+![](images/ch4/ch4fig81.png)
 
 A secondary structure may be composed of a single DNA molecule or a plurality of DNA molecules, but with the proviso that every base pair is only formed between two bases. Actually, three bases can form a triple-stranded structure through non-canonical hydrogen bonding, or two or more base pairs can interact with each other, resulting in higher DNA structures. However, in most practical cases, you will just have to consider the secondary structure. Consideration of any higher structures comes later (see Column: Protein Structures).
 
@@ -633,7 +632,7 @@ A secondary structure may be composed of a single DNA molecule or a plurality of
 
 There are various secondary structures, which are named after their shapes (see below).
 
-![](images/ch4fig82.png)
+![](images/ch4/ch4fig82.png)
 
 -**Dangling end**: a single-stranded region at the end of a DNA strand, with no hydrogen bond.
 -**Hairpin loop**: a hairpin-like loop structure. Includes only one base pair.
@@ -648,7 +647,7 @@ Although not depicted in the figure, DNA can also form a "pseudoknot" structure.
 
 In order to manufacture parts of a molecular robot from DNA and control them, you need two techniques (see below).
 
-![](images/ch4fig83.png)
+![](images/ch4/ch4fig83.png)
 
 One is to predict the structure of a given base sequence in a solution and its stability, which is called "secondary structure prediction" of DNA (see section 63). Another is to find a DNA sequence that will form a desired structure, which is called "sequence design" of DNA (see section 64). Both techniques are basic to and essential for controlling chemical reactions of DNA.
 
@@ -676,7 +675,7 @@ The most common method to chemically synthesize DNA is the solid-phase phosphora
 
 The phosphoramidite method is composed of a total of six reaction steps.
 
-![](images/ch4fig84.png)
+![](images/ch4/ch4fig84.png)
 
 ### Step (1): detritylation
 
