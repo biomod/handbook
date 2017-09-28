@@ -226,3 +226,39 @@ At present, because of its relatively easy preparation, gold nanoparticles are u
 ![](images/ch3fig19.png)
 
 _—Shogo Hamada (Cornell University)_
+
+## 22. DNA Hydrogels
+
+DNA hydrogel is the newest among the three approaches in structural DNA nanotechnology. This section describes technique to make a network of combined DNA molecules, and resulting exemplary gel structures, methods to characterize individual DNA hydrogel products, and some applications.
+
+### Introduction
+
+Among DNA-based structure assembly techniques, DNA hydrogel seeks to make macro-scale (i.e. micro-to-centimeter order) structures by forming a network in a solution. This section outlines previously reported DNA hydrogels, and their manufacture, characterization, and applications.
+
+Chemical and Physical Gels
+
+In general, a gel is classified into one of two kinds depending on the crosslink mechanism of its network.
+
+![](images/ch3fig20.png)
+
+One class is a chemical gel. A chemical gel is formed by covalent crosslinking. As a result, as long as its component molecules are unbroken, the whole network will remain intact (will not melt). A well-known example of chemical gel solely made of DNA has a motif-based design as described above \[1\]. Specifically, sticky ends of X, Y, T, or other branched structures are joined by an enzymatic reaction using ligase. This allows a robust network of double helices to be produced.
+
+![](images/ch3fig21.png)
+
+Another class is the physical gel. A physical gel is formed by a non-covalent crosslink mechanism (e.g., hydrogen bond or physical entanglement). The earliest examples of physical gel prepared from chemically synthesized DNA include one designed by Liu _et al._ in a motif-based manner \[2\], which has been formed by connecting Y branches using a double strand linker, both ends of which are sticky ends. In another example, a gel has been obtained using a non-DNA macromolecule as the network backbone in combination with the specific connection property of DNA hybridization \[3\]. Recently, 3D printing was applied to such a physical DNA hydrogel to obtain desired two/three-dimensional shapes at the macro scale \[4\].
+
+Another technique to produce a DNA physical gel depends on DNA polymerase enzyme \[5\] (DNA polymerase extends a DNA strand complementary to a template, with a primer being the starting point), which is summarized below. First, a circular template DNA is prepared, to which a primer DNA (primer 1) complementary to a portion of the template sequence is hybridized, and then DNA polymerase starts the extension reaction of primer 1. This polymerase has strong strand displacement activity, resulting in a long single strand DNA product that is composed of multiple repeats of the sequence complementary to the template. This process is called RCA (Rolling Circle Amplification). This first reaction is allowed to proceed for a sufficiently long time, and then primer 2 (which is complementary to a portion of the product of primer 1), and primer 3 (which has a sequence identical to primer ), are added to the solution. Primer 2 starts an extension reaction using the extension product of primer 1 as a template. Primer 3 hybridizes to the initial circular template DNA or the product of primer 2 to start another extension reaction. The resulting DNA molecules become highly entangled with each other forming a gel network.
+
+![](images/ch3fig22.png)
+
+### Characterization
+
+Is the structure obtained as above truly a gel? In most cases, the answer to this question is determined by dynamic viscoelasticity analysis using a rheometer. In dynamic viscoelasticity analysis, a sinusoidal stress is applied to a given sample and the strain response is measured. Based on their phase difference and amplitude, the storage modulus G' (the elastic portion; the degree of solid-like behavior of the sample) and the loss modulus G" (the viscous portion; the degree of liquid-like behavior of the sample) are calculated. G' &gt; G" means that the sample is a gel.
+
+![](images/ch3fig23.png)
+
+### Applications
+
+One of the most promising applications of DNA hydrogel is the incorporation of a gene-containing DNA such as a plasmid into a gel network to promote cell-free protein synthesis inside the gel \[6\]. This system has proved to be capable of synthesizing protein about 300 times more efficiently than a solution system. This might be due to the protection of the molecular structure of the gene by the DNA hydrogel, a higher concentration of the gene in the gel compared to a solution system, more efficient turnover of the enzymatic reactions (thus improved transcription efficiency), etc.
+
+_—Shogo Hamada (Cornell University)_
