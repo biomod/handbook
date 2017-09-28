@@ -130,7 +130,7 @@ The higher the entropy is, the larger *W* is, i.e., the more disordered the syst
 
 _—Fumi Takabatake (Tohoku University)_
 
- ## 38. Free Energy and Chemical Equilibrium
+## 38. Free Energy and Chemical Equilibrium
 
 Free energy is an important thermodynamic state variable that can serve as a measure of spontaneous process and equilibrium state. Gibbs energy is most frequently studied at constant temperature and pressure, which is also closely related to equilibrium constant.
 
@@ -252,7 +252,7 @@ In a dilute solution, the molar fraction of the solvent is substantially proport
 
 _—Fumi Takabatake (Tohoku University)_
 
- ## 39. Reaction Kinetics
+## 39. Reaction Kinetics
 
 Reaction kinetics is deals with the temporal advancement of a reaction (reaction rate). In addition to typical chemical reactions, the reaction mechanisms of DNA hybridization, denaturation, and strand displacement have been investigated in terms of their reaction kinetics. This section outlines some basics of reaction kinetics.
 
@@ -382,7 +382,7 @@ to estimate the reaction rate constant *k* \[1\].
 
 A schematic of the reaction and a graph of the corresponding fluorescence intensity \[1\]. Reprinted with permission from PRL, 2003.
 
-Fumi Takabatake (Tohoku University)
+_—Fumi Takabatake (Tohoku University)_
 
 ## 40. Molecular Structure of DNA
 
@@ -420,15 +420,16 @@ In a DNA double helix, bases in the DNA form Watson-Crick base pairs through hyd
 
 The double helix structure of DNA resolves into single strands under heat, which is called denaturation or melting. The reverse reaction (double strand formation) is called hybridization. DNA is stable from 0˚C to 100˚C, so that the melting and hybridization can be repeated again and again by multiple heating/cooling cycles \[2\].
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   **Column: RNA
+{aside}
+**Column: RNA**
 
-  RNA (ribonucleic acid) is a macromolecule that is very similar to DNA. There are two major differences between them. First, the nucleotide sugar in RNA is a ribose with a hydroxyl group (-OH) present on the 2' position. Second, RNA uses a base U (uracil), instead of T (thymine) in DNA. U and T have the same structure except for one methyl group (-CH~3~) that is present only in T.   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+RNA (ribonucleic acid) is a macromolecule that is very similar to DNA. There are two major differences between them. First, the nucleotide sugar in RNA is a ribose with a hydroxyl group (-OH) present on the 2' position. Second, RNA uses a base U (uracil), instead of T (thymine) in DNA. U and T have the same structure except for one methyl group (-CH~3~) that is present only in T.
+{/aside}
 
-Masamune Morita and Masahiro Takinoue (TITECH)
+_—Masamune Morita and Masahiro Takinoue (TITECH)_
 
-### \
 
- ## 41. Thermodynamics of DNA Hybridization
+## 41. Thermodynamics of DNA Hybridization
 
 DNA forms base pairs between A and T or G and C (see section 40). The association of two mutually complementary DNA strands through base pairing is called hybridization. The stability of hybridization can be estimated thermodynamically.
 
@@ -554,17 +555,39 @@ Loop length (*n*) |∆*S* \[cal mol^-1^ K^-1^\]
 8                 |-18
 9                 |-21
 
-Sequence              ∆*H* (kcal•mol^-1^)   ∆*S* (cal•mol^-1^•K^-1^)   --------------------- --------------------- --------------------------   GC/CG                 -9.8                  -24.4   CG/GC                 -10.6                 -27.2   GG/CC CC/GG           -8.0                  -19.9   CA/GT TG/AC           -8.5                  -22.7   GT/CA AC/TG           -8.4                  -22.4   GA/CT TC/AG           -8.2                  -22.2   CT/GA AG/TC           -7.8                  -21.0   AA/TT TT/AA           -7.9                  -22.2   AT/TA                 -7.2                  -20.4   TA/AT                 -7.2                  -21.3   GC-term               0.1                   -2.8   AT-term               2.3                   4.1   Symmetry correction   0                     -1.4
+  Sequence             |∆*H* (kcal•mol^-1^)  |∆*S* (cal•mol^-1^•K^-1^)
+  ---------------------|---------------------|--------------------------
+  GC/CG                |-9.8                 |-24.4
+  CG/GC                |-10.6                |-27.2
+  GG/CC CC/GG          |-8.0                 |-19.9
+  CA/GT TG/AC          |-8.5                 |-22.7
+  GT/CA AC/TG          |-8.4                 |-22.4
+  GA/CT TC/AG          |-8.2                 |-22.2
+  CT/GA AG/TC          |-7.8                 |-21.0
+  AA/TT TT/AA          |-7.9                 |-22.2
+  AT/TA                |-7.2                 |-20.4
+  TA/AT                |-7.2                 |-21.3
+  GC-term              |0.1                  |-2.8
+  AT-term              |2.3                  |4.1
+  Symmetry correction  |0                    |-1.4
 
-### Table 1. Thermodynamic parameters (1 M Na^+^)\[2\].
+**Table 1. Thermodynamic parameters (1 M Na^+^)\[2\].**
 
-  Loop length (*n*)   ∆*S* \[cal mol^-1^ K^-1^\]   ------------------- ----------------------------   3                   -18   4                   -18   5                   -18   6                   -17   7                   -19   8                   -18   9                   -21
+  Loop length (*n*)  |∆*S* \[cal mol^-1^ K^-1^\]
+  -------------------|----------------------------
+  3                  |-18
+  4                  |-18
+  5                  |-18
+  6                  |-17
+  7                  |-19
+  8                  |-18
+  9                  |-21
 
-### Table 2. Thermodynamic parameters for a loop (1M Na^+^) \[3\].
+**Table 2. Thermodynamic parameters for a loop (1M Na^+^) \[3\].**
 
 _—Masahiro Takinoue (TITECH)_
 
- ## 42. Strand Displacement
+## 42. Strand Displacement
 
 A basic technique to implement a dynamic system in the field of DNA nanotechnology is a DNA strand displacement reaction. This reaction replaces a strand in a double helix with a third strand. This reaction has much fewer restrictions on buffer, temperature, and other conditions than an enzymatic reaction, and only involves DNA. It is employed in the transformation of DNA nanostructures and the conversion of DNA sequences.
 
@@ -616,7 +639,7 @@ The above is a basic strand displacement reaction. Many variations have been rep
 
 _—Ibuki Kawamata (Tohoku University)_
 
- ## 43. Secondary Structures of DNA
+## 43. Secondary Structures of DNA
 
 The secondary structure of a DNA molecule is defined by the set of base pairs formed in the DNA molecule. In order to construct a DNA-based molecular robot, you have to predict the behavior of a given DNA molecule, and design a base sequence that will work exactly as expected. To prepare for that, this section discusses secondary DNA structures.
 
