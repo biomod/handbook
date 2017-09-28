@@ -211,3 +211,18 @@ In addition to DNA tiles, origami, and bricks, which are two/three-dimensional s
 
 _—Shogo Hamada (Cornell University)_
 
+## 21. DNA-Modified Particles (SNA)
+
+Among three techniques involving DNA nanostructures, SNA (Spherical Nucleic Acids) forms a structure using gold nanoparticles or the like as a core and attaching DNA to it for selective binding. This section outlines its concept.
+
+### SNA (Spherical Nucleic Acids)
+
+Unlike "folding" and "hydrogel" approaches, which make structures solely from DNA, SNA uses colloidal particles as a structural core and attaches DNA molecules to them, which then interact to produce a crystal structure. This concept was devised by Mirkin _et al._ \[1\] and Alivisatos _et al._ \[2\] in 1996 (reported in the same issue of Nature). The generic name SNA was proposed by Mirkin, based on the appearance of the DNA molecules placed over the spherical particle surface. In the case of a DNA tile, its motif structure determines the stiffness. By analogy, in the case of an SNA, the spherical (or geometrically anisotropic) particle determines the stiffness. However, in an SNA, DNA molecules with sticky ends are attached to the entire particle surface. By virtue of interactions between this DNA population, the concept of "valence" or "bond" at the atomic level can be directly applied to the reactions between the colloidal particles. As a result of using the highly designable hybridization between DNA molecules in inter-particle interactions, programmable colloidal particles with "atom-like behavior" can be designed \[3\], which will allow for control of the crystal structure itself.
+
+### Modification of Nanoparticles and Structure Assembly
+
+At present, because of its relatively easy preparation, gold nanoparticles are usually chosen as a core. In a typical procedure, chemically synthesized DNA, modified with a thiol group, is reacted with and attached to the gold nanoparticle surface in a buffer that has an ion concentration adjusted to suppress the repulsion between DNA molecules. For example, the resulting particles can be connected via these DNA linkers to provide a face-centered cubic (f.c.c.) or body-centered cubic (b.c.c.) crystal structure (a) \[5,6\]. Recently, a "Wulff polyhedron" monocrystal structure was also obtained on the micro-scale through annealing \[7,8\] (b). This was very impressive in that a nano-scale interaction of DNA produced a macroscopic structure that is known as equilibrium shape in the field of crystal growth.
+
+![](images/ch3fig19.png)
+
+_—Shogo Hamada (Cornell University)_
