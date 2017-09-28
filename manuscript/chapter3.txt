@@ -821,5 +821,3 @@ Among them, a genetic algorithm is a methodology to find a candidate solution wi
 On the other hand, there is an established method to search for a molecule with a particular function (e.g., affinity to a target molecule) by subjecting a library of polymeric molecules such as DNA, RNA, and proteins for artificial evolution. This is called artificial evolution of molecules or *in-vitro* selection. In other words, this is a solution method for optimization problems about molecules.
 
 _—Masami Hagiya (Tokyo University)_
-
-![NanoQRcode Kansai University 2014](images/ch3fig60.png)
