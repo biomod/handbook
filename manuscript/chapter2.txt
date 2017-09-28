@@ -104,11 +104,11 @@ It is up to you how to generate ideas. Below are some tips on generating ideas.
 
 "Brainwriting" is similar to brainstorming [3]. It is effective in generating many ideas in a short time, generating ideas in a group of rather reticent people, etc. Below is an example of the process, applied to six people.
 1. Participants sit in a circle or square.
-1. Prepare six worksheets, each with 6 rows and 3 columns.
-1. Distribute the worksheets to the participants, one sheet per participant. Write the subject matter at the top of the worksheet.
-1. Generate 3 ideas that relate to the subject matter and write them in the 3 blanks in the first row, within 3 to 5 minutes.
-1. Then, pass on your worksheet to the neighbor on your left and receive another worksheet from your neighbor.
-1. Look at the ideas in the first row in the worksheet that was passed to you, and write 3 new ideas in the 3 blanks in the second row. Again, pass on the worksheet in the same pattern--to the left.  7) Every time you receive a worksheet, add new ideas inspired by the ideas in it (you can develop ideas of the previous participant or propose totally different ideas inspired by them).
+2. Prepare six worksheets, each with 6 rows and 3 columns.
+3. Distribute the worksheets to the participants, one sheet per participant. Write the subject matter at the top of the worksheet.
+4. Generate 3 ideas that relate to the subject matter and write them in the 3 blanks in the first row, within 3 to 5 minutes.
+5. Then, pass on your worksheet to the neighbor on your left and receive another worksheet from your neighbor.
+6. Look at the ideas in the first row in the worksheet that was passed to you, and write 3 new ideas in the 3 blanks in the second row. Again, pass on the worksheet in the same pattern--to the left.  7) Every time you receive a worksheet, add new ideas inspired by the ideas in it (you can develop ideas of the previous participant or propose totally different ideas inspired by them).
 Repeat the steps 6 times in total. This takes 30 minutes or less, and you will get as many as 108 ideas (= 6 members x 3 ideas x 6 rounds).
 
 ### Mind Map
@@ -123,8 +123,8 @@ In this technique, a list of ideas inspired by the subject matter is generated b
 The 3 techniques described above are for divergent idea generation. Sometimes you may have to sort the ideas generated. One technique to sort ideas is the KJ method [4], which can be summarized as follows.
 
 1. Record ideas on cards (or notes). One idea per card.
-1. Sort the cards into groups based on the content, and give a representative title to each group.
-1. Sort the groups into larger clusters based on the title, and give a representative title to each cluster. Repeat this step.
+2. Sort the cards into groups based on the content, and give a representative title to each group.
+3. Sort the groups into larger clusters based on the title, and give a representative title to each cluster. Repeat this step.
 In the course of this process, the divergent list of ideas gains become s organized by theme.
 
 _—Ken Sugawara (Tohoku University)_
@@ -156,16 +156,16 @@ Below is a breakdown of the design process. Repeat steps 1 to 6 as many times as
 At each step, check the following points. Check points of each step:
 
 1. Is specification the right level of difficulty—not too easy and not too hard.
-1. Choice of parts: Are they readily available, e.g. mass produced (see section 73). Avoid too many parts (different molecules). Cost should be appropriate (see section 73).
-1. Design: Avoid any non-practical assumption or wishful thinking.
-1. Experiment: Simulation model possible? (see section 62). Experimentable? (see sections 69 and 70).
-1. Evaluation: Reproducible? Accurate? (see section 70)
+2. Choice of parts: Are they readily available, e.g. mass produced (see section 73). Avoid too many parts (different molecules). Cost should be appropriate (see section 73).
+3. Design: Avoid any non-practical assumption or wishful thinking.
+4. Experiment: Simulation model possible? (see section 62). Experimentable? (see sections 69 and 70).
+5. Evaluation: Reproducible? Accurate? (see section 70)
 
 In principle, the design should proceed from the whole to details, from abstractness to concreteness.
 
 1. Conceptual design: Specify the required functions based on the overall image.
-1. Preliminary design: Specify the structure and shape to achieve each function.
-1. Detailed design: Specify the size and material of each part.
+2. Preliminary design: Specify the structure and shape to achieve each function.
+3. Detailed design: Specify the size and material of each part.
 
 The process of dividing a system into smaller concrete parts is called decomposition, and the process of combining the resultant parts back is called integration. Successful design requires going from decomposition to integration and vice versa to specify details of the system. Remember this important constraint: one function per part. Any part with more than one function will hinder design changes and error corrections. Such "optimization" should be done, if any, after the basic design has been established.
 
