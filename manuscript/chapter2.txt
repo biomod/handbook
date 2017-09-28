@@ -169,7 +169,7 @@ In principle, the design should proceed from the whole to details, from abstract
 
 The process of dividing a system into smaller concrete parts is called decomposition, and the process of combining the resultant parts back is called integration. Successful design requires going from decomposition to integration and vice versa to specify details of the system. Remember this important constraint: one function per part. Any part with more than one function will hinder design changes and error corrections. Such "optimization" should be done, if any, after the basic design has been established.
 
-![Decomposition and Integration](images/ch2fig2.png)
+![Decomposition and Integration](images/ch2/ch2fig02.png)
 
 ### Talents for Handicraft
 
@@ -209,7 +209,7 @@ In the course of your BIOMOD project, you will have to study many things. First,
 
 You will usually use the Internet for a literature search. There are several literature search sites. One that is accessible from anywhere is Google Scholar [2]. For example, when the keywords "DNA origami" (see section 18) are entered in the search window, the search results are like the figure below. You can look at these titles and abstracts to find papers of interest.
 
-![Google Scholar](images/ch2fig3.png)
+![Google Scholar](images/ch2/ch2fig03.png)
 
 External link (publisher etc.)
 Partial contents (abstract)
@@ -222,7 +222,7 @@ If you are not getting good search results, try modifying search keywords as fol
 - Use adequately defined keywords to reduce noise in search results.
 - Use search operators to narrow down search conditions.
 
-![Use operators to narrow down search conditions](images/ch2fig4.png)
+![Use operators to narrow down search conditions](images/ch2/ch2fig04.png)
 
 AND: Insert space `DNA origami`
 OR: Insert "OR" or "|" `DNA OR origami`, `DNA |origami`
@@ -245,7 +245,7 @@ Many of you will be reading papers for the first time. In your everyday life, yo
 
 A typical paper includes the following sections. These sections or their order may differ between papers, but, for any paper, what you see first is the title. The title expresses the content of the paper explicitly, such as "Folding DNA to create nanoscale shapes and patterns" [4]. Then, read the abstract and figures to get the outline of the paper. To that end, you should also refer to the  Introduction (i.e., brief description of the aim and results of the study) and Conclusions as appropriate. Then read through the paper once. You don't need to understand everything in it on the first read.  Read it again, referring to textbooks and references to address any confusion.  It will be fun to discuss the paper with your BIOMOD team members and upper-class students.
 
-![Sections of a Paper](images/ch2fig5.png)
+![Sections of a Paper](images/ch2/ch2fig05.png)
 
 Read as many papers as you can. Practice makes perfect. In doing so, you should also record these papers in a file of reference management software or any other tools, which will help you make create the references for the Wiki (see section 8). You can try Mendeley, ReadCube, JabRef, and various other tools. Please visit the web site for details.
 

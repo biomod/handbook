@@ -10,7 +10,7 @@ Structural DNA nanotechnology can produce various shapes using DNA molecules as 
 
 When asked what is DNA, most of you will answer, "genes." This is a correct answer in a biology class. However, have you ever thought of DNA simply as a "molecule" with a defined shape? Chemically, DNA is just a molecule made of a long string ("polymer") of "nucleotide" units, each of which consists of a sugar, base, and phosphate. DNA in this form is sometimes called "single-stranded DNA".
 
-![](images/ch3fig1.png)
+![](images/ch3/ch3fig01.png)
 
 There are 4 kinds of bases: A (adenine), G (guanine), C (cytosine), and T (thymine). A base sequence is obtained by reading out bases in a single strand of DNA from one end to the other. DNA has a directionality, with one of its ends called the 5' terminus and the other the 3' terminus (based on the positions of two phosphates attached to a sugar), wherein its sequence is read from the 5’ terminus (as seen from the figure, the direction is often indicated by an arrow).
 
@@ -24,13 +24,13 @@ As discussed above, from an engineering point of view, you can regard DNA as a m
 
 #### Branched Structure
 
-![](images/ch3fig2.png)
+![](images/ch3/ch3fig02.png)
 
 As an example, in the left Figure, the regions (a) and (c) in the first DNA have, by design, a sequence complementary to a region of the fourth DNA and to a region in the second DNA, respectively. Four different DNA molecules thus make this four-arm branched structure because only mutually complementary regions can hybridize to form a double helix. By dividing each DNA molecule into multiple regions and designing each region to stick to a specific region in the same or another DNA molecule, you can assemble not only a straight chain of double helix, but also more complex two-dimensional structures. At present, the most commonly used DNA nanostructure components include four-armed branches as described above (one without any single strand region b is sometimes called a crossover junction) and similarly designed three-armed branches.
 
 #### Sticky Ends
 
-![](images/ch3fig3.png)
+![](images/ch3/ch3fig03.png)
 
 Another important component of creating DNA nanostructures is sticky ends. Imagine two double strand DNA molecules (red and blue in the figure), each provided with a single strand overhang (a or b in the figure) in its terminus. If the base sequences a and b are mutually complementary, the two double helices are joined together through the hybridization of a and b. Such single stranded (i.e. a and b) regions are called "sticky ends". This technique is frequently used to join units into a large structure by the "glue"-like function that allows selective binding between their termini.
 
@@ -66,11 +66,11 @@ Once you have obtained the appropriate design and corresponding staple chains, a
 
 A divalent cation is also indispensable in observing a DNA origami structure. A two-dimensional, thin and planar DNA origami structure is usually observed under an atomic force microscope (AFM). When the DNA origami solution is added dropwise onto the highly planar structure of freshly cleaved mica, the negative charge on the mica surface and the negative charge of the DNA origami structure are bridged and neutralized by the divalent cation. As a result, the DNA origami structure beautifully adheres to the mica surface. This adhesion is so strong that even tapping by the AFM probe will not easily peel off the DNA origami structure. Thus, if your assembly has gone as planned, you will observe the desired Origami structure with a thickness of 2 nm (i.e., that of a DNA double helix).
 
-![](images/ch3fig4.png) Adapted by permission from Macmillan Publishers Ltd: Nature (doi: 10.1038/nature04586), copyright 2005
+![](images/ch3/ch3fig04.png) Adapted by permission from Macmillan Publishers Ltd: Nature (doi: 10.1038/nature04586), copyright 2005
 
 **Schematic Diagram of DNA Origami.** The folded single black line is the scaffold chain, and the colored lines are the staple chains. In this figure, the staple chains are arranged in a Z shape. Reprinted with permission from *Nature 2006.*
 
-![](images/ch3fig5.png)
+![](images/ch3/ch3fig05.png)
 
 **Design and AFM image of Smiley DNA Origami Structure**. Reprinted with permission from *Nature, 2006.*
 
@@ -78,7 +78,7 @@ A divalent cation is also indispensable in observing a DNA origami structure. A 
 {aside}
 Column: Flipbook Cartoon Made of DNA Origami
 
-![](images/ch3fig6.png)
+![](images/ch3/ch3fig06.png)
 
 In BIOMOD 2013, Team Kansai from Kansai University reported a "DNA Origami flipbook cartoon", composed of a total of 10 AFM images, of "the Rabbit and the Turtle", and won the gold prize. Their idea of minimizing the number of the staples by connecting the ground, turtle, and rabbit through linkers was admired. The team also assembled a background layer of a roadside tree passing by via DNA origami, and got to the final in the Intercollegiate Science Competition sponsored by MEXT.
 {/aside}
@@ -97,7 +97,7 @@ The earliest three-dimensional DNA origami structures were hollow polyhedrons, e
 
 The earliest "nanomechanical DNA origami device" independently made by the author's group is also a cubic, box-shaped DNA origami structure (about 40 nm square), but its operating mechanism somewhat differs from that of the above example \[2\]. In the first step to make this structure, two units, each composed of three mutually perpendicular faces, are joined through a hinge to form one "open structure". Then the open structure is turned into a box-shaped "closed structure" by the addition of a trigger DNA strand. Recently, it has been successfully used as a nanocarrier to selectively contain a single gold nanoparticle 10 nm in diameter \[6\]. Selective uptake of a gold nanoparticle into a similar lidded, box-shaped DNA origami structure has also been reported by Sugiyama _et al._ \[7\]. This system employs an artificial photoreactive base to assemble a DNA origami structure, which allows a light-triggered structural change.
 
-![](images/ch3fig7.png)
+![](images/ch3/ch3fig07.png)
 
 **Exemplary Hollow Three-Dimensional DNA Origami Structures.** (a) Box-shaped DNA origami structure \[1\]. Reprinted with permission from *Nature 2009.* (b) Regular tetrahedron DNA origami structure \[3\]. Reprinted with permission from *Nano Lett. 2009*. (c) DNA origami structure from our group \[2\].
 
@@ -105,7 +105,7 @@ Once the box-shaped structures as described above are opened, there is now way t
 
 Hollow three-dimensional DNA origami structures can include curved surfaces, by virtue of the ability to bend DNA strands in a DNA origami \[8\]. For example, Yan _et al._ have successfully assembled flask- and sphere-shaped DNA origami structures.
 
-![](images/ch3fig8.png)
+![](images/ch3/ch3fig08.png)
 
 A schematic based on \[8\].
 
@@ -113,7 +113,7 @@ Honeycomb Three-Dimensional DNA Origami
 
 Another category of three-dimensional DNA origami structures is the honeycomb three-dimensional DNA origami \[9\].
 
-![](images/ch3fig9.png)
+![](images/ch3/ch3fig09.png)
 
 Reprinted with permission from *Nature 2009.*
 
@@ -129,7 +129,7 @@ DNA tiles = motifs + sticky ends
 
 DNA tile is a representative assembly technique to assemble a nanostructure by DNA folding. It is like a jigsaw puzzle, which is assembled by joining small pieces one by one, at the molecular scale.
 
-![](images/ch3fig10.png)
+![](images/ch3/ch3fig10.png)
 
 Adapted with permission from \[1\].
 
@@ -139,7 +139,7 @@ DNA Motifs
 
 A "repeat unit" structure made of a combination of branched DNA structures is called a DNA motif. The most representative motif used for DNA tiles is the double crossover (DX) molecule structure. In an aqueous solution that contain magnesium ions or the like to suppress the electrostatic repulsion between DNA molecules, a four-arm branched (crossover) structure can have a closed conformation as shown in the left or right in panel a. However, in this state, the conformation cannot be unequivocally specified because the branch still can move freely like a hinge. In panel b, two branches are provided between two double helices to fix their conformation, which is called a double crossover.
 
-![](images/ch3fig11.png)
+![](images/ch3/ch3fig11.png)
 
 Adapted with permission from \[1\].
 
@@ -147,13 +147,13 @@ In double crossover (DX) tiles, the dimensions and sticky ends are carefully cho
 
 Similarly, triple crossover (TX) tiles have been reported, which are bundles of three double helices, (a) \[3\], n-point star with rotational symmetry (b) \[4\], cross-tile, which is a four-arm branch motif (c) \[5\], and single-stranded tile (SST), composed of a single strand which becomes double helical only when it is incorporated into the final assembly (d) \[6\].
 
-![](images/ch3fig12.png)
+![](images/ch3/ch3fig12.png)
 
 Reprinted with permission from \[1\].
 
 The authors have developed the T-motif \[7\], which is composed of T-branched structures instead of crossover branches. This can produce structures on mica or other substrates, serving as a platform to form a desired pattern of nanoparticles and proteins over a considerably large area.
 
-![](images/ch3fig13.png)
+![](images/ch3/ch3fig13.png)
 
 Reprinted with permission from Angew. *Chem. Int. Ed.* ©2009. Reprinted with permission from \[7\].
 
@@ -161,7 +161,7 @@ Reprinted with permission from Angew. *Chem. Int. Ed.* ©2009. Reprinted with pe
 
 When DNA tiles have only one kind of sticky end, you will get a uniform two-dimensional planar structure made of identical tiles. What if more than one kind of sticky end is present: e.g., two sticky end pairs 1 and 0? When the right side of a tile A can be joined to the left side of a tile B through 1 and the right side of B to the left side of A through 0, a structure composed of alternate repetitions of A and B will form (panel. a).
 
-![](images/ch3fig14.png)
+![](images/ch3/ch3fig14.png)
 
 Reprinted with permission from \[1\].
 
@@ -169,7 +169,7 @@ One such structure was actually made and showed a striped pattern of alternating
 
 Similarly, the use of more and more sets of sticky ends (and thus more and more different tiles) can provide more complex patterns. For example, assume four different tiles that each carry a distinct combination of sticky ends 1 and 0, as shown in panel a below.
 
-![](images/ch3fig15.png)
+![](images/ch3/ch3fig15.png)
 
 Reprinted with permission from Natural Computing ©2008. Reprinted with permission from \[8\].
 
@@ -188,11 +188,11 @@ In other words, in DNA origami, it is the sequence of scaffold DNA that determin
 
 In order to assemble an actual structure, as shown in panel b, prepare a set of SST sequences that constitute a square, cubic, and other structures, which serves as a "canvas". Then select, mix, and anneal a subset that will form the desired structure. In this manner, you can obtain any shape \[15, 16\]. Similarly designed, mutually connectable unit structures have successfully provided a crystal structure \[17\].
 
-![](images/ch3fig16.png)
+![](images/ch3/ch3fig16.png)
 
 Two-dimensional DNA bricks and reported examples. Reprinted with permission from Nature ©2012. \[15\]
 
-![](images/ch3fig17.png)
+![](images/ch3/ch3fig17.png)
 
 Crystal structure made of DNA bricks. Reprinted with permission from Nature ©2014. \[17\].
 {/aside}
@@ -204,7 +204,7 @@ In addition to DNA tiles, origami, and bricks, which are two/three-dimensional s
 
 \(a) A cubic structure \[10\] can be made by ligating a plurality of   circular DNA molecules of catenane topology. (b) An octahedron structure \[11\] can be obtained by folding a long single strand DNA made of chemically synthesized multiple DNA molecules, in the presence of other short DNA strands. (c) A tetrahedron structure \[12\] can be formed from four single DNA strands each of which constitutes three of the tetrahedron edges and is complementary to one of the other strands along each edge. (d) A spherical structure can also be made using the T-branch motif as described above \[13\]. By carefully choosing the concentration for annealing, tetrahedron, dodecahedron, and buckyball-like structures were obtained.
 
-![](images/ch3fig18.png)
+![](images/ch3/ch3fig18.png)
 
 \(a) to (d) drawn based on \[14\], \[11\], \[12\], and \[13\],   respectively.
 {/aside}
@@ -223,7 +223,7 @@ Unlike "folding" and "hydrogel" approaches, which make structures solely from DN
 
 At present, because of its relatively easy preparation, gold nanoparticles are usually chosen as a core. In a typical procedure, chemically synthesized DNA, modified with a thiol group, is reacted with and attached to the gold nanoparticle surface in a buffer that has an ion concentration adjusted to suppress the repulsion between DNA molecules. For example, the resulting particles can be connected via these DNA linkers to provide a face-centered cubic (f.c.c.) or body-centered cubic (b.c.c.) crystal structure (a) \[5,6\]. Recently, a "Wulff polyhedron" monocrystal structure was also obtained on the micro-scale through annealing \[7,8\] (b). This was very impressive in that a nano-scale interaction of DNA produced a macroscopic structure that is known as equilibrium shape in the field of crystal growth.
 
-![](images/ch3fig19.png)
+![](images/ch3/ch3fig19.png)
 
 _—Shogo Hamada (Cornell University)_
 
@@ -239,23 +239,23 @@ Chemical and Physical Gels
 
 In general, a gel is classified into one of two kinds depending on the crosslink mechanism of its network.
 
-![](images/ch3fig20.png)
+![](images/ch3/ch3fig20.png)
 
 One class is a chemical gel. A chemical gel is formed by covalent crosslinking. As a result, as long as its component molecules are unbroken, the whole network will remain intact (will not melt). A well-known example of chemical gel solely made of DNA has a motif-based design as described above \[1\]. Specifically, sticky ends of X, Y, T, or other branched structures are joined by an enzymatic reaction using ligase. This allows a robust network of double helices to be produced.
 
-![](images/ch3fig21.png)
+![](images/ch3/ch3fig21.png)
 
 Another class is the physical gel. A physical gel is formed by a non-covalent crosslink mechanism (e.g., hydrogen bond or physical entanglement). The earliest examples of physical gel prepared from chemically synthesized DNA include one designed by Liu _et al._ in a motif-based manner \[2\], which has been formed by connecting Y branches using a double strand linker, both ends of which are sticky ends. In another example, a gel has been obtained using a non-DNA macromolecule as the network backbone in combination with the specific connection property of DNA hybridization \[3\]. Recently, 3D printing was applied to such a physical DNA hydrogel to obtain desired two/three-dimensional shapes at the macro scale \[4\].
 
 Another technique to produce a DNA physical gel depends on DNA polymerase enzyme \[5\] (DNA polymerase extends a DNA strand complementary to a template, with a primer being the starting point), which is summarized below. First, a circular template DNA is prepared, to which a primer DNA (primer 1) complementary to a portion of the template sequence is hybridized, and then DNA polymerase starts the extension reaction of primer 1. This polymerase has strong strand displacement activity, resulting in a long single strand DNA product that is composed of multiple repeats of the sequence complementary to the template. This process is called RCA (Rolling Circle Amplification). This first reaction is allowed to proceed for a sufficiently long time, and then primer 2 (which is complementary to a portion of the product of primer 1), and primer 3 (which has a sequence identical to primer ), are added to the solution. Primer 2 starts an extension reaction using the extension product of primer 1 as a template. Primer 3 hybridizes to the initial circular template DNA or the product of primer 2 to start another extension reaction. The resulting DNA molecules become highly entangled with each other forming a gel network.
 
-![](images/ch3fig22.png)
+![](images/ch3/ch3fig22.png)
 
 ### Characterization
 
 Is the structure obtained as above truly a gel? In most cases, the answer to this question is determined by dynamic viscoelasticity analysis using a rheometer. In dynamic viscoelasticity analysis, a sinusoidal stress is applied to a given sample and the strain response is measured. Based on their phase difference and amplitude, the storage modulus G' (the elastic portion; the degree of solid-like behavior of the sample) and the loss modulus G" (the viscous portion; the degree of liquid-like behavior of the sample) are calculated. G' &gt; G" means that the sample is a gel.
 
-![](images/ch3fig23.png)
+![](images/ch3/ch3fig23.png)
 
 ### Applications
 
@@ -275,7 +275,7 @@ An organism is made of innumerable, highly sophisticated molecular machines. A w
 
 On the other hand, artificial molecular machines employ a catenane (multiple ring-shaped molecules mutually interlocked like a chain), a rotaxane (a dumbbell-shaped molecule threaded through a macrocycle, interlocked by the ends of the dumbbell), and the like that function as joints, bearings, and other movable molecular elements. These machines include molecular shuttles, molecular tweezers, and nanocars. A nanocar has four wheels made of fullerene, and each axle can endlessly rotate on a covalent carbon-carbon bond. A nanocar has been reported to be driven straight over a gold surface by thermal fluctuation \[1\].
 
-![](images/ch3fig24.png)
+![](images/ch3/ch3fig24.png)
 
 **Nanocar.** Reprinted from Nano Letter ©2005 ACS.
 
@@ -300,7 +300,7 @@ In an externally driven system, a nanomachine moves only one step every time it 
 
 The most common external driving mechanism is strand displacement (see section 42). In this case, different DNA single strands are added to the solution by pipetting, one at a time. Each DNA single strand added displaces a part of the DNA nanomachine structure, causing the nanomachine to change its shape (this constitutes one motion). A representative example is molecular tweezers (see section 24). One advantage of the strand displacement-based driving method is that you can choose the site of displacement. Other variations include walker (see section 25) and pliers (see section 26). At present, the most complex nanomachine driven by strand displacement is the nanofactory developed by Seeman's group (see section 26).
 
-![](images/ch3fig25.png)
+![](images/ch3/ch3fig25.png)
 
 **Nanofactory.** Reprinted with permission from Nature, 2010 \[3\]
 
@@ -308,7 +308,7 @@ The B-Z transition driving method relies on the fact that a DNA molecule with th
 
 There are relatively few examples of autonomous molecular machines. One example is the autonomous walker (see section 25). The walker achieves a walking motion by binding to an array of track DNA molecules provided on a two-dimensional DNA origami (see section 18), and then cleaving the bound track DNA by means of a DNAzyme sequence contained in each leg (see section 30). The walker does not require any external input because it autonomously repeats the cycle of taking one step and binding the next track DNA upon the cleavage of one track DNA.
 
-![](images/ch3fig26.png)
+![](images/ch3/ch3fig26.png)
 
 Autonomous walker based on a DNAzyme sequence \[4\].
 
@@ -316,7 +316,7 @@ Autonomous walker based on a DNAzyme sequence \[4\].
 
 Any of the molecular machines described above works as a single molecule in a solution, by changing its shape and/or binding state stepwise. A more elaborate system, the Molecular Robotics Project (see column 1) seeks to achieve a slime-like motion by enclosing a DNA computing circuit and a molecular actuator in a reactor such as a liposome (see section 89). The behavior of microtubules can be controlled by attaching a DNA tag to them, to which an autonomous DNA reaction system (see section 27) will be applied in the future \[2\].
 
-![](images/ch3fig27.png)
+![](images/ch3/ch3fig27.png)
 
 **Slime Robots \[2\].** Reprinted from Accounts on Chem Res. ©2014 ACS.
 
@@ -336,7 +336,7 @@ Thermodynamically, the self-assembly of DNA into a nanostructure proceeds toward
 
 ### Operating Mechanism of DNA Tweezers
 
-![](images/ch3fig28.png)
+![](images/ch3/ch3fig28.png)
 
 Reprinted with permission from C. M. Niemeyer, M. Adler, Angew. Chem. Int. Ed. 2002, 41, 3779.
 
@@ -368,7 +368,7 @@ To operate the DNA tweezers described in the previous section, a DNA nanostructu
 
 Pierce _et al._ constructed a DNA walker that was driven by strand displacement reaction, which had been originally devised for DNA tweezers (Fig. 1) \[1\]. As shown at the top of each panel in the figure, the DNA walker is made of two partially hybridized DNA strands, wherein the single strand overhang serves as the "legs" of the walker. At the bottom, another structure made of multiple DNA strands hybridized to each other also shows single-stranded protrusions. These single-strand regions are called "stators". Two DNA strands are added sequentially to this system and each serves as both signal and fuel for the walking motion. A1 is added first, hybridizing to both the walker and one of the stators to place one leg of the walker on the stator. Then A2 is added, causing another leg to be placed on a neighboring stator. At this point, a region of the added DNA remains single-stranded, serving as the toe-hold for the strand displacement reaction (see section 42). Then, D1 is added, which is fully complementary to A1, to induce a strand displacement reaction that releases A1 from the leg of the walker and the stator, resulting in the walker again standing on one leg. This walking motion has been demonstrated by modifying the toe and the stator with different fluorescent groups and observing it by fluorescence spectrometry (see section 81).
 
-![](images/ch3fig29.png)
+![](images/ch3/ch3fig29.png)
 
 **Fig. 1.** DNA strands A1, A2, and D1 are highlighted in yellow, pink, and grey, respectively. Reprinted with permission from Reference \[1\]. Copyright ©2004, American Chemical Society.
 
@@ -376,7 +376,7 @@ Pierce _et al._ constructed a DNA walker that was driven by strand displacement 
 
 A DNA walker is driven by the association/dissociation cycle of complementary sequences. Directional walkers have been attempted by combining walkers with enzymatic reactions, such as restriction enzyme/ligase or DNAzyme. The example below employs an irreversible DNA cleavage reaction by nicking enzyme (Fig. 2) \[2\].
 
-![](images/ch3fig30.png)
+![](images/ch3/ch3fig30.png)
 
 **Fig. 2.** Reprinted with permission from J. Bath, A. Turberfield, Nature Nanotech. 2007, 2, 275. Dark green: DNA walker; light green: stator DNA; Black arrowhead: cleavage site.
 
@@ -386,7 +386,7 @@ When this single-strand DNA walker hybridizes to a stator, it produces a nicking
 
 When mutually complementary sequences are present in one DNA molecule, they can hybridize to each other and form a hairpin structure. Compared with inter-molecular hybridization to a fully complementary DNA sequence, this hairpin structure is less stable in terms of free energy, but can have its hybridization suppressed in a kinetic manner, allowing the researcher to program a reaction cascade for a stepwise hybridization in the presence of a carefully designed toe-hold sequence. Yin _et al._ used this technique to construct interesting reaction systems such as catalytic branched structure formation and autocatalytic double strand DNA formation \[4\]. An autonomous DNA walker system that is solely composed of DNA has also been proposed (Fig. 3). It is a structure made of two partially hybridized DNA strands, with a double strand region flanked by single strand "leg" regions. The scaffold has stators that are each designed to form a hairpin structure, so that the "fuel" hairpin DNA cannot bind to them. However, when the walker binds to a stator, the hairpin structure of the stator is opened up, and the "fuel" hairpin DNA can now bind to it, causing dissociation of the leg. As a result, the walking motion of the walker occurs autonomously.
 
-![](images/ch3fig31.png)
+![](images/ch3/ch3fig31.png)
 
 **Fig. 3.** Reprinted with permission from Reference \[4\].
 
@@ -400,7 +400,7 @@ DNA Molecular Machine Working on DNA Origami
 
 The first example of a DNA molecular machine that worked on a DNA origami molecule came from Seeman’s group. Seeman is a pioneer in DNA molecular machines. In 2009, they incorporated their rotary machine into a DNA origami, and successfully observed its structure change by AFM \[1\]. They advanced this system to build a factory of nanometer size on a DNA origami \[2\] structure. Specifically, they let a triangular DNA walker move on single strand DNA scaffolds provided on a DNA origami. This walker possessed three rotatable arms on its sides and was able to catch gold nanoparticles as it moved forward. This is a very complex system, but they have shown by AFM and EM that the walker is actually loaded with desired particles.
 
-![](images/ch3fig32.png)
+![](images/ch3/ch3fig32.png)
 
 Reprinted with permission from Nature, 2010.
 
@@ -412,7 +412,7 @@ Turberfield _et al._ prepared a track of single strand DNA array on a DNA origam
 
 We have developed the world's first nanomechanical DNA origami device capable of a structural change directly linked to a practically useful function, i.e. a pliers-like movable DNA origami structure with two levers, each about 170 nm long, joined by a single joint ("DNA pliers") \[6-9\]. The levers, each formed from a bundle of six DNA double helices, can rotate freely about a Holliday junction that serves as the joint, and will usually exist as an X-shaped structure with an interior angle of 60˚ in an aqueous solution. When the DNA pliers are adsorbed onto mica and observed by AFM, a large number of X-shaped structures are observed. On the other hand, if the levers are chemically modified with something that interacts with the target molecule to form a second joint between the levers, the X-shaped structure will be able to turn into a =-shaped closed structure. For example, if you modify each lever with a biotin molecule, the pliers can be closed upon picking just one streptavidin protein. This structure can be subjected to single molecule imaging by AFM, demonstrating detection of a target protein at the single molecule level. In other words, this system acts as a single molecule detection system based on a movable DNA origami device that can simultaneously detect a wide range of targets, including the hydrogen ion with the smallest molecular weight of 1 Da, small molecules of several 100 Da, and even proteins of several 10 kDa.
 
-![](images/ch3fig33.png)
+![](images/ch3/ch3fig33.png)
 
 As another example of detecting a target based on the structural change of a DNA origami device induced by interaction, Mao _et al._ reported a protein detection system based on optical tweezers \[10\].
 
@@ -434,7 +434,7 @@ First, we define the meaning of "autonomous" in this field, because it is a some
 
 Pierce _et al._ developed a DNA extension system called HCR (Hybridization Chain Reaction) (Fig. 1) \[2\]. It is composed of two hairpin DNA molecules (H1 and H2) and an initiator ssDNA (I) that triggers the reaction, which depends solely on hybridization and proceeds autonomously without enzymes. As shown in Fig. 1A, the presence of H1 and H2 is not sufficient for the reaction to occur. When I is added, the sequence a\* in I hybridizes the toe-hold sequence a in H1, causing the hairpin structure of H1 to be opened by branch migration (Fig. 1B). As a result, the sequence c in H1 hybridizes to the toe-hold sequence c\* in H2, causing the hairpin structure of H2 to be opened by branch migration. This exposes the sequence b\*a\* in H2, which is identical to one in I (Fig. 1C), resulting in a chain reaction that generates a long DNA made of multiple repeats of a double strand sequence. HCR is applicable to the detecting trace signal molecules, autonomous DNA computing, and the like.
 
-![](images/ch3fig34.png)
+![](images/ch3/ch3fig34.png)
 
 **Fig. 1.** Mechanism of HCR.
 
@@ -442,7 +442,7 @@ Pierce _et al._ developed a DNA extension system called HCR (Hybridization Chain
 
 Suyama’s, Takinoue’s and Kiga’s groups, inspired by the process of viral infection/proliferation in a host cell, developed a system called autonomous DNA computer RTRACS that was based on reverse transcription (RT) and transcription reactions \[3,4,5\]. Fig. 2 shows the configuration of an RTRACS-based AND gate \[3\]. In RTRACS, input/output molecules (data molecules) are made of RNA and system components are made of DNA. The input RNA r21 hybridizes to the primer DNA 1 included in the reaction system, initiating the DNA extension by RT. The RNA degrading enzyme (RNaseH; RH) degrades the RNA, generating the single strand DNA 12. DNA 12 hybridizes to another input RNA, r32, causing another RT extension. Then the RNA is degraded by RH, providing the single strand DNA 123. When this strand hybridizes to the converter DNA included in the system, DNA polymerase (DP) starts a DNA extension, which turns the T7 promoter sequence included in the system into a double strand. T7 RNA polymerase (RP) binds to this double strand promoter sequence to transcribe the downstream output RNA r45. Such a series of reactions proceeds autonomously, allowing an operation through which two RNA inputs are converted to one RNA output. Because it employs RNA as the interface, the system allows more complex operations by combining multiple instances of the gate. For example, an oscillating reaction based on a negative feedback loop may be possible \[4\].
 
-![](images/ch3fig35.png)
+![](images/ch3/ch3fig35.png)
 
 **Fig. 2.** RTRACS-based AND gate.
 
@@ -488,7 +488,7 @@ Polymerase extension: extends the 3' end of one strand in a double strand, using
 
 Strand displacement (branch migration): replaces one strand in a double strand.
 
-![](images/ch3fig36.png)
+![](images/ch3/ch3fig36.png)
 
 _—Masami Hagiya (Tokyo University)_
 
@@ -517,7 +517,7 @@ In so-called dual-rail representation, two molecular species G and H are assigne
 
 Below is a schematic of an enzyme-free logic gate by Seelig _et al._
 
-![](images/ch3fig37.png)
+![](images/ch3/ch3fig37.png)
 
 In this figure, an AND gate is implemented. Gin and Fin are inputs. First, Gin binds to the toe-hold in the single strand G in the gate, which results in a double strand formation between Gin and G by strand displacement reaction. Then the newly exposed toe-hold is bound by Fin, which results in a double strand formation between F and Fin by strand displacement reaction. As a result, when the inputs Gin and Fin are both present, the output Eout is released as a single strand.
 
@@ -527,7 +527,7 @@ Reversible Logic Circuit of Genot _et al._
 
 Genot _et al._ has implemented a reversible logic gate as shown in the following figure, which is also an AND gate.
 
-![](images/ch3fig38.png)
+![](images/ch3/ch3fig38.png)
 
 Each of the two inputs (Fin and Gin) can alter the structure of the AND gate, but the single strand region Eout as output is exposed only when both inputs are present. These reactions, though with different reaction rates, each can proceed in either direction. Thus, when one of the inputs is removed, the reaction proceeds in the reverse direction and the output is lost.
 
@@ -547,13 +547,13 @@ Upon Mg^2+^ addition, the backbone of the blue substrate molecule is cleaved. As
 
 In addition to the Mg^2+^-dependent sequence, known examples of DNAzyme with degradation activity include Zn^2+^- and Pb^2+^-dependent sequences \[2\]. Apart from degradation activity, a sequence with a ligase activity that connects backbone fragments and the like have also been reported \[3\].
 
-![Schematic of DNAzyme](images/ch3fig39.png)
+![Schematic of DNAzyme](images/ch3/ch3fig39.png)
 
 ### DNAzyme-Based Systems
 
 A DNAzyme is not only applicable to a metal ion detection system, but also to more complex systems that are driven by DNA inputs. Typical examples include walkers and logic gates. In a walker system, a DNAzyme repeats the degradation reaction, causing the site of degradation to move around \[4\] (see section 25).
 
-![DNAzyme-based AND gate](images/ch3fig40.png)
+![DNAzyme-based AND gate](images/ch3/ch3fig40.png)
 
 A DNA logic gate has been implemented so that a substrate is cleaved only when a desired hybridization has occurred \[1\]. Fig. 2 shows an AND gate. In the initial state, the hairpin structures in the top and bottom portions of the red DNA prevent its hybridization to the substrate. Either input can open one of the hairpin structures, which is still not sufficient for the substrate to be cleaved. Only in the presence of both inputs can the substrate be cleaved to emit the fluorescence as output.
 
@@ -561,7 +561,7 @@ On the contrary, a system that is initially active but is inactivated by an inpu
 
 A cascade of such DNAzyme logic gates has also been attempted \[5\]. The system is schematically shown in Fig. 3. Each cleaved product activates or inactivates the next cleavage reaction, allowing a particular combination of inputs to generate a fluorescence as output.
 
-![Multilayered DNAzyme logic gate cascade](images/ch3fig41.png)
+![Multilayered DNAzyme logic gate cascade](images/ch3/ch3fig41.png)
 
 **Fig. 3.** Multilayered DNAzyme logic gate cascade \[5\]. Reprinted with permission from Nature Publishing Group, 2010.
 
@@ -571,7 +571,7 @@ Some examples of large-scale systems that combine DNAzyme logic gates have been 
 
 Another system is a display \[7\] (Fig. 4, right). In response to a combination of inputs, the display outputs the result of decimal to binary conversion, four arithmetic operations, or the like as a digit from 1 to 9 on an array of wells.
 
-![DNAzyme-based tic-tac-toe](images/ch3fig42.png)
+![DNAzyme-based tic-tac-toe](images/ch3/ch3fig42.png)
 
 Reprinted with permission from American Chemical Society, 2006 and Angewandte Chemie International Edition, 2014.
 
@@ -593,7 +593,7 @@ When the catalyst as input is present, it hybridizes to the domain E, initiating
 
 The activity of the catalyst is not affected by the reaction. Once released after the reaction, it can drive another cycle and function endlessly as long as the substrate is present.
 
-![Reaction mechanism of an entropy-driven gate](images/ch3fig43.png)
+![Reaction mechanism of an entropy-driven gate](images/ch3/ch3fig43.png)
 
 
 ### Experimental Evidence of Amplification Reaction
@@ -604,7 +604,7 @@ As seen from the graph, the concentration of the output is higher than that of t
 
 Some researchers have reported a two-level gate system such as an autocatalytic reaction with the output and input having an identical sequence. Experimental and model analysis results of the two-level system suggests that 12 hours of the reaction can even determine the presence/absence of the input molecule at a concentration of 0.01% (in chemical equivalent). However, the autocatalytic reaction generates some amount of the output also in the absence of the input (leak reaction) as another consequence of the exponential amplification.
 
-![Results of a simulation of an entropy-driven gate](images/ch3fig44.png)
+![Results of a simulation of an entropy-driven gate](images/ch3/ch3fig44.png)
 
 ### Entropy
 
@@ -616,7 +616,7 @@ What does not stay the same after the reaction is the number of molecules (from 
 
 Because it is an entropy-driven system, the reaction is relatively resistant to the influence of temperature and salt concentration on DNA hybridization. Thus, various applications are conceivable besides amplification.
 
-![The catalytic reaction step](images/ch3fig45.png)
+![The catalytic reaction step](images/ch3/ch3fig45.png)
 
 _—Ibuki Kawamata (Tohoku University)_
 
@@ -629,13 +629,13 @@ A DNA reaction system called seesaw gate is based on the ingenious use of strand
 
 Assume a logic element as shown in the following figure. Each input signal to the element is compared to a predetermined threshold, and signals below the threshold are discarded as noise. In contrast, each input above the threshold generates an output signal. Here, the output generation requires a fuel. As described below, seesaw gate is the implementation of this logic element by DNA reactions.
 
-![](images/ch3fig46.png)
+![](images/ch3/ch3fig46.png)
 
 ### AND Gate by Combination
 
 In the next figure, four basic elements are combined to construct an AND gate. Assume that the signal level of input 1 is higher than the threshold (hereafter, ON indicates an input above the threshold and OFF indicates an input below the threshold). Input 3 is an auxiliary input and equals always ON. Although input1 is also ON, it requires a fuel to generate an output from gate 1. This fuel is supplied as an output from gate 3, which in turn requires a fuel to gate 3. When input 2 is ON, gate 2 generates a fuel to gate 3 as output. Therefore, gate 1 generates an output only when both input 1 and input2 are ON. When either or both of the inputs are OFF, gate 1 does not generate an output. This is an AND gate. Gate 4 is inserted to improve the reliability of the AND gate. Qian _et al._ also have constructed an OR gate, Boolean network, comparator, relay, and analog circuit, greatly facilitating the design of DNA reaction-based circuits \[1\]. In this manner, you can construct a variety of circuits by carefully combining seesaw gates and introducing measures to improve their functional reliability.
 
-![](images/ch3fig47.png)
+![](images/ch3/ch3fig47.png)
 
 ### DNA Reactions in Seesaw Gate
 
@@ -645,7 +645,7 @@ DNA reactions that constitute the seesaw gate are summarized below.
 
 An input molecule is a single strand DNA with the sequence S~1~-T-S~2~, and a molecule that defines the threshold is a double strand DNA that carries the toe-hold sequence T' (see section 42). When the input DNA meets the threshold DNA, it starts strand displacement from the toe-hold sequence and no longer remains as a single strand. Therefore, in order to drive the operation in the gate, a concentration of the input DNA higher than that of the threshold DNA is required.
 
-![](images/ch3fig48.png)
+![](images/ch3/ch3fig48.png)
 
 Reprinted from the Journal of the Royal Society Interface, 2011 \[4\] (open access).
 
@@ -653,7 +653,7 @@ Reprinted from the Journal of the Royal Society Interface, 2011 \[4\] (open acce
 
 The following figure shows a chain reaction of a strand displacement reaction and is the origin of the name seesaw gate. In the figure, reactions indicated by solid lines are predominant, whereas those indicated by dotted lines are reverse reactions. First, when the input DNA meets a double strand DNA included in the gate (gate:output), it undergoes a strand displacement reaction to generate a single strand output DNA and a double strand DNA (gate:input). Gate:input exposes a toe-hold sequence T', to which a fuel DNA binds to undergo another strand displacement reaction, with gate:input, converted into the input and a double strand DNA (gate:fuel). The first strand displacement reaction is a material flow from the top to the bottom of the figure, and the second reaction is from the bottom to the top..., constituting a "seesaw"-like reaction cycle. Most importantly, the input is consumed in the first strand displacement reaction but supplied in the second strand displacement reaction. Generally, in a circuit design, you must take care that individual circuits will not only work correctly alone but also in combination when connected to each other. Such independence of performance of individual circuits from connection is called modularity \[2\].
 
-![](images/ch3fig49.png)
+![](images/ch3/ch3fig49.png)
 
 Reprinted from the Journal of the Royal Society Interface, 2011 \[4\] (open access).
 
@@ -664,7 +664,7 @@ Seesaw gates are highly modular, because they can generate output DNA without co
 
 Further elaborate circuits are also possible. For example, a seesaw gate-based neural network composed of four neurons has been reported in \[3\].
 
-![](images/ch3fig50.png)
+![](images/ch3/ch3fig50.png)
 
 Reprinted with permission from Nature, 2011 \[3\].
 {/aside}
@@ -687,7 +687,7 @@ A long "template" DNA, about 25 bases long, serves as a gene and synthesizes a s
 
 The template DNA is composed of two (i.e. input and output) regions, which plays a central role in the DNA toolbox. When the signal DNA hybridizes to the input region, polymerases start the extension process. As a result, the template DNA is turned into a complete double strand. In order to separate the input and output, the template DNA has a nickase target sequence. The input and output are separated by nickase and dissociate (Fig. 1).
 
-![](images/ch3fig51.png)
+![](images/ch3/ch3fig51.png)
 
 **Fig. 1:** Template functions. 1. Hybridization, 2. extension reaction, 3. separation, and 4. dissociation.
 
@@ -699,13 +699,13 @@ As already described, the single-strand signal DNA is degraded by an exonuclease
 
 DNA toolboxes include three basic modules of activation, autocatalysis, and inhibition. Fig 2 shows their mechanism, behavior, and graph representation. In the graph representation, a circular node represents signal, an arrow represents template, and the T-shaped line represents inhibition.
 
-![DNA toolbox modules](images/ch3fig52.png)
+![DNA toolbox modules](images/ch3/ch3fig52.png)
 
 The third module for inhibition is driven by a type of signal DNA called an "inhibitor". The inhibitor can bind to more than one site in the target template, but does not elicit polymerase or nickase reactions (due to sequence mismatch and incomplete recognition sequence, respectively). Until dissociation of the inhibitor, the template is kept inactive. Note that the inhibitor cannot be used as an input DNA.
 
 Based on this platform, Montagne _et al._ developed the oscillator shown in Fig. 3 \[3\], and Padirac _et al._ developed a two-state circuit and two-state switch \[4\]. The performance of their systems has been experimentally verified. Theoretically, more complex systems have been proposed \[5\].
 
-![](images/ch3fig53.png)
+![](images/ch3/ch3fig53.png)
 
 **Fig. 3:** Oscillator and experimental results by Montagne _et al._ Reprinted from Molecular Systems Biology, 2011 \[3\] (open access).
 
@@ -713,7 +713,7 @@ Based on this platform, Montagne _et al._ developed the oscillator shown in Fig.
 
 Because a DNA toolbox includes a non-linear reaction, it is hard to completely predict the behavior of the system. For minimal refinement, the template is regarded as a black box as shown in Fig. 4. The black box is a simple converter based on the reaction rate of Michaelis-Menten. This model assumes that hybridization and denaturation (association and dissociation between complementary DNA molecules, respectively) reach the equilibrium much faster than the enzymatic reaction does. As a result, the equation in Fig. 4b is obtained for each module. Based on the graph representation, an equation that represents the entire system can be derived easily by adding reactions of templates that correspond to different signal DNA molecules together. The degradation by the exonuclease is incorporated as an approximation by the first-order reaction shown in Fig. 4d.
 
-![](images/ch3fig54.png)
+![](images/ch3/ch3fig54.png)
 
 **Fig. 4: Representation and Equation of a DNA Toolbox as a Black Box.** A vertical line indicates restriction, \[ \] indicates concentration, and *α* and *β* are parameters; *exo* means exonuclease reaction.
 
@@ -747,13 +747,13 @@ When a DNA nanostructure is altered stepwise in a series of reactions, these str
 
 "Finite automaton (FA)" is a virtual computation model that has internal states and a state transition function. When FA receives a symbol string as input, it reads out the symbols sequentially to execute state transitions by referring to its state. When the final state is an accept state, the symbol string is "accepted". For example, in the following figure, upon input of the symbol string "baba", FA reads out the leftmost b, and a transition from the initial state S~0~ to S~1~ occurs according to the state transition function. Then the second a (from the left) is read, and a transition from the state S~1~ to S~1~ occurs. When the third b is read, a transition from the state S~1~ to S~0~ occurs, and when the fourth a is read, a transition from the state S~0~ to S~0~ occurs. In this example, the state S~0~ is an accept state, and FA accepts the input *baba*.
 
-![](images/ch3fig55.png)
+![](images/ch3/ch3fig55.png)
 
 **FA that accepts a symbol string containing an even number of bs.** Each circled letter indicates a state, and the double circle indicates an accept state. Each small letter above an arrow represents a state transition function.
 
 Shapiro _et al._ implemented FA in a reaction system that was composed of DNA and Fok I, a type IIs restriction enzyme \[1\]. Type II restriction enzymes recognize a specific sequence in a double strand DNA, and cutss both DNA strands at a specific position (see section 47). Among type II restriction enzymes, type II enzymes cut DNA outside their recognition sequences. In the figure below, the "input DNA" encodes an input symbol string and has a terminal overhang sequence, to which a complementary terminal overhang sequence in the "state transition function DNA" can hybridize to cause the cleavage of the input DNA by Fok I. This corresponds to reading one symbol to execute a state transition. The cleavage produces a new terminal overhang in the input DNA, the next symbol is read out like before, and another state transition occurs. A 1-to-3 base spacer sequence that is immediately to the right of the Fok I recognition sequence beautifully encodes multiple states. For details, please refer to the original paper \[1\] and a review in Japanese \[2\].
 
-![](images/ch3fig56.png)
+![](images/ch3/ch3fig56.png)
 
 **State transition reaction in a DNA automaton.** N can be any base and each vertical line indicates a base pair. A Fok I recognition sequence is boxed. Reprinted from Fig. 5.9 in \[2\].
 
@@ -761,7 +761,7 @@ Shapiro _et al._ implemented FA in a reaction system that was composed of DNA an
 
 Hagiya _et al._ employed an extension reaction by a DNA polymerase that occurs when the 3' terminus of a DNA hybridizes to a complementary sequence in the same molecule and serves as primer, to devise a finite state machine that encoded stepwise state transition rules in a single DNA molecule \[3\]. Usually, a DNA extension reaction happens in the presence of dNTP of all four bases in a reaction solution. If one of the bases has been depleted, the extension reaction halts at a base complementary to it. This "polymerization stop" allows a base length that encodes a state to undergo the extension reaction at a time.
 
-![](images/ch3fig57.png)
+![](images/ch3/ch3fig57.png)
 
 **Polymerization Stop.** The reaction solution is depleted of dTTP. The extension reaction halts at a base A in the template DNA.
 
@@ -782,7 +782,7 @@ This section reviews Adleman's DNA-based solution method for directed Hamiltonia
 
 In 1994, the computer scientist Adleman succeeded in using DNA to solve a mathematical problem called the "directed Hamiltonian path problem", which can be regarded as the start of the field of DNA computing.
 
-![](images/ch3fig58.png)
+![](images/ch3/ch3fig58.png)
 
 For a digraph (a graph with directed edges) as shown above, the directed Hamiltonian path problem asks to find a path that travels from a given start node to a given goal node, visiting every node exactly once ("Hamiltonian path").
 
@@ -792,7 +792,7 @@ In classical DNA computing, in order to solve a search problem, individual candi
 
 According to Adleman's idea, each node in a graph is represented by a single-stranded DNA molecule. Needless to say, different nodes have different sequences assigned. Each directed edge between nodes (e.g. (3) -&gt; (4) in the figure) is represented by the Watson-Crick complementary sequence joining a half of its tail (3) node sequence and a half of its head (4) node sequence.
 
-![](images/ch3fig59.png)
+![](images/ch3/ch3fig59.png)
 
 By chemically synthesizing node DNA molecules and directed edge DNA molecules and annealing them in a test tube, a variety of double strand DNA molecules representing paths in a graph can be obtained, as shown in this figure. This process corresponds to random generation of paths in the graph. Here, neighboring DNA molecules can be covalently joined by means of ligases.
 
