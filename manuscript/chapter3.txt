@@ -772,3 +772,54 @@ The 3' terminal sequence represents the "current state" of the finite state mach
 Reaction systems described in this section have some disadvantages for using them for practical computation. DNA automatons cannot encode many states, and the hybridization rate is concentration-dependent, raising the question of how to process a lot of data by the system. On the other hand, Whiplash PCR, which repeats secondary structure formation and melting of DNA, requires a high reaction temperature, and the input step is not yet optimal. In order to implement advanced information processing and learning by DNA computing, a computation mechanism with internal states is essential. Extensive discussion on a wide range of computation models and reaction systems to implement them will be required to propose novel reaction systems to overcome these issues.
 
 _—Ken Komiya (TITECH)_
+
+
+## 35. Traveling Salesman Problem
+
+This section reviews Adleman's DNA-based solution method for directed Hamiltonian path problems and then discusses the traveling salesman problem. Evolution computations such as genetic algorithms, as well as in-vitro selection, under the title of "From Search to Optimization", are also discussed briefly.
+
+### Adleman's Idea and Experimentation
+
+In 1994, the computer scientist Adleman succeeded in using DNA to solve a mathematical problem called the "directed Hamiltonian path problem", which can be regarded as the start of the field of DNA computing.
+
+![](images/ch3fig58.png)
+
+For a digraph (a graph with directed edges) as shown above, the directed Hamiltonian path problem asks to find a path that travels from a given start node to a given goal node, visiting every node exactly once ("Hamiltonian path").
+
+In general, a problem that asks a solution that meets given requirements from a huge number of candidate solutions is most often classified as an NP-complete problem. In an NP-complete problem, in short, upon an increase in the problem size (the number of nodes and edges in the case of a graph), the number of candidate solutions exponentially increase, so that the solution search becomes extremely difficult. Of course, the directed Hamiltonian path problem is NP-complete.
+
+In classical DNA computing, in order to solve a search problem, individual candidate solutions are represented by DNA molecules of different sequences, and all candidate solutions are generated as a library of DNA molecules. Specifically, a large DNA library of different sequences is prepared in a test tube. The entire library is then subjected to a series of selection steps to identify a DNA molecule that meets the requirements of the solution, thus solving the search problem.
+
+According to Adleman's idea, each node in a graph is represented by a single-stranded DNA molecule. Needless to say, different nodes have different sequences assigned. Each directed edge between nodes (e.g. (3) -&gt; (4) in the figure) is represented by the Watson-Crick complementary sequence joining a half of its tail (3) node sequence and a half of its head (4) node sequence.
+
+![](images/ch3fig59.png)
+
+By chemically synthesizing node DNA molecules and directed edge DNA molecules and annealing them in a test tube, a variety of double strand DNA molecules representing paths in a graph can be obtained, as shown in this figure. This process corresponds to random generation of paths in the graph. Here, neighboring DNA molecules can be covalently joined by means of ligases.
+
+Assume that you have obtained a sufficient number of DNA molecules, so that all paths in a graph, especially those as long as (or shorter than) the Hamiltonian path, have been generated. In this case, you will only have to choose a path that meets the requirements of the solution (Hamiltonian path) from the paths on the graph that have been generated as DNA molecules.
+
+In order to solve a Hamiltonian path problem, Aldeman performed a selection based on PCR, electrophoresis, and magnetic beads. He used PCR primers that represented the start and the goal, respectively, to select/amplify only paths that led from the start to the goal. From these, he selected paths of the same length as that of the Hamiltonian path by electrophoresis. Finally, using magnetic beads, paths that contained all nodes except the start and goal were selected.
+
+This operation is equally applied to all DNA molecules present in the test tube. Because each DNA molecule represents a path in a graph, such an operation is called "data parallelism", meaning that it is applied equally to all data. Thus, Adleman's method can be regarded as parallel computing by data-parallelism.
+
+Similarly, solution methods for other NP-complete problems have been proposed, some of which have been experimentally investigated on a DNA basis. Particularly, the Boolean satisfiability problem is the most basic among NP-complete problems, for which Adleman, Lipton, Hagiya, and others have proposed DNA-based solution methods and tested them *in vitro*.
+
+### From Search to Optimization
+
+Classical DNA computing stochastically generates candidate solutions by DNA molecules. This process seeks to prepare all candidate solutions, but it might be impossible for a problem of larger size, even if each molecule corresponds to a specific candidate solution. In addition, stochastic bias might result in only some of possible candidate solutions being generated.
+
+In the real world, each solution often has a defined fitness value, wherein a solution with the greatest (or smallest) fitness value, or at least a value as great (or small) as possible, is sought. Such a problem is called an optimization problem.
+
+The traveling salesman problem is a typical optimization problem and is somewhat similar to a directed Hamiltonian path problem, but the graph has a defined edge length. In addition, it asks for a cycle that starts and finishes at the same node: i.e., the shortest cycle that visits each node exactly once, instead of a simple path. A problem that asks the shortest cycle is NP-complete, and this problem can be regarded as an optimization problem to find the possible shortest cycle.
+
+The traveling salesman problem has been extensively studied, and a wide variety of solution methods have been proposed, providing a benchmark for other optimization problems.
+
+A category of optimization methods applicable to various problems, called metaheuristics, has been proposed. Major metaheuristics include annealing, Hopfield network, Boltzmann machine, tabu search, genetic algorithm, group optimization, ant colony optimization, etc.
+
+Among them, a genetic algorithm is a methodology to find a candidate solution with a greater (or smaller) fitness value by subjecting a population of candidate solutions to artificial evolution. Adleman's method generates candidate solutions only once at the start, while genetic algorithm generates new candidate solutions through mutation and crossover. Basically, however, both of them depend on solution generation and selection. In addition, the mutation and crossover procedures can be performed in a data-parallel manner. Therefore, it is quite natural to apply Adleman's method to genetic algorithm and other evolution computations.
+
+On the other hand, there is an established method to search for a molecule with a particular function (e.g., affinity to a target molecule) by subjecting a library of polymeric molecules such as DNA, RNA, and proteins for artificial evolution. This is called artificial evolution of molecules or *in-vitro* selection. In other words, this is a solution method for optimization problems about molecules.
+
+_—Masami Hagiya (Tokyo University)_
+
+![NanoQRcode Kansai University 2014](images/ch3fig60.png)
