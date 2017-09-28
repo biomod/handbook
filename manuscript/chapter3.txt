@@ -355,3 +355,139 @@ DNA tweezers need the addition of a DNA solution to perform each open/close moti
 Yan _et al._ made a larger, tweezers-like structure from DNA and attached an enzyme and its cofactor to its tips, to build a nanoreactor in which an enzymatic reaction was controlled by the open/close motion of the DNA tweezers \[3\]. When the DNA tweezers are closed and the dehydrogenase and NAD^+^ come into proximity, the enzymatic reaction is promoted by more than 5-fold compared to that in the open state, demonstrating the control of an enzymatic reaction by DNA tweezers. Expected future applications of this include more complex mechanical tasks and elaborate reaction control systems based on DNA tweezers.
 
 _—Ken Komiya (TITECH)_
+
+## 25. DNA Walker
+
+Different types of walking mechanisms have been devised to drive DNA walkers, a simple DNA structure that moves by repeated association/dissociation from a track made of DNA. A DNA-responsive walker, which requires the addition of DNA for each step, and autonomous DNA walkers, driven by enzymatic reaction and hairpin DNA hybridizations, are described below.
+
+### Walking Molecule
+
+To operate the DNA tweezers described in the previous section, a DNA nanostructure repeats an open/close motion. In the "DNA walker", a nanostructure moves from one place to another. What does "walking a molecule" mean? Under the earth's gravity, our body stays in one place on the ground unless something happens. However, in the world of nanometer-sized molecules, a molecule in solution will be blown from place to place by Brownian motion, unless something happens. A molecule thus needs to bind to a "scaffold" to walk. Organisms have networks of scaffold for motor proteins to walk around, which is important for the transport of molecules and the like. On the other hand, the scaffold for DNA walker is also made of DNA. A DNA walker moves on such a DNA scaffold structure by repeating the cycle of binding to one site on the scaffold, then binding to the next site, and detaching from the previous site.
+
+### DNA-Responsive DNA Walker
+
+Pierce _et al._ constructed a DNA walker that was driven by strand displacement reaction, which had been originally devised for DNA tweezers (Fig. 1) \[1\]. As shown at the top of each panel in the figure, the DNA walker is made of two partially hybridized DNA strands, wherein the single strand overhang serves as the "legs" of the walker. At the bottom, another structure made of multiple DNA strands hybridized to each other also shows single-stranded protrusions. These single-strand regions are called "stators". Two DNA strands are added sequentially to this system and each serves as both signal and fuel for the walking motion. A1 is added first, hybridizing to both the walker and one of the stators to place one leg of the walker on the stator. Then A2 is added, causing another leg to be placed on a neighboring stator. At this point, a region of the added DNA remains single-stranded, serving as the toe-hold for the strand displacement reaction (see section 42). Then, D1 is added, which is fully complementary to A1, to induce a strand displacement reaction that releases A1 from the leg of the walker and the stator, resulting in the walker again standing on one leg. This walking motion has been demonstrated by modifying the toe and the stator with different fluorescent groups and observing it by fluorescence spectrometry (see section 81).
+
+![](images/ch3fig29.png)
+
+**Fig. 1.** DNA strands A1, A2, and D1 are highlighted in yellow, pink, and grey, respectively. Reprinted with permission from Reference \[1\]. Copyright ©2004, American Chemical Society.
+
+### Enzymatic Reaction-Based DNA Walker
+
+A DNA walker is driven by the association/dissociation cycle of complementary sequences. Directional walkers have been attempted by combining walkers with enzymatic reactions, such as restriction enzyme/ligase or DNAzyme. The example below employs an irreversible DNA cleavage reaction by nicking enzyme (Fig. 2) \[2\].
+
+![](images/ch3fig30.png)
+
+**Fig. 2.** Reprinted with permission from J. Bath, A. Turberfield, Nature Nanotech. 2007, 2, 275. Dark green: DNA walker; light green: stator DNA; Black arrowhead: cleavage site.
+
+When this single-strand DNA walker hybridizes to a stator, it produces a nicking enzyme recognition site in a double strand state where the stator DNA can be cleaved by the nicking enzyme. The short DNA fragment derived from the cleavage has a low melting temperature, spontaneously dissociating from the walker. Because all the stators have an identical sequence, the newly exposed single strand region in the walker serves as a toe-hold to induce a strand displacement reaction, moving the walker to a neighboring stator. Then the cleavage reaction occurs again, causing the walker to proceed unidirectionally on the straight track of stators. This process has been confirmed by fluorescence spectrometry, after which the walking motion was observed by video recording under high-speed AFM for a single molecule \[3\].
+
+### Hairpin DNA-Based Walker
+
+When mutually complementary sequences are present in one DNA molecule, they can hybridize to each other and form a hairpin structure. Compared with inter-molecular hybridization to a fully complementary DNA sequence, this hairpin structure is less stable in terms of free energy, but can have its hybridization suppressed in a kinetic manner, allowing the researcher to program a reaction cascade for a stepwise hybridization in the presence of a carefully designed toe-hold sequence. Yin _et al._ used this technique to construct interesting reaction systems such as catalytic branched structure formation and autocatalytic double strand DNA formation \[4\]. An autonomous DNA walker system that is solely composed of DNA has also been proposed (Fig. 3). It is a structure made of two partially hybridized DNA strands, with a double strand region flanked by single strand "leg" regions. The scaffold has stators that are each designed to form a hairpin structure, so that the "fuel" hairpin DNA cannot bind to them. However, when the walker binds to a stator, the hairpin structure of the stator is opened up, and the "fuel" hairpin DNA can now bind to it, causing dissociation of the leg. As a result, the walking motion of the walker occurs autonomously.
+
+![](images/ch3fig31.png)
+
+**Fig. 3.** Reprinted with permission from Reference \[4\].
+
+_—Ken Komiya (TITECH)_
+
+## 26. DNA Nanomachines
+
+Because DNA tweezers and walkera are composed of only a small number of short DNA molecules, they are not suitable for complex tasks. However, they can be incorporated into a DNA origami structure to perform a stepwise reaction. In addition, molecular devices with a moving DNA origami structure have also been developed.
+
+DNA Molecular Machine Working on DNA Origami
+
+The first example of a DNA molecular machine that worked on a DNA origami molecule came from Seeman’s group. Seeman is a pioneer in DNA molecular machines. In 2009, they incorporated their rotary machine into a DNA origami, and successfully observed its structure change by AFM \[1\]. They advanced this system to build a factory of nanometer size on a DNA origami \[2\] structure. Specifically, they let a triangular DNA walker move on single strand DNA scaffolds provided on a DNA origami. This walker possessed three rotatable arms on its sides and was able to catch gold nanoparticles as it moved forward. This is a very complex system, but they have shown by AFM and EM that the walker is actually loaded with desired particles.
+
+![](images/ch3fig32.png)
+
+Reprinted with permission from Nature, 2010.
+
+The "DNA spider" by Lund _et al._ is another example of a DNA walker moving on a DNA origami \[3\]. The DNA spider is a streptavidin protein modified with three uniquely designed DNA legs that have an RNA cleaving activity; it moves autonomously on multiple RNA scaffolds provided on a DNA origami by degrading them one after another.
+
+Turberfield _et al._ prepared a track of single strand DNA array on a DNA origami, on which their enzymatic reaction-based DNA walker moved \[4\]. Using high-speed AFM (1 frame/sec), they succeeded in recording the world's first video of the motion of a DNA walker. They also introduced a fork in the track, at which the moving direction of the DNA walker was controlled by an input DNA strand \[5\].
+
+### Nanomechanical DNA Origami Device
+
+We have developed the world's first nanomechanical DNA origami device capable of a structural change directly linked to a practically useful function, i.e. a pliers-like movable DNA origami structure with two levers, each about 170 nm long, joined by a single joint ("DNA pliers") \[6-9\]. The levers, each formed from a bundle of six DNA double helices, can rotate freely about a Holliday junction that serves as the joint, and will usually exist as an X-shaped structure with an interior angle of 60˚ in an aqueous solution. When the DNA pliers are adsorbed onto mica and observed by AFM, a large number of X-shaped structures are observed. On the other hand, if the levers are chemically modified with something that interacts with the target molecule to form a second joint between the levers, the X-shaped structure will be able to turn into a =-shaped closed structure. For example, if you modify each lever with a biotin molecule, the pliers can be closed upon picking just one streptavidin protein. This structure can be subjected to single molecule imaging by AFM, demonstrating detection of a target protein at the single molecule level. In other words, this system acts as a single molecule detection system based on a movable DNA origami device that can simultaneously detect a wide range of targets, including the hydrogen ion with the smallest molecular weight of 1 Da, small molecules of several 100 Da, and even proteins of several 10 kDa.
+
+![](images/ch3fig33.png)
+
+As another example of detecting a target based on the structural change of a DNA origami device induced by interaction, Mao _et al._ reported a protein detection system based on optical tweezers \[10\].
+
+### DNA Origami Robot
+
+Douglas _et al._ reported a "DNA nanorobot" that recognizes and binds to a target cell in a logical operation \[11\]. This DNA origami device, which has a barrel-like shape and a hexagonal cross section of 35nm in diameter in its closed state, can open along the length (45 nm) like a crocodile's jaws. The crocodile's jaws are kept closed by an aptamer that recognizes a secreted molecule from a particular cell at the tip, which judges whether a given cell is the desired target or not. If it recognizes the target, the aptamer-containing double helix dissociates to open the jaws and expose an antibody fragment anchored in the interior of the barrel, resulting in the DNA nanorobot binding to the target cell. Amir _et al._ even demonstrated the performance of a similar DNA nanorobot by injecting it into a living cockroach \[12\].
+
+_—Akinori Kuzuya (Kansai University)_
+
+## 27. Autonomous DNA Reaction Systems
+
+The construction of autonomous DNA computers, autonomous DNA walkers, or any other autonomous molecular robot, requires an autonomous DNA reaction system \[1\]. This section summarizes autonomous DNA reaction systems. Similar systems have been applied to many other systems, and readers are referred to the corresponding sections in this book.
+
+### Autonomous Reactions
+
+First, we define the meaning of "autonomous" in this field, because it is a somewhat ambiguous word. In general, in chemical synthesis, a non-autonomous reaction means a stepwise reaction that requires external intervention at each step, e.g., "after one step, add reagents for the next step to occur, after that, add reagents again..." In contrast, an autonomous reaction is a stepwise reaction that, once reagents have been added to start the reaction, proceeds in accordance with information programmed in a DNA base sequence or the like to achieve the desired result (calculation result, synthesized molecule, structural change, motion, etc.). Below are exemplary autonomous reaction systems.
+
+### Hybridization Chain Reaction (HCR)
+
+Pierce _et al._ developed a DNA extension system called HCR (Hybridization Chain Reaction) (Fig. 1) \[2\]. It is composed of two hairpin DNA molecules (H1 and H2) and an initiator ssDNA (I) that triggers the reaction, which depends solely on hybridization and proceeds autonomously without enzymes. As shown in Fig. 1A, the presence of H1 and H2 is not sufficient for the reaction to occur. When I is added, the sequence a\* in I hybridizes the toe-hold sequence a in H1, causing the hairpin structure of H1 to be opened by branch migration (Fig. 1B). As a result, the sequence c in H1 hybridizes to the toe-hold sequence c\* in H2, causing the hairpin structure of H2 to be opened by branch migration. This exposes the sequence b\*a\* in H2, which is identical to one in I (Fig. 1C), resulting in a chain reaction that generates a long DNA made of multiple repeats of a double strand sequence. HCR is applicable to the detecting trace signal molecules, autonomous DNA computing, and the like.
+
+![](images/ch3fig34.png)
+
+**Fig. 1.** Mechanism of HCR.
+
+### Reverse-transcription and Transcription-based Autonomous Computing System (RTRACS)
+
+Suyama’s, Takinoue’s and Kiga’s groups, inspired by the process of viral infection/proliferation in a host cell, developed a system called autonomous DNA computer RTRACS that was based on reverse transcription (RT) and transcription reactions \[3,4,5\]. Fig. 2 shows the configuration of an RTRACS-based AND gate \[3\]. In RTRACS, input/output molecules (data molecules) are made of RNA and system components are made of DNA. The input RNA r21 hybridizes to the primer DNA 1 included in the reaction system, initiating the DNA extension by RT. The RNA degrading enzyme (RNaseH; RH) degrades the RNA, generating the single strand DNA 12. DNA 12 hybridizes to another input RNA, r32, causing another RT extension. Then the RNA is degraded by RH, providing the single strand DNA 123. When this strand hybridizes to the converter DNA included in the system, DNA polymerase (DP) starts a DNA extension, which turns the T7 promoter sequence included in the system into a double strand. T7 RNA polymerase (RP) binds to this double strand promoter sequence to transcribe the downstream output RNA r45. Such a series of reactions proceeds autonomously, allowing an operation through which two RNA inputs are converted to one RNA output. Because it employs RNA as the interface, the system allows more complex operations by combining multiple instances of the gate. For example, an oscillating reaction based on a negative feedback loop may be possible \[4\].
+
+![](images/ch3fig35.png)
+
+**Fig. 2.** RTRACS-based AND gate.
+
+### Transcriptional Bistable Circuit and Oscillator
+
+Winfree's group has developed a bistable switch (bistable circuit) and an oscillating reaction system (oscillator) based on transcription reactions \[6,7\]. It employs T7 RNA polymerase similarly to RTRACS, but does not involve reverse transcriptase. See the original papers for reaction details.
+
+### Other Autonomous DNA Reaction Systems
+
+The autonomous reactions described above are just examples to show you how an autonomous reaction can work. Below is a list of various autonomous DNA reaction systems discussed elsewhere in this book.
+
+- DNA walker (see section 25) - DNA logic gates (see section 29) - DNAzyme logic gate (see section 30) - Entropy-driven gate (see section 31) - Seesaw gate (see section 32) - DNA toolbox (see section 33) - Whiplash PCR (DNA state transition machine) (see section 34) - DNA automata (DNA state transition machine) (see section 34)
+
+_—Masahiro Takinoue (TITECH)_
+
+## 28. DNA Computing: Overview
+
+Since Adleman succeeded in a computation using DNA molecules, many attempts have been made to implement computation models that use DNA molecules. This section outlines DNA reactions such as strand displacement reactions and enzymatic reactions, computation models inspired by the reactions, and general computation models included in them.
+
+### DNA-Based Computation
+
+Various kinds of molecule-based computation have been proposed and attempted for many years. One is the reversible molecular Turing machine proposed by Bennett in 1982. Other well-known examples include those by Conrad, Vaintsvaig, and Liberman, etc. Feynman, who won the Nobel Prize in Physics, also pointed out the possibility of molecular machines in his speech titled "There's Plenty of Room at the Bottom" in 1959.
+
+Adleman was the first to demonstrate the ability of molecules to perform an actual computation. In 1994, Adleman solved a directed Hamiltonian path problem by ingenious use of DNA reactions, which launched the field of DNA computing. DNA computing in a narrow sense (i.e. classical DNA computing) refers to the search and optimization techniques that are based on Adleman's solution method. However, the landscape of recent DNA computing research reveals that the implementation of various other computation models has also been attempted using molecular reactions, especially of DNA. In general, DNA computing is a field that seeks to use DNA reactions to implement computation models.
+
+The diagram below includes a list of popular computation models that have sought to implement DNA computing. In the course of attempts to implement these popular computation models using DNA reactions, some have proposed general computation models inspired by DNA reactions.
+
+Adleman's, and other similar solution methods, are each composed of multiple steps, and thus involve many computation models. In particular, the step of generating paths in a digraph can be regarded as a process of generating strings that represent the paths in accordance with grammatical rules.
+
+### DNA Reactions
+
+In order to implement computation models as described above, a set of information (data and computation states) has to be represented by DNA molecules, and converted by DNA reactions. The DNA molecules represent information primarily by their base sequence and/or secondary structure, formed through hydrogen bonding. Then the represented information is converted by a reaction that edits the base sequence and/or a reaction that alters the secondary structure as follows.
+
+Association (hybridization): formation of a double strand by mutually complementary single strands.
+
+Dissociation: reverse reaction of association; a double strand resolves into two single strands.
+
+Restriction enzyme cleavage: cleaves a DNA double strand by a restriction enzyme at its target site (i.e. recognition sequence). Some restriction enzymes cleave only one strand in a double strand, producing a nick.
+
+Ligation (ligase-mediated linkage): forms a covalent bond at a break or nick in a double strand.
+
+Polymerase extension: extends the 3' end of one strand in a double strand, using the other strand as a template.
+
+Strand displacement (branch migration): replaces one strand in a double strand.
+
+![](images/ch3fig36.png)
+
+_—Masami Hagiya (Tokyo University)_
