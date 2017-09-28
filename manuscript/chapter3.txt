@@ -321,3 +321,37 @@ Any of the molecular machines described above works as a single molecule in a so
 **Slime Robots \[2\].** Reprinted from Accounts on Chem Res. ©2014 ACS.
 
 _—Satoshi Murata (Tohoku University)_
+
+## 24. DNA Tweezers
+
+A DNA nanomachine can perform a mechanical task by changing its structure in a sequence-specific, reversible manner, in the absence of any change in the temperature and pH of the environment. The strand displacement reaction, which was created to drive DNA tweezers, is now commonly used to drive many DNA nanomachines and DNA logic gates.
+
+DNA Nanomachines
+
+How can we make and drive a machine of a nanometer size, which is far smaller than a micrometer? A DNA strand can hybridize to a complementary strand in a sequence-specific manner, to change from a random coil-like single strand state to a relatively rigid, rod-like double strand state (see section 40). This self-assembling property can produce two/three-dimensional nanostructures (see section 17). If such a DNA nanostructure can change its structure repetitively, it means that a nano-sized machine can be achieved.
+
+For example, a change in the pH and ionic strength of the environment can cause structural change in a molecule. However, it will not be so easy to obtain a set of different molecules that will exhibit different structure changes in response to a given environmental change and combine them to perform a complex mechanical task. It is also difficult to have one environmental change control only one of the different molecular machines or drive all of them cooperatively. Is it possible to reversibly change a structure assembled by means of the sequence-specific hybridization of a DNA molecule?
+
+Thermodynamically, the self-assembly of DNA into a nanostructure proceeds toward a more favorable state in terms of free energy. By appropriately arranging complementary sequences in the design, a variety of structures can form spontaneously upon just mixing DNA molecules. Theoretically, after a structure has been obtained, another DNA strand capable of binding to a DNA strand in the structure in an energetically more favorable state can be externally added to cause a structural change. However, for the structural change to be reversible, the base-paired strands have to dissociate again and form base pairs with another strand, which involves an unfavorable state in terms of free energy and will take an unimaginably long time. Thus, we used to think it was impossible to operate such a machine on a practical time scale. However, the "DNA tweezers" built by Yurke _et al._ \[1\] accomplished this.
+
+### Operating Mechanism of DNA Tweezers
+
+![](images/ch3fig28.png)
+
+Reprinted with permission from C. M. Niemeyer, M. Adler, Angew. Chem. Int. Ed. 2002, 41, 3779.
+
+DNA tweezers are driven by the sequential addition of two DNA strands serving as a signal that directs the structural change and works as a fuel to create a simple structure made of three DNA strands. The tweezers-like structure, two rigid rods connected by a hinge, is assembled by the hybridization of one DNA strand (T~a~) and two other DNA strands (T~b~ and T~c~) each of which carries a sequence complementary to the 5' or 3' end of T~a~ (top left in the figure). The two rods each have a single strand overhang. When a DNA strand (F~c~) that is complementary to both overhangs is added, it hybridizes to the rods to turn the tweezers into a closed structure. The added DNA can be regarded as a "signal" to direct the structural change in a sequence-specific manner and a "fuel" to drive the structural change toward a favorable state in terms of free energy.
+
+If the bound F~c~ strand is capable of being dissociated from the structure by means of another signal/fuel DNA strand, it means that a reversible mechanical task can be achieved. In the structure shown in the bottom of the figure, a single strand overhang in the closed structure, "toe-hold", is bound by a DNA strand (F~o~) that includes a sequence complementary to it. F~o~ also carries a sequence complementary to a sequence in the double strand formed between F~c~ and the tweezers, causing base pair displacement. Base pair displacement is a process with no substantial change in free energy, which proceeds in a random-walk manner. When all the base pairs in F~c~ have been displaced, the double strand structure formed between F~c~ and F~o~ is released as waste, and the DNA tweezers return to the original open structure. Such a "strand displacement reaction" is now employed as a driving mechanism in many DNA nanomachines and enzyme-free DNA logic gates.
+
+### Performance Test of DNA Tweezers
+
+Compared to a typical DNA origami structure of several thousand base pairs, DNA tweezers, composed of less than 100 base pairs, are so small that their structure cannot be observed even by AFM. Whether they are actually working is usually examined by observing changes in the fluorescence that reflects the motion of a large population of DNA tweezers in a bulk solution. To do this, the termini of the DNA strand T~a~ are modified with a fluorescent group and a quencher group, respectively (indicated by small balls in the figure). When the F~c~ strand is added and the DNA tweezers are closed, the fluorescent group and the quencher group come into proximity so that the fluorescence decreases, demonstrating the formation of the closed structure. If an increase in the fluorescence is observed when the F~o~ strand is added, it means that the DNA tweezers have opened again through the reverse motion. The force caused by the open/closed motion of DNA tweezers has been thermodynamically calculated at about 15 pN, which is comparable to that caused by the natural protein molecular motors kinesin and myosin.
+
+### Recent Progress
+
+DNA tweezers need the addition of a DNA solution to perform each open/close motion. When the reaction solution is a closed system, this step also results in dilution of DNA tweezers; i.e., repeated additions of the DNA solution causes a gradual decrease in operating efficiency. The accumulation of wastes may also induce unexpected interactions. Asanuma _et al._ have reported an azobenzene-based optical control of the hybridization that activates the open/close motion of DNA tweezers by UV light, without any addition of DNA \[2\].
+
+Yan _et al._ made a larger, tweezers-like structure from DNA and attached an enzyme and its cofactor to its tips, to build a nanoreactor in which an enzymatic reaction was controlled by the open/close motion of the DNA tweezers \[3\]. When the DNA tweezers are closed and the dehydrogenase and NAD^+^ come into proximity, the enzymatic reaction is promoted by more than 5-fold compared to that in the open state, demonstrating the control of an enzymatic reaction by DNA tweezers. Expected future applications of this include more complex mechanical tasks and elaborate reaction control systems based on DNA tweezers.
+
+_—Ken Komiya (TITECH)_
