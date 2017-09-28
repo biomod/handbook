@@ -493,7 +493,6 @@ Strand displacement (branch migration): replaces one strand in a double strand.
 _—Masami Hagiya (Tokyo University)_
 
 
-
 ## 29. DNA Logic Gates
 
 There have been many attempts to implement a logic circuit using DNA molecules. This section summarizes basic concepts of logic circuits, general principles in their implementation by molecules, and examples of an enzyme-free logic gate (Seelig _et al._) and a reversible logic circuit (Genot _et al._).
@@ -620,3 +619,156 @@ Because it is an entropy-driven system, the reaction is relatively resistant to 
 ![The catalytic reaction step](images/ch3fig45.png)
 
 _—Ibuki Kawamata (Tohoku University)_
+
+
+## 32. Seesaw Gate
+
+A DNA reaction system called seesaw gate is based on the ingenious use of strand displacement reaction of DNA (see section 42). Most importantly, multiple seesaw gates can be appropriately combined in a circuit design to achieve a logic circuit, relay, and analog circuit.
+
+### Seesaw Gate as Basic Element (Basic Mechanism)
+
+Assume a logic element as shown in the following figure. Each input signal to the element is compared to a predetermined threshold, and signals below the threshold are discarded as noise. In contrast, each input above the threshold generates an output signal. Here, the output generation requires a fuel. As described below, seesaw gate is the implementation of this logic element by DNA reactions.
+
+![](images/ch3fig46.png)
+
+### AND Gate by Combination
+
+In the next figure, four basic elements are combined to construct an AND gate. Assume that the signal level of input 1 is higher than the threshold (hereafter, ON indicates an input above the threshold and OFF indicates an input below the threshold). Input 3 is an auxiliary input and equals always ON. Although input1 is also ON, it requires a fuel to generate an output from gate 1. This fuel is supplied as an output from gate 3, which in turn requires a fuel to gate 3. When input 2 is ON, gate 2 generates a fuel to gate 3 as output. Therefore, gate 1 generates an output only when both input 1 and input2 are ON. When either or both of the inputs are OFF, gate 1 does not generate an output. This is an AND gate. Gate 4 is inserted to improve the reliability of the AND gate. Qian _et al._ also have constructed an OR gate, Boolean network, comparator, relay, and analog circuit, greatly facilitating the design of DNA reaction-based circuits \[1\]. In this manner, you can construct a variety of circuits by carefully combining seesaw gates and introducing measures to improve their functional reliability.
+
+![](images/ch3fig47.png)
+
+### DNA Reactions in Seesaw Gate
+
+DNA reactions that constitute the seesaw gate are summarized below.
+
+1\) Threshold Processing
+
+An input molecule is a single strand DNA with the sequence S~1~-T-S~2~, and a molecule that defines the threshold is a double strand DNA that carries the toe-hold sequence T' (see section 42). When the input DNA meets the threshold DNA, it starts strand displacement from the toe-hold sequence and no longer remains as a single strand. Therefore, in order to drive the operation in the gate, a concentration of the input DNA higher than that of the threshold DNA is required.
+
+![](images/ch3fig48.png)
+
+Reprinted from the Journal of the Royal Society Interface, 2011 \[4\] (open access).
+
+2\) Output
+
+The following figure shows a chain reaction of a strand displacement reaction and is the origin of the name seesaw gate. In the figure, reactions indicated by solid lines are predominant, whereas those indicated by dotted lines are reverse reactions. First, when the input DNA meets a double strand DNA included in the gate (gate:output), it undergoes a strand displacement reaction to generate a single strand output DNA and a double strand DNA (gate:input). Gate:input exposes a toe-hold sequence T', to which a fuel DNA binds to undergo another strand displacement reaction, with gate:input, converted into the input and a double strand DNA (gate:fuel). The first strand displacement reaction is a material flow from the top to the bottom of the figure, and the second reaction is from the bottom to the top..., constituting a "seesaw"-like reaction cycle. Most importantly, the input is consumed in the first strand displacement reaction but supplied in the second strand displacement reaction. Generally, in a circuit design, you must take care that individual circuits will not only work correctly alone but also in combination when connected to each other. Such independence of performance of individual circuits from connection is called modularity \[2\].
+
+![](images/ch3fig49.png)
+
+Reprinted from the Journal of the Royal Society Interface, 2011 \[4\] (open access).
+
+Seesaw gates are highly modular, because they can generate output DNA without consuming too much input DNA in the reaction cycle. Look at a circuit of a larger scale achieved by combining the logic gates constructed in \[1\] for a comparison.
+
+{aside}
+**Column: More Complex Computing Circuits**
+
+Further elaborate circuits are also possible. For example, a seesaw gate-based neural network composed of four neurons has been reported in \[3\].
+
+![](images/ch3fig50.png)
+
+Reprinted with permission from Nature, 2011 \[3\].
+{/aside}
+
+_—Takashi Nakakuki (Kyushu Institute of Technology)_
+
+## 33. DNA Toolbox
+
+Unlike conventional DNA computing systems, a DNA toolbox developed by Montagne _et al._ is a platform that combines DNA-DNA reactions and enzymatic reactions. By combining these two reactions, a dynamic equilibrium system with a unique function can be designed.
+
+### Mimicry of Gene Regulatory Network
+
+In living cells, multistep, complex information processing reactions of transcription from DNA (gene) to mRNA and translation from mRNA to protein are continuously taking place. The produced proteins, in turn, can activate other genes or alternatively suppress them. Multiple genes influence each other in a complex manner, creating a Gene Regulatory Network (GRN).
+
+Complex behaviors of GRN such as oscillation \[1\] and memory \[2\] can be reproduced by engineered systems. However, the process of DNA -&gt; RNA -&gt; protein includes multiple steps so that the reaction may take a long time and may be difficult to control. Montagne _et al._ proposed the following strategy to build a similarly complex system by combining DNA and enzymes \[3\].
+
+A long "template" DNA, about 25 bases long, serves as a gene and synthesizes a short DNA by an enzymatic reaction; the short signal DNA hybridizes to its target, i.e. the template, to activate or suppress its function; the signal DNA is constantly degraded by exonuclease, so that the system is kept dynamic.
+
+### Action on Template DNA
+
+The template DNA is composed of two (i.e. input and output) regions, which plays a central role in the DNA toolbox. When the signal DNA hybridizes to the input region, polymerases start the extension process. As a result, the template DNA is turned into a complete double strand. In order to separate the input and output, the template DNA has a nickase target sequence. The input and output are separated by nickase and dissociate (Fig. 1).
+
+![](images/ch3fig51.png)
+
+**Fig. 1:** Template functions. 1. Hybridization, 2. extension reaction, 3. separation, and 4. dissociation.
+
+Upon its dissociation from the template, the output becomes the signal DNA, which is an important feature of a DNA toolbox. By linking multiple template DNA molecules through such signal DNA molecules, a system like a GRN can be constructed.
+
+As already described, the single-strand signal DNA is degraded by an exonuclease. On the other hand, the template DNA must be modified at the 5' terminus of its backbone and thus protected from such a degradation reaction.
+
+### DNA Toolbox Modules
+
+DNA toolboxes include three basic modules of activation, autocatalysis, and inhibition. Fig 2 shows their mechanism, behavior, and graph representation. In the graph representation, a circular node represents signal, an arrow represents template, and the T-shaped line represents inhibition.
+
+![DNA toolbox modules](images/ch3fig52.png)
+
+The third module for inhibition is driven by a type of signal DNA called an "inhibitor". The inhibitor can bind to more than one site in the target template, but does not elicit polymerase or nickase reactions (due to sequence mismatch and incomplete recognition sequence, respectively). Until dissociation of the inhibitor, the template is kept inactive. Note that the inhibitor cannot be used as an input DNA.
+
+Based on this platform, Montagne _et al._ developed the oscillator shown in Fig. 3 \[3\], and Padirac _et al._ developed a two-state circuit and two-state switch \[4\]. The performance of their systems has been experimentally verified. Theoretically, more complex systems have been proposed \[5\].
+
+![](images/ch3fig53.png)
+
+**Fig. 3:** Oscillator and experimental results by Montagne _et al._ Reprinted from Molecular Systems Biology, 2011 \[3\] (open access).
+
+### Simple Model
+
+Because a DNA toolbox includes a non-linear reaction, it is hard to completely predict the behavior of the system. For minimal refinement, the template is regarded as a black box as shown in Fig. 4. The black box is a simple converter based on the reaction rate of Michaelis-Menten. This model assumes that hybridization and denaturation (association and dissociation between complementary DNA molecules, respectively) reach the equilibrium much faster than the enzymatic reaction does. As a result, the equation in Fig. 4b is obtained for each module. Based on the graph representation, an equation that represents the entire system can be derived easily by adding reactions of templates that correspond to different signal DNA molecules together. The degradation by the exonuclease is incorporated as an approximation by the first-order reaction shown in Fig. 4d.
+
+![](images/ch3fig54.png)
+
+**Fig. 4: Representation and Equation of a DNA Toolbox as a Black Box.** A vertical line indicates restriction, \[ \] indicates concentration, and *α* and *β* are parameters; *exo* means exonuclease reaction.
+
+Such modeling of DNA toolboxes was proposed by Padirac _et al._ for the first time \[4\]. The equations are simple enough to allow a large system to be simulated in a very short time. This advantage has been helpful in the evolution of a complex DNA toolbox system, which requires several thousand cycles of evaluation. In the course of its evolution, a system with an interesting pattern was algorithmically found \[7\].
+
+### Refined Model by DACCAD
+
+Disadvantageously, the simple model does not explicitly describe the template DNA. Also, it does not take into account the protection due to the binding of the signal DNA to the template DNA from the degradation reaction of the exonuclease. Because the substrate concentration is unknown, the saturation of polymerase or nickase cannot be calculated. The time lag due to hybridization-extension-separation has been lost too.
+
+To address these issues, Padirac _et al._ proposed a refined model that can determine the region in the template the signal hybridizes to \[4\]. The model was then further improved by Aubert _et al._ \[5\]. However, so many reactions are combined in the model that simulation by handwriting is not applicable. To make a simplified simulation process, Aubert _et al._ developed DACCAD with a graphical interface \[5\]. The software is freely available on the Internet.
+
+### Implementation for Experimentation
+
+Once you have successfully simulated a system, you can start designing the actual DNA sequence. This process is described by Baccouche _et al._ in detail \[6\], including basic experimental procedures and solutions to frequently encountered problems.
+
+_—Nathanael Aubert-Kato (Ochanomizu University)_
+_—Translated by Ibuki Kawamata (Tohoku University)_
+
+
+## 34. DNA-Based Finite State Machine
+
+Autonomous DNA computing, which performs staged computation by means of a series of reactions that proceed autonomously, will be a key technology to achieve advanced information processing based on molecular reactions. This section outlines two representative reaction systems that implemented a DNA computer with internal states.
+
+### Second Generation DNA Computing
+
+Reactions based on sequence-specific DNA hybridization can be regarded as symbol manipulation based on string-encoded rules, i.e. "computation". Adleman demonstrated that DNA reactions could solve mathematical problems (see section 36). Here, a DNA molecule is regarded as a "recording tape" that contains a string of symbols, and each computation step is driven manually. This type of DNA computing is called "classical" or "first generation". On the other hand, "second generation" DNA computing, or "molecular programming", executes staged computation by a series of reactions that proceed autonomously in a solution, for which several computation models have been proposed.
+
+When a DNA nanostructure is altered stepwise in a series of reactions, these structures can be regarded as different "states" in computation. If a given structure induces a particular reaction to change itself into a different structure, it can be regarded as the nanostructure referring to its internal state to execute a computation. Recently, much work has been done on DNA logic gates that is based on the strand displacement reaction of DNA (see section 29). This section will focus on two enzymatic reaction systems that implement a "finite state machine" with internal states: i.e., a finite automaton based on restriction enzymes, proposed early in the DNA computing field, and a finite state machine that executes computation by repeating an extension reaction of DNA polymerase.
+
+### DNA Automaton
+
+"Finite automaton (FA)" is a virtual computation model that has internal states and a state transition function. When FA receives a symbol string as input, it reads out the symbols sequentially to execute state transitions by referring to its state. When the final state is an accept state, the symbol string is "accepted". For example, in the following figure, upon input of the symbol string "baba", FA reads out the leftmost b, and a transition from the initial state S~0~ to S~1~ occurs according to the state transition function. Then the second a (from the left) is read, and a transition from the state S~1~ to S~1~ occurs. When the third b is read, a transition from the state S~1~ to S~0~ occurs, and when the fourth a is read, a transition from the state S~0~ to S~0~ occurs. In this example, the state S~0~ is an accept state, and FA accepts the input *baba*.
+
+![](images/ch3fig55.png)
+
+**FA that accepts a symbol string containing an even number of bs.** Each circled letter indicates a state, and the double circle indicates an accept state. Each small letter above an arrow represents a state transition function.
+
+Shapiro _et al._ implemented FA in a reaction system that was composed of DNA and Fok I, a type IIs restriction enzyme \[1\]. Type II restriction enzymes recognize a specific sequence in a double strand DNA, and cutss both DNA strands at a specific position (see section 47). Among type II restriction enzymes, type II enzymes cut DNA outside their recognition sequences. In the figure below, the "input DNA" encodes an input symbol string and has a terminal overhang sequence, to which a complementary terminal overhang sequence in the "state transition function DNA" can hybridize to cause the cleavage of the input DNA by Fok I. This corresponds to reading one symbol to execute a state transition. The cleavage produces a new terminal overhang in the input DNA, the next symbol is read out like before, and another state transition occurs. A 1-to-3 base spacer sequence that is immediately to the right of the Fok I recognition sequence beautifully encodes multiple states. For details, please refer to the original paper \[1\] and a review in Japanese \[2\].
+
+![](images/ch3fig56.png)
+
+**State transition reaction in a DNA automaton.** N can be any base and each vertical line indicates a base pair. A Fok I recognition sequence is boxed. Reprinted from Fig. 5.9 in \[2\].
+
+### Whiplash PCR
+
+Hagiya _et al._ employed an extension reaction by a DNA polymerase that occurs when the 3' terminus of a DNA hybridizes to a complementary sequence in the same molecule and serves as primer, to devise a finite state machine that encoded stepwise state transition rules in a single DNA molecule \[3\]. Usually, a DNA extension reaction happens in the presence of dNTP of all four bases in a reaction solution. If one of the bases has been depleted, the extension reaction halts at a base complementary to it. This "polymerization stop" allows a base length that encodes a state to undergo the extension reaction at a time.
+
+![](images/ch3fig57.png)
+
+**Polymerization Stop.** The reaction solution is depleted of dTTP. The extension reaction halts at a base A in the template DNA.
+
+The 3' terminal sequence represents the "current state" of the finite state machine. The addition of a new sequence to the 3' terminus by the extension reaction corresponds to a state transition. When the added sequence hybridizes to another complementary sequence elsewhere in the same molecule, it causes another state transition, executing a stepwise state transition autonomously. This looks like whiplashing, hence the name "whiplash PCR". In this reaction system, the hybridization between complementary DNA sequences is an intramolecular reaction, the reaction rate of which does not depend on DNA concentration, unlike in an intermolecular hybridization reaction. Also, a plurality of finite state machines with different sequences can execute a staged computation in parallel in a single reaction vessel. Komiya _et al._ have shown that a benchmark problem of a small scale like Adleman's can be solved using Whiplash PCR with a limited number of cycles of the experimental procedure \[4\].
+
+### Challenges with DNA-Based Finite State Machines
+
+Reaction systems described in this section have some disadvantages for using them for practical computation. DNA automatons cannot encode many states, and the hybridization rate is concentration-dependent, raising the question of how to process a lot of data by the system. On the other hand, Whiplash PCR, which repeats secondary structure formation and melting of DNA, requires a high reaction temperature, and the input step is not yet optimal. In order to implement advanced information processing and learning by DNA computing, a computation mechanism with internal states is essential. Extensive discussion on a wide range of computation models and reaction systems to implement them will be required to propose novel reaction systems to overcome these issues.
+
+_—Ken Komiya (TITECH)_
