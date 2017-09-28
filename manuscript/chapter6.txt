@@ -14,13 +14,13 @@ You can use Microsoft Office to prepare all your materials (see section 3). Micr
 
 However, without exception, previous winners of BIOMOD Project Award Gold (see section 5) employed not only an office suite like Microsoft Office but also other diverse applications to prepare their Project Website,  YouTube Video, and Presentations. This is because "intuitively understandable", "persuasive", and "enjoyable" contents have to include images, videos, and 2D/3D animations, and dedicated software works better to produce these materials.
 
-![](images/ch6/ch6fig1.png)
+![](images/ch6/ch6fig01.png)
 
 #### To Make Images Impressive
 
 The graphic tools in PowerPoint allow you to not only draw figures but to adjust the brightness, contrast, and tone of an image. However, using Illustrator (graphic design software) and Photoshop (photo editor), provided by Adobe, will improve the visual elements of your materials (the illustration below was drawn on Photoshop). While these two programs are payware, there are free applications that will also work, such as Inkscape and GIMP.
 
-![](images/ch6/ch6fig2.png)
+![](images/ch6/ch6fig02.png)
 
 (See section 56)
 
@@ -32,13 +32,13 @@ The graphic tools in PowerPoint allow you to not only draw figures but to adjust
 
 Image-J is a popular processing/analysis application for creating image data from wet experiments. In spite of being free and open-source, it performs well and has advanced functions that can even satisfy professional researchers. It supports a variety of file formats ranging from TIFF, PNG, JPEG, BMP, AVI, and other basic ones, to uncommon formats. You should master it as a powerful tool not only for use in BIOMOD but also for your graduation thesis, master’s thesis, and other researches (see section 58).
 
-![](images/ch6/ch6fig3.png)
+![](images/ch6/ch6fig03.png)
 
 #### To Make a Video Enjoyable to Watch
 
 According to the judging criteria in previous BIOMOD competitions, the YouTube video is 25% (see section 3) of your score. Thus, video making skills are key. The commercial software Premiere Pro and the freeware programs such as Windows Movie Maker and AviUtl are introduced below.
 
-![](images/ch6/ch6fig4.png)
+![](images/ch6/ch6fig04.png)
 
 (See section 59)
 
@@ -52,7 +52,7 @@ This section introduces Gnuplot for graphing.
 
 When your project starts, you will discuss the schedule and roadmap (a chart that lists tasks necessary to achieve your goals in a timeline) with other team members. In the course of the project, you will go through many meetings to discuss the design specification, the status of each member's task, and so on (see section 7). You should make full use of document preparation software such as Word to make the group work more efficient and effective. In business settings, meeting documents and proceedings are often prepared in Word and electronically distributed. Similarly, you should make use of document preparation software as a tool for efficient group work.
 
-![](images/ch6/ch6fig5.png)
+![](images/ch6/ch6fig05.png)
 
 ### Spreadsheet
 
@@ -66,7 +66,7 @@ If you want to combine Excel functions to perform complex calculations/tasks eff
 
 Last but not least, tables and graphs can be easily created by selecting "Insert"-"Table", "Graph" in the menu. Particularly, you can choose an appropriate graph from column, line, pie, bar, area, scatter, and other charts (stock, contour, doughnut, bubble, and radar) depending on your purpose, which is an advantage of using the graph drawing tool of Excel.
 
-![](images/ch6/ch6fig6.png)
+![](images/ch6/ch6fig06.png)
 
 ### Graph Drawing
 
@@ -104,7 +104,7 @@ In a presentation, simply showing the results of your project is not enough. You
 
 In any kind of presentation, the goals and conclusions should agree with each other. If they don't, the audience may not believe your argument. In addition, you can also strongly impress the audience by talking about the future progress that can result from your results.
 
-![](images/ch6/ch6fig7.png)
+![](images/ch6/ch6fig07.png)
 
 Dos and Don'ts in Preparing Slides
 
@@ -166,7 +166,7 @@ Appoint a Slide Flipper:
 
 Let the speaker concentrate on reciting the speech script, by appointing someone else to switch the slides. The slide switcher should rehearse again and again in advance to learn where to change slides in the script.
 
-![](images/ch6/ch6fig8.png)
+![](images/ch6/ch6fig08.png)
 
 _—Satoshi Murata (Tohoku University)_
 
@@ -178,7 +178,7 @@ Graphic information is an important means of aiding understanding. Effective fig
 
 Many of you probably have already used some graphic software or paint tool to draw figures. Windows "Paint" is one of the most popular paint tools. There are two kinds of image drawing software, one that uses raster images and one that uses vector images. If you want to prepare higher-grade figures, you should know what the difference is between them and how to choose a software program(s) appropriate for your purpose. In the figure below, the letter on the left, which is composed of "pixels", is called a raster image. The letter on the right, which is composed of "coordinates and lines", is called a vector image.
 
-![](images/ch6/ch6fig9.png)
+![](images/ch6/ch6fig09.png)
 
 ### Raster Images are Drawn with Pixels
 
