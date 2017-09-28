@@ -4,7 +4,7 @@
 
 The BIOMOD Handbook is an English-language translation of the following book:
 
-![](images/aboutfig1.png)
+![](images/about/aboutfig1.png)
 
 [PDF](http://cbi-society.org/home/documents/eBook/Biomod2016.pdf) Open Access.
 
