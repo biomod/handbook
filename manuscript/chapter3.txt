@@ -549,7 +549,7 @@ In addition to the Mg^2+^-dependent sequence, known examples of DNAzyme with deg
 
 ![Schematic of DNAzyme](images/ch3fig39.png)
 
-## DNAzyme-Based Systems
+### DNAzyme-Based Systems
 
 A DNAzyme is not only applicable to a metal ion detection system, but also to more complex systems that are driven by DNA inputs. Typical examples include walkers and logic gates. In a walker system, a DNAzyme repeats the degradation reaction, causing the site of degradation to move around \[4\] (see section 25).
 
@@ -565,7 +565,7 @@ A cascade of such DNAzyme logic gates has also been attempted \[5\]. The system 
 
 **Fig. 3.** Multilayered DNAzyme logic gate cascade \[5\]. Reprinted with permission from Nature Publishing Group, 2010.
 
-## Tic-tac-toe and Display
+### Tic-tac-toe and Display
 
 Some examples of large-scale systems that combine DNAzyme logic gates have been reported. One is a tic-tac-toe system \[6\] (Fig. 4, left). Instead of a grid, it contains wells that represent the grid, and a human pipets DNA into the system and is represented by a particular square (input). The system player in this game emits fluorescence from a well that represents another particular square (output). The game proceeds by repeating the pipetting and fluorescence readout. The game is programmed so that the system beats the human.
 

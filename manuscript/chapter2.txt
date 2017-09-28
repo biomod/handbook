@@ -2,7 +2,7 @@
 
 # Before Starting Your Project
 
-## Subject Matter of Project
+## 12. Subject Matter of Project
 
 It may be difficult to choose a topic for your project. In addition to accommodating different intersts of the team members, you will have to learn about designing biomolecules. Below are some important points to consider when choosing a project.
 
@@ -70,7 +70,7 @@ Your YouTube video and project Wiki for BIOMOD will be made public online. You m
 _—Satoshi Murata (Tohoku University)_
 
 
-## Types of Brainstorming
+## 13. Types of Brainstorming
 
 Four eyes see more than two. Generating ideas in a group setting can be far more productive than  individuals trying to generate ideas on their own. Brainstorming should be done in a divergent, free-flowing manner [1]. This section introduces brainstorming and other techniques to generate ideas in a group setting.
 
@@ -129,7 +129,7 @@ In the course of this process, the divergent list of ideas gains become s organi
 
 _—Ken Sugawara (Tohoku University)_
 
-## Design Process
+## 14. Design Process
 
 BIOMOD is a competition for "design" of biomolecules. "Design" is to prepare a plan for manufacturing a product. Basically it is the same as designing a handicraft for summer homework, but has to be done more carefully because molecules are not visible to the naked eye.
 
@@ -197,7 +197,7 @@ One more thing is important to designing. Only one MIRACLE at a time. MIRACLE me
 _—Satoshi Murata (Tohoku University)_
 
 
-## How to Collect Information
+## 15. How to Collect Information
 
 You need information to choose the subject matter of the project, to conduct the project, to learn something, to make a research plan, to carry out an experiment, etcetera.  This section introduces some information sources and how to access them [1].
 
@@ -251,7 +251,7 @@ Read as many papers as you can. Practice makes perfect. In doing so, you should 
 
 _—Fumi Takabatake (Tohoku University)_
 
-## More About Papers
+## 16. More About Papers
 
 In BIOMOD, reading papers is essential for training yourselves as well as for choosing the subject matter. Papers are published reports of research results. This section describes the process of publishing a paper, its contents, and how to read it.
 

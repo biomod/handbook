@@ -14,7 +14,7 @@ The authors retain the copyright to the original book, and the CBI society holds
 
 # Let's go to BIOMOD
 
-## Welcome to the World of DNA Molecule Design
+## 1. Welcome to the World of DNA Molecule Design
 
 It is now possible to design biological macromolecules, typically DNA sequences, to create complex nanodevices and nanostructures. This is a revolution that is comparable to the industrial revolution but occurring at the molecular level. Molecule design will could into a gargantuan field of technology comparable to silicon semiconductor technology developed in the 20th century. Welcome to a world of molecular design that holds infinite potential.
 
@@ -71,7 +71,7 @@ The purposes of this project include the enlightenment of students and training 
 _—Satoshi Murata (Tohoku University)_
 
 
-## What is BIOMOD?
+## 2. What is BIOMOD?
 
 This section describes previous competitions of BIOMOD, its relation to Robocon Japan, and how it all started.
 
@@ -104,7 +104,7 @@ As a result, we proposed the introduction of as fair judging criteria as possibl
 _—Shogo Hamada (Cornell University)_
 
 
-## Judging System of BIOMOD
+## 3. Judging System of BIOMOD
 
 BIOMOD is comprised of 3 categories: Website, YouTube, and Presentation. It’s important to understand the judging system in order for your project to be competitive. This section describes the types of awards in BIOMOD and the scoring system to determine the award winners.
 
@@ -166,7 +166,7 @@ Japanese teams have been dominating in this category. In the 1st and 3rd competi
 _—Kei Fujiwara (Keio University)_
 
 
-## Days at the Jamboree
+## 4. Days at the Jamboree
 
 The BIOMOD Jamboree was held at Harvard Univeristy but has now been moved to the University of California, San Francisco, USA [1]. "Jamboree", which sounds unfamiliar to Japanese, means a competition to be enjoyed like a festival. BIOMOD is and should be fun, in addition to being a learning experience.
 
@@ -214,7 +214,7 @@ San Francisco has great restaurants. If you are in the mood for Mexican food, he
 _— Kei Fujiwara (Keio University)_
 
 
-## Learn from Previous Winners
+## 5. Learn from Previous Winners
 
 BIOMOD is a biomolecule design competition, and there is a high degree of freedom in what you do. In this section, we will take a look at the projects of previous Grand, Website, YouTube, and Presentation Award winners to understand the project genres and styles that can end up with a high score.
 
@@ -267,7 +267,7 @@ Students tend to make the mistake of thinking that the judges will understand yo
 _—Kei Fujiwara (Keio University)_
  
 
-## BIOMOD Calendar
+## 6. BIOMOD Calendar
 
 This chapter describes a standard working schedule and team organization. Because BIOMOD is a team competition with a defined deadline, choice of team organization is very important. Appropriate team organization will depend on your team members and on support from laboratories.
 
@@ -314,7 +314,7 @@ The success of a project principally depends on its ideas. You should spend as m
 _— Hisashi Tadakuma (Kyoto University)_
 
 
-## Tips on Group Work
+## 7. Tips on Group Work
 
 In BIOMOD, undergraduates with almost no laboratory research experience make a team, and go through project proposal, planning, experiment, and making a video, Website, and presentation slides in 6 months. The efficiency of group work [0] is a critical factor in success. Here are some tips that have been/will be effective.
 
@@ -377,7 +377,7 @@ At BIOMOD, your project will be evaluated by other people. In order to get as go
 _— Shinichiro M. Nomura (Tohoku University)_
 
 
-## Tips on Website Creation
+## 8. Tips on Website Creation
 
 Website is worth up a relatively high number of points, which makes it very important at the BIOMOD competition. It also reflects the character of your team explicitly, including the layout, so you should never make light of it. Refer to sections 53-59 for the basic procedure to make a Website.
 
@@ -423,7 +423,7 @@ Technically, fixing the format (size, font, etc.) of the figures to be uploaded 
 _— Hisashi Tadakuma (Kyoto University)_
  
 
-## Tips on Making YouTube Video
+## 9. Tips on Making YouTube Video
 
 The YouTube video is the introduction for the judges to come and see the content of your project. Below are some tips on making it.
 
@@ -479,7 +479,7 @@ This section has summarized the basic process for making a BIOMOD video, startin
 _— Shogo Hamada (Cornell University)_
 
 
-## Tips on Presentation in English
+## 10. Tips on Presentation in English
 
 For Japanese students, the greatest problem at BIOMOD is giving a presentation in English. You have to get through it in order to get a good score. This might be your first presentation, and in English. What if you cannot understand the questions? There are a lot of what-ifs, so just do your best to prepare.
 
@@ -545,7 +545,7 @@ _— Satoshi Murata (Tohoku University)_
 
 {pagebreak}
 
-## What You'll Get From BIOMOD
+## 11. What You'll Get From BIOMOD
 
 The summer vacation is not long enough to prepare for BIOMOD. You will continue to struggle with preparation in September and October. Sometimes you might have to work all night, and sometimes you might quarrel with the team members. What will you get after all that? Here are some recollections of previous student participants and a comment of a mentor.
 
