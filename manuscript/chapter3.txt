@@ -262,3 +262,62 @@ Is the structure obtained as above truly a gel? In most cases, the answer to thi
 One of the most promising applications of DNA hydrogel is the incorporation of a gene-containing DNA such as a plasmid into a gel network to promote cell-free protein synthesis inside the gel \[6\]. This system has proved to be capable of synthesizing protein about 300 times more efficiently than a solution system. This might be due to the protection of the molecular structure of the gene by the DNA hydrogel, a higher concentration of the gene in the gel compared to a solution system, more efficient turnover of the enzymatic reactions (thus improved transcription efficiency), etc.
 
 _—Shogo Hamada (Cornell University)_
+
+## 23. DNA Nanomachines and Nanorobots: Overview
+
+DNA cannot only make a "shape", but also a "motion". How can we produce motion using DNA?
+
+### Molecular Machines
+
+A molecular machine is defined as "a molecule that goes through some directional movement in response to an input stimulus". In general, it has a plurality of states and repeats the transition between them.
+
+An organism is made of innumerable, highly sophisticated molecular machines. A wide variety of protein-based molecular machines are at work in every cell. For example, molecular motors essential for bacterial flagellum rotation are driven by the proton concentration gradient across the cell membrane. Muscle contraction is the result of the sliding of actin and myosin protein filaments, which depends on the energy of ATP hydrolysis. As another example, F-type ATP synthase, which is responsible for ATP synthesis in most organisms, itself rotates to carry out the synthesis reaction. These natural biological molecular machines are highly efficient.
+
+On the other hand, artificial molecular machines employ a catenane (multiple ring-shaped molecules mutually interlocked like a chain), a rotaxane (a dumbbell-shaped molecule threaded through a macrocycle, interlocked by the ends of the dumbbell), and the like that function as joints, bearings, and other movable molecular elements. These machines include molecular shuttles, molecular tweezers, and nanocars. A nanocar has four wheels made of fullerene, and each axle can endlessly rotate on a covalent carbon-carbon bond. A nanocar has been reported to be driven straight over a gold surface by thermal fluctuation \[1\].
+
+![](images/ch3fig24.png)
+
+**Nanocar.** Reprinted from Nano Letter ©2005 ACS.
+
+These artificial molecular machines are remarkably large for synthetic organic macromolecules, but only capable of relatively primitive motions such as shuttling and rotary motions.
+
+### DNA Nanomachines
+
+DNA allows more complex motions to be achieved, and even for these motions to be controlled. Driving mechanisms for DNA nanomachines include the following.
+
+- Driving Mechanisms for DNA Nanomachine:
+- External
+- Strand displacement (DNA input)\*
+- B-Z transition (salt concentration change)
+- Light-responsive base (light input)
+- Autonomous
+- Enzymatic reaction (DNAzyme, restriction enzyme)\*
+- Strand displacement (with autonomous DNA input)\*
+
+_\*sequence-specific (only driven by a particular sequence)._
+
+In an externally driven system, a nanomachine moves only one step every time it receives a certain input signal provided externally. In an autonomous system, movement happens autonomously without such external signals (or it appropriately generates the required molecular signal).
+
+The most common external driving mechanism is strand displacement (see section 42). In this case, different DNA single strands are added to the solution by pipetting, one at a time. Each DNA single strand added displaces a part of the DNA nanomachine structure, causing the nanomachine to change its shape (this constitutes one motion). A representative example is molecular tweezers (see section 24). One advantage of the strand displacement-based driving method is that you can choose the site of displacement. Other variations include walker (see section 25) and pliers (see section 26). At present, the most complex nanomachine driven by strand displacement is the nanofactory developed by Seeman's group (see section 26).
+
+![](images/ch3fig25.png)
+
+**Nanofactory.** Reprinted with permission from Nature, 2010 \[3\]
+
+The B-Z transition driving method relies on the fact that a DNA molecule with the base sequence CGCGCG... flips from the right-handed B form to the left-handed Z form and vice versa, depending on surrounding ion concentration. You can change the ion concentration of the solution by repeatedly pipetting so that the machine repeats the flipping motion. Another nanomachine depends on a light-responsive artificial base such as azobenzene (see section 48). Because the azobenzene molecule changes its form upon light irradiation, UV irradiation can control the association/dissociation of an azobenzene-containing double stranded DNA. The B-Z transition and light-responsive base driving methods are not suitable for complex motions, because a single input causes all actuators to move at the same time.
+
+There are relatively few examples of autonomous molecular machines. One example is the autonomous walker (see section 25). The walker achieves a walking motion by binding to an array of track DNA molecules provided on a two-dimensional DNA origami (see section 18), and then cleaving the bound track DNA by means of a DNAzyme sequence contained in each leg (see section 30). The walker does not require any external input because it autonomously repeats the cycle of taking one step and binding the next track DNA upon the cleavage of one track DNA.
+
+![](images/ch3fig26.png)
+
+Autonomous walker based on a DNAzyme sequence \[4\].
+
+### Slime Robot
+
+Any of the molecular machines described above works as a single molecule in a solution, by changing its shape and/or binding state stepwise. A more elaborate system, the Molecular Robotics Project (see column 1) seeks to achieve a slime-like motion by enclosing a DNA computing circuit and a molecular actuator in a reactor such as a liposome (see section 89). The behavior of microtubules can be controlled by attaching a DNA tag to them, to which an autonomous DNA reaction system (see section 27) will be applied in the future \[2\].
+
+![](images/ch3fig27.png)
+
+**Slime Robots \[2\].** Reprinted from Accounts on Chem Res. ©2014 ACS.
+
+_—Satoshi Murata (Tohoku University)_
