@@ -1,0 +1,806 @@
+{book: true, sample: false}
+
+# Software Techniques
+
+## 53. Basic Software Programs: Overview
+
+Because "design" of a biomolecule, the subject matter of the BIOMOD competition, is invisible to the naked eye, you must demonstrate the results of your project in a readily understandable manner. Your scores, therefore, are based on your Wiki, YouTube, and presentation. Your documents, tables, graphs, and presentation slides, including animations and videos, should be high quality and effective.
+
+### Office Suite
+
+You can use Microsoft Office to prepare all your materials (see section 3). Microsoft Office is an office suite (a collection of business software) provided by Microsoft; the regular suite contains Word (document preparation), Excel (spreadsheet), and PowerPoint (presentation). Another example of an office suite is iWork, provided by Apple Inc., which includes Pages, Numbers, and Keynote.
+
+### Necessity of Different Software Applications
+
+However, without exception, previous winners of BIOMOD Project Award Gold (see section 5) employed not only an office suite like Microsoft Office but also other diverse applications to prepare their Project Website,  YouTube Video, and Presentations. This is because "intuitively understandable", "persuasive", and "enjoyable" contents have to include images, videos, and 2D/3D animations, and dedicated software works better to produce these materials.
+
+![](images/ch6/ch6fig1.png)
+
+#### To Make Images Impressive
+
+The graphic tools in PowerPoint allow you to not only draw figures but to adjust the brightness, contrast, and tone of an image. However, using Illustrator (graphic design software) and Photoshop (photo editor), provided by Adobe, will improve the visual elements of your materials (the illustration below was drawn on Photoshop). While these two programs are payware, there are free applications that will also work, such as Inkscape and GIMP.
+
+![](images/ch6/ch6fig2.png)
+
+(See section 56)
+
+#### To Make 3D Images Intuitively Understandable
+
+3D images are often necessary to make your Wiki, YouTube, and presentations easier to understand. There are a wide variety of 3D CGI applications, but all of them involve modeling, material, animation, and lettering, which are described below.
+
+#### To Make Images More Persuasive
+
+Image-J is a popular processing/analysis application for creating image data from wet experiments. In spite of being free and open-source, it performs well and has advanced functions that can even satisfy professional researchers. It supports a variety of file formats ranging from TIFF, PNG, JPEG, BMP, AVI, and other basic ones, to uncommon formats. You should master it as a powerful tool not only for use in BIOMOD but also for your graduation thesis, master’s thesis, and other researches (see section 58).
+
+![](images/ch6/ch6fig3.png)
+
+#### To Make a Video Enjoyable to Watch
+
+According to the judging criteria in previous BIOMOD competitions, the YouTube video is 25% (see section 3) of your score. Thus, video making skills are key. The commercial software Premiere Pro and the freeware programs such as Windows Movie Maker and AviUtl are introduced below.
+
+![](images/ch6/ch6fig4.png)
+
+(See section 59)
+
+_—Takashi Nakakuki (Kyushu Institute of Technology)_
+
+## 54. Document/Table/Graph Preparation
+
+This section introduces Gnuplot for graphing.
+
+### Document Preparation
+
+When your project starts, you will discuss the schedule and roadmap (a chart that lists tasks necessary to achieve your goals in a timeline) with other team members. In the course of the project, you will go through many meetings to discuss the design specification, the status of each member's task, and so on (see section 7). You should make full use of document preparation software such as Word to make the group work more efficient and effective. In business settings, meeting documents and proceedings are often prepared in Word and electronically distributed. Similarly, you should make use of document preparation software as a tool for efficient group work.
+
+![](images/ch6/ch6fig5.png)
+
+### Spreadsheet
+
+Many of you have probably used Microsoft Excel, a program that creates spreadsheets. For BIOMOD, Excel can help manage data management/analysis, and can also output results as tables and various graphs.
+
+For data management, its "Data" menu provides Sort, Filter (data extraction), Remove Duplicates, Subtotal, PivotTable, and other basic functions which allow the import of external data sources. It can also help the management of your group work. For example, if the project is divided among the team members, you can create a table of the tasks of individual members, share the Excel file on the web, and have each member update the status of her/his task in the table, to see the overall status of the project at a glance. Like Word, just one spreadsheet can be a powerful tool to dramatically improve the efficiency of your group work when combined with IT.
+
+In relation to data analysis, the use of various Excel functions allows basic statistical analyses, e.g. mean and variance, and more complex statistical analyses, e.g. test of a difference between population means, nonparametric test, correlation, and multivariate analysis. There are many textbooks on the use of Excel in statistical analysis and multivariate analysis. For examples, see reference \[1\].
+
+If you want to combine Excel functions to perform complex calculations/tasks efficiently (a series of tasks automatically), it can be greatly facilitated by "macro" ("Tool"-"Macros" in the menu). You can write a macro using the programming language VBA (Visual Basic for Applications) for Excel. Interested readers are referred to reference \[2\] and other guides.
+
+Last but not least, tables and graphs can be easily created by selecting "Insert"-"Table", "Graph" in the menu. Particularly, you can choose an appropriate graph from column, line, pie, bar, area, scatter, and other charts (stock, contour, doughnut, bubble, and radar) depending on your purpose, which is an advantage of using the graph drawing tool of Excel.
+
+![](images/ch6/ch6fig6.png)
+
+### Graph Drawing
+
+You should also learn the software Gnuplot, which allows for efficient graph drawing. This free, open-source software program with advanced functions can be regarded as a programming language for 2D/3D graph drawing. Excel is more convenient in that it allows you to make a graph by just following a wizard, but Gnuplot provides more functions and performs better at processing a large amount of data quickly into a graph.
+
+{aside}
+**Column: TeX**
+
+Undergraduates science majors often write their graduation thesis on TeX. Scientific papers in some field are also often written in TeX (needless to say, many are Microsoft Word users). TeX is a free typesetting system, wherein the users prepare texts and images/tables (i.e. contents), while the computer takes care of layout and other non-content elements of the document based on class file (or style file) and other settings. Writing in TeX is rather like making a webpage in the HTML language, and thus more cumbersome than writing in Word. Nevertheless, many people are still using TeX all over the world, possibly because it can make equations particularly beautiful.
+{/aside}
+
+_—Takashi Nakakuki (Kyushu Institute of Technology)_
+
+## 55. Preparation of Presentation Slides
+
+In BIOMOD, most of you will use PowerPoint to make a presentation. This section introduces points, tips, and taboos in the use of PowerPoint to prepare slides.
+
+### Presentation
+
+As already discussed in section 10, a presentation at BIOMOD is different from a typical conference presentation, in that you can add drama and entertainment to it. But the most important thing is to make the content of your project understood, and to explain it clearly.
+
+Presentation structure (example):
+
+ 1. Title, team name, and affiliations
+ 2. Background
+ 3. Goal of the project
+ 4. Details of the design and its operating principles
+ 5. Experimental/simulation results
+ 6. Conclusions
+ 7. Future prospects and discussion
+
+#### Presentation Structure
+
+In a presentation, simply showing the results of your project is not enough. You need to emphasize the points of your story and pace the talk effectively. For that purpose, the structure of the presentation should also take the psychology of the audience into account. If your experiment has been successful, then show it at the climax. If your experiment has not been successful but has prompted a unique principle, place more emphasis on its description. In addition, arrange the results in the best order to make them understood.
+
+In any kind of presentation, the goals and conclusions should agree with each other. If they don't, the audience may not believe your argument. In addition, you can also strongly impress the audience by talking about the future progress that can result from your results.
+
+![](images/ch6/ch6fig7.png)
+
+Dos and Don'ts in Preparing Slides
+
+There are a number of textbooks on general presentation techniques and PowerPoint. You should read at least some of them if you are involved in these tasks. Shown below are the most basic points.
+
+Good Slides:
+
+- Title of each slide summarizes its point.
+- Texts and figures are clear and easy to understand.
+- Provides necessary and sufficient information.
+- An appropriate proportion of time/space is allotted to each piece of information depending on its importance.
+- Sufficiently understood even in the absence of the words of the speaker.
+- Text is consistent with the speaker's words.
+- All slides have a consistent format.
+
+Bad Slides:
+
+- The focus is unclear.
+- Texts and images are too small to read.
+- An important point is written in a small font.
+- An elaborate figure is used to describe a less important thing.
+- Terms used in the slides differ from those in the speaker's words.
+- Different slides have different formats.
+
+
+Appoint a Director to Standardize Slides:
+
+The slide work, probably done during one week after the Wiki deadlines of the domestic trial and the final, should be divided among all of the team members. An appointed director should standardize all the slides in terms of font, text size, coloring, icon, and many other things.
+
+Time Allocation:
+
+Read the speech script to time the presentation on a stopwatch. Adjust the number of slides and the length of script for each part so that you can allocate enough time to the most important points.
+
+Synchronization between the speech script and the slides:
+
+Terms used in the script have to completely match those in the slides. In addition, the flow of the script for a slide must match the order of things displayed in that slide (from the top to the bottom, from the left to the right).
+
+Simple and clear slides:
+
+Each slide should not contain too much information. Texts should be in a large font and brief. In general, one slide should not contain more than 7 lines.
+
+Use of consistent terms and icons:
+
+Each thing should have one name, one icon, and one shape of the same coloring throughout the slides. Since your group all are working, some of you might be using different names for the same things. You need to make sure these are changed to reflect the same terminology. This is where communication among the team members matters.
+
+Graph Requires Text Summary:
+
+A look at each slide should tell the viewer approximately what it means. Make sure each graph of your results has text that summarizes what your graph indicates.
+
+Last Slide:
+
+This slide will be on the screen throughout the discussion time, and thus should include more than something like "Thank you for your attention", such as a summary of the results or a positive message.
+
+Movie and Visual Effects:
+
+Unfortunately, a movie embedded in a slide sometimes fails to play at the BIOMOD final. Instead, you should rely on animation wherever you can. Do not abuse visual effects during slide change. Save them for where they are really needed.
+
+Appoint a Slide Flipper:
+
+Let the speaker concentrate on reciting the speech script, by appointing someone else to switch the slides. The slide switcher should rehearse again and again in advance to learn where to change slides in the script.
+
+![](images/ch6/ch6fig8.png)
+
+_—Satoshi Murata (Tohoku University)_
+
+## 56. Figure Preparation
+
+Graphic information is an important means of aiding understanding. Effective figures will greatly improve the impression of your Wiki, YouTube, and presentation. If you want to prepare higher-grade figures, you should master Illustrator (representative graphic software) and Photoshop (photo editor).
+
+### Two Ways to Prepare a Figure
+
+Many of you probably have already used some graphic software or paint tool to draw figures. Windows "Paint" is one of the most popular paint tools. There are two kinds of image drawing software, one that uses raster images and one that uses vector images. If you want to prepare higher-grade figures, you should know what the difference is between them and how to choose a software program(s) appropriate for your purpose. In the figure below, the letter on the left, which is composed of "pixels", is called a raster image. The letter on the right, which is composed of "coordinates and lines", is called a vector image.
+
+![](images/ch6/ch6fig9.png)
+
+### Raster Images are Drawn with Pixels
+
+A raster image is also called bitmap image. Each image is made of the information on the color (tone) of pixels. In the case of a raster image of 640 x 480 pixels, the entire color (tone) information of the 307,200 pixels can be directly written in an image file, which will have the extension "BMP". Alternatively, the information can be compressed into an image file of a smaller size, which will have an extension such as JPG and PNG. Windows "Paint" is a representative raster image drawing software program. Photographs taken with a digital still camera are all raster images (guess why if you are familiar with cameras). A raster image is apt to have a large file size and has the disadvantage that its edges become rough when magnified.
+
+![](images/ch6/ch6fig10.png)
+
+### Vector Images are Drawn with "Paths" and "Fills"
+
+The information of a vector image is basically provided by draw commands (see the right image in the following figure). You can draw it solely based on the information of the coordinates of the start points and the end points and the nature of the line segments between them (commands). When draw commands for a vector image are outputted as an image file, it will have an extension such as AI, PDF, and SVG. A vector image has a smaller file size than its raster image counterpart, and maintains smooth edges when magnified. For example, in a vector image, a 10-fold increase in its width will not roughen the edges because the only difference is something like the use of the command "Draw a line from the point (0, 0) to the point (100, 0)" in place of the command "Draw a line from the point (0, 0) to the point (10, 0)".
+
+![](images/ch6/ch6fig11.png)
+
+Even if an image is drawn based on draw commands, it is not practical for you to input the draw commands like a program. What you need is a software program that allows drawing actions of the user to be performed intuitively, and automatically converts them into draw commands.
+
+#### Illustrator: A Software Program for Vector Image Drawing
+
+In a software program for vector image drawing, its "user-friendliness" is more important than in a raster image drawing program,. The graphic software Illustrator (Adobe) is a representative software program for the former \[1\].
+
+To master Illustrator, you should learn about the terms anchor point, segment, and path (see the figure below for an example). (1) Selecting the Pen tool and (2) clicking on the start point will create an anchor point there. Then (3) clicking on the end point will create another anchor point there and a segment (a straight line in this case) will appear between these two points. To continue the drawing, (4) clicking on another point will create the next anchor point, which will add another segment. An uninterrupted line composed of anchor points and a segment(s) is called a path. If Illustrator is new to you, you should start from the Pen tool and proceed to adding a new anchor between segments, connecting anchors with a smooth curve, and then drawing a more complex curve.
+
+![](images/ch6/ch6fig12.png){width="4.2711122047244094in" height="3.48125in"}
+
+#### Inkscape: Free Vector Drawing Software
+
+Illustrator is a high-performance software program that can provide a collection of advanced functions such as those demanded by professional designers, but you have to pay for it. Fortunately, there is the freeware Inkscape \[2\]. It has basic functions comparable to those of Illustrator, and will be a powerful tool for you to prepare higher-quality figures.
+
+#### Photoshop: A Software Program for Raster Image Drawing
+
+Apart from various vector images, photographs taken with camera are a kind of raster image. Therefore, you will also need a software program to add effects to a photograph or adjust its contrast, brightness, and tone. Among such raster images, photographs and other complex images are usually processed with a specific kind of software, which is called a photo editor. Photoshop (Adobe) is a photo editor \[3\]. You can also scan a free-hand drawing and process it with Photoshop to have a digital illustration as follows.
+
+![](images/ch6/ch6fig13.png)
+
+Alternatively, you can use GIMP, a freeware program with basic functions comparable to those of Photoshop.
+
+_—Takashi Nakakuki (Kyushu Institute of Technology)_
+
+## 57. 3D Animation
+
+Animation can be very effective in explaining molecular reactions and mechanisms. However, creating an animation requires as many as thousands of images and thus enormous labor. However, you can create it relatively easily with the help of three-dimensional computer graphics (3D CGI).
+
+### Modeling
+
+First, this section describes the implementation of a moving model (modeling) for animation. In 3D CGI, a human character or any other object is composed of vertices, edges, and faces, which is called a polygon. There are three modeling methodologies: polygonal modeling, which directly edits a polygon, curved surface modeling, which indirectly edits a polygon using Bezier and NURBS curves, and sculpt modeling, which creates an object like clay working. Polygonal modeling is the most basic, whereas curved surface modeling is suitable for symmetric structures such as cylinders and sculpt modeling is good for making complex structures with many bumps. Increasing the number of polygons (high poly) means you can model a more complex structure, but this also requires more of your PC.
+
+![](images/ch6/ch6fig14.png)
+
+### Material
+
+You can change the color, material, and reflectivity of your model by changing material settings. Texture settings are used to add surface patterns, smaller features, and other details. A texture that carries color and similar patterns is called a color texture, and a texture with the information on features drawn on it is called a normal map texture. Although these textures can be created using a graphics editor, they can be downloaded from the CG Textures site and other similar websites, too. To use a texture, a process of projecting the texture onto your model (UV mapping) is required.
+
+![UV mapping](images/ch6/ch6fig15.png)
+
+### Animation
+
+In 3D CGI animation, a motion is made by registering a pose of a model for each time point and interpolating the poses. An animation made by registering the poses, or "setting key frames", is called a key frame animation. You can use Graph Editor to perform the motion interpolation in detail. To move a human, animal, or any other multi-jointed model, bones (a skeleton) are used. Each bone is subjected to "skinning" to associate it with the polygon of the model, which allows a move of the bones to change the morphology of the polygon. Bones (a skeleton) have a hierarchical structure: a structure in which a child follows the motion of its parent is called FK (forward kinematics), and a structure in which the motion of a child determines the position of its parent is called IK (inverse kinematics). In the motion of bones of hands, legs, and other object-contacting parts, IK is usually employed. Although FK provides a higher degree of freedom of motion, the use of IK in walking, pushing an object, and similar motions can improve your animation. An animation is usually created by hand drawing, but it is also possible by motion capture to generate the motion of a CG model from that of a real person or object, or by baking physical computing results to key frames. Using these techniques, you can create an animation that is too complex to input by hand.
+
+![](images/ch6/ch6fig16.png)
+
+Model (left) and skeleton (right).
+
+![](images/ch6/ch6fig17.png)
+
+Key frame animation.
+
+### Rendering
+
+In rendering, a light source(s) is set to illuminate a model and an image is created based on the lighting and camera settings. The overall quality of your animation is greatly affected by the settings of rendering. Lighting usually includes key light, fill light, and back light ("three-point lighting"). In rendering, you can use ray tracing to add reflection and refraction by tracing the path of a light to reach the camera, global illumination to compute lights reflected on an object (indirect light), ambient occlusion to add 3d appearance by shading gaps and hollows in the model, and other functions to obtain high-quality graphics comparable to live action films.
+
+2D animation and similar graphics can also be rendered by emphasizing the edges of a model, binarizing the shades, and other techniques (cel shading).
+
+![](images/ch6/ch6fig18.png)
+
+### Closing Remarks
+
+The above are just a taste of 3D CGI creation. You can also render a fluid, the destruction of an object, and so on by employing physical computing, Boolean, and other functions. Commonly, it is more practical to reduce the rendering time required for retake by outputting the background and the model in your movie separately. Output them as numbered images that support transparency (e.g. in a PNG format), which will be combined later using a video editor. This can also be applied to combining them with a real background.
+
+Useful Sites for 3D CGI
+
+- Metasequoia (modeling software): http://metaseq.net/jp/
+- MAKEHUMAN (human character making software): http://www. makehuman.org/
+- Sculptris (sculpt modeling software): http://oakcorp.net/zbrush/sculptris/index.php
+- Maya (3D CGI software): http://www.autodesk.com/education/free-software/maya
+- Blender (3D CGI software): http://blender.jp/
+- BLEND SWAP (free models for Blender): http://www.blendswap.com/
+- MOLECULAR FLIPBOOK (molecular animation software): http://www.coolhunting.com/tech/molecular-flipbook
+- CG textures (texture download): http://www.cgtextures.com/
+
+_—Masaru Tsuzawa and Ibuki Kawamata (Tohoku University)_
+
+## 58. Image Processing
+
+There are two kinds of graphics for BIOMOD, namely figures and raw images for data extraction. This section outlines the process to extract data from an experimentally obtained image. You should try to obtain high-quality data by processing a digital image in a highly reproducible manner using reliable software.
+
+### What is Image Processing?
+
+Image processing extracts any desired information from a given image. The world's earliest drawing may be the wall paintings at Lascaux Cave, which include a line drawing of a colored bison. At present, most images are digital data, any of which you can copy easily and perfectly and treat as a set of pixels (dots), each with a discrete brightness, on a computer. You can not only enjoy their patterns and colors but also quantify data contained therein (e.g., length, brightness distribution, particle size distribution, and complexity of closed curve). The process is outlined below.
+
+### Different Types of Images
+
+As a result of a given experiment, you will often obtain a digital image from electrophoresis, microscopy (optical, fluorescence, atomic force, and electron), or the like.
+
+There are essentially two kinds of graphics for BIOMOD: figures and raw images for data extraction. An image for data extraction can be processed into a figure, but not vice versa. Note that good data comes from a good image.
+
+There are a variety of formats digitized image data can take, and popular ones have an extension like .JPG, .PNG, .TIFF, or .BMP. In addition, each software program may have its own format. Uncompressed TIFF format is the de facto standard for images for data processing.
+
+### Pre-processing is Critical
+
+In a thriller TV or movie, you may have seen a blurred face of a suspect getting sharpened through image processing. However, image processing does not always go like that. Of course, you can use macros to automate data processing. Extraction from an image with too much noise will be very difficult to do. There are a variety of noise reduction algorithms (for example, a Gaussian filter, a median filter, or a two-dimensional Fourier transform, a window function, and then an inverse Fourier transform \[\*\]).　It is the job of the experimenter who has actually obtained an image from an experiment to process the image into an automatically analyzable state for data extraction.
+
+### Examples of Image Processing
+
+Image-J is one of the most popular image-processing freeware programs in the field of science and technology \[1\]. Free, useful macros have been developed and published by its users all over the world.
+
+![](images/ch6/ch6fig19.png)
+
+ImageJ, in spite of its somewhat antique UI, is compatible with the latest OSs. Below is an exemplary process of particle analysis using it.
+
+Original image -&gt; store in a TIFF format -&gt; import into ImageJ: file information is provided at the top left, such as 800 x 600 pixels; RGB; 1.8 MB.
+
+![](images/ch6/ch6fig20.png)
+
+Scaling: for example, draw a line over the 20 μm scale bar by hand, and select Analyze -&gt; SetScale to display Distance in pixels: 45 -&gt; then enter Known distance: 20 and Unit of Length: μm.
+
+Binarization: Process -&gt; Binary -&gt; Make Binary. Then confirm that you see black particles on a white background. Otherwise, invert it by Select All -&gt; Edit -&gt; Invert.
+
+![](images/ch6/ch6fig21.png)
+
+Particle analysis: Analyse -&gt; Analyse Particles -&gt; input counter conditions (see below for an example) -&gt; OK
+
+![](images/ch6/ch6fig22.png)
+
+to start counting.
+
+![](images/ch6/ch6fig23.png)
+
+This example includes 27 particles, with the area of each particle displayed. It can be outputted into Excel.
+
+![](images/ch6/ch6fig24.png)
+
+Instead of ImageJ, you can also use the Adobe Photoshop and the freeware GIMP \[4\]. For scientific purposes, ImageJ and its wide range of macros will suffice. See reference \[5\] for details and sections 56, 57, and 59 for CG/image preparation.
+
+### Universal Rules
+
+Quality requirements may differ depending on your purpose, but will usually include no debris (only the original experimenter can decide if something in an image is truly debris), good contrast, less noise, good size of the object in the image, high resolution, and good tone levels. Always try to obtain a good image that facilitates image processing.
+
+_—Shinichiro M. Nomura (Tohoku University)_
+
+## 59. Video Editing
+
+In BIOMOD, each team is required to make a Youtube video, which is worth up to 25 points. There is no single best way to make it. This section introduces some software-based editing techniques, referring to videos of previous participants.
+
+### Overview
+
+Once you have set the policy on how to make your video and have the scenario and casts set (see section 9), you actually start making the video. In general, video editing proceeds by collecting movie, audio, and other data, editing and adding effects to them, and then setting the timeline. As the video is nearing completion, show it to other team members and get feedback to revise it again and again. Usually, these different steps need different software programs.
+
+Necessary data include movies, sounds, BGM, and subtitles. The movies are prepared by CG (see section 57) or live action. The TITECH team 2011 won second place in the Youtube category with a movie that combined PowerPoint animation and live action. The Tohoku University team 2012 won first place on the Youtube Award with a movie that combined live action and CG. You may also add complex effects to your movie using the software program After Effects \[1\] or the like.
+
+You can record sounds and BGM, or you can use found materials. Sound editors are not discussed here. The Arizona State University team 2014 won second place for Youtube Award using melodies that they composed. In addition to these examples, you should refer to other highly evaluated videos in previous BIOMOD competitions (see section 5).
+
+### Video Editing
+
+When it comes time to do the video editing, you will further process the collected movie and audio data, copy and paste them, and arrange them in place. There are various applications that can assist in these processes, and you can choose the one you like. An exemplary commercial application is Premiere Pro \[2\], while Windows Movie Maker \[3\] and AviUtl \[4\] are freeware. Their execution screens are shown in FIG. 1.
+
+![Execution screen of Premiere Pro, Windows Movie Maker, and AviUtl](images/ch6/ch6fig25.png)
+
+In any of these software programs, timeline editing is a central part of the task. Timeline specifies the timing of shots, sounds, effects, and subtitles. As an example, FIG. 2 shows a timeline of about 10 seconds on AviUtl, made by the Tohoku University team in 2012.
+
+The timeline proceeds to the right. Vertically, layers are stacked that specify materials used for each time point. Blue indicates a picture, including subtitle. Red indicates a sound or BGM, and green indicates an effect at a scene change.
+
+As seen from the above, each scene of the video will be made by combining multiple types of information, where your editing skills matter. Do it carefully, referring to the preview window.
+
+![Aviutl timeline](images/ch6/ch6fig26.png)
+
+### Output and Upload of Video
+
+Once the timeline is complete, then you can encode it to output as a video. Encoding is very complicated and not discussed in detail here. In principle, you will refer to Youtube settings \[5\] to perform encoding using a software program. As specified by the link, you should care about resolution, aspect ratio, frame rate, bit rate, container format, and codec. Play the resulting video and go through every scene to see if there is any problem, e.g. distorted picture, sound too large, or sound too small. Note that the encoding can take a long time.
+
+After the video is complete, you can upload it to Youtube. You can use the annotation function of Youtube to embed a link in the video. A link to the website of your team (see section 8) will be effective.
+
+_—Ibuki Kawamata (Tohoku University)_
+
+## 60. Numerical Analysis Library
+
+Scilab is a freely available, beginner-friendly, high-level programming language for numerical analysis, visualization, signal processing, and data analysis. It is a powerful tool you can use for BIOMOD for experimental data analysis and numerical simulation.
+
+C Language is Versatile but not Always the Best
+
+For numerical calculation or for data analysis, homework, or a graduation thesis, you can use C language to write a program(s) sufficient for that purpose. The greatest advantage of C language is its execution speed; it can quickly process even a large-scale numerical calculation with the help of memory allocation and pointers. C language has can do a lot of things, but is not the best choice for every calculation. Typical cases are shown below.
+
+### Case 1: Calculation of the eigenvalues of a matrix
+
+You have to learn linear algebra and code an algorithm to calculate the eigenvalues of a matrix of n rows x n columns. Therefore, debugging will also take a considerable amount of time. Alternatively, you have to find a matrix calculation library for C language, install it, and use call functions in the library from your source code. Of course, the library must be reliable (one you have happened to find on the Internet will not be safe to use in various senses).
+
+Typical Case in BIOMOD
+
+In BIOMOD, you will often have to numerically simulate a DNA reaction to validate its operating principles and examine experimental data.
+
+### Case 2: Simulation of the time course of DNA concentration
+
+This involves two problems for a programmer to solve: i.e., "numerical solution to the initial value problem of an ordinary differential equation" and "visualization of the results". For the numerical solution, you will have to find a numerical integration library, which is similar to the Case 1 situation. For the visualization, a convenient method is to output a file of simulation results, import the file into Excel, Gnuplot, or the like (see section 54), and draw a graph. However, there an easier method.
+
+### Scilab
+
+I recommend Scilab. Scilab can do numerical analysis, visualization, signal processing, and data analysis, and has the following features:
+
+1. Freeware
+2. Provided with a large numerical analysis library
+3. Easily creates 2D/3D graphs
+
+\# 1 is particularly important in BIOMOD. You can download it from the Scilab website \[1\] and install it on your personal computer. It works with Linux, Mac, and Windows. There are a number of Japanese textbooks on it.
+
+![](images/ch6/ch6fig27.png)
+
+\# 2 frees programmers from the problem of how to get a numerical analysis library. You only have to install Scilab to get numerical analysis functions (solvers) for linear algebra, numerical integration, data analysis, signal analysis, and so on. That is, all you have to do is learn "how to use each function". For example, in Case 1, define a matrix A and then use spec(A), which will return the eigenvalues of the matrix A. In Case 2, use the numerical integration function code.
+
+\# 3 means that, like Gnuplot (see section 54), Scilab has advanced graph drawing functions that allow beautiful 2D/3D graphics.
+
+![](images/ch6/ch6fig28.png)
+
+Scilab is a programming language that allows you to carry out a series of tasks such as data import, numerical analysis, and graph drawing in a seamless manner, has a grammar easier to understand than that of C language, and does not require programmers to worry about data type and memory allocation (students in my laboratory mastered its use for basic operations in a few days).
+
+### Demo: Simulation of DNA Hybridization
+
+An example of programming for Case 2 is described below. See the hybridization reaction between a single strand DNA (X) and a complementary DNA (Y) in the following figure, and simulate the increase in the concentration of a double strand DNA (Z) over time.
+
+![](images/ch6/ch6fig29.png)
+
+The time course of the concentration of DNA can be expressed by the following differential equations based on reaction kinetics (see section 39).
+
+![](images/ch6/ch6fig30.png)
+
+The figure below is the start-up window of Scilab. Type the following program line by line in the left console. Here, the initial concentration of DNA is X(0) = 10nM, Y(0) = 20nM, and Z(0) = 0nM. "//" in the program marks a comment. Its grammar is not discussed here, but is easy to learn if you know the definition and use of vector.
+
+![](images/ch6/ch6fig31.png)
+
+DNA0 = \[10 ; 20 ; 0\]; // initial concentration
+t = 0 : 0.1 : 20; //start time: interval: end time \[sec\]
+kf = 0.1; kr = 0.01; //association constant, dissociation constant
+
+// Definition of differential equations
+function xdot = diffEqs(t, x);
+
+xdot(1) = -kf \* x(1) \* x(2) + kr \* x(3);
+xdot(2) = -kf \* x(1) \* x(2) + kr \* x(3);
+xdot(3) = kf \* x(1) \* x(2) - kr \* x(3);
+
+endfunction
+
+// Solve differential equations
+
+DNA = ode ("stiff", DNA0, 0, t, diffEqs);
+
+// graph drawing
+
+plot ( t, DNA(1,:), t, DNA(2,:), t, DNA(3,:) );
+
+![](images/ch6/ch6fig32.png)
+
+The axes in the graph are appropriately scaled, and the DNA concentration curves are differently colored.
+
+{aside}
+**Column: Statistical Analysis Software R**
+
+Experimental data are often subjected to some statistical analysis. Basic statistics values can be calculated in Excel. If you need more complex data analysis, you should use the statistical analysis software R, also called the R language. In spite of being downloadable for free, it includes a large numerical library for statistical analysis, which is comparable to that of commercial statistical analysis software. It is also compatible with parallel processing with a PC cluster system to analyze big data, and thus widely used in universities and research institutes all over the world.
+
+Official R Project HP: http://www.r-project.org/index.html
+{/aside}
+
+Takashi Nakakuki (Kyushu Institute of Technology)
+
+## 61. Software for Molecular Design of DNA
+
+In order to design a system composed of DNA molecules, you have to know about the physical and chemical properties of DNA and be able to use them. When you want to design a complex or large-scale system, use software-assisted design. This section outlines relevant software programs and a strategy to use them for appropriate purposes.
+
+### Software-Assisted Design
+
+Various systems have been developed based on the geometrical, thermodynamic, and reaction kinetics properties of DNA molecules. As the scale of such systems become larger and larger, risk of errors that cannot be foreseen by an empirical design methodology grow.
+
+To circumvent such problems, use a software-assisted design program. In relation to the design of DNA molecular systems, a basic strategy to apply different software programs to different purposes is introduced in terms of geometry, dynamics, thermodynamics, and reaction kinetics.
+
+### Geometric Properties
+
+Geometric properties of DNA double helix (see section 17) have been used to assemble two/three-dimensional structures. You must consider the phase, pitch, and interatomic distance of a helix when designing DNA systems. Applicable software programs include Namot, which can model all atoms in DNA, Nanoengineer-1, specialized for three-dimensional modeling of double helix structures, and caDNAno to design DNA origami structures based on crossovers (FIG. 1). You must choose the right one depending on the size and features of your system (see section 66).
+
+![](images/ch6/ch6fig33.png)
+
+Structure design software (from the left, Namot, Nanoengineer-1, and caDNAno).
+
+### Dynamical Properties
+
+By predicting the behavior of a DNA structure in a solution, you can assess its structural stability and motility. For an all-atom model, an existing molecular dynamics software program, such as NAMD, is effective. A structure file generated by caDNAno can be used in stability analysis by CanDo and coarse-grained molecular dynamics simulation by oxDNA (see section 65). In any instance, the Brownian motion of a DNA structure in a solution can be predicted (FIG. 2).
+
+![](images/ch6/ch6fig34.png)
+
+Dynamics simulation (from the left, results of NAMD, CanDo, and oxDNA).
+
+### Thermodynamic Properties
+
+In order to design a DNA molecular system, it is important to predict the hybridization between sequences, i.e. the secondary structure of DNA, rather than its three-dimensional structure. It is also possible to predict the thermodynamic free energy and Tm from the sequence information (see section 41), which can help to determine if an expected or unexpected secondary structures will form. Such a measure can also be applied to an inverse problem, that is, to design a sequence that can form the desired secondary structure \[1\].
+
+Suitable software programs are NUPACK and DINAmelt (see section 62). Both allow secondary structure and free energy prediction. NUPACK is good at designing a simple sequence and predicting the secondary structure of multiple DNA strands, while DINAmelt is good at predicting Tm and heat capacity (FIG. 3).
+
+When you want to design a set of DNA sequences for DNA computing or tile assembly, you should use a software program specialized for that purpose, e.g. DNA Design, to exclude the possibility of their hybridization in any undesired combination (see section 63).
+
+![](images/ch6/ch6fig35.png)
+
+Prediction of thermodynamic properties (from the top, NUPACK and DINAmelt).
+
+### Reaction Kinetics Properties
+
+In DNA computing, you will need to predict the time course of the concentration of molecules in a solution, rather than look at individual DNA molecules. Specifically, an ordinary differential equation(s) is formulated based on a chemical reaction equation(s), and subjected to numerical analysis. The differential equation(s) itself is written by a program or by using simplified notation.
+
+In the design of a system driven by strand displacement reaction (see section 42), the software DSD (see section 67) is effective (FIG. 4). For a Toolbox reaction system based on enzymatic reaction, DACCAD is effective (see section 33). In any case, neither is applicable to every DNA structure. Thus a numerical analysis library of general purpose, such as that of Scilab, is required in most simulations \[2,3\].
+
+![Reaction kinetics simulation on DSD](images/ch6/ch6fig36.png)
+
+_—Ibuki Kawamata (Tohoku University)_
+
+## 62. DNA Secondary Structure Prediction
+
+DNA secondary structure prediction can predict a stable secondary structure of DNA based on its base sequence. This section introduces NUPACK and DINAMelt, which are programs used for secondary structure prediction. Both can work online, so you should try them at least once.
+
+### NUPACK
+
+NUPACK is a program developed by Dr. Robert Dirks (Caltech). For an input DNA (RNA) base sequence, it outputs all possible secondary structure(s) in a solution, i.e. secondary structure(s) that are stable in terms of free energy. Below is the list of the types of information submitted to NUPACK and information returned to the user.
+
+\[Input information\]
+
+RNA or DNA?
+
+Reaction temperature
+
+Number of DNA strands
+
+Maximum number of DNA strands to form a secondary structure
+
+Base sequence and concentration of each DNA
+
+Concentration of Na^+^ and Mg^2+^
+
+\[Output information\]
+
+Stable secondary structure(s) and its concentration in the solution
+
+Melting profile
+
+Probability of base pairing for each base
+
+Advantageously, it can operate online, and has an intuitive interface and a demo program. You should try it at least once (http://www.nupack.org/).
+
+The figure below is a screen shot of the results of inputting an exemplary DNA base sequence, "GGTATGCGATGAGCACACCCGCGGGTTTCGCGCGT". According to the figure, DNA with this base sequence is most stable in a solution when it forms a structure composed of hairpin loops and internal loops, with a minimum free energy (see section 42) of -12.27 kcal/mol.
+
+![](images/ch6/ch6fig37.png)
+
+In addition, NUPACK can design a base sequence that can form a desired structure, which is also available online (see section 64).
+
+### DINAMelt
+
+DINAMelt, developed by Dr. Nicholas R. Markham (Rensselaer Polytechnic Institute), is a web-based program with functions similar to those of NUPACK. NUPACK and DINAMelt use essentially the same structure prediction algorithm, which is an extended version of the algorithm first developed by Dr. Zuker in 1981. Moreover, both programs use free energy parameters calculated by Dr. Santa Lucia, which are required for secondary structure prediction, so that their secondary structure prediction results will be essentially the same.
+
+However, only DINAMelt is capable of detailed thermodynamic analysis. In the figure below, two different DNA strands are reacted, and the concentration change of reaction species is plotted against temperature.
+
+In addition to a stable secondary structure and the free energy for it, the enthalpy, entropy, melting temperature, and heat capacity are also calculated.
+
+![](images/ch6/ch6fig38.png)
+
+In contrast, what NUPACK can do but DINAMelt cannot is to "predict the secondary structure made of three or more DNA strands" and "design the base sequence of DNA". Your purpose will unequivocally determine which program to choose.
+
+{aside}
+**Column: BLAST**
+
+First of all, DNA is the design of life. In order to study the genetic nature of DNA, we sometimes want to know the similarity between two base sequences. BLAST (Basic Local Alignment Search Tool) is a popular program in bioinformatics. BLAST can receive a DNA base sequence and search for and return base sequences similar to it from huge databases.
+
+For example, you can readily investigate if a human has any gene similar to a gene in monkey, at http://www.ncbi.nlm.nih.gov/BLAST/.
+
+Typical gene databases are too huge to compare sequences one by one in a reasonable amount of time. Therefore, BLAST initially checks similarity by an easy and quick method to exclude unpromising sequences from candidates. Such improvements have achieved a great reduction in calculation time. In software programs to predict the behavior and properties of biomolecules, both prediction accuracy and prediction time are very important factors. BLAST, NUPACK, and DINAMelt, introduced in this section, all meet both of the requirements, and thus are actively used by many.
+
+The time required for DNA secondary structure prediction is proportional to the third power of the base sequence length. For example, a 10-fold increase in base sequence length will result in a 1,000-fold increase in computing time. Keep this in mind when you want to use NUPACK or DINAMelt.
+{/aside}
+
+_—Fumiaki Tanaka (AIST)_
+
+## 63. Sequence Design
+
+For any DNA sequence, its secondary structure can be algorithmically predicted. Sequence design is the inverse problem. You put constraints on the secondary structure and sequence, and search for a sequence(s) that satisfies the condition. A random sequence(s) may suffice when you want to assemble a simple secondary structure, but an increase in the number of conditions will be extremely problematic. This section introduces guides and software for sequence design.
+
+Secondary Structure Prediction and Sequence Design
+
+Secondary structure prediction is useful for predicting the domains in a given DNA sequence that will hybridize to each other to form the most stable structure (see section 43). Efficient prediction algorithms are already known, and several software programs are available (see section 62).
+
+In order to design a DNA tile structure (see section 20) or a system driven by strand displacement reaction (see section 42), you have to solve its inverse problem—that is, you have to find a base sequence that will form a predetermined secondary structure.
+
+A simple solution is to give a random sequence to each domain. Once the sequence is given, its complementary strand is automatically defined. If these sequences are subjected to secondary structure prediction, the desired structure will be obtained.
+
+It may seem a simple problem, but such random sequences might cause pairing between wrong domains, resulting in a meta-stable by-product(s). Such a by-product can impair structure formation and state transition.
+
+To avoid this problem, we can use known orthogonal sequences \[1\]. These include 37 different DNA sequences, each 23 bases long, which have been reported not to interfere with each other in an unexpected manner.
+
+Sequence Design Software
+
+However, the length of the number and the kind of bases will differ between designs, and each design will need a sequence(s) that meets its conditions. Here, sequence design software is effective. It has been developed by many groups, but there is no de facto standard software program because different sequence design problems have different conditions in detail. Some software programs are introduced below.
+
+Design Function of NUPACK
+
+The online secondary structure prediction program NUPACK \[2,3\] has a sequence design function. Access the NUPACK website and select the Design tab. The succeeding steps are described below, using a demo.
+
+First, set the parameters at the top. For example, Nucleic acid type: DNA, Temperature: 26°C, and Number of designs: 2. Then write a desired secondary structure in the Target structure box by the dot-bracket-plus notation. In this notation, as shown in FIG. 1, "." represents an unpaired base, corresponding left and right brackets represent a hydrogen-bonded base pair, and "+" represents a DNA nick.
+
+![Dot-bracket-plus notation](images/ch6/ch6fig39.png)
+
+Then, push Design at the bottom right and wait while the sequence design is executed and base sequence sets are outputted as many as the number of designs set in FIG. 2. FIG. 2 shows sequence design results for the secondary structure of the stick figure. The higher a set is placed, the better sequence(s) it has.
+
+![Sequence design results](images/ch6/ch6fig40.png)
+
+Push "To Analysis" on the right side of the designed sequences to subject the corresponding sequence to secondary structure analysis. You can check if the expected secondary structure is formed. If any unexpected structure is formed, you have to change the conditions and structure and repeat the sequence design.
+
+You can add a variety of constraints in the Target structure box (see NUPACK Help for details). For example, you can give a predetermined sequence to a portion of the structure, or you can specify a sequence to be excluded.
+
+DNA Design for Tile Design
+
+A DNA Design toolbox \[4\] is useful for designing DNA tiles. This tool is written in MATLAB. A base sequence is written as a string of alphabetical letters, and a Watson-Crick pairing region is represented by a string of numbers. Each base to be designed is represented by an alphabetical letter other than ATGC, e.g. N. Although you need some knowledge of programming, you can design any combination of sequences once you get familiar with it.
+
+Software for Combinatorial Optimization
+
+To perform design and avoid unexpected structures, you need a sequence design program that takes sequence homology and the free energy of secondary structure (see section 41) into account \[5,6\]. Under conditions with various trade-offs, it searches for a sequence of the best combination.
+
+A few software programs for this are available online. One example is CircDesigNA \[7\], which provides sequence design based on energy calculation. This software has the interface shown at the top in FIG. 3, through which the user inputs the letter string that describes a desired secondary structure.
+
+Tohoku University has also developed the sequence design software Sequence Design based on references \[5,6\]. This sequence design software for DNA computing was employed by the Tohoku University team in 2014. It has an interface as shown at the bottom in FIG. 3, and describes the required DNA with a string of alphabetical letters. Contact \[8\] to use it.
+
+![CircDesigNA and Sequence Design](images/ch6/ch6fig41.png)
+
+_—Ibuki Kawamata (Tohoku University)_
+
+## 64. Design of DNA Origami
+
+One characteristic of DNA nanostructures is that their three-dimensional structures can be predicted on a computer. This is a great advantage in molecular design, as opposed to the tertiary structure of a protein that is not easiy predictable from its primary structure. There are several design software programs for this purpose. This section introduces caDNAno developed by Shawn Douglas, a founder of BIOMOD, and colleagues.
+
+### Cadnano
+
+This freeware can design two-dimensional/three-dimensional structures on a GUI basis. The latest is ver2.2.0 (as of March 2015).
+
+#### Installation of caDNAno
+
+Access the HP to download necessary files (http://cadnano.org/). For Mac, Maya2012 has to be installed in advance. For Windows, Maya2012 and Python2.7.2. have to be installed in advance. These can be installed even in a laptop and tablet and work fine for design purposes. However, you may sometimes need the large memory and graphics board of a desktop when you want to display a three-dimensional structure on Maya.
+
+#### How to Use caDNAno
+
+The start-up window of caDNAno is composed of two areas. The left one displays the top view of a DNA nanostructure, the right displays the DNA nanostructure projected to the plane and seen from the side.
+
+Select the "Honeycomb" or "Square" button at the top left. When a three-dimensional structure is desired, "Honeycomb" is usually selected. In Honeycomb, each designed structure has a base unit of 7 bases (a rotation of 240˚) (Douglas et al. Nature 2009). In Square, each designed structure has a base unit of 8 bases (0.75 turn = a rotation of 270˚. 10.67 bp/turn) (Rothemund Nature 2006). Note that an actual B-form DNA has a pitch of 10.4 bp/turn, which is different from the designed value in Square, resulting in a slightly twisted structure. Thus you have to eliminate one base every 48 bases (Woo & Rothemund NatChem 2011).
+
+Numbered cylinders are created in the order you click. Neighboring cylinders do not need to have serial numbers, but serial numbers will be easier for beginners to handle. The coordinates of the mouse pointer (cylinder number and base number) are shown at the bottom left.
+
+![](images/ch6/ch6fig42.png)
+
+Each cylinder is made of two rows. Use the upper row to draw a line rightward, and the lower row to draw a line leftward. The square in each arrow represents the 5' end, and the arrowhead represents the 3' end. This line represents the scaffold. When you use "select" or the pen, focus your interest (for example, only on the scaffold and endpoints (red circle) to facilitate the operation.
+
+![](images/ch6/ch6fig43.png)
+
+After drawing lines for cylinders, connect the cylinders (lines). When you click approximately where you want to introduce a connection, a number and square brackets will appear. The number is the destination cylinder number. Click the square brackets to connect the lines and form a crossover. Select and delete the remainder by the delete key. If you want to extend a scaffold, select it and drag & drop the square or arrowhead in the arrow. If you want to move a crossover, turn "(X)overs" selectable by "Selectable" at the center of the upper toolbar before that.
+
+![](images/ch6/ch6fig44.png)
+
+After connecting all the scaffolds by one stroke drawing (if you want to connect places other than corner brackets, do it by force using the Pen tool), add staple strands. Push "AutoStaple" to automatically arrange them, and then correct them by hand, one by one. This correction is for their length and crossover positions, and is empirical for most part. Each staple to be corrected is represented by a bold line. Through cutting, length change, or rearrangement, adjust each staple to a practical length.
+
+![](images/ch6/ch6fig45.png)
+
+Subsequently, assign specific sequences. When you push the "Seq" button at the bottom right, scaffolds are suggested. Choose appropriate ones, and the sequences will be automatically assigned. Unless you want something different, make sure that neither too many nor too few bases are assigned to each scaffold in this step.
+
+You can output the sequence in csv format by pushing the "Export" button at the top left. If the sequence is a string containing "?", that staple is not paired with the scaffold. Unless it is deliberate, you have to adjust the length of the staple and/or the scaffold, and then repeat "Seq".
+
+You can also use "Paint" to display different staples in different colors, one base insertion ("Insert"), one base deletion ("Skip"), and other buttons, as appropriate.
+
+#### Check of Structure Stability
+
+You can use CanDo developed by an MIT group (http://cando-dna-origami.org/). Soon after the upload of a sequence, it will return the calculation results. Because this program has considerable constraints, you should not expect too much from it.
+
+#### Ordering Custom Sequences
+
+You can order custom sequences from any oligonucleotide synthesis service company. You will receive them in about 4 business days, in separate tubes or in a multiwell plate format.
+
+_—Hisashi Tadakuma (Kyoto University)_
+
+
+## 65. Simulation of DNA Origami
+
+It’s too expensive to examine the actual structure of a designed DNA origami by a chemical experiment. Here, finite element simulation and coarse-grained molecular dynamics simulation are effective. They can predict any twist from a desired structure, or deliberately design a twisted structure.
+
+Input File in caDNAno Format
+
+This section introduces two simulators for DNA origami, namely CanDo \[1\] and oxDNA \[2\]. Either can accept a json file that has been outputted by caDNAno, a DNA origami design tool (see section 64), as input.
+
+By way of example, imagine a simulation of a single-layer two-dimensional DNA origami structure on caDNAno, as shown in FIG. 1. Which of the front face and the back face will look upward when the structure is adsorbed by a mica substrate (see section 92)? Does it have any instability coming from the design?
+
+![DNA origami structure on caDNAno](images/ch6/ch6fig46.png)
+
+### CanDo is Based on Finite Element Method
+
+The online software CanDo (FIG. 2) performs finite element simulation, which regards each base pair as one element. The input to be uploaded is a json file, and the output is an image. Alternatively, it can output a video or pdb file (see section 66). The simulation process is roughly as follows.
+
+![](images/ch6/ch6fig47.png)
+
+In principle, parameters do not need to be changed from their default values. Select Square or Honeycomb for "Lattice type" as appropriate. If you want a video and/or pdb file, set corresponding options. Note that it may take several hours to days to get the result for a submitted file because requests submitted will be processed in the order they are received.
+
+The simulation results are shown in FIG. 2. The output is a structure that is stable in a solution, with the color indicating the degree of thermal vibration. In the video, you can see it is actually undergoing thermal vibration. In the exemplary structure, a small difference in phase between the double helices accumulates, resulting in a slightly twisted structure. From the structural characteristics, it is likely to be adsorbed with the back face up. When observed under AFM (see section 18), about 60% of the structures actually had their back face up.
+
+![The top page and output images of CanDo](images/ch6/ch6fig48.png)
+
+### oxDNA for Coarse-Grained Molecular Dynamics Simulation
+
+The software oxDNA allows for more detailed analysis and performs coarse-grained molecular dynamics simulation. In its model, each nucleotide (see section 40) is represented by three particles, providing an understanding of dynamic motions at the nucleotide level. oxDNAcan not only simulate origami structures but also strand displacement reactions (see section 42) and so on \[5\].
+
+oxDNA is not distributed in an executable format and requires compiling. It has no graphical interface, and you have to execute programs through a console, imposing a higher barrier to introduction than CanDo. Its input file is in a unique format, but it includes a script for conversion from a json file. Its output is the time course of the coordinates of each particle and the like, which can be rendered as a video using VMD \[3\] or Chimera \[4\]. Below is an exemplary command set to execute a simulation.
+
+![](images/ch6/ch6fig49.png)
+
+The first line converts a json file into an appropriate file. The second line is for relaxation, and the third line executes the simulation. Temperature, time interval, and other conditions are described by "input\_relax" and "input", for which sample files attached to the software can be modified before use. The fourth line converts the output file into a different file format to visualize it. Note that a standard personal computer will need several hours to simulate a phenomenon that takes nanoseconds.
+
+The visualized simulation results are shown in FIG. 3. The formation of a stable structure through thermal vibration, with cracks and distortions in the structure, can be observed. By writing a script to analyze it, the time course of the distance between any two points can be tracked.
+
+![Execution results of oxDNA](images/ch6/ch6fig50.png)
+
+
+### Uses of Simulation
+
+Because simulation can provide a kind of information that you would never obtain through designing DNA origami using a classical methodology, you should do this early in your project so that you can create a more detailed design. In addition, the output of three-dimensional models can be used to make a video or the like (see sections 57 and 59). A recent study reported an all-atom molecular dynamics simulation \[6\], but it may not be usable in BIOMOD due to its high computing cost.
+
+_—Ibuki Kawamata (Tohoku University)_
+
+
+## 66. Molecular Modeling of DNA
+
+DNA molecules and structures can be observed under electron and atomic force microscopes. However, it is impossible to directly observe the physical properties of a molecule beyond the resolution of these instruments. To understand the behavior of a molecule in more detail, a three-dimensional molecular model is effective. This section introduces how to make all-atom and double helix-based models.
+
+### Atoms and DNA Structure
+
+To design a DNA structure, you sometimes need to know the three-dimensional position of each atom and the geometry of a helix. However, electron microscopy (see section 85) and atomic force microscopy (see section 85) cannot directly observe such information beyond their resolution, and lost information cannot be restored.
+
+Here, molecular modeling is effective. By creating a model on a computer and understanding the structure, you can understand the physical properties and constraints of DNA in advance. Software programs to create an all-atom model of DNA and a three-dimensional model of double helix structure are introduced below. The created structures can also be used as 3D models in video preparations (see sections 57 and 59).
+
+### All-Atom Model by Namot
+
+A DNA molecule is a string of so-called nucleotide units, composed of hydrogen, carbon, nitrogen, oxygen, and phosphorus atoms (see section 40). Mutually complementary strands can form a double helix through hydrogen bonding, which adds geometrical information. It is not practical to set the coordinates of all atoms one by one by hand. Instead, modeling is performed using software.
+
+A so-called Namot2 software program \[1,2\] can put all atoms of DNA in place, and create a double helix structure or much larger structures.
+
+Its executable file is not directly available, and thus the source code must be compiled in an environment with X Windows System. An execution screen is shown on the left in FIG. 1. For a simple single or double strand DNA, you just have to select File -&gt; Generate and input a sequence to obtain its all-atom model. "Deoxy" in the "B" form should be selected.
+
+You can store the obtained model in a format compatible with other applications, such as pdb, by selecting File -&gt; Write. The structure can be imported into the software programs VMD \[3,4\] and Chimera \[5,6\] and displayed.
+
+In Namot, you can use the "add unit" command to program the position of each nucleotide. For details, see the online manual \[1\]. The right panel in FIG. 1 shows a structure generated from a demo file included in Namot, visualized by VMD. You can create a superhelix structure formed by a double helix, a branched structure formed by a double helix protruding upward, downward, leftward, rightward, forward, and backward, etc.
+
+![Execution screen (left) and demo structures (right) of Namot.](images/ch6/ch6fig51.png)
+
+Recent studies have investigated an all-atom model of DNA origami. As shown in FIG. 2, an all-atom model can be created from a caDNAno file (provided from Tohoku University).
+
+![All-atom model of a DNA origami](images/ch6/ch6fig52.png)
+
+### Molecular Dynamics
+
+Based on the all-atom model obtained, you can perform molecular dynamics simulations based on classical physics. Popular simulation software programs are NAMD \[7\], Amber \[8\], and Charmm \[9\].
+
+You can consult the NAMD tutorial for a molecular dynamics simulation of DNA, with a pdb file as input. FIG. 3 shows the result of a simulation of double helix dissociation process at an elevated temperature. Note that all-atom molecular dynamics usually requires expensive computing.
+
+![Molecular dynamics simulation on NAMD](images/ch6/ch6fig53.png)
+
+### Nanoengineer-1 for Helix Structure Modeling
+
+When you only need a less detailed structure instead of an all-atom model, Nanoengineer-1 is effective \[10\]. FIG. 4 shows its execution screen displaying the modeling of a spoked-wheel structure with T-motifs \[11\]. By selecting Build -&gt; DNA -&gt; Insert DNA, you can generate a three-dimensional model of a double helix that has the same geometry as DNA. It allows you to draw differently oriented helices, cut and connect terminals, and so on, in an intuitive manner. It is an effective software program for a design where only the phase and pitch of helix are important.
+
+![Execution screen of Nanoengineer-1](images/ch6/ch6fig54.png)
+
+
+_—Ibuki Kawamata (Tohoku University)_
+
+
+## 67. Simulation of DNA Logic Gate
+
+Implementation of information processing systems based on DNA have been extensively studied. However, the design and analysis of such a system will become more and more difficult as the system size increases. You can overcome this problem by predicting the behavior of the system in advance. This section introduces a software program that can simulate DNA strand displacement reactions by means of numerical analysis.
+
+### DNA Logic Gates and Chemical Reaction Equations
+
+DNA has been used as input and output to logic gates (see section 29) and oscillators (see section 33). In these systems, more than one chemical reaction proceeds simultaneously, making it difficult to quantitatively predict behavior. When an existing gate is extended to design a larger system, newly introduced sequences might interfere with the original system, causing unexpected reactions.
+
+To avoid this, the behavior of the system should be predicted in advance by numerical simulation based on chemical reaction equation, i.e. continuous-deterministic simulation \[1,2\] by formulating an ordinary differential equation based on reaction kinetics (see section 39) and using a numerical analysis library (see section 60). We can apply discrete-event/stochastic simulation to a relatively small number of molecules in a compartmentalized environment, such as liposomes (see section 89).
+
+As the number of molecular species involved increases, the differential equation will include more and more variables, and thus will become difficult to manually formulate and analyze repeatedly. It will also require a technique to determine the reaction rate constant and other parameters.
+
+In the case of DNA reactions, the elementary reactions of which are very limited, e.g. to strand displacement reaction (see section 42) and enzymatic reaction (see section 45), there are design assistant software programs that can automate formulation and analysis. In the design and simulation of a system such as an enzymatic reaction-based oscillator, the DACCAD tool is effective \[3\] (see section 33). It features intuitive, graph-based operations.
+
+### Design/Analysis Software DSD
+
+This section introduces the online software "DSD" \[4,5\], which can design and simulate a logic gate that is driven by strand displacement reaction and does not involve any enzyme.
+
+DSD, developed by Microsoft Research, is available by clicking "MAIN" in its webpage \[4\], which also includes a link to the tutorial and manual. A basic guide is given below.
+
+#### Notation for DNA
+
+DSD uses its original notation to describe DNA \[6\]. FIG. 1 summarizes an exercise found in the manual. Each domain is indicated with a letter with/without a number, and its complementary strand is marked with "\*". Each short toehold sequence is marked with "\^". The symbol of each rightward single strand is placed in "&lt; &gt;", each leftward single strand in "{ }", and each double strand in "\[ \]". ":" denotes concatenation along a leftward single strand, while "::" denotes concatenation along a rightward single strand.
+
+![DNA structures & corresponding notation](images/ch6/ch6fig55.png)
+
+#### Programming of Input File
+
+The concentration of each molecule at the initial state is written as a program in the Code window (left), which is then inputted into the software. You can also add reaction rate constants, simulation time, and molecules to be displayed in the graph to the program. The software includes various sample programs, and you can create a program for amplifying gate (see section 31) by selecting "Catalytic" from "Examples".
+
+Below is an exemplary simulation of an AND gate, with the initial state of molecules and their concentration as shown at the top in FIG. 2. The corresponding program is shown at the bottom of the figure. The first 6 lines define variables and the last line describes an initial state. The initial state includes the concentration and species of molecules, which are described in "( )", separated from each other by "|".
+
+![Schematic and programming of the initial state](images/ch6/ch6fig56.png)
+
+#### Compilation and Numerical Simulation
+
+Once the programming is done, compile it by clicking the "Compile" button at the top left. If the program has not been written appropriately, this step will return an error (then you have to correct it). After the compilation is successful, possible structures that can be reached from the initial state are investigated exhaustively to formulate ordinary differential equations. Select the Graph tab under Compilation over the right window to display a graph of reaction paths, as shown in the upper panel of FIG. 3.
+
+Then, click the "Simulate" button on its side to display the numerical simulation results. Unless you change them, the parameters have default values and settings. You can choose between "Stochastic" (stochastic simulation) at default and "Deterministic" (deterministic simulation). A result of selecting the Plot1 tab under Simulation in the bottom right window is shown at the bottom of FIG. 3, wherein the horizontal axis represents time and the vertical axis represents concentration. It provides various options; for example, you can change the settings of Compilation and Options at the top right to perform an in-depth simulation.
+
+This software program can predict the time course of concentration, and is useful for system design/analysis.
+
+![Compilation & simulation results](images/ch6/ch6fig57.png)
+
+_—Ibuki Kawamata (Tohoku University)_
+
+![Pop-up Pirate (Fukuoka Institute of Technology, 2014)](images/ch6/ch6fig58.png)
