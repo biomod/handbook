@@ -1,6 +1,6 @@
 {book: true, sample: false}
 
-# Chapter 4 Basic Knowledge (Textbook Learning)
+# Chapter 4 Basic Textbook Knowledge
 
 ## 36. Importance of Multidisciplinary Knowledge: Overview
 
