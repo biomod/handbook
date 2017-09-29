@@ -537,3 +537,83 @@ The figure below is a screen shot of the results of inputting an exemplary DNA b
 ![](images/ch6/ch6fig37.png)
 
 In addition, NUPACK can design a base sequence that can form a desired structure, which is also available online (see section 64).
+
+
+### DINAMelt
+
+DINAMelt, developed by Dr. Nicholas R. Markham (Rensselaer Polytechnic Institute), is a web-based program with functions similar to those of NUPACK. NUPACK and DINAMelt use essentially the same structure prediction algorithm, which is an extended version of the algorithm first developed by Dr. Zuker in 1981. Moreover, both programs use free energy parameters calculated by Dr. Santa Lucia, which are required for secondary structure prediction, so that their secondary structure prediction results will be essentially the same.
+
+However, only DINAMelt is capable of detailed thermodynamic analysis. In the figure below, two different DNA strands are reacted, and the concentration change of reaction species is plotted against temperature.
+
+In addition to a stable secondary structure and the free energy for it, the enthalpy, entropy, melting temperature, and heat capacity are also calculated.
+
+![](images/ch6/ch6fig38.png)
+
+In contrast, what NUPACK can do but DINAMelt cannot is to "predict the secondary structure made of three or more DNA strands" and "design the base sequence of DNA". Your purpose will unequivocally determine which program to choose.
+
+{aside}
+**Column: BLAST**
+
+First of all, DNA is the design of life. In order to study the genetic nature of DNA, we sometimes want to know the similarity between two base sequences. BLAST (Basic Local Alignment Search Tool) is a popular program in bioinformatics. BLAST can receive a DNA base sequence and search for and return base sequences similar to it from huge databases.
+
+For example, you can readily investigate if a human has any gene similar to a gene in monkey, at http://www.ncbi.nlm.nih.gov/BLAST/.
+
+Typical gene databases are too huge to compare sequences one by one in a reasonable amount of time. Therefore, BLAST initially checks similarity by an easy and quick method to exclude unpromising sequences from candidates. Such improvements have achieved a great reduction in calculation time. In software programs to predict the behavior and properties of biomolecules, both prediction accuracy and prediction time are very important factors. BLAST, NUPACK, and DINAMelt, introduced in this section, all meet both of the requirements, and thus are actively used by many.
+
+The time required for DNA secondary structure prediction is proportional to the third power of the base sequence length. For example, a 10-fold increase in base sequence length will result in a 1,000-fold increase in computing time. Keep this in mind when you want to use NUPACK or DINAMelt.
+{/aside}
+
+_—Fumiaki Tanaka (AIST)_
+
+
+## 63. Sequence Design
+
+For any DNA sequence, its secondary structure can be algorithmically predicted. Sequence design is the inverse problem. You put constraints on the secondary structure and sequence, and search for a sequence(s) that satisfies the condition. A random sequence(s) may suffice when you want to assemble a simple secondary structure, but an increase in the number of conditions will be extremely problematic. This section introduces guides and software for sequence design.
+
+Secondary Structure Prediction and Sequence Design
+
+Secondary structure prediction is useful for predicting the domains in a given DNA sequence that will hybridize to each other to form the most stable structure (see section 43). Efficient prediction algorithms are already known, and several software programs are available (see section 62).
+
+In order to design a DNA tile structure (see section 20) or a system driven by strand displacement reaction (see section 42), you have to solve its inverse problem—that is, you have to find a base sequence that will form a predetermined secondary structure.
+
+A simple solution is to give a random sequence to each domain. Once the sequence is given, its complementary strand is automatically defined. If these sequences are subjected to secondary structure prediction, the desired structure will be obtained.
+
+It may seem a simple problem, but such random sequences might cause pairing between wrong domains, resulting in a meta-stable by-product(s). Such a by-product can impair structure formation and state transition.
+
+To avoid this problem, we can use known orthogonal sequences \[1\]. These include 37 different DNA sequences, each 23 bases long, which have been reported not to interfere with each other in an unexpected manner.
+
+Sequence Design Software
+
+However, the length of the number and the kind of bases will differ between designs, and each design will need a sequence(s) that meets its conditions. Here, sequence design software is effective. It has been developed by many groups, but there is no de facto standard software program because different sequence design problems have different conditions in detail. Some software programs are introduced below.
+
+Design Function of NUPACK
+
+The online secondary structure prediction program NUPACK \[2,3\] has a sequence design function. Access the NUPACK website and select the Design tab. The succeeding steps are described below, using a demo.
+
+First, set the parameters at the top. For example, Nucleic acid type: DNA, Temperature: 26°C, and Number of designs: 2. Then write a desired secondary structure in the Target structure box by the dot-bracket-plus notation. In this notation, as shown in FIG. 1, "." represents an unpaired base, corresponding left and right brackets represent a hydrogen-bonded base pair, and "+" represents a DNA nick.
+
+![Dot-bracket-plus notation](images/ch6/ch6fig39.png)
+
+Then, push Design at the bottom right and wait while the sequence design is executed and base sequence sets are outputted as many as the number of designs set in FIG. 2. FIG. 2 shows sequence design results for the secondary structure of the stick figure. The higher a set is placed, the better sequence(s) it has.
+
+![Sequence design results](images/ch6/ch6fig40.png)
+
+Push "To Analysis" on the right side of the designed sequences to subject the corresponding sequence to secondary structure analysis. You can check if the expected secondary structure is formed. If any unexpected structure is formed, you have to change the conditions and structure and repeat the sequence design.
+
+You can add a variety of constraints in the Target structure box (see NUPACK Help for details). For example, you can give a predetermined sequence to a portion of the structure, or you can specify a sequence to be excluded.
+
+DNA Design for Tile Design
+
+A DNA Design toolbox \[4\] is useful for designing DNA tiles. This tool is written in MATLAB. A base sequence is written as a string of alphabetical letters, and a Watson-Crick pairing region is represented by a string of numbers. Each base to be designed is represented by an alphabetical letter other than ATGC, e.g. N. Although you need some knowledge of programming, you can design any combination of sequences once you get familiar with it.
+
+Software for Combinatorial Optimization
+
+To perform design and avoid unexpected structures, you need a sequence design program that takes sequence homology and the free energy of secondary structure (see section 41) into account \[5,6\]. Under conditions with various trade-offs, it searches for a sequence of the best combination.
+
+A few software programs for this are available online. One example is CircDesigNA \[7\], which provides sequence design based on energy calculation. This software has the interface shown at the top in FIG. 3, through which the user inputs the letter string that describes a desired secondary structure.
+
+Tohoku University has also developed the sequence design software Sequence Design based on references \[5,6\]. This sequence design software for DNA computing was employed by the Tohoku University team in 2014. It has an interface as shown at the bottom in FIG. 3, and describes the required DNA with a string of alphabetical letters. Contact \[8\] to use it.
+
+![CircDesigNA and Sequence Design](images/ch6/ch6fig41.png)
+
+_—Ibuki Kawamata (Tohoku University)_
