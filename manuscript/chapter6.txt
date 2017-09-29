@@ -389,8 +389,6 @@ Scilab can do numerical analysis, visualization, signal processing, and data ana
 
 This is particularly important in BIOMOD. You can download it from the Scilab website \[1\] and install it on your personal computer. It works with Linux, Mac, and Windows. There are a number of Japanese textbooks on it.
 
-![](images/ch6/ch6fig27.png)
-
 **Provided with a large numerical analysis library**
 
 This frees programmers from the problem of how to get a numerical analysis library. You only have to install Scilab to get numerical analysis functions (solvers) for linear algebra, numerical integration, data analysis, signal analysis, and so on. That is, all you have to do is learn "how to use each function". For example, in Case 1, define a matrix A and then use spec(A), which will return the eigenvalues of the matrix A. In Case 2, use the numerical integration function code.
@@ -398,8 +396,6 @@ This frees programmers from the problem of how to get a numerical analysis libra
 **Easily creates 2D/3D graphs**
 
 This means that, like Gnuplot (see section 54), Scilab has advanced graph drawing functions that allow beautiful 2D/3D graphics.
-
-![](images/ch6/ch6fig28.png)
 
 Scilab is a programming language that allows you to carry out a series of tasks such as data import, numerical analysis, and graph drawing in a seamless manner, has a grammar easier to understand than that of C language, and does not require programmers to worry about data type and memory allocation (students in my laboratory mastered its use for basic operations in a few days).
 
