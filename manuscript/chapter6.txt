@@ -383,19 +383,21 @@ This involves two problems for a programmer to solve: i.e., "numerical solution 
 
 ### Scilab
 
-I recommend Scilab. Scilab can do numerical analysis, visualization, signal processing, and data analysis, and has the following features:
+Scilab can do numerical analysis, visualization, signal processing, and data analysis, and has the following features:
 
-1. Freeware
-2. Provided with a large numerical analysis library
-3. Easily creates 2D/3D graphs
+**Freeware**
 
-\# 1 is particularly important in BIOMOD. You can download it from the Scilab website \[1\] and install it on your personal computer. It works with Linux, Mac, and Windows. There are a number of Japanese textbooks on it.
+This is particularly important in BIOMOD. You can download it from the Scilab website \[1\] and install it on your personal computer. It works with Linux, Mac, and Windows. There are a number of Japanese textbooks on it.
 
 ![](images/ch6/ch6fig27.png)
 
-\# 2 frees programmers from the problem of how to get a numerical analysis library. You only have to install Scilab to get numerical analysis functions (solvers) for linear algebra, numerical integration, data analysis, signal analysis, and so on. That is, all you have to do is learn "how to use each function". For example, in Case 1, define a matrix A and then use spec(A), which will return the eigenvalues of the matrix A. In Case 2, use the numerical integration function code.
+**Provided with a large numerical analysis library**
 
-\# 3 means that, like Gnuplot (see section 54), Scilab has advanced graph drawing functions that allow beautiful 2D/3D graphics.
+This frees programmers from the problem of how to get a numerical analysis library. You only have to install Scilab to get numerical analysis functions (solvers) for linear algebra, numerical integration, data analysis, signal analysis, and so on. That is, all you have to do is learn "how to use each function". For example, in Case 1, define a matrix A and then use spec(A), which will return the eigenvalues of the matrix A. In Case 2, use the numerical integration function code.
+
+**Easily creates 2D/3D graphs**
+
+This means that, like Gnuplot (see section 54), Scilab has advanced graph drawing functions that allow beautiful 2D/3D graphics.
 
 ![](images/ch6/ch6fig28.png)
 
