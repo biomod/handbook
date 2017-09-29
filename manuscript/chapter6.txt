@@ -617,3 +617,98 @@ Tohoku University has also developed the sequence design software Sequence Desig
 ![CircDesigNA and Sequence Design](images/ch6/ch6fig41.png)
 
 _—Ibuki Kawamata (Tohoku University)_
+
+## 64. Design of DNA Origami
+
+One characteristic of DNA nanostructures is that their three-dimensional structures can be predicted on a computer. This is a great advantage in molecular design, as opposed to the tertiary structure of a protein that is not easiy predictable from its primary structure. There are several design software programs for this purpose. This section introduces caDNAno developed by Shawn Douglas, a founder of BIOMOD, and colleagues.
+
+### Cadnano
+
+This freeware can design two-dimensional/three-dimensional structures on a GUI basis. The latest is ver2.2.0 (as of March 2015).
+
+#### Installation of caDNAno
+
+Access the HP to download necessary files (http://cadnano.org/). For Mac, Maya2012 has to be installed in advance. For Windows, Maya2012 and Python2.7.2. have to be installed in advance. These can be installed even in a laptop and tablet and work fine for design purposes. However, you may sometimes need the large memory and graphics board of a desktop when you want to display a three-dimensional structure on Maya.
+
+#### How to Use caDNAno
+
+The start-up window of caDNAno is composed of two areas. The left one displays the top view of a DNA nanostructure, the right displays the DNA nanostructure projected to the plane and seen from the side.
+
+Select the "Honeycomb" or "Square" button at the top left. When a three-dimensional structure is desired, "Honeycomb" is usually selected. In Honeycomb, each designed structure has a base unit of 7 bases (a rotation of 240˚) (Douglas et al. Nature 2009). In Square, each designed structure has a base unit of 8 bases (0.75 turn = a rotation of 270˚. 10.67 bp/turn) (Rothemund Nature 2006). Note that an actual B-form DNA has a pitch of 10.4 bp/turn, which is different from the designed value in Square, resulting in a slightly twisted structure. Thus you have to eliminate one base every 48 bases (Woo & Rothemund NatChem 2011).
+
+Numbered cylinders are created in the order you click. Neighboring cylinders do not need to have serial numbers, but serial numbers will be easier for beginners to handle. The coordinates of the mouse pointer (cylinder number and base number) are shown at the bottom left.
+
+![](images/ch6/ch6fig42.png)
+
+Each cylinder is made of two rows. Use the upper row to draw a line rightward, and the lower row to draw a line leftward. The square in each arrow represents the 5' end, and the arrowhead represents the 3' end. This line represents the scaffold. When you use "select" or the pen, focus your interest (for example, only on the scaffold and endpoints (red circle) to facilitate the operation.
+
+![](images/ch6/ch6fig43.png)
+
+After drawing lines for cylinders, connect the cylinders (lines). When you click approximately where you want to introduce a connection, a number and square brackets will appear. The number is the destination cylinder number. Click the square brackets to connect the lines and form a crossover. Select and delete the remainder by the delete key. If you want to extend a scaffold, select it and drag & drop the square or arrowhead in the arrow. If you want to move a crossover, turn "(X)overs" selectable by "Selectable" at the center of the upper toolbar before that.
+
+![](images/ch6/ch6fig44.png)
+
+After connecting all the scaffolds by one stroke drawing (if you want to connect places other than corner brackets, do it by force using the Pen tool), add staple strands. Push "AutoStaple" to automatically arrange them, and then correct them by hand, one by one. This correction is for their length and crossover positions, and is empirical for most part. Each staple to be corrected is represented by a bold line. Through cutting, length change, or rearrangement, adjust each staple to a practical length.
+
+![](images/ch6/ch6fig45.png)
+
+Subsequently, assign specific sequences. When you push the "Seq" button at the bottom right, scaffolds are suggested. Choose appropriate ones, and the sequences will be automatically assigned. Unless you want something different, make sure that neither too many nor too few bases are assigned to each scaffold in this step.
+
+You can output the sequence in csv format by pushing the "Export" button at the top left. If the sequence is a string containing "?", that staple is not paired with the scaffold. Unless it is deliberate, you have to adjust the length of the staple and/or the scaffold, and then repeat "Seq".
+
+You can also use "Paint" to display different staples in different colors, one base insertion ("Insert"), one base deletion ("Skip"), and other buttons, as appropriate.
+
+#### Check of Structure Stability
+
+You can use CanDo developed by an MIT group (http://cando-dna-origami.org/). Soon after the upload of a sequence, it will return the calculation results. Because this program has considerable constraints, you should not expect too much from it.
+
+#### Ordering Custom Sequences
+
+You can order custom sequences from any oligonucleotide synthesis service company. You will receive them in about 4 business days, in separate tubes or in a multiwell plate format.
+
+_—Hisashi Tadakuma (Kyoto University)_
+
+
+## 65. Simulation of DNA Origami
+
+It’s too expensive to examine the actual structure of a designed DNA origami by a chemical experiment. Here, finite element simulation and coarse-grained molecular dynamics simulation are effective. They can predict any twist from a desired structure, or deliberately design a twisted structure.
+
+Input File in caDNAno Format
+
+This section introduces two simulators for DNA origami, namely CanDo \[1\] and oxDNA \[2\]. Either can accept a json file that has been outputted by caDNAno, a DNA origami design tool (see section 64), as input.
+
+By way of example, imagine a simulation of a single-layer two-dimensional DNA origami structure on caDNAno, as shown in FIG. 1. Which of the front face and the back face will look upward when the structure is adsorbed by a mica substrate (see section 92)? Does it have any instability coming from the design?
+
+![DNA origami structure on caDNAno](images/ch6/ch6fig46.png)
+
+### CanDo is Based on Finite Element Method
+
+The online software CanDo (FIG. 2) performs finite element simulation, which regards each base pair as one element. The input to be uploaded is a json file, and the output is an image. Alternatively, it can output a video or pdb file (see section 66). The simulation process is roughly as follows.
+
+![](images/ch6/ch6fig47.png)
+
+In principle, parameters do not need to be changed from their default values. Select Square or Honeycomb for "Lattice type" as appropriate. If you want a video and/or pdb file, set corresponding options. Note that it may take several hours to days to get the result for a submitted file because requests submitted will be processed in the order they are received.
+
+The simulation results are shown in FIG. 2. The output is a structure that is stable in a solution, with the color indicating the degree of thermal vibration. In the video, you can see it is actually undergoing thermal vibration. In the exemplary structure, a small difference in phase between the double helices accumulates, resulting in a slightly twisted structure. From the structural characteristics, it is likely to be adsorbed with the back face up. When observed under AFM (see section 18), about 60% of the structures actually had their back face up.
+
+![The top page and output images of CanDo](images/ch6/ch6fig48.png)
+
+### oxDNA for Coarse-Grained Molecular Dynamics Simulation
+
+The software oxDNA allows for more detailed analysis and performs coarse-grained molecular dynamics simulation. In its model, each nucleotide (see section 40) is represented by three particles, providing an understanding of dynamic motions at the nucleotide level. oxDNAcan not only simulate origami structures but also strand displacement reactions (see section 42) and so on \[5\].
+
+oxDNA is not distributed in an executable format and requires compiling. It has no graphical interface, and you have to execute programs through a console, imposing a higher barrier to introduction than CanDo. Its input file is in a unique format, but it includes a script for conversion from a json file. Its output is the time course of the coordinates of each particle and the like, which can be rendered as a video using VMD \[3\] or Chimera \[4\]. Below is an exemplary command set to execute a simulation.
+
+![](images/ch6/ch6fig49.png)
+
+The first line converts a json file into an appropriate file. The second line is for relaxation, and the third line executes the simulation. Temperature, time interval, and other conditions are described by "input\_relax" and "input", for which sample files attached to the software can be modified before use. The fourth line converts the output file into a different file format to visualize it. Note that a standard personal computer will need several hours to simulate a phenomenon that takes nanoseconds.
+
+The visualized simulation results are shown in FIG. 3. The formation of a stable structure through thermal vibration, with cracks and distortions in the structure, can be observed. By writing a script to analyze it, the time course of the distance between any two points can be tracked.
+
+![Execution results of oxDNA](images/ch6/ch6fig50.png)
+
+### Uses of Simulation
+
+Because simulation can provide a kind of information that you would never obtain through designing DNA origami using a classical methodology, you should do this early in your project so that you can create a more detailed design. In addition, the output of three-dimensional models can be used to make a video or the like (see sections 57 and 59). A recent study reported an all-atom molecular dynamics simulation \[6\], but it may not be usable in BIOMOD due to its high computing cost.
+
+_—Ibuki Kawamata (Tohoku University)_
