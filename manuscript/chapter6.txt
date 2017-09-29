@@ -712,3 +712,47 @@ The visualized simulation results are shown in FIG. 3. The formation of a stable
 Because simulation can provide a kind of information that you would never obtain through designing DNA origami using a classical methodology, you should do this early in your project so that you can create a more detailed design. In addition, the output of three-dimensional models can be used to make a video or the like (see sections 57 and 59). A recent study reported an all-atom molecular dynamics simulation \[6\], but it may not be usable in BIOMOD due to its high computing cost.
 
 _—Ibuki Kawamata (Tohoku University)_
+
+## 66. Molecular Modeling of DNA
+
+DNA molecules and structures can be observed under electron and atomic force microscopes. However, it is impossible to directly observe the physical properties of a molecule beyond the resolution of these instruments. To understand the behavior of a molecule in more detail, a three-dimensional molecular model is effective. This section introduces how to make all-atom and double helix-based models.
+
+### Atoms and DNA Structure
+
+To design a DNA structure, you sometimes need to know the three-dimensional position of each atom and the geometry of a helix. However, electron microscopy (see section 85) and atomic force microscopy (see section 85) cannot directly observe such information beyond their resolution, and lost information cannot be restored.
+
+Here, molecular modeling is effective. By creating a model on a computer and understanding the structure, you can understand the physical properties and constraints of DNA in advance. Software programs to create an all-atom model of DNA and a three-dimensional model of double helix structure are introduced below. The created structures can also be used as 3D models in video preparations (see sections 57 and 59).
+
+### All-Atom Model by Namot
+
+A DNA molecule is a string of so-called nucleotide units, composed of hydrogen, carbon, nitrogen, oxygen, and phosphorus atoms (see section 40). Mutually complementary strands can form a double helix through hydrogen bonding, which adds geometrical information. It is not practical to set the coordinates of all atoms one by one by hand. Instead, modeling is performed using software.
+
+A so-called Namot2 software program \[1,2\] can put all atoms of DNA in place, and create a double helix structure or much larger structures.
+
+Its executable file is not directly available, and thus the source code must be compiled in an environment with X Windows System. An execution screen is shown on the left in FIG. 1. For a simple single or double strand DNA, you just have to select File -&gt; Generate and input a sequence to obtain its all-atom model. "Deoxy" in the "B" form should be selected.
+
+You can store the obtained model in a format compatible with other applications, such as pdb, by selecting File -&gt; Write. The structure can be imported into the software programs VMD \[3,4\] and Chimera \[5,6\] and displayed.
+
+In Namot, you can use the "add unit" command to program the position of each nucleotide. For details, see the online manual \[1\]. The right panel in FIG. 1 shows a structure generated from a demo file included in Namot, visualized by VMD. You can create a superhelix structure formed by a double helix, a branched structure formed by a double helix protruding upward, downward, leftward, rightward, forward, and backward, etc.
+
+![Execution screen (left) and demo structures (right) of Namot.](images/ch6/ch6fig51.png)
+
+Recent studies have investigated an all-atom model of DNA origami. As shown in FIG. 2, an all-atom model can be created from a caDNAno file (provided from Tohoku University).
+
+![All-atom model of a DNA origami](images/ch6/ch6fig52.png)
+
+### Molecular Dynamics
+
+Based on the all-atom model obtained, you can perform molecular dynamics simulations based on classical physics. Popular simulation software programs are NAMD \[7\], Amber \[8\], and Charmm \[9\].
+
+You can consult the NAMD tutorial for a molecular dynamics simulation of DNA, with a pdb file as input. FIG. 3 shows the result of a simulation of double helix dissociation process at an elevated temperature. Note that all-atom molecular dynamics usually requires expensive computing.
+
+![Molecular dynamics simulation on NAMD](images/ch6/ch6fig53.png)
+
+### Nanoengineer-1 for Helix Structure Modeling
+
+When you only need a less detailed structure instead of an all-atom model, Nanoengineer-1 is effective \[10\]. FIG. 4 shows its execution screen displaying the modeling of a spoked-wheel structure with T-motifs \[11\]. By selecting Build -&gt; DNA -&gt; Insert DNA, you can generate a three-dimensional model of a double helix that has the same geometry as DNA. It allows you to draw differently oriented helices, cut and connect terminals, and so on, in an intuitive manner. It is an effective software program for a design where only the phase and pitch of helix are important.
+
+![Execution screen of Nanoengineer-1](images/ch6/ch6fig54.png)
+
+_—Ibuki Kawamata (Tohoku University)_
