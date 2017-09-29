@@ -44,6 +44,7 @@ According to the judging criteria in previous BIOMOD competitions, the YouTube v
 
 _—Takashi Nakakuki (Kyushu Institute of Technology)_
 
+
 ## 54. Document/Table/Graph Preparation
 
 This section introduces Gnuplot for graphing.
@@ -170,6 +171,7 @@ Let the speaker concentrate on reciting the speech script, by appointing someone
 
 _—Satoshi Murata (Tohoku University)_
 
+
 ## 56. Figure Preparation
 
 Graphic information is an important means of aiding understanding. Effective figures will greatly improve the impression of your Wiki, YouTube, and presentation. If you want to prepare higher-grade figures, you should master Illustrator (representative graphic software) and Photoshop (photo editor).
@@ -215,6 +217,7 @@ Apart from various vector images, photographs taken with camera are a kind of ra
 Alternatively, you can use GIMP, a freeware program with basic functions comparable to those of Photoshop.
 
 _—Takashi Nakakuki (Kyushu Institute of Technology)_
+
 
 ## 57. 3D Animation
 
@@ -268,6 +271,7 @@ Useful Sites for 3D CGI
 - CG textures (texture download): http://www.cgtextures.com/
 
 _—Masaru Tsuzawa and Ibuki Kawamata (Tohoku University)_
+
 
 ## 58. Image Processing
 
@@ -361,6 +365,7 @@ After the video is complete, you can upload it to Youtube. You can use the annot
 
 _—Ibuki Kawamata (Tohoku University)_
 
+
 ## 60. Numerical Analysis Library
 
 Scilab is a freely available, beginner-friendly, high-level programming language for numerical analysis, visualization, signal processing, and data analysis. It is a powerful tool you can use for BIOMOD for experimental data analysis and numerical simulation.
@@ -452,6 +457,7 @@ Official R Project HP: http://www.r-project.org/index.html
 
 _—Takashi Nakakuki (Kyushu Institute of Technology)_
 
+
 ## 61. Software for Molecular Design of DNA
 
 In order to design a system composed of DNA molecules, you have to know about the physical and chemical properties of DNA and be able to use them. When you want to design a complex or large-scale system, use software-assisted design. This section outlines relevant software programs and a strategy to use them for appropriate purposes.
@@ -499,6 +505,7 @@ In the design of a system driven by strand displacement reaction (see section 42
 ![Reaction kinetics simulation on DSD](images/ch6/ch6fig36.png)
 
 _—Ibuki Kawamata (Tohoku University)_
+
 
 ## 62. DNA Secondary Structure Prediction
 
@@ -618,6 +625,7 @@ Tohoku University has also developed the sequence design software Sequence Desig
 
 _—Ibuki Kawamata (Tohoku University)_
 
+
 ## 64. Design of DNA Origami
 
 One characteristic of DNA nanostructures is that their three-dimensional structures can be predicted on a computer. This is a great advantage in molecular design, as opposed to the tertiary structure of a protein that is not easiy predictable from its primary structure. There are several design software programs for this purpose. This section introduces caDNAno developed by Shawn Douglas, a founder of BIOMOD, and colleagues.
@@ -713,6 +721,7 @@ Because simulation can provide a kind of information that you would never obtain
 
 _—Ibuki Kawamata (Tohoku University)_
 
+
 ## 66. Molecular Modeling of DNA
 
 DNA molecules and structures can be observed under electron and atomic force microscopes. However, it is impossible to directly observe the physical properties of a molecule beyond the resolution of these instruments. To understand the behavior of a molecule in more detail, a three-dimensional molecular model is effective. This section introduces how to make all-atom and double helix-based models.
@@ -754,5 +763,52 @@ You can consult the NAMD tutorial for a molecular dynamics simulation of DNA, wi
 When you only need a less detailed structure instead of an all-atom model, Nanoengineer-1 is effective \[10\]. FIG. 4 shows its execution screen displaying the modeling of a spoked-wheel structure with T-motifs \[11\]. By selecting Build -&gt; DNA -&gt; Insert DNA, you can generate a three-dimensional model of a double helix that has the same geometry as DNA. It allows you to draw differently oriented helices, cut and connect terminals, and so on, in an intuitive manner. It is an effective software program for a design where only the phase and pitch of helix are important.
 
 ![Execution screen of Nanoengineer-1](images/ch6/ch6fig54.png)
+
+_—Ibuki Kawamata (Tohoku University)_
+
+
+## 67. Simulation of DNA Logic Gate
+
+Implementation of information processing systems based on DNA have been extensively studied. However, the design and analysis of such a system will become more and more difficult as the system size increases. You can overcome this problem by predicting the behavior of the system in advance. This section introduces a software program that can simulate DNA strand displacement reactions by means of numerical analysis.
+
+### DNA Logic Gates and Chemical Reaction Equations
+
+DNA has been used as input and output to logic gates (see section 29) and oscillators (see section 33). In these systems, more than one chemical reaction proceeds simultaneously, making it difficult to quantitatively predict behavior. When an existing gate is extended to design a larger system, newly introduced sequences might interfere with the original system, causing unexpected reactions.
+
+To avoid this, the behavior of the system should be predicted in advance by numerical simulation based on chemical reaction equation, i.e. continuous-deterministic simulation \[1,2\] by formulating an ordinary differential equation based on reaction kinetics (see section 39) and using a numerical analysis library (see section 60). We can apply discrete-event/stochastic simulation to a relatively small number of molecules in a compartmentalized environment, such as liposomes (see section 89).
+
+As the number of molecular species involved increases, the differential equation will include more and more variables, and thus will become difficult to manually formulate and analyze repeatedly. It will also require a technique to determine the reaction rate constant and other parameters.
+
+In the case of DNA reactions, the elementary reactions of which are very limited, e.g. to strand displacement reaction (see section 42) and enzymatic reaction (see section 45), there are design assistant software programs that can automate formulation and analysis. In the design and simulation of a system such as an enzymatic reaction-based oscillator, the DACCAD tool is effective \[3\] (see section 33). It features intuitive, graph-based operations.
+
+### Design/Analysis Software DSD
+
+This section introduces the online software "DSD" \[4,5\], which can design and simulate a logic gate that is driven by strand displacement reaction and does not involve any enzyme.
+
+DSD, developed by Microsoft Research, is available by clicking "MAIN" in its webpage \[4\], which also includes a link to the tutorial and manual. A basic guide is given below.
+
+#### Notation for DNA
+
+DSD uses its original notation to describe DNA \[6\]. FIG. 1 summarizes an exercise found in the manual. Each domain is indicated with a letter with/without a number, and its complementary strand is marked with "\*". Each short toehold sequence is marked with "\^". The symbol of each rightward single strand is placed in "&lt; &gt;", each leftward single strand in "{ }", and each double strand in "\[ \]". ":" denotes concatenation along a leftward single strand, while "::" denotes concatenation along a rightward single strand.
+
+![DNA structures & corresponding notation](images/ch6/ch6fig55.png)
+
+#### Programming of Input File
+
+The concentration of each molecule at the initial state is written as a program in the Code window (left), which is then inputted into the software. You can also add reaction rate constants, simulation time, and molecules to be displayed in the graph to the program. The software includes various sample programs, and you can create a program for amplifying gate (see section 31) by selecting "Catalytic" from "Examples".
+
+Below is an exemplary simulation of an AND gate, with the initial state of molecules and their concentration as shown at the top in FIG. 2. The corresponding program is shown at the bottom of the figure. The first 6 lines define variables and the last line describes an initial state. The initial state includes the concentration and species of molecules, which are described in "( )", separated from each other by "|".
+
+![Schematic and programming of the initial state](images/ch6/ch6fig56.png)
+
+#### Compilation and Numerical Simulation
+
+Once the programming is done, compile it by clicking the "Compile" button at the top left. If the program has not been written appropriately, this step will return an error (then you have to correct it). After the compilation is successful, possible structures that can be reached from the initial state are investigated exhaustively to formulate ordinary differential equations. Select the Graph tab under Compilation over the right window to display a graph of reaction paths, as shown in the upper panel of FIG. 3.
+
+Then, click the "Simulate" button on its side to display the numerical simulation results. Unless you change them, the parameters have default values and settings. You can choose between "Stochastic" (stochastic simulation) at default and "Deterministic" (deterministic simulation). A result of selecting the Plot1 tab under Simulation in the bottom right window is shown at the bottom of FIG. 3, wherein the horizontal axis represents time and the vertical axis represents concentration. It provides various options; for example, you can change the settings of Compilation and Options at the top right to perform an in-depth simulation.
+
+This software program can predict the time course of concentration, and is useful for system design/analysis.
+
+![Compilation & simulation results](images/ch6/ch6fig57.png)
 
 _—Ibuki Kawamata (Tohoku University)_
