@@ -1,0 +1,588 @@
+# Chapter 8 Experiments in Practice
+
+## 92. Preparation and AFM Observation of DNA Tiles
+
+This section outlines the process of preparation and Atomic Force
+Microscope (AFM) observation of DNA tiles.
+
+**Aliquoting and Storage of DNA**
+
+Custom DNA is shipped in a tube and is usually in a dried paste-like
+form in a tube. You will need to dissolve it in an appropriate amount of
+ultra-pure water (it’s best if it’s nuclease-free) or TE buffer based on
+the quantity (nmol) specified on the label (e.g., for each tube, the
+concentration is adjusted to 100 or 500 µM. If n nmol of DNA is present
+in the tube, you have to add 10 x n µl of water to get a 100 µM
+solution). First, briefly centrifuge the tube to bring any paste on the
+inner wall to the bottom, add water down the inner wall, and cap and
+vortex the tube for at least a few minutes to dissolve the DNA. Ideally,
+you should continue the vortex for several hours to overnight to
+thoroughly dissolve the DNA. After the DNA has been dissolved, you
+should measure the true concentration of the solution (see sections 77
+and 82) to ensure accuracy of your experiment.
+
+The dissolved DNA should be aliquoted in more than one 0.5/0.6 ml tube.
+If it is not for immediate use, you should store it at -20°C in a
+freezer. This allows long-term storage (a year or longer). If you will
+be using it immediately, you should store it at 4°C in a refrigerator.
+Under typical storage conditions, DNA will last for a month to several
+months. Note that repeated freeze-thaw cycles are deleterious to the
+quality of DNA. Once thawed, you should store it at 4°C and use it up as
+soon as possible.
+
+**Preparation of DNA Tiles**
+
+Mix the component DNA strands to a final concentration of 1 µM (or that
+described in a relevant protocol in the literature) for each batch. In
+most cases, you will use a buffer solution that is a TAE buffer
+supplemented with magnesium ions to a final concentration of 12.5 mM
+(so-called TAE-magnesium buffer). You can prepare and dilute a stock
+solution of the buffer, such as a 5-fold (5x) or 10-fold (10x)
+concentrate, into a final concentration of 1x. In the case of tiles
+composed of two different DNA strands, such as T-motif \[1\], you will
+get a final concentration of 1 µM of each DNA and a final concentration
+of 1x of the buffer by mixing them as follows:
+
+- 10 x TAE/12.5 mM Mg<sup>2+</sup> buffer 5 µl
+- Nuclease-free water 44 µl
+- 100 µM DNA (1) 0.5 µl
+- 100 µM DNA (2) 0.5 µl
+- (50 µl in total)
+
+This solution can be subjected to annealing on a thermal cycler or hot
+water in a Styrofoam box to assemble the desired structure (see section
+76).
+
+**AFM Observation**
+
+For details of the principles of AFM, see section 84. In general, DNA
+nanostructures are observed in liquid using tapping or an equivalent
+mode (tapping mode is a registered trademark of Veeco, USA), as briefly
+described below.
+
+To observe a DNA nanostructure in liquid under AFM, the structure must
+be adsorbed on a (two-dimensional planar) substrate, which is often made
+of mica. Cleaved surfaces of mica are smooth at the atomic level.
+Because such a surface is negatively charged, as shown in the figure
+below, it can electrostatically adsorb DNA through magnesium or other
+multivalent ions (the mechanism of the adsorption is not yet fully
+understood at the atomic level).
+
+![](images/ch8/ch8fig01.png)
+
+First, freshly prepare a cleaved surface of a mica flake (conveniently,
+the mica flake should be attached in advance to the metal holder of the
+AFM). To do this, pull off a layer(s) from the mica flake using scotch
+tape or the like. Repeat this until you obtain a good cleaved surface.
+Then add the solution containing the DNA nanostructure onto the cleaved
+surface dropwise, to let the surface adsorb the structure. After you
+observe the "crowdedness" of the prepared structure, you should
+fine-tune the appropriate concentration, adsorption time, and total
+volume of the solution. How much you change these variables will depend
+on the size, shape, and attachment of the holder you use.
+
+Add the sample onto the mica dropwise, let it stand while it adsorbs,
+and start your observations. Mount the cantilever (probe) on the holder,
+wet the cantilever with the sample buffer, and attach the holder to the
+body of the AFM. Be careful that there are no air bubbles between the
+cantilever and the mica.
+
+Measure the resonant frequency of the cantilever. Let it oscillate at
+the frequency that gives the greatest resonance, while moving it toward
+the mica surface (this process is usually semi-automated by software).
+As the cantilever approaches the mica surface, it changes the
+oscillation amplitude. The amplitude is detected by the software and the
+scanning process is started automatically. Because DNA is flexible, keep
+the probe as close as possible to the mica surface but with a small
+amplitude during the observation, so that you will never catch the
+structure on the cantilever and break it. Figuring out how to do this
+will depend on the instrument and the cantilever you use. You should
+follow the protocol of the laboratory to which the instrument belongs.
+
+AFM for Your BIOMOD Project
+
+As seen from above, DNA tiles are relatively easy to prepare. However,
+successfully observing them by AFM requires some experience and
+know-how. The most reliable way is to ask any laboratory member
+experienced in AFM (or any AFM operator from the BIOMOD team from a
+previous year) to train one or two of your team members in AFM
+observation. With proper training, it should only take you a few weeks
+to a month before you can operate an AFM mostly by yourself. Until you
+get fully used to it, however, even observing one sample will take at
+least several hours; be prepared for some failure, even if you follow
+the protocol properly. It’s wise to build in some extra time in your
+project to learn this technology.
+
+_—Shogo Hamada (Cornell University)_
+
+## 93. Preparation and Observation of DNA Origami
+
+This section describes preparation and observation of DNA origami.
+
+Preparation of DNA Origami
+
+Preparing DNA origami requires two steps: annealing and purification.
+During the annealing, the components needed to assemble the DNA origami
+(scaffold and staple strands) are mixed and assembled into the structure
+at a decreasing or constant temperature. During purification, excess
+components are removed.
+
+A particular type of DNA, M13mp18 (7249 bp; e.g., NEB cat \#N4040S, 250
+µg/ml, about 100 nM) is often used as a scaffold. Alternatively, you
+can use a single-stranded form of a standard plasmid or PCR product.
+
+To make 10 µl of product, you can assume the staples should be present
+at a molar concentration 5 to 100 times that of the scaffold. If the
+structure is simple (e.g., a square sheet), even about 5 times can be
+efficient. If the structure is complex, it might require an excess
+amount of the staples for successful folding.
+
+- Scaffold 4 µL
+- Staple mix 5 µL
+- 10 x buffer\* 1 µL
+
+The buffer consists of a pH buffering agent, divalent ions
+(Mg<sup>2+</sup>), monovalent ions (Na<sup>+</sup>, K<sup>+</sup>, and
+counter ions such as Cl<sup>-</sup>), a chelating agent, and so on. The
+buffer composition will depend on the structure, but you can start with
+the following.
+
+\* <span class="underline">10 x buffer 1ml</span>
+
+- Tris-HCl (pH 7.5) f.200 mM, 1 M 200 µl
+- MgCl<sub>2</sub> f.150 mM, 1 M 150 µl
+- NaCl f. 25 mM, 1 M 25 µl
+- EDTA-Na (pH 8) f.10 mM, 0.5 M 20 µl
+
+The annealing can be done in two ways: either at a decreasing
+temperature with a constant ramp rate (linear cooling method) or at a
+constant temperature (isothermal folding method, Sobczak et al. 2012).
+The linear cooling method generally produces a higher yield. However, if
+you do not need a high yield, the isothermal folding method works well
+because it is faster. Different structures have different optimal
+annealing conditions. In the case of a known structure already reported
+in a paper, you can rely on the conditions described in the paper. In
+the case of a novel structure, you will have to optimize the buffer and
+other conditions. If you choose the isothermal method, you should test
+several temperatures in a 4-hour reaction to find the optimal
+temperature, after which you can efficiently determine the optimal
+Mg<sup>2+</sup> concentration, Na<sup>+</sup> concentration, and
+reaction time. Most conveniently, you can examine the formation of the
+structure using gel electrophoresis. However, you have to use AFM and/or
+electron microscopy in addition to gel electrophoresis to establish that
+you have obtained the desired structure.
+
+A gel filtration column (e.g., Millipore 100 kDa Amicon filters (cat
+\#UFC510024) or GE MicroSpin S-300 HR columns (code \#27-5130-01)) is
+the most convenient method for purification. Gel electrophoresis/cutting
+out (Douglas SM et al. 2009, Castro CE et al. 2011) can improve the
+quality of your product.
+
+**Analysis by Gel Electrophoresis**
+
+Agarose gel electrophoresis is commonly used because it allows easy and
+simple examination, and also allows for purification by gel band
+extraction (see section 79 for details). The optimal agarose gel
+concentration depends on the structure of your product, but you should
+start with electrophoresis on 1%. In order to avoid overheating during
+electrophoresis, which will disturb the band pattern, you should perform
+electrophoresis in a cold room or in a refrigerator. If the
+concentration of Mg ions, which are necessary to maintain the structure,
+is too high, it will cause overheating. You should choose about 12 mM
+for the gel buffer for electrophoresis. The electrophoresis should be
+performed at 50 V (not at 100 V as usual), for 1 to 2 h in the case of a
+6 cm-long Mupid-type gel.
+
+<span class="underline">Gel buffer 500 mL</span>
+
+- 10 x TBE 50 ml
+- 1 M MgCl<sub>2</sub> 6 ml
+- (10 x TBE: Nakalai \#35440-31, Life technologies \#15581-044, Sigma
+\#93290) <span class="underline">1% agarose 50 mL</span>
+- Agarose 0.5 g
+- Gel buffer up to 50 ml
+
+(Agarose: Takara \#5003 or equivalent)
+
+This is melted in a microwave and poured into a tray. Be careful not to
+burn yourself. Use a conical flask or bottle to pour the solution.
+
+After electrophoresis you will need to stain. You can use EtBr (highly
+sensitive but carcinogenic) as a staining agent, made by SYBR safe (Life
+technologies \# S33102), Midori Green (Nippon Genetics \#NE-MG04 or
+NE-MG06), or the like. Alternatively, the EtBr can be added to the gel
+before electrophoresis, which saves time. However, staining after
+electrophoresis will give you a better result.
+
+If the concentration is low in the cut out sample, you should use a PEG
+precipitation process (Stahl E et al., 2014). Prepare a 1:1 mixture of
+precipitation buffer (15% PEG 8000 (w/v), 5 mM Tris-HCl (pH 7.5-8.3), 1
+mM EDTA, 500 mM NaCl) and the sample (the sample should be supplemented
+with Mg<sup>2+</sup> beforehand, to adjust the Mg<sup>2+</sup>
+concentration of the mixture to 10 mM or more), and centrifuge it at
+16,000 G for 5 to 25 minutes at room temperature.
+
+**AFM Observation**
+
+See section 84 for details. The sample is observed on either dried mica
+or in liquid mica.
+
+**EM Observation**
+
+Here we describe a procedure for negative staining. The original paper
+describing this process used uranyl formate as the staining agent, which
+is currently not available in Japan. You can use a more common
+alternative, uranyl acetate, to conduct the observation.
+
+1\. Hydrophilization of the grid (Funakoshi (Polysciences) cat\#24945)
+
+2\. Preparation of the staining solution: Mix 27 µL of 3% uranyl acetate
+and 51 µL of MQ, and subject it to 5 minutes of benchtop centrifuge. Add
+2 µL of 1 M NaOH to the solution and vortex it for 3 minutes (vortex it
+at once to avoid any precipitation). Benchtop centrifuge it for 3
+minutes. Enclose it in aluminum foil and use it on the same day because
+needle-like crystals will grow over time, hindering the observation.
+
+3\. Mount the sample on the grid:
+
+3-1. Mount 3 µL of the sample and wait for 3 minutes (dilute the sample
+stock solution by 10 to 100-fold). Meanwhile, place 12 µL of the
+staining solution on Parafilm.
+
+3-2. Blot up excess sample from the edge with filter paper. Do not touch
+the grid surface.
+
+3-3. Immediately contact the grid surface with the staining solution
+droplet to transfer the staining solution onto the grid. Let it stand
+for 40 seconds.
+
+3-4. Blot up the staining solution from the edge with filter paper. Do
+not touch the grid surface. Let it stand for 30 minutes (actually, about
+10 minutes will be enough because it is dried to a substantial extent by
+the blotting).
+
+4\. Place the sample on the EM and observe it after focusing.
+
+<span id="c93" class="anchor"></span>Hisashi Tadakuma (Kyoto University)
+
+## 94. Preparation/Observation of DNA Gate
+
+This section describes preparation and electrophoretic analysis of a
+gate driven by strand-displacement reaction of DNA.
+
+Experimental Verification of a DNA Reaction System
+
+For any system you are using, you must establish experimentally the
+function of your system, or the cause of any failure in your system. Gel
+electrophoresis, which separates molecules based on their size (see
+section 79), is one of the most basic commonly used experimental
+techniques to do this.
+
+This section describes a series of experimental procedures to produce a
+hybridization chain reaction (HCR, see section 27) \[1\] driven by
+strand displacement of DNA. In this reaction, two hairpin DNA strands,
+H1 and H2, are opened by an input DNA I in a chain reaction.
+
+Stock Preparation
+
+Any dried custom DNA received from a supplier (see section 72) needs to
+be dissolved in a solvent. You should make the master stock in pure
+water in case you have to change buffer conditions later. For most
+systems, a concentration of 100 µM will do, which can be prepared as
+follows.
+
+<span class="underline">100 µM DNA stock</span>
+
+Dried DNA: x \[nmol\]
+
+Ultra pure water (mQ): 10 x x \[µL\]
+
+x is the quantity of DNA synthesized. If you have 12.4 \[nmol\] of DNA,
+add 124 \[µL\] of pure water. Do the same for each of the three strands
+H1, H2, and I. Centrifuge and vortex the tube well to dissolve the DNA
+(see section 75). If the DNA is not thoroughly dissolved, the
+concentration might vary between experiments. The master stock should be
+stored frozen, and thawed as necessary.
+
+The DNA concentration of the master stock, which is based on the
+quantity specified by the supplier, might not be accurate. In order to
+have an accurate molar ratio, you should measure the absorption spectrum
+to determine the true concentration (see section 77). Any aliquot after
+this should be based on the true concentration (for example, a nominal
+100 µM master stock might prove to be 85 µM).
+
+If the sample is highly concentrated, you have to prepare it directly
+from the master stock. However, you should prepare a moderately
+concentrated working stock in a buffer, which is also effective for
+avoiding any contamination. For an hybridization chain reaction (HCR),
+you will need a 3 µM working stock for each H strand and a 30 µM stock
+for the I strand. The composition of these stocks will be as follows.
+
+<span class="underline">3 µM DNA stock</span>
+
+- DNA (100 µM): 3 \[µL\]
+- 10 x buffer: 10 \[µL\]
+- Ultra pure water (mQ): 87 \[µL\]
+
+<span class="underline">30 µM DNA stock</span>
+
+- DNA (100 µM): 30 \[µL\]
+- 10 x buffer: 10 \[µL\]
+- Ultra pure water (mQ): 60 \[µL\]
+
+The buffer solution, or simply buffer (see section 75), you can use when
+doing HCR consists of 50 mM Na<sub>2</sub>HPO<sub>4</sub> and 0.5 M
+NaCl. You can use a TAE/Mg<sup>2+</sup>, an NEB buffer, or something
+similar, depending on your system. Note that the buffer is prepared as a
+10 x concentrate.
+
+9 µM of H1 and H2 are annealed in separate tubes (see section 76) to
+ensure formation of their hairpin structure. The original paper
+describing this technique specified that the annealing should proceed
+from 95°C to room temperature over one hour.
+
+**Sample Preparation**
+
+Working stocks are used to prepare samples for electrophoresis. During
+HCR, the molar ratio of the input to H1 and H2 affects the average
+number of reactions in the chain reaction, and thus the size of the
+structure to be produced. Prepare samples of the following compositions.
+
+<span class="underline">HCR sample</span>
+
+- DNA H1 (3 µM): 10 \[µL\]
+- DNA H2 (3 µM): 10 \[µL\]
+- DNA I (3 µM): y \[µL\]
+- 1x buffer: 30 - y \[µL\]
+
+<span class="underline">HCR sample</span>
+
+- DNA H1 (3 µM): 10 \[µL\]
+- DNA H2 (3 µM): 10 \[µL\]
+- DNA I (30 µM): z \[µL\]
+- x buffer: 30 - z \[µL\]
+
+y or z is the amount of I to be added. Specifically, 6 samples are
+prepared in total, each corresponding to y = 0, 1, or 3.2 or z = 1, 3.2,
+or 10. Note that the buffer is added as a 1x concentrate.
+
+Before the next step, the samples should be left at room temperature for
+24 hours to complete the HCR reaction. In this manner, multiple samples
+are prepared by mixing the working stocks in different combinations and
+allowing them to react for a sufficient time. In this case, each mixture
+contains all of the H1, H2, and I. For a detailed comparison, you can
+repeat the reaction with samples that contain/lack only one of them,
+and/or with different reaction times.
+
+**Electrophoresis**
+
+The reacted samples are subjected to electrophoresis to analyze the size
+of the resulting molecules. An appropriately sized DNA ladder marker is
+electrophoresed together. The DNA ladder is available from Takara Bio
+and other companies \[2\]. Note that the product as received has a high
+concentration, possibly resulting in bands much more intense than those
+of the HCR samples. To better quantify the HCR samples, the ladder
+should be diluted about 10 to 100 times before use.
+
+Once all the samples are ready for loading into the wells of the gel,
+you can analyze them according to a protocol for electrophoresis (see
+section 79). For HCR, use 1% agarose gel electrophoresis. You may need
+to change conditions such as the gel concentration and/or denaturing
+agent, depending on the system you want to analyze.
+
+Fig 1 shows the result of the electrophoresis, previously reported in a
+paper. Lower concentrations of I provide larger macromolecules, while
+there is no reaction in the absence of I.
+
+In this manner, the behavior of the system can be examined qualitatively
+based on the band pattern. In addition, it can be examined
+quantitatively (see section 80) to determine reaction rate and
+efficiency, etc.
+
+![](images/ch8/ch8fig02.png)
+
+
+**Fig. 1.** Electrophoresis data from HCR. Reprinted from PNAS, 2004 \[1\].
+
+_—Ibuki Kawamata (Tohoku University)_
+
+
+## 95. Preparation and Observation of DNA Tweezers
+
+Structural changes on the nanometer scale can be observed by
+fluorescence resonance energy transfer (FRET). Unlike electrophoresis,
+FRET can monitor the time course of fluorescence to understand the
+system in detail, by determining the reaction rate constant and so on.
+This section describes preparation and FRET analysis of DNA tweezers.
+
+Observation on a Small Spatiotemporal Scale
+
+A basic technique to verify/examine your system is electrophoresis (see
+section 79). In electrophoresis, you can obtain qualitative information
+on the effect of different conditions on the reaction by comparing
+multiple lanes (see section 80). For quantitative analysis, you have to
+compare intensity of bands, which is difficult to do with good
+reproducibility. Moreover, electrophoresis uses a limited number of
+lanes, and thus cannot analyze the system at a high temporal resolution.
+In addition, electrophoresis cannot essentially separate molecules of
+similar sizes, and cannot observe them as separate bands.
+
+Spectrophotometry is a technique to observe reactions on a
+spatiotemporal scale that cannot be analyzed electrophoretically (see
+section 81). Specifically, spectrophotometry observes the fluorescence
+resonance energy transfer (FRET) between a fluorescent molecule and a
+quencher molecule in a DNA system (see section 51). FRET can quantify
+the distance between the fluorescent molecule and the quencher molecule
+on the nanometer scale, at a temporal resolution of an order of seconds.
+
+DNA tweezers are a good example for giving an overview of how to use
+FRET in an experiment. DNA tweezers are opened and closed by DNA signals
+\[1\] (see section 24). The structure of DNA tweezers is composed of
+three DNA strands A, B, and C, which requires two signal DNA strands
+F<sub>O</sub> and F<sub>C</sub> to open and close the tweezers.
+
+Sample Preparation
+
+First, dissolve each sample of dried DNA as received in pure water to
+make a 100 µM master stock, as described previously (see section 94).
+Then use the master stock to make a 20 µM working stock as shown below.
+Then prepare a mixture of DNA A, B, and C, each at 1.1 µM.
+
+<span class="underline">20 µM DNA sample</span>
+
+DNA (100 µM): 20 \[µL\]
+
+10 x buffer: 10 \[µL\]
+
+Ultra pure water (mQ): 70 \[µL\]
+
+<span class="underline">1.1 µM DNA sample</span>
+
+DNA A (20 µM): 4.95 \[µL\]
+
+DNA B (20 µM): 4.95 \[µL\]
+
+DNA C (20 µM): 4.95 \[µL\]
+
+1 x buffer: 75.15 \[µL\]
+
+The author's laboratory uses TAE/Mg<sup>2+</sup> as the buffer, whereas
+the original paper used SPSC.
+
+Fluorescence allows you to observe the response of the system to the
+input DNA strands. In principle, samples of a higher concentration and a
+smaller volume are added to a sample of lower concentration and larger
+volume, to minimize the dilution of the fluorescent molecule that could
+affect the fluorescence intensity. In this example, we used 1.1 µM and
+20 µM samples. Other concentrations may be used depending on the nature
+of the fluorescent molecule and the sensitivity of the
+spectrophotometer, but with at least an about 10-fold difference.
+
+Observation of Fluorescence
+
+Once the samples are ready, proceed to spectrophotometry. Input these
+samples in the correct order, and observe the fluorescence for each
+input. In the case of DNA tweezers, molecule A is modified with the
+fluorescent molecule TET and the quencher TAMRA. In the initial state,
+the long distance allows it to emit the fluorescence of TET.
+
+The principles and experimental procedures of fluorescence
+spectrophotometry are described elsewhere (see section 81). Below is a
+list giving amounts of samples to be added to the cell and the reaction
+times.
+
+<span class="underline">Fluorescence spectrophotometry experiment</span>
+
+(1) Add 90 µL of the 1.1 µM DNA sample (A, B, and C) to the cell.
+
+(2) Let it stand for a sufficient time (about 30 minutes).
+
+(3) Start recording by the instrument.
+
+(4) Wait for 300 seconds.
+
+(5) Add 5 µL of 20 µM F<sub>C</sub>.
+
+(6) Wait for 500 seconds.
+
+(7) Add 5 µL of 20 µM F<sub>O</sub>.
+
+(8) Wait for 500 seconds.
+
+(9) Repeat steps (5) to (8).
+
+A, B, and C in step (1) may be annealed in advance (see section 76) to
+ensure formation of the desired structure. In this example, they are
+simply mixed and vortexed well (see section 75) before use.
+
+The purpose of step (2) is to wait for the lamp (light source) of the
+spectrophotometer and the temperature of the sample to become stable,
+during which you should set the wavelength of the excitation light, the
+wavelength of the fluorescence, the slit size, and so on. In this case,
+the fluorescence molecule is TET, and the excitation wavelength and the
+fluorescence wavelength are 520 nm and 541 nm, respectively. Carefully
+choose the settings because the excitation light might overlap with the
+longer wavelength of the fluorescence, or there might be problems with
+the SN ratio, etc. Keep agitating the solution with a stirrer and keep
+the temperature constant by using a temperature controller.
+
+Once the fluorescence has become stable, push the start button on the
+instrument to record the fluorescence intensity. First, record the
+fluorescence for the open form for 300 seconds.
+
+Then, add the signal DNA F<sub>C</sub> to close the tweezers. To observe
+the decrease in the fluorescence intensity caused by closing the
+tweezers, wait for 500 seconds to allow the DNA tweezers in the solution
+to close. Since time for the reaction to be completed depends on the
+reaction rate, we cannot unequivocally define a time for this part of
+the experiment. You can wait until the fluorescence intensity becomes
+stable, or for a predetermined time.
+
+Then, repeat these steps by adding DNA F<sub>O</sub> to open the
+tweezers again.
+
+Analysis of Experimental Results
+
+You can plot the data obtained by the FRET observation in a graph with
+the horizontal axis representing time and the vertical axis representing
+fluorescence intensity, as shown in FIG. 1. The initial fluorescence
+intensity corresponds to the open state. Then, the addition of
+F<sub>C</sub> causes the fluorescence intensity to decrease, reflecting
+the closing of the tweezers. Then, the addition of F<sub>O</sub> causes
+the fluorescence intensity to increase, reflecting the opening of the
+tweezers. Note that the repeated addition dilutes the solution, leading
+to a gradual decrease in the maximum fluorescence intensity.
+
+These data provide information on the reaction time and rate.
+Specifically, you can fit the data to a second-order reaction rate
+function (see section 39) from a numerical library (see section 60) to
+calculate the reaction rate constant. Note that the fluorescence
+intensity (vertical axis) has a dimensionless value and thus needs
+normalization.
+
+This kind of experiment can also be applied to analysis of DNA systems
+driven by enzymatic reaction \[2\] (see section 33). In that case, qPCR
+instruments and tubes are used instead of spectrophotometers and cells.
+This method also allows for time course observation of a spectrum in
+addition to a single wavelength.
+
+
+![](images/ch8/ch8fig03.png)
+
+
+**Fig. 1.** FRET results (provided by Tohoku University).
+
+_—Ibuki Kawamata (Tohoku University)_
+
+
+Molecular Robotics Research Group ed.
+
+Design of DNA Molecules: A Comprehensive Beginner's Guide to BIOMOD
+(2016)
+
+April 15, 2016
+
+The copyright of this book belongs to the authors. CBI society reserves
+the right to reproduce, distribute, modify, and republish this book.
+
+ISBN 978-4-9903708-9-3
