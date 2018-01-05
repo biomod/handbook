@@ -1,0 +1,2948 @@
+{book: true, sample: false}
+
+# Chapter 7 Experimental Techniques
+
+## 68. Overview: Why Experiment?
+
+Experiment is verification in a real space, and is one of the greatest
+scientific methods of proving or disproving a given hypothesis. Nobody
+has won BIOMOD without some experiment. An experiment provides a fact,
+the taste of "reality" that makes the audience feel secure, satisfies
+the experimenter, and helps you to propose the next hypothesis.
+
+**Importance of Experiments**
+
+Human beings want to argue something and have it appreciated by other
+people, or to be persuaded by other people's exciting arguments.
+Experiments exist as a means to bridge argument and appreciation. When
+someone asks whether UFOs exist or not, you are free to argue that you
+have seen one. However, if you want a reaction more than "oh, really?",
+you have to show the evidence. If you tell people that you constructed
+the UFO and publish its design, flight record, and the UFO itself, they
+will get a little more excited. Then, if a third party can construct one
+based on your design, fly it, and publish the result, people will get
+very excited. This chain of events also applies to BIOMOD.
+
+An experiment is a powerful means to test the validity of an argument or
+hypothesis. An experiment is a procedure to find out the behavior of a
+subject of interest under the laws of nature by testing it under defined
+artificial conditions, and thus is different from an "observation" to
+record things as they are. Because nature never lies, there will be no
+meaningless results. There can be meaningless experiments, however.
+
+A good experiment is highly reproducible one. A bad experiment is poorly
+reproducible one.
+
+**Six Requirements for Experiment +1**
+
+Assume that you have succeeded in an experiment to design, build, and
+fly a UFO. Your results will be further supported and become more
+convincing if a third party can reproduce them. In order to achieve good
+reproducibility, you have to clearly describe and publish your
+hypothesis, methods, results, and discussion based on reliable data. In
+order to achieve good reliability, you have to record everything in your
+lab notebook and present your data by means of "numbers and units",
+which is the best means to prevent any misunderstandings. Based on
+reports that satisfy these criteria, a third party can either repeat
+your experiment to support your argument (verifiability) or carry out an
+experiment to deny it (falsifiability \[1\]). Using scientific
+processes, such verification and falsification of an argument will be
+repeated based on facts. An act of fabrication will curse you forever.
+The standard descriptive language to connect numbers is "English" text +
+figure + movie (so far, the language has been English, although it can
+be Esperanto, the C language, or any other general form of
+communication).
+
+Let me repeat once again that you must keep a lab notebook because you
+will be a different person tomorrow \[2\] and might not remember what
+you did or be able to repeat it from memory.
+
+**How to Design Your Experiment**
+
+You can propose any hypothesis. Is it possible that the moon can be
+actually be a fluffy dessert (Hagi no Tsuki) \[2\]? A good hypothesis is
+a logical hypothesis based on facts, and has as few gaps as possible in
+the logic. For a good experiment, you should first define the minimal
+evidence that will be required to prove the corresponding hypothesis,
+based on which you then design the experiment. It is not a good idea to
+make a Hagi no Tsuki (full moon-shaped confection of Sendai) as large as
+the moon and float it 380,000 km above the ground. You should rather
+measure the density of a Hagi no Tsuki. Usually a qualitative experiment
+precedes a quantitative experiment. The phrase “salty water” is
+qualitative phrase, because it defines no measurement of the level of
+salt. The phrase “an NaCl concentration of 1.01 M/1.00 nM” is
+quantitative. In a quantitative experiment, a property of interest is
+examined based on quantitative criteria, providing good reproducibility.
+You can understand a phenomenon more efficiently and more profoundly by
+evaluating it qualitatively, and then quantitatively.
+
+It is usually difficult to evaluate absolute values for phenomena around
+us, but their comparative (relative) evaluation is generally easy. The
+absolute speed of light is hard to measure, but it can be easily
+compared to the speed of sound in the atmosphere or to Usain Bolt in 100
+m dash. Such an experiment to examine something in comparison with
+another thing is called a controlled experiment. First, roughly change
+conditions (e.g., the concentration on a log scale) to qualitatively
+understand the nature of a phenomenon. This might be the most exciting
+step in every experiment. After that, carry out a quantitative
+evaluation. In the case of a concentration range, test it in triplicate
+or more and calculate the mean value and standard deviation for better
+reproducibility (see section 69). You speculate the cause of a
+phenomenon, propose a hypothesis (e.g., which component is wrong?),
+design and carry out an experiment to prove it, propose a modified
+hypothesis based on the result, and again propose an experiment to prove
+it... BIOMOD is a short race, where you have only 6 months before the
+deadline. Your project should be designed to demonstrate as many facts
+as possible by the use of as few experiments as possible. A good
+hypothesis is important here again, and the choice of facts that serves
+as the basis of the hypothesis is important, for which you need an
+ability to analyze and sort facts (this can be acquired by training).
+The best source of facts is paper, which is primary information closest
+to raw data. The nearest institution that provides the highest and
+cheapest accessibility to it is your university.
+
+**One Experimental Case**
+
+Dr. F proposed a hypothesis that life could be reconstructed from parts
+of a cell. She tried to design an experiment to break down a bacterium
+and reconstruct it, starting from a qualitative evaluation. The
+components were: 1) the content of the bacterium, 2) a commercially
+available, cell free-protein synthesis reagent, and 3) a liposome to
+enclose them (see section 89). All were combined, plated on agar medium,
+and incubated overnight at a constant temperature, to evaluate the
+presence/absence of any bacterial colonies. Each component had two
+states, i.e. added/not added (+/-), resulting in 2<sup>3</sup> = 8
+samples. Th results were the following matrix:
+
+| Sample No.  | A  | B  | C  | D  | E  | F  | G  | H  |
+| ----------- | -- | -- | -- | -- | -- | -- | -- | -- |
+| Component 1 | \+ | \- | \- | \+ | \- | \+ | \+ | \- |
+| Component 2 | \- | \+ | \- | \+ | \+ | \- | \+ | \- |
+| Component 3 | \- | \- | \+ | \- | \+ | \+ | \+ | \- |
+
+These are all experimental controls, except G. H is also called a
+supercontrol, and used to check culture medium and other environmental
+conditions. Practically, they had a limited amount of sample, money, and
+time, and thus investigated relatively important combinations first,
+based on the literature and other previous findings. Had any single
+component been reported to give rise to life? No (A, B, C, and H). Thus,
+they tested the inexpensive combinations A, C, F, G, and H. As a result,
+only G gave rise to bacterial colonies. Was this the reconstruction of
+life? Dr. N was so excited she wanted to give a press release the next
+day. Dr. F somehow soothed Dr. N and tested B. To their disappointment,
+colonies appeared. The commercial reagent had been contaminated with
+some bacterium (this fiction is not entirely fictitious). Because the
+combinations of components to be tested should be finite, try to
+efficiently track down the cause of an effect.
+
+**Last but Not Least**
+
+Every experiment involves potential hazards (see section 70). Nobody
+knows whether unintended swallowing of 1 kg of DNA origami does any
+harm, and there was a time nobody knew what would be the effect of
+exposure to 5 kg of plutonium. You must do your best to minimize the
+amounts of experiment to be done. An experiment is not over until you
+finish it, clean up the bench, and publish the results.
+
+_—Shinichiro M. Nomura (Tohoku University)_
+
+
+## 68. How to Design Your Experimental Research Plan
+
+In order to assert your idea or logic, you will need to propose a
+hypothesis and prove it by an experiment. This section describes how to
+design the experimental aspects of your research and how to conduct
+them.
+
+**Why is an Experimental Research Plan Necessary?**
+
+In order to succeed in BIOMOD, you need to conduct a considerable amount of
+experiments efficiently in a short period of time. In order to conduct
+your experiment/research, you need money (grants) to purchase reagents
+and consumables, and instruments for measurement/analysis. It is
+important to find out the best experimental research plan to accomplish
+your project with appropriate instruments without wasting money and
+within a limited budget. Of course, it will be almost impossible for you
+to design a perfect plan without any help, and you will have to ask your
+mentors for advice. However, it is not to expect your mentors to answer
+every little question. You should try to work on ideas by yourself to
+design an experimental research plan. If you do,
+
+1. You can more clearly define the subject matter/goals to pursue.
+2. You can identify problems you might encounter.
+3. You will stick to the subject matter/goals of the project better.
+4. You will be able to better revise your plan.
+5. Your plan will help you compile the research into a report.
+6. It can serve as a guide for the younger generation.
+
+If you have a good experimental research plan, it will help mentors
+(they must be experienced researchers) to give you more apt advice, and
+even suggest ideas that might never occur to you.
+
+**Design and Conduct The Experiment**
+
+Steps of your experimental research plan are as follows.
+
+Step 1: Choose the subject matter. First, you must make it clear, at
+least generally, what you want to achieve. Note that it must not be the
+same as any subject matter in previous BIOMOD competitions (refer to the
+website of previous competitions).
+
+Step 2: List all the experiments required, arrange them in an
+appropriate order to achieve your goals, and set a schedule. To do this,
+you need to survey the literature and other information and read manuals
+on experimental methods and so on. At the same time, make a list of
+necessary reagents and instruments for measurement/analysis, which will
+facilitate your mentors judging the financial and physical feasibility
+of your plan.
+
+By this step, your mentors should have reviewed your plan. You will
+probably get harsh comments from them, but their advice will help you
+identify an original project.
+
+Step 3: Execute the plan. Once it is ready, all you have to do is to
+stoically carry out the experiment to win the competition.
+
+**Experimental Control**
+
+In order to prove your logic or idea through an experiment, you need an
+appropriate experimental control for comparison. In any field of
+scientific research, your success can be evaluated based on your ability
+to adopt an appropriate experimental control. You must keep this in mind
+also in BIOMOD and include an experimental control in every experiment.
+
+There are two kinds of control experiments: negative control and
+positive controls (see section 68).
+
+_—Masamune Morita and Masahiro Takinoue (TITECH)_
+
+## 70. Safety Matters
+
+Every chemical experiment may involve some danger. To protect yourself
+and other people, you have to conduct any experiment under an
+appropriate safety management system. This section describes (1) what
+can cause accidents, (2) what you should do to prevent them, and (3) how
+you can cope with them in your experiment.
+
+**Safety Issues in Chemical Experiments**
+
+Every chemical experiment can involve some danger. You should be always
+prepared to protect yourself, based on the principle of "safety first"
+\[1\]\[2\]. If you make light of safety measures and have an accident in
+your experiment, it may not only harm you but also other people, the
+laboratory, and even the university. Thus, you must understand what can
+cause an accident, take appropriate safety measures, and know in advance
+how to cope with it.
+
+**What Causes Accidents?**
+
+A laboratory is full of dangers. Dangers in a typical chemical
+laboratory are illustrated in Fig. 1. Chemical substances, chemical
+reactions, suffocating gas, high-pressure gas cylinder, vacuum/pressure
+system, glassware breakage, radioactive substances, X ray, UV radiation,
+and so on can cause injury, burn, suffocation, radiation injury,
+intoxication, and other physical damages. In the worst cases, people
+have lost vision, suffered finger/hand amputation, large explosions, and
+even death. In the case of chemical inhalation or radiation exposure,
+you should note that it may not cause any immediate symptom but still
+can result in a long-lasting disorder (e.g., reproductive dysfunction
+and cancer). "Acetylene gas blew up a floor of a building", "a closed
+glass vessel burst and the broken pieces cut off a finger", "The eye was
+exposed to NaOH solution and vision was damaged", and other terrifying
+accidents that actually occurred can be found in books \[3\] and
+websites.
+
+![](media/image1.png)
+
+**Fig. 1.** Potential dangers in a chemical laboratory.
+
+**Prevention of Accidents**
+
+Just like when driving a car, you should always watch out for dangers
+during an experiment. In order to cope with any accident, you should not
+conduct any experiments when you are alone. In particular, you must
+conduct every experiment under the supervision of an experienced
+researcher while you are a beginner experimenter or when the experiment
+is new to you. However, you should also try to be careful after you get
+used to it, when you tend to become careless or make light of safety
+measures.
+
+You should also take your personal conditions into consideration. If you
+are tired due to lack of sleep and so on, you cannot concentrate well
+and will be more likely to have an accident. In such cases, you should
+refrain from the experiment or at least consult your mentors and conduct
+the experiment in the presence of other people.
+
+Statistically, it has been concluded that for every major accident,
+there are at least 30 minor accidents and 300 accidents that cause no
+injuries. This is called Heinrich's law. We are more or less careless
+and forgetful. If you cause more near misses in your daily life than
+other people, you should try to be particularly careful to take safety
+measures in every experiment.
+
+Even if you have taken safety measures, you might get injured by an
+accident someone else caused. Therefore, you should always watch out for
+potential dangers when you are in a laboratory. For example, if you are
+listening to music through earphones while examining data, you will not
+be able to hear any warning voice. If you are not wearing a white coat,
+you might be directly exposed to a chemical spilled by other people.
+
+**Safety Measures**
+
+Generally important points in lab safety are listed below.
+
+- Wear gloves, goggles, a white coat, and close-toed shoes (no sandals).
+- Get information on chemical substances (MSDS information).
+- Concentrate on the experiment: do not talk, take a rest, or use a mobile
+phone in the laboratory.
+- If you have to leave the bench during an experiment, leave your name/whereabouts and information on the experiment behind.
+- Wear safety goggles if you use contact lenses, which can be dangerous when a chemical enters the eye.
+- No earphones (you will not hear any alarm about an accident).
+- No drinking/smoking (to prevent the ingestion of chemical substance).
+- No experiments late at night or alone (you cannot call for help).
+- Any experimental device with a heating element can cause a fire due to system trouble or heating in the absence of medium/sample, especially when run overnight etc.
+- Wipe off any spilled chemical reagent at once (otherwise you or other
+people may touch it).
+- Locate a fire extinguisher, an emergency shower, and a first-aid kit.
+- Handling gas cylinders properly (left-hand thread screw, proper securing, etc.).
+
+**In case of An Accident**
+
+There are no perfect safety measures. You may get injured by an accident
+caused by other people. You should know in advance how to cope with
+accidents, so that you can minimize the damage (see below).
+
+First-aid treatment: First-aid treatment may be immediately required. If
+your eye or skin has contacted acid, alkali, or any other
+poisonous/deleterious substance, wash it off with tap water or emergency
+shower. If there is any bleeding, stop it by direct pressure.
+
+Call for help: Ask for help from people around you, neighboring
+laboratories, the university security office, and the fire station.
+
+Reports and other actions: Besides a major, obvious accident such as an
+explosion or fire, radiation exposure, ocular or oral contact with a
+small amount of chemical substance, a minor injury can also lead to a
+sequela or chronic toxicity as described above, even if it does not
+cause any immediate symptom. You should report even a minor accident and
+get a diagnosis from a physician. This will be also necessary for making
+a claim on your insurance.
+
+—_Nobuyoshi Miyamoto and Miki Nakayama (Fukuoka Institute of Technology)_
+
+## 71. How to Read Protocols
+
+To start an experiment, you will often refer to a protocol (experimental
+procedure) written by other researchers. You will have to fully
+understand the meaning of every step in the protocol and modify it into
+a "customized protocol" that is suited for your environment and purpose.
+
+**Protocol**
+
+In a biochemical experiment, the experimental procedure is called a
+protocol. Even novel research depends on previous findings. Accordingly,
+to design a detailed experimental research plan, you will refer to
+experimental procedures in the literature and so on. This section
+outlines how to make use of protocols in the literature.
+
+**How to Use Protocols**
+
+A protocol corresponds to a recipe in cooking. Does the same recipe
+result in the same food in in every restaurant? No. It depends on the
+skills and experience (e.g., preliminary processing of ingredients not
+specified in the recipe, knife techniques, and efficiency) of the cook,
+the quality of the cooking utensils, and the brand of the food
+ingredients and seasonings.
+
+You may think that every scientific report is strict and not ambiguous.
+Frankly, experimental protocols are often not perfect. Devices and
+instruments, which correspond to cooking utensils, can differ between
+laboratories. Different laboratories have different lab tips, and you
+may differ from other people in experimental skills and experience. A
+protocol may be incomplete because it is written by an immature author
+or the author wants to keep the know-how secret. Therefore, it is often
+difficult for you, a beginner experimenter in a different laboratory, to
+make an experiment work based on the protocol, or even to set up the
+experiment based on the protocol. You should note the following points
+to apply a protocol to your experiment.
+
+1. Understanding
+
+First, you should understand the meaning of every step included in the
+protocol. Otherwise you cannot know how much accuracy is necessary, how
+to modify the protocol to fit your laboratory environment and your
+purpose, or how to improve it when it doesn't work. You should study the
+meaning of any experimental procedure or technique that is included in
+the protocol but new to you, with the aid of textbooks and the like \[1\].
+
+You must understand the mechanism of the reaction involved in any step.
+In addition, you must understand the meaning of the reaction conditions
+such as temperature, reaction time, and concentration as much as you
+can, although this might be a little more difficult.
+
+2. Modification
+
+The protocol may be only optimal for the author's laboratory
+environment, skills, and purpose. You will have to translate the
+protocol into a detailed experimental procedure that fits your
+experiment in your laboratory. If the experimental procedure is not
+described in detail or only ambiguously, you have to complement the
+missing information based on your own know-how, experience, and study.
+If it includes any technique that is not available in your laboratory,
+you may have to replace it with an alternative technique.
+
+For example, there are a lot of things to be considered even for a short
+description like "under nitrogen atmosphere, A and B were mixed and
+stirred for one minute at a constant temperature of 30°C": e.g., you
+need to know how to create a nitrogen atmosphere, whether the stirring
+is by hand or by a vortex mixer, and which apparatus in the lab to use
+for the temperature control. The temperature, the amount of the
+reagents, and the accuracy required will differ between experiments.
+These things will also depend on your experience, practices in your lab,
+know-how, and equipment, and advice from senior students and mentors.
+
+Remember, though, that there is no perfect plan, and many things cannot
+be fixed until you actually try them. It will also be difficult for you
+to be successful in any experiment at the first attempt. So you should
+give it a try under convenient conditions and then modify the
+experiment.
+
+When you are conducting any experimental procedure that is new to you,
+you should learn the procedure well and rehearse using dummy samples
+before you start the actual procedure.
+
+3. Further modification
+
+Initially, as long as possible, you should use the same reagent,
+reaction time, device, instrument, and scale as described in the
+original procedures in the paper in your experiment. You should refrain
+from changing the protocol off the cuff, such as "Let's use a higher
+temperature because the reaction seems to be slow", "Let's do it on a
+larger scale to increase the yield", "Let's substitute the solvent B for
+the solvent A because we don’t have B”, "Let's skip this step because it
+seems difficult and meaningless", "Let's extend the stirring time from 1
+minute to 10 minutes, just in case", or "Let's mix A, B, and C all at
+one time although the protocol requires them to be added sequentially".
+As discussed above, the original protocol itself may be difficult to
+conduct successfully. If you modify the protocol from the start and fail
+in your experiment, you will have more difficulty figuring out why.
+
+Once the experiment has worked successfully, you should try to optimize
+the protocol for your research environment and purpose, based on
+understanding every step.
+
+**Where to Find Protocol Descriptions**
+
+There are different types of papers: a full paper describes detailed
+experimental results, whereas a communication or letter briefly reports
+an important research achievement. In a full paper, protocols are
+described in the Experimental or Methods section, which follows the
+Introduction section. In a communication, which does not include such a
+section, they may be described at the end of the paper (after the
+Conclusion). Alternatively, the main paper may not describe experimental
+methods in detail, and they may be described in "Supporting Information"
+that can be downloaded from the publisher's website.
+
+_—Nobuyoshi Miyamoto and Miki Nakayama (Fukuoka Institute of Technology)_
+
+
+## 72. How to Order DNA
+
+Chemically synthesized DNA was once considered an expensive reagent. Due
+to increasing demand, as a result of the wide-spread use of PCR and the
+emergence of multi-array DNA synthesizers that can synthesize dozens of
+DNA samples in parallel, custom synthetic DNA is now available at a very
+low price. This section discusses several suppliers and their ordering
+systems.
+
+**Popular Custom DNA Suppliers in Japan**
+
+There are many suppliers of custom DNA synthesis service, with different
+strengths (prices as of March 2015).
+
+1\. Sigma-Aldrich (http://www.genosys.jp/index\_n.html)
+
+Provides oligonucleotides in a plate format (up to 45 mer), synthesized
+in Japan (Hokkaido), for DNA origami. The products are high-quality, but
+a little expensive (tube format ¥75/mer, plate format ¥20/mer, 20 nmole
+scale).
+
+2\. IDT DNA (http://ruo.mbl.co.jp/custom/oligo.html)
+
+The world's largest custom DNA supplier. Provides Singaporean products
+to customers in Japan. Provides oligonucleotides for DNA origami in a
+plate format (up to 200 mer). Very low prices (tube format ¥27/mer and
+plate format ¥18/mer, 25 nmole scale) and a wide range of chemical
+modifications. However, the delivery is not quick because it comes
+through an agent in Nagoya due to import restrictions.
+
+3\. Eurofins Genomics (formerly Operon;
+http://eurofinsgenomics.jp/jp/product/oligo-dna/hts-oligo.aspx)
+
+Provides Japanese oligonucleotides for DNA origami in a plate format (up
+to 70 mer) at reasonable prices (tube format ¥50/mer and plate format
+¥18/mer, 10 nmole scale).
+
+4\. Tsukuba Oligo Service (http://www.tos-bio.com/index.htm)
+
+Virtually the only supplier that provides custom DNA synthesis with
+azobenzene/<sup>CNV</sup>K modifications (tube format ¥100/mer, 50 nmole
+scale).
+
+5\. Hokkaido System Science (http://www.hssnet.co.jp)
+
+6\. JBioS (http://www.jbios.co.jp)
+
+Offers various modification/purification options (e.g., column
+purification and use of artificial bases).
+
+**Information Required to Order DNA**
+
+You need the following information to order DNA from any of these
+suppliers.
+
+1\. Sequence name
+
+A large number of DNA species of the same length, such as staple
+strands, are very difficult to chemically distinguish later. Give them
+easily distinguishable names in advance.
+
+2\. Scale of synthesis
+
+You can choose from ranges of 10 nmole to 10 µmole, depending on the
+supplier. For a BIOMOD project that lasts up to one year, the smallest
+scale from any supplier (10 nmole to 25 nmole) will suffice.
+
+3\. Strand length (number of bases)
+
+The maximum length that can be ordered differs between suppliers and
+scales of synthesis. Thoroughly read the order form, especially when you
+order staples for DNA origami.
+
+4\. Sequence
+
+The notation for artificial bases differs between suppliers. Check it on
+the corresponding website if you want to insert any. "N" means a random
+use of A, T, G, or C at the same position.
+
+5\. Chemical modifications
+
+You can order 5’- terminal, 3’-terminal, and intra-strand modifications.
+The chemical synthesis of DNA proceeds from the 3’-end (see section 44),
+wherein the 5’-terminal modification reagent (phosphoramidite monomer)
+and the 3'-terminal modification reagent (CPG column) differ in chemical
+structure and price. In general, reagents for 3’-terminal modification,
+which can be conveniently used in aliquots, are cheaper. On the other
+hand, reagents for intra-strand modification are very expensive. If you
+want to use the latter, don't forget to consult your mentors.
+
+6\. Purification
+
+Almost every supplier offers desalting, cartridge purification, HPLC
+purification, and gel purification, which are based on gel filtration,
+quick DNA purification column, reversed-phase HPLC, and polyacrylamide
+gel electrophoresis (see section 78), respectively. The purity of DNA
+gets higher in the order listed here, but the time of delivery gets much
+longer and the price is much higher as you order purer products. You
+should choose a product that is sufficiently pure for your experiment,
+but not necessarily the most pure available.
+
+7\. Agent information
+
+The bill will be paid by your university through one of your
+laboratory's regular agents, which should be chosen by your mentors.
+
+You will also need the account information of a faculty member of your
+university. Although they are now less expensive, a set of staple
+strands will cost you several 100 thousand yen. At least initially, you
+should order them under the supervision of an experienced person.
+
+**Screenshot of Actual Ordering Pages**
+
+Sigma-Aldrich, scale of synthesis = 50 nmole or more.
+
+![](media/image2.png)
+
+IDT DNA, tube format.
+
+![](media/image3.png)
+
+_—Akinori Kuzuya (Kansai University)_
+
+
+## 73. Purchasing Other Reagents*
+
+This section discusses how to purchase reagents and their approximate
+prices. Handling and disposing of these products must follow specific
+guidelines dictated by law. This section describes these processes from
+purchase to disposal of reagents.
+
+**How to Purchase Reagents and Other Consumables**
+
+To purchase reagents, refer to catalogs. Purchasing practices may differ
+between universities. At Hokkaido University, they are purchased through
+agents. Major reagent suppliers are listed in Table 1.
+
+**Table 1.** Major reagent suppliers.
+
+| Supplier                      | URL                                       |
+| ----------------------------- | ----------------------------------------- |
+| Sigma-Aldrich Japan           | http://www.sigmaaldrich.com/japan.html    |
+| Nacalai Tesque                | http://www.nacalai.co.jp/                 |
+| Wako Pure Chemical Industries | http://www.wako-chem.co.jp/               |
+| TCI                           | http://www.tokyokasei.co.jp/              |
+| Invitrogen                    | http://www.invitrogen.jp/                 |
+| Funakoshi                     | http://www.funakoshi.co.jp/               |
+| Roche Applied Science         | http://www.roche-biochem.jp/              |
+| Cosmo Bio                     | http://www.cosmobio.co.jp/                |
+| Kanto Chemical                | http://www.kanto.co.jp/                   |
+| Takara Bio                    | http://www.takara-bio.co.jp/              |
+| TOYOBO                        | http://www.toyobo.co.jp/seihin/xr/        |
+| GE Healthcare Biosciences     | http://www.gelifesciences.co.jp/          |
+| QIAGEN                        | http://www.qiagen.com/jp/                 |
+| Kishida Chemical              | http://www.kishida.co.jp/                 |
+| MBL                           | http://ruo.mbl.co.jp/?ref=ja\_JP          |
+| BD Biosciences                | http://www.bdbiosciences.com/jp/index.jsp |
+| Nippon Gene                   | http://www.nippongene.com/index.html      |
+| Eurofins Genomics             | http://eurofinsgenomics.jp/jp/home.aspx   |
+| Hokkaido System Science       | http://www.hssnet.co.jp/                  |
+
+Primarily you will purchase micropipettes, microscope slides, tips, and
+other consumables listed in catalogs or websites provided by agents.
+
+**Table 2.** Labware product catalogs.
+
+| Supplier       |
+| -------------- |
+| AS ONE         |
+| Hayasaka Rikoh |
+| Monolith       |
+| Sigma Koki     |
+| Suruga Seiki   |
+
+Approximate prices of some reagents and consumables are listed below.
+
+**Table 3.** Price of popular reagents.
+
+| Reagent                       | Size    | Price          |
+| ----------------------------- | ------- | -------------- |
+| NaCl                          | 500 g   | ¥1,500         |
+| KCl                           | 500 g   | ¥4,000         |
+| MgCl<sub>2</sub>              | 500 g   | ¥3,700         |
+| NaH<sub>2</sub>PO<sub>4</sub> | 500 g   | ¥4,800         |
+| Na<sub>2</sub>HPO<sub>4</sub> | 500 g   | ¥3,000         |
+| Sodium acetate                | 500 g   | ¥1,700         |
+| NaOH                          | 500 g   | ¥1,600         |
+| KOH                           | 500 g   | ¥1,470         |
+| CaCl<sub>2</sub>              | 500 g   | ¥2,750         |
+| Tris                          | 500 g   | ¥13,000        |
+| EDTA                          | 1 g     | ¥11,000        |
+| EGTA                          | 1 g     | ¥11,000        |
+| MES                           | 500 g   | ¥27,600        |
+| PIPES                         | 500 g   | ¥2,9200        |
+| HEPES                         | 100 g   | ¥6,600         |
+| Yeast Extract                 | 500 g   | ¥1,8200\*      |
+| Tryptone                      | 500 g   | ¥1,3400\*      |
+| Peptone                       | 500 g   | ¥1,6000\*      |
+| Antibody                      | 100 µL  | ¥3,0000-70,000 |
+| Agar                          | 500 g   | ¥1,0000        |
+| Gelatin                       | 500 g   | ¥2,8000        |
+| DNA                           | 10 nmol | ¥50/base\*\*   |
+
+From Wako Pure Chemical Industries. Prices will differ between
+suppliers.
+
+\* From BD Biosciences.
+
+\*\* From Eurofins Genomics. Prices are subject to change due to
+chemical and other modifications.
+
+**Table 4.** Price of popular consumables.
+
+<table>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Size</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Micropipette tip (bulk)</td>
+<td>0.01 mL (1000 pieces)</td>
+<td>¥2,000-4000</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>0.2 mL (1000 pieces)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>1 mL (1000 pieces)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>5 mL (300 pieces)</td>
+<td>¥12,000-</td>
+</tr>
+<tr class="odd">
+<td>Microtube</td>
+<td>1.5 mL (500 pieces)</td>
+<td>About ¥3,000</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>0.5 mL (1000 pieces)</td>
+<td>About ¥5,000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>0.2 mL</td>
+<td>About ¥5,000</td>
+</tr>
+<tr class="even">
+<td>Microscope slide</td>
+<td><p>26 x 76 mm</p>
+<p>100 slides/box</p></td>
+<td>About ¥2,000</td>
+</tr>
+<tr class="odd">
+<td>Cover glass</td>
+<td><p>18 x 18 mm-40 x 50 mm</p>
+<p>1000 pieces/box</p></td>
+<td>¥3,000-46,000</td>
+</tr>
+<tr class="even">
+<td>KimWipes</td>
+<td>200 sheets/box x 72 boxes</td>
+<td>¥13,000</td>
+</tr>
+<tr class="odd">
+<td>KimTowels</td>
+<td>50 sheets/roll x 24 rolls</td>
+<td>¥10,000</td>
+</tr>
+<tr class="even">
+<td>Latex gloves</td>
+<td>100 pairs (L, M, or S)</td>
+<td>About ¥3,000 (depends on the material)</td>
+</tr>
+</tbody>
+</table>
+
+From the catalog of AS ONE. The prices will depend on suppliers and so
+on.
+
+**Registration of Reagents and Other Consumables**
+
+Reagents and other consumables must be controlled according to the
+guidelines of your university. Here, we will use Hokkaido University as
+an example. At Hokkaido University, they are controlled under an online
+chemical registration information system (CRIS), which you need an ID to
+access. You can access the information on any reagent registered in CRIS
+if you have an ID. When you have purchased a reagent, you must register
+in CRIS its chemical name, weight, volume, quantity, legal
+classification (eg, for poisonous/deleterious substances) storage place,
+and so on, based on the safety data sheets (SDS; formerly MSDS)
+attached. Then you must put a corresponding label on the reagent and
+store it in an approved place\*. Combustible organic solvents and other
+reagents that are specified in the fire service act are also controlled
+under CRIS. When you have used up a bottle of a reagent, you must record
+it in CRIS.
+
+\* Poisonous/deleterious substances must be stored in a locked chemical
+storage cabinet, and explosive substances must be stored in an
+explosion-resistant cabinet.
+
+**Management and Disposal of Laboratory Waste (Hokkaido
+University)<sup>1</sup>**
+
+In general, laboratory liquid waste contains heavy metals, organic
+solvents, and other hazardous substances, and thus is regulated under
+the law. Because laboratory liquid waste often has a complex composition
+and contains dangerous substances, you should take adequate care when
+handling it. You must know the nature and composition of any liquid
+waste that you have generated better than anyone else. You are obliged
+to process the liquid waste appropriately before transferring it to the
+waste management facility, and you must inform the waste management
+facility of any necessary processing.
+
+Inorganic liquid
+waste
+
+| Class                                 | Details                                                                                                   |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Mercury compound solution             | Do not put metal mercury in the storage container because it will not be accepted.                        |
+| General heavy metal compound solution | Cadmium, lead, chromium, copper, zinc, iron, manganese, selenium, and other heavy metals.                 |
+| Photographic fixer                    | Do not mix with developer or any other liquid waste because silver will be recycled.                      |
+| Cyanide compound solution             | Must be alkalinized before storage.                                                                       |
+| Arsenic compound solution             | Record the pH in the label, because an acidic solution and an alkaline one will be processed differently. |
+| Fluorinated compound solution         | If acidic, neutralize it before storage.                                                                  |
+
+Organic liquid
+waste
+
+| Class                                                  | Details                                                                                                                                                                                      |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Special flammable substance-containing organic solvent | Contains a special flammable substance(s) of hazardous material category IV specified in the fire service act, diluted to a total concentration of 10% or less in any other organic solvent. |
+| Organic halogen solvent                                | Do not put PCBs in the storage container because they will not be accepted                                                                                                                   |
+| Combustible organic solvent                            | Do not put PCBs, explosive nitro compound, or peroxide in the storage container because they will not be accepted                                                                            |
+| Formalin                                               | Do not include infectious waste.                                                                                                                                                             |
+| Waste oil                                              | Do not put PCB-containing oils in the storage container because they will not be accepted                                                                                                    |
+| Photographic developer                                 | Stored in the laboratory.                                                                                                                                                                    |
+
+_—Ren Sasaki and Akira Kakugo (Hokkaido University)_
+
+## 74. Pipetting
+
+Some kinds of pipettes have a plastic tip attached to the pipette
+nozzle, and a mechanical plunger (manually operated or motorized)
+aspirates and discharges liquid. You can set the aspiration volume by
+adjusting the volume dial. A representative pipette is "Pipetman" from
+Gilson.
+
+Pipettes are available from various manufacturers. This section
+describes Pipetman from Gilson. Pipetman, with a disposable plastic tip
+and a plunger to transfer liquid, is a popular volumetric liquid
+dispenser. The aspiration volume of Pipetman covers 0.5 µL to 10 mL.
+Three sizes of Pipetman, i.e. 2-20 µL, 20-200 µL, and 100-1000 µL, are
+most commonly used in the laboratory (Fig. 1, left). You can set the
+aspiration volume by rotating a volume adjustment dial. Some models have
+multiple nozzles to transfer more than one liquid at a time. Inside
+Pipetman, an O-ring fitted between the plunger and the cylinder confers
+airtightness. In larger models of 5 mL or more, a cotton plug is often
+installed in the tip to prevent vigorous aspiration from spattering
+liquid.
+
+![](media/image4.png)
+
+**Fig. 1.** Pipetman and disposable tips.
+
+**Tip Size**
+
+Three sizes of tip are most commonly used: white (0.5-10 µL), yellow
+(2-200 µL), and blue (100-1000 µL) (Fig. 1, right). The large white tip
+is used with a larger Pipetman. Tips are arrayed in a lidded rack and
+autoclaved (sterilized and dried) before use. To attach the tip, push
+the nozzle of Pipetman tightly into the wider opening of the tip. Some
+tips have a flat-shaped end or a capillary-shaped end in order to
+transfer liquid into a small space.
+
+**How to Use a Pipetman**
+
+Models with a fixed aspiration volume have high accuracy but lack
+versatility, so models having a volume adjustment dial are more commonly
+used. Before use, rotate the volume adjustment dial to the desired
+aspiration volume (Fig. 2). Never rotate the dial past the upper or
+lower limit of aspiration volume because doing so might break the
+device.
+
+![](media/image5.png)
+
+**Fig. 2.** How to set the aspiration volume of Pipetman.
+
+Attach a tip to the nozzle of Pipetman, push the plunger button to the
+1<sup>st</sup> stop position, and immerse the end of the tip in the
+liquid only as deep as is necessary. If the liquid enters the tip by
+capillary action, which means poor airtightness, the device needs
+fixing/repairing. To aspirate the liquid, release the plunger button
+slowly. Confirm that the tip has aspirated no air and carries no liquid
+outside it. Slowly push the plunger button to discharge the liquid. Note
+that you should move the vessel to Pipetman, but not vice versa. Any
+liquid remaining in the tip can be discharged by pushing the plunger
+button to the 2<sup>nd</sup> stop position. A small amount of liquid may
+be difficult to completely discharge. In that case, tap the tip against
+the inside wall of the vessel (e.g. tube) to transfer the liquid residue
+to the vessel wall. Then centrifuge the tube in a benchtop centrifuge to
+bring the liquid from the tube wall to the bottom. Before aspirating any
+other liquid, push the ejector button to discard the tip and use a new
+tip (Fig. 3).
+
+![](media/image6.png)
+
+**Fig. 3.** Tip removal.
+
+**Broken Pipetman **
+
+Malfunctions of a Pipetman include impaired airtightness and inaccurate
+measurement. In the former case, take it apart and apply grease to the
+cylinder, or replace the O-ring. In the latter case, aspirate a given
+amount of water with Pipetman and weigh it on a balance. If the
+volumeter and the balance give different readings, send it for repair.
+
+Ryuhei Suzuki and Akira Kakugo (Hokkaido University)
+
+**
+**
+
+## 75. Preparing Solutions and Buffers
+
+Preparing a solution involves several basic experimental techniques.
+This section describes weighing of reagents, notes on difficult
+reagents, addition of solvent, and representative buffers.
+
+**Basic Procedures**
+
+1\. Balance and volumetric vessel
+
+(1) Balance: To weigh a powdered reagent, we use an electronic balance
+(one that can measure at least to the 1/1000<sup>th</sup>). Choose an
+appropriate balance, based on the maximum/minimum capacity of the
+balance.
+
+(2) Volumetric vessel: To measure out a liquid reagent, a volumetric
+vessel such as graduated cylinder is used. The scale of a beaker and
+conical flask is only approximate and may have an error as high as 10%.
+Also note the temperature during measurement (about 20°C is
+appropriate).
+
+2\. Weighing of powdered reagents
+
+(1) With dispensing spoon: Bring the mouth of the bottle of the reagent
+near the weighing pan, and transfer the powdered reagent with a
+dispensing spoon to a weighing paper placed on the weighing pan. For
+fine adjustment, tap the dispensing spoon to drop the reagent in small
+portions, or use a micro spoon.
+
+(2) Without dispensing spoon: To weigh a dry and smooth powdered
+reagent, you may drop the reagent directly from the bottle onto the
+weighing paper without a dispensing spoon. For fine adjustment, rotate
+the bottle to drop the reagent in small portions.
+
+3\. Measurement of liquid reagent
+
+(1) Choice of volumetric device: To measure out a liquid reagent, use a
+Pipetman for 1 µL to 10 mL, a pipette for 0.1 to 25 mL, and a graduated
+cylinder for several mL to 2 L. For final adjustment of the volume in a
+graduated cylinder, you can use a Pasteur pipette, pipette, Pipetman,
+and wash bottle (Fig. 1).
+
+(2) Accuracy of measurement: In a volumetric device used in a biological
+experiment, you cannot exclude an error of about 0.25% of the capacity.
+Because the absolute error of a volumetric device does not depend much
+on the volume of liquid, a smaller final volume results in a greater
+relative error. You should not measure a 10 mL solution in a 100 mL
+graduated cylinder. You should not repeat the measurement 10 times in a
+10 mL graduated cylinder to make a 100 mL solution either, as it will
+take more time and cause increased variability due to human error.
+
+![](media/image7.png)
+
+**Fig. 1.** Volumetric labware.
+
+4\. Removal/recovery of solution remaining in a vessel
+
+(1) Pre-rinse: When you have to use a vessel that is still wet after
+washing with distilled water or the like, rinse the vessel with a small
+amount of the solution of interest beforehand to keep the concentration
+of the solution (Fig. 2, left) stable.
+
+(2) Post-rinse: When you have to transfer a solution from a vessel to a
+graduated cylinder, or something similar, for volume adjustment, rinse
+the first vessel with a small volume of distilled water after the
+transfer and add it to the graduated cylinder, to ensure that no
+solution is left. Perform this post-rinse 2 to 3 times in total whenever
+you prepare a solution (Fig. 2, right).
+
+![](media/image8.png)
+
+**Fig. 2.** Post- and pre-rinse.
+
+**Solution**
+
+1\. Accuracy and significant digits in experiments
+
+In a typical molecular biology experiment, the concentration of a
+prepared solution should have "three significant digits". Volume
+measurement involves a greater error than weighing, and can cause an
+error rate of about 0.3% or more.
+
+2\. Standard procedures to prepare solutions
+
+(1) Powdered reagents: Weigh the powdered reagent into a beaker or the
+like, and dissolve it in distilled water. You can mix it using a stirrer
+to promote the dissolution. After the powder has been dissolved,
+transfer it to a graduated cylinder and rinse the cylinder after 2 to 3
+times before final volume adjustment.
+
+(2) Liquid reagent: To prepare a solution from a liquid reagent on a
+volume/volume percent concentration (% \[v/v\]) basis, measure out the
+reagent in a graduated cylinder and transfer it to another graduated
+cylinder for volume adjustment. If the solution is to be prepared in
+sufficient volume, you may pour the reagent directly into the graduated
+cylinder for volume adjustment. To prepare a solution on a mass
+concentration basis, weigh the reagent on a balance, and transfer it to
+a graduated cylinder for volume adjustment.
+
+3\. Difficult reagents
+
+(1) Viscous reagent: Post-rinse is not applicable to a highly viscous
+liquid reagent such as glycerol or polyethylene glycol. You have to pour
+it directly into a graduated cylinder. If its amount is much smaller
+than the total amount of the solution to be prepared, weigh it on a
+balance to reduce the error, based on the weight calculated from its
+specific gravity.
+
+(2) Exothermic reagent: A highly exothermic reagent such as
+MgCl<sub>2</sub> or a lower alcohol should be added to a large volume of
+solvent in several portions, with stirring. Adjustment of the volume
+should be done after it has returned to room temperature.
+
+(3) Hygroscopic reagent: In the case of a hygroscopic reagent such as
+NaOH, take out the bottle of the reagent from a dessicator, quickly
+weigh it, and return the bottle to the dessicator as soon as possible.
+Immediately add a solvent to the weighed reagent and adjust the volume.
+
+(4) Reagents to be dissolved in the bottle: In the case of a hazardous
+reagent such as phenol or a reagent supplied in too small an amount to
+scoop with a dispensing spoon, dissolve it in its original bottle if the
+solution is stable during storage. Add a solvent in small portions,
+dissolve and post-rinse the reagent, and adjust the volume.
+
+**Buffer**
+
+Buffer is used to prevent changes in pH. A protein or nucleic acid has
+an optimal pH for stability or reaction. In an experiment using a
+typical biomolecule, a buffer of 10 mM to 200 mM is appropriate. Popular
+buffers are listed below (Fig. 3).
+
+<table>
+<thead>
+<tr class="header">
+<th>Biological molecule</th>
+<th>Buffer (pH)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DNA</td>
+<td><p>Tris-HCl (pH 7.5-8.0)</p>
+<p>AcOH-NaOAc (pH 8.0)</p></td>
+</tr>
+<tr class="even">
+<td>RNA</td>
+<td><p>AcOH-KOAc (pH 5.2-6.0)</p>
+<p>Tris-HCl (pH 7.2)</p></td>
+</tr>
+<tr class="odd">
+<td>Protein</td>
+<td><p>Tris-HCl (pH 7.5)</p>
+<p>HEPES-KOH (pH 7.0-7.5)</p></td>
+</tr>
+<tr class="even">
+<td>Typical neutral buffer</td>
+<td>Phosphoric acid (pH 6.0-8.0)</td>
+</tr>
+<tr class="odd">
+<td>Electrophoresis buffer (nucleic acid)</td>
+<td><p>Tris-boric acid (pH 8.2)</p>
+<p>Tris-AcOH (pH 8.0)</p></td>
+</tr>
+<tr class="even">
+<td>Electrophoresis buffer (protein)</td>
+<td><p>Tris-HCl (pH 7.5-8.5)</p>
+<p>Tris-glycine (pH 8.3)</p></td>
+</tr>
+</tbody>
+</table>
+
+**Fig. 3.** Representative buffers.
+
+Ryuhei Suzuki and Akira Kakugo (Hokkaido University)
+
+## 76. Annealing
+
+A slow cooling technique, "annealing", is commonly used in the
+assembling of DNA nanostructures. This section describes how to do it.
+
+**What Is Annealing**
+
+"Annealing" is a slow cooling technique commonly used when assembling
+DNA nanostructures. Annealing usually refers to a process of
+heating/cooling a metal (this can remove the internal strain and improve
+the ductility). In structural DNA nanotechnology, annealing means
+heating and then slowly cooling an aqueous solution of DNA parts to form
+a desired structure having the lowest Gibbs free energy. This is usually
+done in boiled water or on a thermal cycler.
+
+**Annealing DNA Tiles**
+
+The annealing rate and time depend on the structure you want to
+assemble. An example of DNA tile is described below.
+
+For DNA tiles, annealing is performed by heating the solution to about
+95°C to turn all the DNA molecules into a single-stranded state, and
+then cooling it to room temperature or 4°C over 1 to 2 days. As
+described previously (see section 20), a DNA tile structure can be
+formed through a two-step process: i.e., the forming individual tiles
+and then connecting them through sticky ends. These two distinct
+annealing steps occur separately at different temperatures in the course
+of the cooling, allowing one-pot annealing (all required strands are
+mixed in a single vessel and hybridized to form the final structure in a
+single slow cooling process).
+
+Specifically, individual tile structures are formed at a higher
+temperature (a). Then, the tiles self-assemble at a lower temperature
+(b). In order to obtain a high-quality (or large) crystal, these two
+steps, especially the latter step of self-assembly of tiles, should be
+performed as slowly as possible, so that the conditions stay within an
+optimal temperature range around T<sub>f</sub> (formation temperature)
+for as long a time as possible. If you are annealing in boiled water,
+fill a styrene foam box with the boiled water, and put a tube containing
+the DNA solution on the water’s surface using a float. Cover it with a
+styrene foam lid, and then seal it with sticky tape or the like. Allow
+it to stand. If you are using a thermal cycler, set a lower ramp rate
+over the structure formation temperature ranges. You can also set a
+higher ramp rate over other temperature ranges, to reduce the total
+annealing time.
+
+![](media/image9.png)
+
+Exemplary formation/melting curve for a T-motif \[1\]. By monitoring the
+absorbance at 260 nm, you can determine single strand and double strand
+states in a solution (double strands have lower absorbance). In this
+example, the graph shows that the formation of the motif (tile) occurs
+at about 74°C and the connection between the motifs at about 33°C.
+
+_—Shogo Hamada (Cornell University)_
+
+
+## 77. DNA Concentration/Purity
+
+DNA can absorb UV light, with maximum absorption at about 260 nm. By
+measuring the absorbance, you can determine the DNA concentration in a
+solution. By measuring the absorbance over a range of wavelengths, you
+can examine the presence/absence of impurities that have an absorption
+spectrum different from that of DNA, to assess the purity.
+
+**UV Absorption by DNA**
+
+By irradiating a pure DNA solution with ultraviolet (UV) light at
+different wavelengths, and measuring the "absorbance" (Abs) or the
+absorbed proportion for each wavelength and plotting it, you can obtain
+an absorption spectrum as shown below, which has a minimum at a
+wavelength of about 230 nm and a maximum at about 260 nm. This is
+because DNA bases strongly absorb light of this wavelength. The
+wavelength of maximum absorption actually slightly differs between the
+four bases and thus between DNA molecules of different base
+compositions. Some instruments can take base composition into
+consideration to calculate DNA concentration from absorbance.
+
+![](media/image10.png)
+
+Example of the absorption spectrum of a DNA solution. Maximum absorbance
+is about 260 nm. Lower absorbance in the wavelength region around 230 nm
+and above 320 nm means higher purity.
+
+In biological experiments, DNA molecules usually have a length of
+several kilobases or even more. Thus, their base compositions are
+similar on average, and a fixed conversion coefficient is usually
+employed (an absorbance of 1.0 = 33 µg/ml for single strand DNA and 50
+µg/ml for double strand DNA). However, when you use short DNA strands
+such as oligonucleotides in your experiment, e.g. to hybridize them at
+equimolar concentration, you should take their base composition into
+account to calculate the concentration.
+
+**Determination of DNA Concentration**
+
+Absorbance is also called "optical density" (OD). Every substance has
+its own "molar extinction coefficient", and a relationship between its
+concentration and absorbance can be calculated according to the
+following equation (the Lambert-Beer law).
+
+![](media/image11.png)
+
+where *I*<sub>0</sub> is intensity of incident light, *I* is intensity
+of transmitted light, *ε* is molar extinction coefficient \[l/(mol
+cm)\], *c* is concentration \[mol/l\], and *d* is optical path length
+\[cm\].
+
+When you measure DNA concentration measurement, you need a highly
+concentrated solution. Conventionally, the most popular spectrometer
+models use a cell with an optical path length of 1 cm. As opposed to
+biological experiments to isolate a large quantity of genomic DNA, e.g.,
+from cultured bacterial cells, in the field of DNA nanotechnology we
+usually use chemically synthesized DNA. Recently, models are becoming
+popular that employ a microcell to analyze a smaller volume of solution,
+and cuvette-free models that analyze several µl of sample solution
+directly dropped on the spectrometer, after which you only have to wipe
+off the solution with KimWipes (see section 82).
+
+**Some Considerations in Measuring DNA Concentration**
+
+Some buffers for biomolecular experiments have a strong absorbance
+around 230 nm. When a DNA sample is dissolved in a buffer, the
+corresponding blank solution for spectrometry must be the same buffer.
+Though it depends on the spectrometer, absorbance can be accurately
+measured only within a relatively small range, e.g. from 0.1 to 1.0.
+Before you measure a sample, you should adjust the concentration to any
+value appropriate for your spectrometer.
+
+In the above-described conversion of absorbance to DNA concentration,
+the conversion coefficient for single strand DNA (33 µg/ml) is smaller
+than the conversion coefficient for double strand DNA (50 µg/ml): i.e.,
+UV light absorbance differs between random-coiled single strand DNA and
+double strand DNA that has bases with an orderly alignment in a double
+helix structure. This decrease in the molar extinction coefficient of a
+molecule due to a change of state is called "hypochromicity". By
+observing the hypochromicity you can determine the melting temperature
+of a double strand DNA (see section 82).
+
+**Determination of DNA Purity**
+
+Protein has an absorption spectrum different from that of DNA, with a
+maximum at about 280 nm. Organic solvents such as phenol and peptides
+strongly absorb light of about 230 nm. DNA synthesized/purified by a
+custom DNA supplier will give an absorption spectrum as shown in the
+figure above. DNA extracted from a biological sample or the like may
+contain residual proteins and organic solvents from the extraction,
+which results in a composite of their absorption spectra. In order to
+assess the purity of DNA, you should measure absorbance at a wavelength
+of 260 nm (Abs<sub>260</sub>), 230 nm, and 280 nm, and calculate their
+relative ratios. In principle, you have highly pure DNA if
+Abs<sub>260</sub>/Abs<sub>280</sub> is 1.8 to 2.0 and
+Abs<sub>260</sub>/Abs<sub>230</sub> is at least 2.0. You should also
+confirm that the absorbance at 320 nm or 350 nm is almost 0, to validate
+the measurement and ensure there are no impurities.
+
+**Necessity and Limitations of DNA Concentration Measurement**
+
+Since the establishment of automated DNA synthesis technology, synthesis
+of DNA up to about 100 bases has become much less expensive. Now it is
+usually outsourced rather than synthesized in-house. If you design base
+sequences and order them on the web, you will receive DNA in a few days,
+at a price of several to several 10 thousand yen (see section 72). The
+datasheet and/or label attached will specify the quantity of DNA, but
+you should reconfirm it yourself using a spectrometer.
+
+If you want to assemble a DNA nanostructure, you may not need highly
+specific component strands. However, if you are making or using DNA
+logic gates, where mutually complementary sequences are designed to form
+a complex to prevent the multi-step reaction from proceeding
+spontaneously (see section 29), you must know the exact concentration of
+component strands and mix them at an accurate molar ratio. Indeed, we
+have found that the datasheet is sometimes inaccurate by more than 10
+percent. The reason for this is unclear, but you may check whether the
+supplier has employed a molar extinction coefficient based on base
+composition, or how the supplier has monitored the concentration at
+various steps before shipping.
+
+In any case, it is difficult to measure out an absolutely accurate
+amount of DNA based on the correct concentration and add it to a
+reaction at an absolutely accurate molar ratio. A micropipette for the
+preparation of reaction solution already has some volumetric error, and
+even the same measurement repeated by the same person according to the
+same procedure involves some numerical variability. You should know the
+measuring range and proper conditions of use for your devices and
+instruments, repeat each experiment to confirm the reproducibility, and
+design your experiment so that it can demonstrate the desired function
+or effect within that range.
+
+_—Ken Komiya (TITECH)_
+
+## 78. Purification Techniques
+
+In contrast to the corresponding reaction equation in a textbook, a
+reaction solution used in an actual experiment contains various
+additional substances such as unreacted starting materials, by-products,
+and an excess of buffering agent and salt. After any reaction, you will
+always have to remove these impurities and isolate a purified product.
+This section introduces popular DNA purification techniques.
+
+Principally, DNA can be purified based on (1) its chemical properties
+(hydrophilicity/hydrophobicity) or (2) its molecular size.
+
+**Reversed-Phase Chromatography**
+
+One separation technique based on the chemical properties of DNA
+combines reverse-phase column and high-performance liquid chromatography
+(HPLC). The column often uses octadecyl group (C18)-modified silica gel
+(ODS) as carrier. The sample is separated based on the degree of
+interaction with C18, and thus molecules of higher hydrophobicity stay
+longer in the column and have longer retention time. This contrasts with
+silica gel, which adsorbs more hydrophilic molecules more strongly
+("normal phase)". This is the most powerful technique to separate DNA
+from other molecules, but it is not good at distinguishing, for example,
+a one-base difference in DNA length. You should combine it with gel
+electrophoresis.
+
+![](media/image12.png)
+
+An exemplary HPLC system. The reversed-phase HPLC column is on the left
+of the keyboard and LCD.
+
+Quick DNA purification columns based on such a reversed-phase system are
+commercially available. Advantageously, they employ an
+acid/alkaline-resistant polymer carrier instead of a silica gel carrier
+that is labile at a basic pH. Thus, the solution from the final step of
+chemical DNA synthesis (see section 45), i.e. deprotection/detachment by
+concentrated aqueous ammonia, can be directly applied to the column, to
+trap the desired product based on the hydrophobicity of the terminal
+DMTr group. After washing, an acidic solution is used to remove the
+terminal DMTr group from DNA, so that only completely deprotected DNA is
+recovered.
+
+![](media/image13.png)
+
+Quick DNA purification column (Polypak, Glen Research). As shown in the
+middle, this device needs to be attached to a syringe for use.
+
+**Gel Electrophoresis**
+
+Gel electrophoresis separates DNA based on molecular size. There are two
+types based on the gel used, i.e., agarose gel electrophoresis and
+polyacrylamide gel electrophoresis. They differ in pore size of the gel
+network: agarose will be suitable for long DNA of at least 100 bases or
+DNA origami, and polyacrylamide for short single-strand DNA. For
+details, see section 79.
+
+**Gel Filtration**
+
+Gel filtration columns are useful for desalting DNA solutions. This
+technique (also called size exclusion chromatography) is based on the
+principle that, in a sample solution passed through a column packed with
+a gel carrier, ions and small molecules are trapped in pores in the gel
+and flow more slowly, while DNA and other large molecules flow faster
+without being trapped.
+
+Sephadex G-25 (GE Healthcare 17−0032 etc.) can trap impurities of a
+molecular weight of 2500 or less (i.e., it is not compatible with short
+DNA of 10 bases or less). The figures below show the gravity-flow
+Nap-5/10 column and the centrifuge tube type Microspin (both from GE
+Healthcare). A variety of other pre-packed columns are commercially
+available.
+
+![](media/image14.png)
+
+Nap-5 column (top) and Nap-10 column (bottom)
+
+![](media/image15.png)
+
+Microspin G-25 column. Assembled as shown in the right and centrifuged
+to push the liquid down the column by centrifugal force.
+
+**Ultrafiltration**
+
+Ultrafiltration is filtration thorough a membrane with nanometer-sized
+pores.Various filters are commercially available, with a molecular
+weight cut-off (substances of/above this molecular weight are retained
+by the membrane) of 3000 to 100000. Amicon Ultra series (Millipore
+\#UFC500308 etc.) is popular. Because a solution cannot pass through
+such a filter by gravity flow, it is usually installed in a "spin
+column", where the solution is pushed through the membrane by
+centrifugal force.
+
+![](media/image16.png)
+
+Amicon Ultra
+
+**Phenol Extraction, Ethanol Precipitation, and Density Gradient
+Centrifugation \[1\]**
+
+After an enzymatic reaction, you can remove protein (e.g. enzymes) from
+the DNA solution by phenol extraction, which has been used for decades.
+Subsequent desalting can be done using ethanol precipitation, which also
+has a long history but gives a moderate yield. It’s better to use of the
+above-described desalting techniques. Density gradient centrifugation,
+which separates molecules based on their relative density through a
+sucrose or some other density gradient in a solution, is also useful in
+separating DNA and nanostructures.
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Column: Purification of DNA Origami</strong></p>
+<p>In the case of a DNA origami structure that gives a low yield after annealing, you may sometimes need to isolate the desired structure and/or remove excess free staple strands. The most basic technique for this is agarose gel electrophoresis. Because 1 x TAE/Mg<sup>2+</sup> buffer is used as the running buffer, you must control the temperature of the entire electrophoresis tank (if not, it becomes very hot). If successfully assembled, the DNA origami will be stained as a single clear band. You can cut the band out of the entire gel using a razor blade, which is then applied to Freeze'N Squeeze DNA gel extraction column (Bio-Rad #732-6165) or the like to isolate the DNA origami.</p>
+<p><img src="media/image17.png" style="width:2.44838in;height:1.84517in" /></p>
+<p>1.5% agarose gel electrophoresis of DNA pliers.*</p>
+<p>If you only want to remove the free staple strands, ultrafiltration will be convenient. Centrifuge it in Amicon Ultra 0.5 with a molecular weight cut-off of 100000 (Millipore #UFC510096). Add 100 µL of 1 x TAE/Mg<sup>2+</sup> buffer, and then centrifuge it again. Repeat this step twice (or more) to completely remove the free staple strands. Gel filtration with Microspin S-400 HR can be used similarly, but gives a poor yield.</p>
+<p>Other purification techniques that can be used include streptavidin-coated magnetic beads and density gradient centrifugation.</p>
+<p>*T. Yamazaki, Y. Aiba, K. Yasuda, Y. Sakai, Y. Yamanaka, A. Kuzuya, Y. Ohya, M. Komiya, Chem. Commun., 2012, 48, 11361-11363.</p></td>
+</tr>
+</tbody>
+</table>
+
+_—Akinori Kuzuya (Kansai University)_
+
+## 79. Electrophoresis
+
+Electrophoresis is the phenomenon of charged molecules and particles
+migrating in an electric field. This technique is indispensable in
+molecular biology and biochemistry to analyze/separate DNA and protein.
+
+**Electrophoresis**
+
+This phenomenon was first described for clay particles in water by the
+Russian physicist Ferdinand Frederic Reuss. Here, the charged substances
+refer to substances that are positively (+) or negatively (-) charged in
+an aqueous solution, such as a peptide, protein, and nucleic acid (DNA
+and RNA). Because they can freely diffuse if left in a solution, a
+membrane or gel is used as a support medium through which the charged
+substances migrate. The substances in the membrane or gel migrate toward
+the electrode of the opposite charge in a DC electric field. The
+migration velocity depends on the shape, charge, molecular weight, and
+so on, and thus differs between the substances, resulting in their
+separation. The support medium can be an agarose gel or a polyacrylamide
+gel, which each have a three-dimensional network structure that serves
+as a sieve for the substances. In general, smaller substances and larger
+substances migrate faster and slower, respectively, allowing their
+separation based on molecular weight. With appropriate molecular weight
+markers, their molecular weight can also be determined by
+electrophoresis. In addition, there are electrophoretic separation
+techniques based on charge or shape instead of molecular weight, which
+can be combined for higher resolution of various substances in a sample.
+
+Electrophoresis is widely used to determine molecular weight,
+isoelectric point, purity, and quantity, and to purify, various
+substances. It is the most basic separation/analysis technique for
+proteins, DNA, and RNA.
+
+**Agarose Gel Electrophoresis \[1\]**
+
+There are two popular types of electrophoresis for protein/nucleic acid
+separation: polyacrylamide gel electrophoresis and agarose gel
+electrophoresis. Polyacrylamide gel and agarose gel differ in the pore
+(opening) size of the network, with the former suitable for low
+molecular weight and the latter for high molecular weight. For example,
+you can use polyacrylamide gel for DNA of 1 to 700 bp and agarose gel
+for about 500 bp or more. For proteins, acrylamide gel is adequate for
+about several 100 Da to several 10 kDa, but you should use agarose gel
+for molecules of several hundred kDa such as a protein complex.
+
+In agarose gel electrophoresis of DNA, the agarose concentration of the
+gel to be used depends on the size of the DNA to be separated, typically
+as follows.
+
+0.6% 1-20 kb (BPB: about 1.5 kb)
+
+0.75% 0.8-10 kb (BPB: about 1 kb)
+
+1% 0.5-7 kb (BPB: about 0.5 kb)
+
+1.5% 0.2-3 kb (BPB: about 0.3 kb)
+
+For example, plasmid DNA will be electrophoresed on 0.75% or 1%. During
+electrophoresis, you can decide whether to continue the run based on the
+band of BPB (bromophenol blue), which is usually included in the loading
+buffer.
+
+**Polyacrylamide Gel Electrophoresis (PAGE) \[2\]**
+
+Polyacrylamide gel is a polymer of acrylamide monomer and
+N,N’-methylenebisacrylamide (Bis). For gel preparation
+(polymerization), these two compounds are mixed with the polymerization
+initiator ammonium persulfate (APS) and the polymerization promoting
+agent N,N,N',N'-tetramethylethylenediamine (TEMED). Acrylamide monomer
+is a neurotoxin that requires appropriate handling precautions. Similar
+to agarose gel, the concentration needed depends on the molecular weight
+of the substance to be separated.
+
+In DNA or RNA PAGE, nucleic acid molecules can be electrophoresed in the
+presence of a denaturing agent such as urea as linear single strands, to
+separate them with high precision based on their length. In the absence
+of such a denaturing agent, DNA or RNA will be electrophoresed in its
+native form, so that you can examine whether the desired DNA or RNA
+structure has formed.
+
+Protein is usually electrophoresed in a denatured state in the presence
+of sodium dodecyl sulfate (SDS), an anionic surface active agent. This
+is called SDS-PAGE, which allows separation of proteins based on their
+molecular weight. The protein sample is boiled in the presence of the
+reducing agent 2-mercaptoethanol to cleave any S-S bonds (disulfide bonds)
+before electrophoresis, which allows separation based on molecular
+weight with higher precision. Like nucleic acids, proteins can also be
+electrophoresed in an non-denatured state (Native-PAGE), wherein the
+migration is affected by the isoelectric point, molecular weight, higher
+structures, and complex formation of protein. However, it is difficult
+to predict the band position of the protein of interest. Also note that
+basic proteins migrate toward the negative electrode. In two-dimensional
+electrophoresis, the first dimension can rely on isoelectric point
+electrophoresis, which separates proteins based on their isoelectric
+point, and the second dimension can be done with SDS-PAGE, to separate a
+protein of interest from a complex mixture of proteins such as serum.
+
+**Closing Remarks**
+
+Before applying these electrophoretic techniques to your experiment, you
+should refer to References and other information.
+
+_—Masamune Morita and Masahiro Takinoue (TITECH)_
+
+## 80. Interpretation of Electrophoresis Results
+
+In order to observe separated molecules in a gel after electrophoresis,
+you need additional techniques. For example, you can stain DNA with an
+intercalator or fluorescently labeled DNA and observe the migration, to
+verify the structure or obtain information on the reaction
+efficiency/rate. Here we describe gel staining, observation, and
+quantification procedures.
+
+**Staining Agent Preparation**
+
+Usually, the position of DNA molecules in a gel after electrophoresis
+(see section 79) is examined by staining \[1,2\]. Staining DNA relies on
+a molecule that specifically binds DNA (i.e., is caught between or
+intercalates into bases) and emits stronger fluorescence in the bound
+state.
+
+Ethidium bromide (EtBr) has been conventionally used as a DNA staining
+agent. Now you can choose from various staining agents that are
+commercially available. These staining agents differ in many aspects,
+e.g. excitation/fluorescence wavelength. The staining agents Gel Green
+and Gel Red have different wavelengths of fluorescence, as their names
+indicate.
+
+Another variation in dyes is whether they stain both single and double
+strands, or only a double strand. SYBR Green I staining agent detects a
+double strand, while SYBR Gold detects both single and double strands.
+At Tohoku University, unless otherwise needed, SYBR GOLD is used for
+staining.
+
+Any of these staining agents is shipped as a highly (e.g., 10000 x)
+concentrated substance. First, dilute it into the following composition
+in a small plastic container or the like.
+
+1 x SYBR GOLD
+
+10000 x SYBR GOLD: 10 µL
+
+Ultra pure water (mQ): 100 mL
+
+Ethidium bromide and many other staining agents are considered to be
+highly carcinogenic, and require appropriate handling precautions such
+as use of gloves.
+
+**Staining and Observation**
+
+You must immerse the gel in stain after electrophoresis to stain DNA. At
+Tohoku University, we agitate it for about 20 minutes. In agarose gel
+electrophoresis, you can add a staining agent to the gel before casting
+("pre-staining"). In that case, you need no additional staining.
+
+The stained gel can be observed on a UV transilluminator or a dedicated
+instrument: e.g., the intensity-adjustable UV transilluminator or
+BIO-RAD ChemiDoc as shown in Fig. 1. Place the stained gel carefully
+on/in the instrument.
+
+In either instrument, fluorescence is recorded by a camera to identify
+the position of DNA. The UV transilluminator irradiates the gel with UV
+from underneath to excite the staining agent, and its fluorescence is
+recorded. ChemiDoc is equipped with blue and green LEDs in addition to
+UV, from which you can choose the wavelength of excitation
+light/fluorescence.
+
+Exposure time is an important parameter. A longer exposure time will
+give a higher sensitivity, but also a higher background. In addition,
+too high a sensitivity will cause the saturation of recorded
+fluorescence signals, and thus loss of their quantitative information.
+
+![](media/image18.png)
+
+**Fig. 1.** Transilluminator and ChemiDoc (used in Tohoku University).
+
+**Direct Observation of Fluorescence**
+
+Depending on the experiment, you may only want to know the position of a
+particular DNA molecule. In this case, that particular molecule is
+fluorescently labeled (modified) in advance instead of
+pre-/post-stained. In the case of a UV-excited fluorescent molecule, the
+migration position of the molecule can be identified on a UV
+transilluminator without any staining. This technique is advantageous in
+that you can stain the gel after the fluorescence observation and
+perform a second observation to obtain more information.
+
+**Experimental Considerations**
+
+When you observe a gel on a UV transilluminator, you should place it in
+an appropriate position. Its distance from the UV bulb(s) may affect the
+intensity of the illumination. If it is put immediately over the UV
+bulb, it may not be possible to measure correctly.
+
+If the purpose of the electrophoresis is purification (see section 78),
+cut out the desired product and proceed to the purification process.
+Wrap the rest of the gel in wrapping film, and dispose of it accordance
+with the rules of your institution. Wipe the transilluminator or any
+other instrument that contacted the gel with alcohol and KimWipes to
+prevent any noise signal in future observations.
+
+The staining solution loses its staining performance after about three
+uses and thus needs to be replaced. Do not dispose of the used staining
+solution via the sink, but according to the procedures specified by your
+institution. For example, it should be stored in a tank for a
+predetermined period, and then degraded using the reagent EtBr destroyer
+for disposal.
+
+**Quantification of Band Signals on Gel**
+
+The recorded image of the gel will include a band that indicates the
+position of the corresponding DNA. Based on information from the band,
+you can evaluate the experimental results. A simple evaluation procedure
+is to examine changes in the band position. Because the migration
+distance depends on the size and charge of the molecule, a difference in
+the migration position of the band between different conditions
+indicates a change in the structure. At the top of Fig. 2 (the result of
+an electrophoresis by the Sendai team in BIOMOD 2014 \[3\]), the band at
+the position of Transducer A in the leftmost lane has migrated to the
+position of Output A in the rightmost lane. As shown in the table at the
+bottom, different lanes correspond to different reaction time points,
+indicating that the fluorescently labeled DNA has undergone a structural
+change over time.
+
+The fluorescence intensity of a given band provides quantitative
+information. For example, the brightness of a band before a reaction can
+be compared with that after reaction, to assess the percent reaction. In
+the case of a staining agent, note that the fluorescence intensity of a
+band will be primarily proportional to the amount of its nucleotides.
+
+In the case of fluorescent labeling, the brightness is proportional to
+the concentration of that particular labeled molecule. At the bottom of
+Fig. 2, the ratio of Output A to the sum of Transducer A and Output A as
+described above is calculated, and the percent reacted is graphed. The
+same is done for B and C. You can see that Output C, A, and B started to
+increase in concentration over time in this order. By doing this, you
+can not only check the structure but also determine the reaction
+rate/efficiency from an electrophoresis.
+
+![](media/image19.png)
+
+**Fig. 2.** Gel image and quantification \[3\].
+
+_—Ibuki Kawamata (Tohoku University)_
+
+## 81. Fluorescence Spectrometry
+
+Fluorescence is a phenomenon in which a substance receives a light and
+emits another light of a longer wavelength (lower energy). Fluorescence
+spectrometry is very useful in gene expression analysis, fluorescence
+resonance energy transfer (FRET) in biomolecules, and so on. This
+section describes principles of fluorescence and FRET.
+
+**Luminescence \[1\]**
+
+Substances can absorb energy and emit energy as light, which is called
+luminescence. There are many kinds of luminescence: fluorescence is a
+kind of photoluminescence, which is light emission after the absorption
+of the energy of light (UV/visible light). Light can be expressed as E =
+hν (E: energy, h: Planck constant, ν: frequency). The absorption of the
+energy moves the substance from a stable energy state (ground state) to
+a higher energy state (excited state) transiently. Then, the substance
+emits energy to return to the stable ground state. When (a part of) the
+energy is emitted as light instead of heat, the phenomenon is called
+luminescence (Fig. 1).
+
+**Fluorescence and Phosphorescence**
+
+There are two kinds of luminescence that can happen upon
+photoexcitation: fluorescence and phosphorescence. In fluorescence, a
+part of the absorbed energy is emitted as heat, and the rest is emitted
+as light. In phosphorescence, heat is emitted, but then inter-system
+crossing occurs instead of immediate return to the ground state,
+resulting in slow, continuous light emission. Fluorescence can last for
+nanoseconds, while phosphorescence can last for micro to milliseconds.
+
+![](media/image20.png)
+
+**Fig. 1.** Mechanisms of luminescence.
+
+**Measurement of Excitation Spectrum and Fluorescence Spectrum**
+
+To determine the excitation spectrum, we can fix the wavelength of the
+fluorescence to be detected, and alter the wavelength of the excitation
+light to monitor the fluorescence intensity. The wavelength that gives
+the greatest fluorescence intensity is the optimal excitation
+wavelength. The excitation spectrum matches the absorption spectrum of
+the sample, and the maximum absorption wavelength causes the strongest
+fluorescence.
+
+To determine the fluorescence spectrum, we can fix the wavelength of the
+excitation light, and study the fluorescence intensity. Because the
+pattern of the fluorescence spectrum does not depend on the excitation
+wavelength, the optimal excitation wavelength is used as the excitation
+wavelength. The peak of the fluorescence spectrum will have a longer
+wavelength than the peak of the absorption spectrum.
+
+**FRET**
+
+Fluorescence resonance energy transfer (FRET) is a phenomenon of direct
+transfer of excitation energy between two dye molecules in close
+proximity. According to this, one of the molecules (donor) absorbs light
+and transfers its energy to the other molecule (acceptor), and the
+acceptor emits fluorescence if it is a fluorescent molecule. One of the
+means of observing FRET is to excite the donor with a light that
+corresponds to the absorption spectrum of the donor, and then detect an
+increase in the intensity of the fluorescence emitted by the acceptor.
+
+![](media/image21.png)
+
+**Fig. 2.** FRET.
+
+_—Masamune Morita and Masahiro Takinoue (TITECH)_
+
+## 82. UV Spectrometry
+
+The process of double helix formation of DNA is hard to directly observe
+at the molecular scale. Instead, we can observe it indirectly based on
+UV absorption. This section describes UV spectrometry to obtain a
+melting curve and a melting temperature, and some experimental
+considerations.
+
+**DNA Absorbs 260nm UV Light**
+
+The ability of DNA to form a double helix through hydrogen bonding
+(hybridization; see section 41) is the basis of DNA nanotechnology (see
+section 17). We use observation to understand phenomena, but DNA is a
+nano-sized molecule, and its hybridization cannot be directly observed
+by optical microscopy.
+
+Therefore, we use a technique that measures UV light absorbance to
+indirectly determine the structure of DNA. The basic procedure is the
+same as that for the measurement of DNA concentration and purity (see
+section 77). DNA absorbs light of a wavelength of 260nm, but to
+different degrees depending on whether it is a single strand or double
+strand (hypochromicity). By monitoring changes in the absorbance over a
+temperature range, you can calculate the melting temperature
+(T<sub>m</sub>), which can be a measure of the temperature of
+association into a stable double helix and the temperature of
+dissociation into single strands.
+
+**Cuvette and Sample Preparation**
+
+A sample is put in a quartz or any other UV light-permeable cell
+(cuvette) to measure the absorbance. Note that the cell must be able to
+be heated and cooled. You can choose from microcell, 8 series micro
+multi-cell, capillary cell, and various others, based on your needs.
+
+To choose a cell, you have to consider its optical path length, sample
+concentration, and volume. Typically, the optical path length is 10 mm,
+but is 0.5 mm in capillary cell. A long optical path length needs a
+large sample volume, but has a good SN ratio. On the contrary, a short
+optical path length has a poor SN ratio, but needs a small sample volume
+to measure. Choose a long optical path length to measure a low
+concentration and a short optical path length for a high concentration.
+
+At Tohoku University, a disposable capillary cell is used for the
+measurement of samples prepared as follows.
+
+<span class="underline">25 µM DNA sample</span>
+
+- DNA 1 (100 µM): 5 µL
+- DNA 2 (100 µM): 5 µL
+- 10 x buffer: 2 µL
+- Ultra pure water (mQ): 8 µL
+
+DNA 1 and DNA 2 are mutually complementary for hybridization. As much as
+10 µL is enough volume to use a capillary cell. A short DNA strand of
+about 30 bases requires a high concentration of 25 µM.
+
+To measure a low concentration, a different cell is used. The sides and
+inside of a non-disposable cell should be washed well with ultra pure
+water and dried by a gas duster. Make sure that no water residue remains
+to prevent altering the the concentration.
+
+**Measuring a Blank**
+
+Before measuring a DNA sample, measure 1 x buffer as a blank. Immerse
+one end of the capillary in the sample to fill the cell with the liquid
+through capillary action. Mount the capillary in a dedicated adaptor and
+set it in the instrument to measure the absorbance. An exemplary
+capillary cell and spectrometer are shown in Fig. 1. Do not touch the
+glass or quartz of the optical path, because dust and dirt in the
+optical path interfere with measurement.
+
+![](media/image22.png)
+
+**Fig. 1.** Capillary cell and UV spectrometer (at Tohoku University).
+
+Some models employ a double beam system for the sake of correction for
+intensity perturbations of the light source. If you are planning to
+measure samples over a long time and compare the data, set a reference
+cell filled with the buffer.
+
+**Sample Measurement**
+
+After you measure a blank, you can measure the sample. Similar to the
+blank, set a cell filled with the sample in the instrument. Slowly lower
+the temperature from a high temperature. For example, start at 90°C and
+end at 20°C at a ramp rate of 0.7°C/minute through the experiment. You
+may change the start and end temperature if you can estimate Tm.
+
+As an example, you can calculate the Tm of ATTGGATACAAA and its
+complementary strand. After the measurement, you will have a melting
+curve as shown at the top of Fig. 2, wherein the horizontal axis
+represents the temperature and the vertical axis represents the
+absorbance at 260 nm. For a sample that shows different melting
+temperatures at association and dissociation, you may then raise the
+temperature from the low temperature to measure the melting curve for
+the second time but in the reverse direction. Strictly speaking, the
+melting temperature is the temperature at which dissociation of the
+double strand occurs. Thus, a melting temperature calculated from the
+latter curve is the true T<sub>m</sub>. The temperature calculated from
+the former is called a formation temperature Tf.
+
+![](media/image23.png)
+
+**Fig. 2.** Melting curve (before and after normalization).
+
+**Melting Temperature and Normalization of Melting Curve**
+
+The melting temperature is calculated from the melting curve. A simple
+methods is to calculate the mean value of the greatest absorbance and
+the smallest absorbance, and define the corresponding temperature as Tm.
+
+A more complex method is to normalize the data to range from 0 to 1, and
+then find a linear approximation of a low temperature region and a high
+temperature region \[1\]. With the temperature T being a variable, data
+being A(T), and the linear approximations being U(T) and L(T) as shown
+in the figure, the data is normalized as follows.
+
+![](media/image24.png)
+
+The normalized graph is shown at the bottom of Fig. 2. Tm is the
+temperature that corresponds to 0.5, at which single strands and double
+strands are 1:1. In the figure, it is about 50.5°C, which is similar to
+the theoretical value 53.6°C calculated from a nearest-neighbor model
+(see section 41).
+
+**Techniques Other Than UV Spectrometry**
+
+The change in the absorbance of 260 nm UV light due to hypochromicity
+has been used to distinguish single strands and double strands. Another
+method is to use a so-called SYBR Green staining agent, which
+intercalates into a double strand to emit fluorescence (see section 81).
+By monitoring the fluorescence, you can distinguish single strands and
+double strands to obtain a melting curve.
+
+Either method can only measure the overall dissociation of the entire
+double helix, and cannot quantify the dissociation of a particular DNA
+strand at a particular position. You can use FRET (see section 51) to do
+the latter. A particular position of DNA is modified with a fluorescent
+molecule, and another position that is spatially close to it in a formed
+structure is modified with a quencher molecule. This can quantify the
+ease of dissociation of any particular position in a DNA origami (see
+sections 18 and 19) \[2\].
+
+Ibuki Kawamata (Tohoku University)
+
+**83. Optical Microscopy**
+
+The smallest size visible to naked eye is about the thickness of a hair
+(about 0.1 mm). Microscopy was developed to observe smaller things. An
+optical microscope employs visible light, can magnify samples through
+lenses by several 10 to 1500-fold, and allows you to observe samples as
+small as about 0.2 µm. Phase contrast microscopy, fluorescence
+microscopy, total internal reflection microscopy, and many other
+techniques a;; can visualize very small objects.
+
+**Configuration of an Optical Microscope**
+
+Microscopes combine two convex lenses to magnify and observe samples.
+The one that is closer to the sample is called an objective lens, which
+magnifies samples by about 1 to 100-fold to produce a real image. The
+other lens is called an ocular lens, which further magnifies the real
+image produced by the objective lens by 8 to 15-fold to produce a
+virtual image. This virtual image is received by the retina. An optical
+microscope further includes an optical system to illuminate samples,
+which is supported and driven by a mechanical system.
+
+**Optical System Components and Performance**
+
+1\. Magnification
+
+Because a microscope further magnifies the image magnified by an
+objective lens through an ocular lens, the total magnification M of the
+microscope can be expressed by the following equation.
+
+M = *M<sub>o</sub>* x *M<sub>e</sub>*
+
+(*M<sub>o</sub>*: magnification of objective lens, *M<sub>e</sub>*:
+magnification of ocular lens)
+
+2\. Field of view
+
+The size of the field observable through an ocular lens in the sample
+surface is called a field of view, calculated as follows.
+
+Field of view = Field number/Magnification of objective lens
+
+3\. Numerical aperture
+
+Numerical aperture, or NA, characterizes the range of angles over which
+the objective lens can accept light. Numerical aperture is about 0.1 to
+1.6, depending on the lens. If two lenses have the same magnification,
+the one of a greater numerical aperture is superior in brightness and
+resolution. Numerical aperture can be expressed by the following
+equation.
+
+Numerical aperture (NA) = n x sinθ
+
+(n: refractive index of the medium present between the sample and the
+objective lens, θ: maximum angle between the optical axis and incident
+light coming from the sample to the objective lens)
+
+4\. Resolution
+
+Resolution is defined as "the shortest distance between two separate
+points that can be distinguished as distinct entities". The smaller its
+value, the higher resolution the optical microscope will have. Poor
+resolution makes the sample image fuzzy, preventing accurate
+observation. The resolution Δ<sub>R</sub> can be expressed by the
+following equation.
+
+∆<sub>R</sub>= 0.61 λ⁄NA (λ: wavelength of light, NA: numerical aperture
+of objective)
+
+5\. Depth of Focus
+
+When a sample is observed under a microscope, it is in focus over only a
+certain range in a vertical direction. This range is called depth of
+focus. In general, greater numerical aperture and total magnification
+results in a smaller depth of focus.
+
+6\. Image brightness
+
+The brightness of a sample is affected by not only the intensity of the
+light source but also the total magnification and numerical aperture. In
+microscopy, a greater numerical aperture and/or a lower total
+magnification give a brighter image.
+
+**Classification of Optical Microscopes**
+
+1\. Classification based on the structure
+
+(1) Upright microscope: In this microscope, samples are observed from
+above. Commonly used to observe samples on a glass slide.
+
+(2) Inverted microscope: In this microscope, samples are observed from
+underneath. Commonly used to observe culture samples in a petri dish.
+
+2\. Classification based on the type of illumination
+
+(1) Transmitted light microscope: Observes the illumination transmitted
+by the sample.
+
+(2) Reflected light microscope: Observes the illumination reflected by
+the sample.
+
+**Observation Methods**
+
+1\. Bright field microscopy
+
+The most basic microscopy that can observe stained samples. Widely used
+in tissue and blood biopsy.
+
+2\. Phase contrast microscopy
+
+This technique observes a sample by enhancing brightness changes in it,
+which allows the observation of living samples. Phase contrast
+microscopy is good at observing samples of a small phase shift and
+microstructures of a small phase shift of about λ/100 to λ/2.
+
+3\. Differential interference contrast microscopy
+
+Generates slightly separated lights from a polarized light, and lets the
+two lights interfere to visualize colorless, transparent samples
+stereoscopically.
+
+4\. Fluorescence microscopy
+
+A sample treated by some kind of staining emits fluorescence. This can
+be observed under a fluorescence microscope, which allows you to
+selectively observe a certain component(s) of interest.
+
+5\. Dark field microscopy
+
+With the help of its dedicated condenser, this can only observe
+scattered light from samples, while the illumination does not directly
+reach the objective lens. It can detect things of a size below the
+resolution of the microscope, and thus is used in microbiological
+studies.
+
+6\. Total internal reflection fluorescence microscopy
+
+An advanced fluorescence microscopic technique, with local excitation at
+several 100 nm from the surface of the cover glass. Allows highly
+sensitive (high S/N) fluorescent observation with very low background.
+
+Ryuhei Suzuki and Akira Kakugo (Hokkaido University)
+
+## 84. Atomic Force Microscopy**
+
+At the end of the 20th century, the field of DNA nanotechnology came
+into its own. Atomic force microscopy (AFM) contributed greatly. The AFM
+images of two-dimensional DX tile sheet and a DNA origami smiley face
+were a great surprise to the world.
+
+**Scanning Probe Microscopy (SPM)**
+
+AFM, indispensable in DNA nanotechnology, belongs to the field of
+scanning probe microscopy (SPM) in a broad sense. SPM scans the
+microstructure of a substance through a small probe that can interact
+with an object in various ways. SPM also includes scanning tunneling
+microscopy (STM), which is based on the electrical interaction between
+its probe and an object, and near field scanning optical microscopy
+(NSOM), which is based on the optical interaction. As is obvious from
+its name, AFM measures the surface morphology of a sample based on the
+interatomic force between it and an objective. The phrase interatomic
+force encompasses any interaction between atoms or molecules such as
+electrostatic and van der Waals interactions.
+
+AFM is commercially available from many manufacturers; Multimode 8 and
+Dimension from Bruker, Cypher from Asylum, and NanoExplorer from RIBM
+have all been widely used to observe DNA nanostructures.
+
+![](media/image25.png)
+
+Multimode 8/Nanoscope V from Bruker.
+
+**Principles**
+
+Basic AFM components include 1. cantilever (probe), 2. scanner, 3.
+optical lever-based displacement detector, and 4. a controller.
+
+The cantilever is usually a small chip of several mm made by
+semiconductor fabrication technology. A very small, pyramidal or conical
+stylus with an apex diameter of 10 nm or less is formed on the
+approximately 100 µm long lever that projects from the body. An
+interaction between the apex of the stylus and the sample surface can
+generate a very small deflection of the cantilever, which is detected by
+the instrument to monitor the distance between the stylus and the sample
+surface.
+
+A scanner is usually installed below the cantilever holder, and the
+sample to be measured is often placed on the scanner head. During the
+measurement, the scanner vibrates horizontally and vertically with very
+small amplitude to make the cantilever "scan" the sample surface. The
+scanner is attached to piezoelectric elements that generate x axis, y
+axis (horizontal), and z axis (vertical) movements, which are strictly
+controlled by electric signals from a controller. Note that the scanner
+is a very delicate part, because it is designed to operate on the
+nanometer scale.
+
+As opposed to the scanner, an optical lever-based displacement detector
+is usually installed above the cantilever holder. This part is composed
+of a laser source, a mirror, and a quadrant photodiode. The name
+"optical lever" is derived from the mechanism that uses a laser beam to
+magnify and detect the very small deflections of the cantilever. Imagine
+how to make a silhouette of fox or pigeon by your hands and fingers. If
+the distance between the hands and the wall is greater than that between
+the light source and the hands, you can magnify the silhouette more
+easily. Similarly, if you irradiate the cantilever with a laser beam and
+observe the projection of the reflected light from a distance, even a
+very small deflection of the cantilever can generate a significantly
+large displacement of the reflected light. The quadrant photodiode is
+used to detect this displacement. First, adjust the position of the
+reflected light by the mirror and the like so that the reflected light
+hits the center of the photodiode: i.e., the intensity of a detected
+light varies as little as possible between the vertical quadrants and
+between the horizontal quadrants (this is called laser alignment). When
+the sample surface comes close to the stylus to deflect the cantilever,
+it moves the position of the reflected light on the photodiode from the
+center. As a result, the variation in detected intensity increases
+between the vertical and/or horizontal photodiodes. Based on its degree,
+the controller receives an electric signal and estimates the deflection
+of the cantilever.
+
+The controller, based on the signal from this optical lever-based
+displacement detector, signals the z-axis piezoelectric element of the
+scanner to keep to the sample height so that the distance between the
+stylus and the sample surface remains constant. The resultant height
+information itself makes an AFM image.
+
+For imaging a flexible biological sample such as DNA, the cantilever is
+vibrated on a small scale to tap the sample surface, which is called a
+tapping mode (or dynamic mode). In contrast, in contact mode, the
+cantilever is not vibrated for measurement.
+
+**Observation Procedures**
+
+The procedure to observe a DNA nanostructure under AFM is outlined
+below. Note that details of the procedure, such as the name of
+parameters, may differ between manufacturers and models.
+
+1\. Cleavage of mica
+
+Usually, a DNA nanostructure has a laminar structure, and is observed
+after being adsorbed on the very planar surface of mica. Mica can be
+purchased from Nilaco (https://nilaco.jp/) or the like (natural mica
+\#990065). First, cut the mica into small pieces, and stick them to the
+sample holder by hot glue, water-resistant double-sided tape, or nail
+polish. Stick scotch tape to the mica surface, and slowly peel it off,
+to remove the outermost layer of the mica. This is a "cleavage" process,
+and the newly formed surface is very uniform and clean even under AFM.
+Do not touch it.
+
+2\. Absorption of DNA nanostructure
+
+Generally, DNA origami and other DNA nanostructures are assembled in an
+Mg<sup>2+</sup>-containing solution that can neutralize the negative
+charge of phosphodiester bonds. For the adsorption of a DNA
+nanostructure on mica, you just have to add this solution onto the mica
+dropwise. The mica surface is also negatively charged, and
+Mg<sup>2+</sup> in the solution neutralizes both the negative charge of
+the DNA nanostructure and the negative charge of the mica surface, to
+serve as a bridge between them. It is adsorbed so strongly that it does
+not easily peel off even if tapped by the stylus of AFM.
+
+AFM of DNA nanostructure should be conducted in a liquid solution
+because it is unstable in a dehydrated state. Note that the solution
+must contain Mg<sup>2+</sup>. In most cases, it is the buffer used to
+assemble the structure.
+
+3\. Cantilever attachment and laser alignment
+
+Using tweezers or the like, carefully set the cantilever in the holder,
+and mount it on the instrument. Monitoring the photodiode signal, adjust
+the position of the laser. After that, some models need to adjust the
+resonance frequency of the cantilever and so on.
+
+4\. Sample setting and approach
+
+Mount the sample holder on the scanner, adjust the height of the
+scanner, and bring the cantilever close to the sample surface
+(approach).
+
+5\. Tune it to the position to be observed, and start the scan.
+
+Akinori Kuzuya (Kansai University)
+
+## 85. Electron Microscopy**
+
+Most DNA nanostructures are smaller than the resolution of ordinary
+optical microscopes. Electron microscopy is often used to observe their
+detailed structure.
+
+**Introduction**
+
+Optical microscopy usually illuminates visible light to obtain an image.
+In electron microscopy (EM), the sample is irradiated with an electron
+beam. Because the resolution of an image principally depends on the
+wavelength of the electromagnetic wave used, EM, which employs an
+electron beam of a very short wavelength, gives high resolution. For
+example, when the accelerating voltage is 300 KV in TEM, the electron
+beam has a wavelength of 0.00197 nm, much shorter than that of visible
+light used in optical microscopy (400 to 800 nm). Optical microscopes
+employ glass lenses, but glass does not transmit an electron beam.
+Therefore, EM employs a magnetic field (coil) to control the electron
+beam. For this reason, it needs an advanced power source to generate a
+stable electron beam, a mechanism to vacuum the inside of the
+microscope, and thus a larger housing compared to optical microscopes
+(especially in TEM. For SEM, bench top models have been developed). The
+first EM was developed by Ernst Ruska of Germany and others in 1931. The
+first Japanese EM was made by Eiji Sugata (Osaka University) in 1940.
+
+**Transmission Electron Microscope (TEM)**
+
+TEM irradiates its sample with an electron beam, and records transmitted
+electrons on a fluorescent screen, film, or CCD (CMOS) camera. Because a
+thinner sample allows you to observe the site of interest more easily,
+you should slice cell or any other specimen into as thin sections as
+possible.
+
+**Scanning Electron Microscope (SEM)**
+
+Similar to TEM, SEM irradiates the sample with an electron beam, but
+observes reflected electrons and secondary electrons instead of
+transmitted electron beams. During the observation, the electron beam
+does not illuminate the entire sample, but is more focused and scans the
+sample little by little. Because a non-conductive sample may have a
+problem of charge up, gold or other coatings are deposited before
+observation.
+
+**Observation**
+
+In TEM, the sample is placed on a metal mesh called a grid.
+Specifically, the grid holes are covered with a plastic film and
+carbon-reinforced (carbon-coated), on which the sample is mounted. Such
+a ready-made grid is commercially available, and you usually have to
+just place the sample on it.
+
+In SEM, the sample is stuck on a conductive stub for observation. To
+stick it on, use carbon double-sided adhesive tape, copper foil adhesive
+tape, or the like.
+
+**Negative Staining**
+
+Biological molecules are principally made of light elements such as
+hydrogen (H), carbon (C), nitrogen (N), and oxygen (O), and thus
+transmit electrons rather than scatter them. As a result, they do not
+have sufficient contrast; they have to be stained with a large element
+that scatters electrons well, i.e. a heavy metal.
+
+"Negative" staining stains the surrounding background of the sample,
+instead of the sample itself. Specifically, a heavy metal solution is
+added to the sample on a grid and left for a while. Then excess staining
+solution is blotted up. As a result, the heavy metal remains between the
+sample and the support membrane, and in concavities in the sample. The
+heavy metal scatters electrons, forming dark-appearing regions. On the
+other hand, the biological sample, which transmits electrons, appears
+light against the dark surrounding background, like a negative film
+image. It does not need fixation or embedding, allows simple
+observation, and is commonly used to observe DNA nanostructures.
+
+**Cryo-Electron Microscopy**
+
+This technique observes samples at cryogenic temperatures, and is
+composed of TEM and a mechanism to observe the sample at low
+temperatures (-160 to -270°C).
+
+In a typical TEM observation, the sample can have broken structures due
+to the staining (for example, in the above-described negative staining,
+structures are often damaged during the observation of a dehydrated
+sample). In cryo-electron microscopy, samples are flash-frozen,
+resulting in less damage to samples. Specifically, the sample is placed
+on a grid, and flash-frozen in liquid ethane (-180°C) or the like after
+blotting of excess solution. The flash-freezing prevents damage to the
+sample due to ice crystal growth during the freezing process. The frozen
+sample must be kept frozen in liquid nitrogen (-180°C) or liquid helium
+(-270°C) to be mounted in the sample chamber of EM for observation.
+
+In cryo-electron microscopy, to avoid damage to the sample, a weak
+electron beam is employed, and multiple images are acquired to produce
+an average image, providing an image with good SN. A three-dimensional
+image can be reconstructed from these two-dimensional images by more
+than one method.
+
+A single particle analysis technique is described below, which can be
+used for DNA nanostructures. Other techniques include those based on
+helical symmetry, two-dimensional crystal, and so on.
+
+In single particle analysis, this technique was conventionally used for
+structure analysis of ribosomes and the like. It assumes that all
+molecules have the same shape, and performs reconstruction from the
+average image of a large number of molecules. For this reason, it
+assumes that molecules frozen in ice are oriented to various directions,
+and each two-dimensional image includes molecular structures projected
+from various directions. Another single particle analysis approach is to
+group the molecules by morphological similarity, and obtain the average
+image of each group.
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Column: Electron Microscopy of Live Organism</strong></p>
+<p>In electron microscopy, the sample is observed in a vacuum, and gases and moisture evaporate. Thus, using this technique seemed incompatible with a living organism. However, recently, using a nanosuit of surface active agent, active insects have been observed. To observe the surface of an organism, SEM needs high vacuum (10<sup>-5</sup> to 10<sup>-7</sup> Pa). Recently, some organisms have been observed under low vacuum (10 to 10<sup>-2</sup> Pa), but only with poor resolution that is not suitable for practical applications. Some organisms like tardigrada can survive in extreme environments in their unique dehydrated state, but have not been observed in their active state. Prof. Takahiko Hariyama (Hamamatsu University School of Medicine) and colleagues put surface-active agent (tween 20) over an insect (mosquito larva or leaf beetle) and subjected it to plasma treatment, to successfully observe it in a live state for 60 minutes or more. When it was removed after the observation, it grew into an imago, suggesting not much damage. This was probably because the coating of a thickness of about 100nm covered the surface to prevent the evaporation of gases and moisture.</p>
+<p>At present, the nanosuit is only applicable to insects (they are breathing through an organ called a spiracle, and can survive for a while without breathing), but it may become applicable to animals in the future.</p>
+<p>In the original paper, the origin of life is also discussed.</p>
+<p>Takakua Y et al., A thin polymer membrane, nano-suit, enhancing survival across the continuum between air and high vacuum.</p>
+<p>PNAS. 2013;7;110(19):7631-5. doi: 10.1073/pnas.1221341110.</p></td>
+</tr>
+</tbody>
+</table>
+
+Hisashi Tadakuma (Kyoto University)
+
+## 86. Observation of Microparticle**s
+
+This section describes (1) "dynamic light scattering (DLS)" to measure
+the particle size distribution of microparticles based on Brownian
+motion and (2) zeta potential measurement to measure the charge of
+particles based on electrophoresis.
+
+**Overview of Microparticle Observation**
+
+Microparticles are literally small particles invisible to the human eye.
+A micelle made of surface active agent, thread ball-like macromolecule,
+nanorod, DNA origami, cell, or virus can be regarded as microparticles,
+too. These are used in analytical techniques, functional materials, drug
+delivery, and many other applications. When you have synthesized a
+microparticle or want to use it for some purpose, you need to certify
+that it has the desired properties.
+
+The properties that characterize a microparticle include the shape,
+particle size, particle size distribution, surface potential, specific
+surface area, chemical composition, and crystal structure. This section
+outlines DLS, which can measure the particle size distribution of
+microparticles dispersed in a solvent, and zeta potential measurement,
+which can measure the electric charge of particles. Other techniques to
+obtain information on microparticles include small angle X-ray
+scattering, static light scattering, and different types of microscopy
+(see other sections and the literature).
+
+**Dynamic Light Scattering**
+
+Information provided: DLS can determine the particle size distribution
+of microparticles of several nm to several 10 µm dispersed in a solvent.
+Advantageously, DLS can obtain statistical information easily in a short
+time, observe reaction processes and living cells *in situ*, and provide
+nm-scale resolution. In contrast, microscopy can observe individual
+particles but takes a considerable time to obtain statistical
+information. Optical microscopy has inadequate resolution, electron
+microscopy does not allow in-solution observation, and atomic force
+microscopy can only observe things mounted on the substrate.
+
+Principles: DLS analyzes the Brownian motion of particles to provide
+information on the size of the particles. The velocity of the Brownian
+motion of a particle depends on the absolute temperature *T*, the
+particle diameter d, and the viscosity of the solvent *η*. According to
+the Stokes-Einstein theory, in the case of a spherical particle of a
+diameter of *2r*, the diffusion coefficient *D*, which represents the
+Brownian motion, is as follows.
+
+![](media/image26.png)
+
+*k* is the Boltzmann constant. Therefore, if you observe Brownian motion
+and calculate the diffusion coefficient *D*, you can calculate the
+diameter of the particle *2r* from the equation (1). Although this
+equation is for spherical particles, it can be used to analyze
+irregularly-shaped particles, to determine *r*. *r* obtained in this way
+is called a hydrodynamic radius.
+
+DLS analyzes Brownian motion, but does not observe the motion of
+individual particles. When a laser beam hits a particle, the beam is
+scattered by the particle. The scattered light intensity *I*(*t*)
+fluctuates as a function of time t by the Brownian motion, providing
+statistical information on the entire particles at a time t by measuring
+the fluctuation. Smaller particles have faster Brownian motion, and thus
+faster fluctuation of *I(t)*. According to the following equation,
+
+![](media/image27.png)
+
+*I*(*t*) is converted to an autocorrelation function G<sub>2</sub>(τ).
+"\< \>" represents an average. G2(τ) indicates how much the position of
+a particle after the time τ is statistically close to (correlates with)
+the initial position. The value of G<sub>2</sub>(τ) decreases toward 0
+over time τ. In the case of monodispersed spherical particles,
+G<sub>2</sub>(τ) = exp(-γτ), which forms a straight line on a semilog
+graph. The slope γ of the straight line and the diffusion coefficient D
+have the following relation.
+
+![](media/image28.png)
+
+λ<sub>0</sub> is the wavelength of the laser beam, *n*<sub>0</sub> is
+the refractive index of the solvent, θ is the scattering angle. You can
+use this equation to calculate D from γ. Finally, you can calculate the
+particle size 2r from the equation (1).
+
+When there is a distribution of particle size, G<sub>2</sub>(τ) will be
+the sum of G<sub>2</sub>(τ) for different particle sizes. However, by
+using an analysis such as cumulant analysis or histogram analysis, you
+can obtain the data as a particle size distribution.
+
+Measurement: Microparticles are dispersed at a concentration of several
+wt% or less in a solvent, and several mL of the colloidal dispersion is
+used as a sample. If the concentration is too high, a so-called multiple
+scattering phenomenon occurs. You should use a dilution, but too low a
+concentration will result in too low a signal intensity.
+
+This sample is put in a glass cell and mounted in the instrument. To get
+an appropriate scattered light intensity, adjust the pinhole size,
+optical filter, scattering angle (usually 90°), and the like. Also set
+parameters appropriate for the measurement of the sample, such as photon
+pulse interval, run time, number of runs, and temperature. Because the
+equations (1) and (3) are used for the analysis, you have to know the
+viscosity η and refractive index *n*<sub>0</sub> of the solvent at the
+temperature during measurement, and set them as analysis parameters in
+advance. In a commercial instrument, you just input parameters and push
+the run start button, and it will automatically perform the measurement
+and analysis, to output a histogram of particle size distribution and so
+on.
+
+**Zeta Potential Measurement**
+
+Information provided: Typical microparticles in a solvent are more or
+less in an electrically charged state. Each particle is surrounded by
+ions of the opposite charge, forming a cloud of ions that is called an
+electric double layer. The charged state is affected by pH and so on,
+and in turn affects the dispersibility and function of the
+microparticles considerably, which is why it’s importance to conduct
+quantitative evaluation. However, the surface potential of
+microparticles cannot be directly measured; instead, the zeta potential
+ζ is measured. You may think that zeta potential has substantially the
+same meaning as surface potential. Please refer to textbooks on colloid
+science and so on for more detailed description.
+
+Principles: Zeta potential measurement is based on the electrophoresis
+phenomenon of charged particles. In electrophoresis, when a charged
+particle is placed in the electric field E \[V m<sup>-1</sup>\], the
+particle migrates at a constant velocity V \[m s<sup>-1</sup>\] under
+the influence of electrostatic force and friction. Here, from the
+electric field E and the migration velocity V, the electrophoretic
+migration u \[m<sup>2</sup> s<sup>-1</sup> V<sup>-1</sup>\] =V/E. Thus,
+u and ζ have the following relation.
+
+![](media/image29.png)
+
+ε<sub>0</sub> is the permittivity of vacuum, ε<sub>r</sub> is the
+relative permittivity of the solvent, and η is the viscosity of the
+solvent. This equation (5) is called the Smoluchowski equation.
+Corrected versions of this equation, the Henry equation and the Huckel
+equation, are also well known. From these equations and the results of
+electrophoretic migration u, you can calculate the ζ potential.
+
+Electrophoresis-based zeta potential measurements include a technique to
+directly observe electrophoresis under a microscope, and laser doppler
+electrophoresis. In the latter, when migrating particles scatter a laser
+beam the wavelength of the scattered light slightly changes due to a
+doppler effect depending on its migration velocity. See the literature
+for details.
+
+Procedure for measurement: Laser doppler electrophoresis is almost fully
+automated. You just have to inject a sample into the sample cell, set
+parameters, and run the measurement. Usually, too concentrated a sample
+cannot be measured, but some recent instruments are compatible with
+concentrated samples. Measurements are possible for aqueous and organic
+solvent systems.
+
+_—Nobuyoshi Miyamoto and Miki Nakayama (Fukuoka Institute of Technology)_
+
+## 87. Flow Cytometer/Cell Sorter
+
+This is a technology developed to count cells. It measures optical
+properties (forward scatter, side scatter, and intensity of specific
+fluorescence) of individual cells and gives the distribution that can be
+used to analyze the nature of the cell population (flow cytometer).
+Then, it sorts living cells based on the data (cell sorter).
+
+**Introduction**
+
+The molecular ship of Shawn D. demonstrates cell-selectivity in flow
+cytometry \[1\]. BIOMOD is a biomolecule design competition. In most
+cases, the target of your biomolecule product will be a cultured cell or
+artificial cell model (liposome; see sections 52 and 89). Once your
+beloved molecule has been designed and assembled successfully, you need
+to test it on its target. The designed biomolecule can be up to several
+hundred nm, and can be analyzed using electrophoresis, AFM, and/or
+electron microscopy. If the target is a cell or liposome of several to
+several 10 µm it can be observed under an optical/fluorescence
+microscope. Microscopic images can describe individual cells in detail
+and qualitatively. However, you may sometimes want to quantitatively
+evaluate their properties as a large population. In that case, you will
+have to photograph a large number of samples, subject them to image
+processing (see section 58), and assess the reliability of the mean
+values and distribution. This is especially problematic when there is
+high variability among cells. Microscopic imaging of 200 cells and their
+analyses may take half a day.
+
+![](media/image30.png)
+
+A flow cytometer/cell sorter can collect the largest quantity of
+information possible on individual cells, and sort them alive based on
+that information \[2\]. It can analyze as many as
+10<sup>4</sup>-10<sup>5</sup> cells in a short time (several minutes to
+1 hour).
+
+**Configuration**
+
+The figure above shows how a cell sorter works. Dispersed cells can be
+regarded as colloidal particles with a diameter of ten and several µm.
+The colloidal particles disperse through the flow channel. When the
+channel is irradiated with a laser, we can see a characteristic
+scattering pattern based on the size and density. These data can be used
+to calculate the size/density distribution of the cells. Based on that
+information, the flow cytometer can calculate the intensity and the type
+of the fluorescence of individual particles and plot them. Some models
+calculate the size distribution based on the electrical conductivity
+across a pore \[3\]. The cell sorter sorts the cells based on the
+information provided by the flow cytometer.
+
+**Actual Data**
+
+Below are the results of a sample measurement.
+
+![](media/image31.png)
+
+In a), the forward scatter (FS; horizontal axis) is a measure of cell
+size, and the side scatter (SS; vertical axis) is a measure of cell
+density (complexity of internal structures). In this distribution, we
+know that living cells appear at moderate size and moderate density
+(dead and ruptured cells are not present this range). For the particles
+included in this range, the machine counts intensity of different types
+of fluorescence of each particle. In b), the horizontal axis represents
+fluorescence intensity, and the vertical axis represents frequency. Note
+that the horizontal axis is in log (it also can be linear). If your
+instrument has a plurality of excitation-detection lines for
+fluorescence, you can set an intensity range for a fluorescence signal,
+and screen the result further with another fluorescence signal. For
+example, you can isolate cells with a normal nucleus, normal
+mitochondria, and a localized GFP expression and culture them for the
+sake of quality control. Cell-sized liposomes (see sections 52 and 89)
+also can be analyzed by flow cytometer.
+
+**Considerations**
+
+Flow cytometery is a powerful tool. However, do not omit control samples
+such as unstained cells, and "single staining" in the case of multiple
+staining analysis (see section 69). In the figure above, we can assumed
+that a negative control sample is located to the left of the dotted line
+of a fluorescence intensity of 10<sup>1</sup>: i.e., causing
+autofluorescence (the natural fluorescence of a cell itself). Only those
+points located to the right of the dotted line are regarded as the
+distribution of fluorescence-positive cells. By changing the detection
+sensitivity, you can move the distribution to the left or right. The
+control sample is also important in adjusting the sensitivity.
+Conditions of cells, the number of cells and the viability must be
+counted and matched for each run.
+
+**Closing Remarks**
+
+Although a flow cytometer is expensive, it is an important basic
+evaluation tool incell biology. You may find one you can use at your
+university. Unless they are genetically engineered, handling of cultured
+cells is relatively easy, and you can readily find appropriate manuals.
+You don't need to stick to cell-based ideas, but if you do there are a
+lot of powerful technologies for quantitative evaluation. It's not a bad
+thing to have as many options as possible to evaluate the result of your
+effort.
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Column: Imaging Cytometer</strong></p>
+<p>Counting is good, but seeing is good too. Although flow cytometry can quickly and quantitatively analyze the properties of a large number of cells, which is not possible with most microscopes, it has poor spatial resolution compared to microscopy (some evaluation of intracellular structures is possible by employing a plurality of fluorescent dyes that interact with targets). If you only use flow cytometry, your experiment is open to the criticism that you didn't really see it. Imaging cytometers combine the advantages of microscopy and flow cytometry. They can obtain microscopic images automatically with a wide range of information, including the intensity of fluorescent molecules, spatial localization and shape, and so on (also called high contents analysis).</p>
+<p>In other words, an imaging cytometer is a programmable robotic microscope, which is compatible with a well plate, is able to observe the time course of live cells in the absence of scratching, and allows optical sectioning by confocal laser. Some models even have an option to add a reagent at a predetermined timing. Of course, this is very expensive, but many less expensive models are now available.</p></td>
+</tr>
+</tbody>
+</table>
+
+_—Shinichiro M. Nomura (Tohoku University)_
+
+## 88. Surface Plasmon Resonance
+
+In molecular design, a single run of an experiment can yield a large
+amount of product molecules. It is important to examine whether the
+product has the expected function, i.e. interaction. Surface Plasmon
+Resonance (SPR) easily and quantitatively measures the interaction
+between molecules in a large amount, based on changes in photophysical
+properties due to the adsorption of molecules. You should measure every
+physical quantity you can.
+
+**Why Surface Plasmon Resonance?**
+
+The DNA spider was an early molecular robot that had three legs made of
+DNA to walk on a DNA origami scaffold. An early paper had used various
+DNA lengths and sequences to analyze the interaction of legs and a
+scaffold \[1\], and then chose the sequences that worked best to design
+the DNA spider \[2\]. SPR analyzed the interactions between these DNA
+structures. SPR can determine the amount of a substance of interest
+adsorbed onto/desorbed from another substance, its time course,
+association constant, and dissociation constant.
+
+**What is a Surface Plasmon?**
+
+A plasmon is a quantum of plasma oscillation, and a surface plasmon is a
+kind of electron mode localized on a metal surface. Primarily, when a
+light incident on a gold-coated glass surface undergoes total
+reflection, a surface plasmon is generated, and a component at a certain
+angle in the reflected light has a minimum due to resonance with surface
+conditions around the film. SPR measures the angle of this "valley of
+light". An important point is that this angle changes in response to the
+amount of the substance adsorbed on the surface sensitively and in real
+time \[3\].
+
+**Exemplary System**
+
+A popular commercial system is the BIACORE series from GE Healthcare. In
+a BIACORE system adsorbent molecules (orange arcs in the figure) are
+immobilized on the surface of a gold-coated sensor chip (disposable) in
+advance. Substrate molecules (yellow triangles in the figure) flow over
+the surface of the sensor chip, which is a microfluidic device, and are
+adsorbed by the adsorbents. A polarized light incident on the opposite
+face of the sensor chip undergoes total reflection through a prism, and
+is then detected. A component at a certain angle in the reflected light
+shows the maximum absorption due to surface plasmon resonance. The
+surface mass change due to the adsorption of the substrate alters the
+refractive index, resulting in an increase in the resonance signal.
+Desorption of the substrate results in a decrease in the signal. For
+analyzing the interaction of DNA spider, the substrate is the "leg"
+molecule and the adsorbent is the "scaffold" molecule.
+
+![](media/image32.png)
+
+**Features**
+
+Fluorescence, radioisotope, or any other label is not necessary.
+
+Binding can be quantified.
+
+Association rate and dissociation rate can be determined.
+
+A large number of molecules can be analyzed at a time.
+
+Thanks to the microchannel, measurement is done in a relatively short
+time, and only a small amount of sample is consumed.
+
+**Exemplary Data**
+
+With a BIACORE system, you will obtain a time-course graph as shown
+below. The vertical axis can be labeled as change in (surface) mass.
+From the slope of the curve, you can calculate the bound mass,
+association rate, and dissociation rate. Because the sensor chip can be
+washed and reused, you can easily increase the number of samples to
+improve the reliability.
+
+![](media/image33.png)
+
+**Considerations**
+
+The results are obtained as relative value (Relative Unit: RU) against a
+reference value: i.e., you need a control sample (of course this is not
+limited to SPR). Remember to keep it filled with the buffer even when it
+is not in use. Once it gets dry, salts and molecules will be deposited
+in the flow channel, which are hard to wash off and may cause noise.
+
+**Others**
+
+This system is expensive, about 5 million yen (as of February 2016), but
+you may find oneat shared facilities, as well as at biological,
+chemical/macromolecular, and pharmaceutical laboratories. In the field
+of DNA molecule design, valuable, dilute substances are often used. SPR
+can be the first choice to evaluate their molecular recognition
+mechanisms. Try to find a nearby laboratory that will offer you an SPR
+system.
+
+\*A similar adsorption measurement technology is QCM (Quartz Crystal
+Microbalance) crystal oscillator. QCM works on the ability of a
+substance adsorbed on the electrode surface of the crystal oscillator to
+alter the resonance frequency depending on its mass.
+
+_—Shinichiro M. Nomura (Tohoku University)_
+
+## 89. Liposome Preparation
+
+A liposome is a spherical vesicle made of a highly flexible bilayer
+membrane similar to the cell membrane, formed from phospholipid
+molecules (a cell membrane component) dispersed in aqueous solution. The
+size ranges from 10 nm to 100 µm, and various functionalities (DNA, RNA,
+and protein) can be added to the inside and to the membrane surface of a
+liposome.
+
+**Liposome**
+
+Phospholipid, a major component of the cell membrane, is an amphiphilic
+molecule that has both hydrophilic and hydrophobic groups, and undergoes
+self-assembly to form a lipid bilayer (liposome) in a solution (Fig. 1).
+You can prepare liposomes as small as about 10 nm and as large as about
+100 µm. Liposomes of 10 nm to 1 µm in size are called small unilamellar
+vesicles (SUV) and large unilamellar vesicles (LUV), whereas those of at
+least 1 µm are called giant unilamellar vesicles (GUV). The vesicle size
+and substance incorporation efficiency of an SUV/LUV can be investigated
+by light scattering, fluorescence spectrometry, and other techniques.
+Therefore, this system has been used in medical/industrial fields such
+as drug delivery and cosmetics. GUV, because of its
+size/structure/composition, is used as a model of the actual cell
+membrane. Its size allows the morphological dynamics of the membrane of
+a single vesicle to be directly observed under a microscope. Recently
+GUV techniques have been applied to artificial cells and molecular
+robots by enclosing a biochemical reaction system in the liposome and
+loading functional molecules onto the surface of the liposome membrane.
+
+![](media/image34.png)
+
+**Fig. 1.** Schematic of liposome.
+
+**Preparation of SUV/LUV**
+
+An SUV/LUV of a uniform size can be obtained by the extrusion method. A
+phospholipid film is placed in an aqueous solution and sonicated. Then,
+an extruder (Avanti Polar Lipids) is used to extrude it through a filter
+appropriate for the desired size. The size of the prepared liposomes can
+be examined by light scattering.
+
+**Preparation of GUV**
+
+It is difficult to obtain a GUV of more than 10 µm in diameter simply by
+mixing phospholipids. The gentle hydration method \[1\] is widely used
+to efficiently produce GUV (Fig. 2). In this method, a small number of
+lipid bilayer films are stacked on a glass substrate. Then, an aqueous
+solution is added to hydrate/swell them in the presence or absence of an
+AC electric field \[2\]. Although this technique has the advantage of
+simplicity, it has several disadvantages: i.e., it sometimes results in
+multilamellar GUV, shows a very low yield when the hydration is done in
+a physiological aqueous solution, and is not effective in enclosing a
+substance in GUV.
+
+Recently, researchers have turned to the inverted emulsion method \[3\].
+Phospholipids are dissolved in an oily phase, and an aqueous solution is
+dispersed in it to obtain water-in-oil droplets covered by the
+phospholipids. These are pushed into an aqueous phase by centrifugal
+force \[3\], to produce GUV (Fig. 3). This allows GUV to be prepared
+even in a physiological aqueous solution, provides much more efficient
+enclosure of solution in GUV, and has achieved protein synthesis inside
+GUV \[4\].
+
+![](media/image35.png)
+
+**Fig. 2.** GUV preparation by gentle hydration.
+
+![](media/image36.png)
+
+**Fig. 3.** GUV preparation by inverted emulsion.
+
+**Preparation of GUV Using Microfluidic Device**
+
+You can use either of two methods to prepare a GUV. One is pulsed
+jetting \[5,6\] (Fig. 4). First, two water-in-oil droplets are put
+together to form a planar lipid bilayer membrane. By blowing a jet
+through a glass capillary nozzle or the like, a GUV will form in the
+same manner as soap bubbles. Advantageously, you can control the size by
+adjusting the jet, and you can efficiently introduce any liquid into the
+liposome through the nozzle.
+
+![](media/image37.png)
+
+**Fig. 4.** GUV preparation by pulsed jetting.
+
+Another technique is droplet-shooting and size-filtration (DSSF), which
+is based on a centrifugal microfluidic device developed by the author's
+group \[7\] (Fig. 5). When placed under high gravity in a benchtop
+centrifuge, the device ejects a microdroplet from a glass capillary
+containing a liquid (droplet-shooting). The ejected droplet splits into
+two water droplets of different sizes. Only the smaller one can readily
+pass the interface of a lipid monolayer membrane (this effect is called
+size-filtration), to produce a GUV. This technique can yield about 200
+to 1000 GUVs with a diameter of 10-20 µm from a loaded solution of 1 µL
+(loaded in glass capillary). This technique does not require any
+micromachining technique and is compatible with a very small amount of
+your valuable experimental sample.
+
+![](media/image38.png)
+
+**Fig. 5.** GUV preparation by DSSF.
+
+Masamune Morita (TITECH), Masahiro Takinoue (TITECH), and Shinichiro M.
+Nomura (Tohoku University)
+
+## 90. Micro/Nanobeads Technology
+
+Micro/nanobeads are an indispensable tool for building systems at the
+microscale. A variety of beads are available, including beads with a
+molecularly modified surface, magnetic beads, and fluorescent beads.
+Utilization of these beads will allow you to construct more and more
+novel systems.
+
+**Definition of Micro/Nanobeads**
+
+By definition, micro/nanobeads are small particles of a diameter of
+several micro/nanometers. Recent technological progress led to the
+development of microbeads with various functions, which are widely used
+in the field of biology, medicine, and engineering. This section
+introduces possible applications of various beads and particles in
+BIOMOD.
+
+**Molecule-Modified Beads**
+
+The surface of a polystyrene-based bead is often chemically modified
+with a functional group such as a carboxyl group or an amino group. The
+surface of the modified bead can be further modified with a desired
+molecule through covalent bond. For example, you can combine DNA
+terminally modified with an amino group and a bead modified with a
+carboxyl group on its surface, to form an amide bond between the DNA
+terminal and the bead surface. As a result, you can grow the DNA on the
+bead.
+
+![](media/image39.png)
+
+**Magnetic Beads**
+
+Magnetic beads are especially useful for isolating a molecule such as a
+protein from a solution. In the case of a biotin-labeled protein,
+avidin-modified magnetic beads are added to the protein solution.
+Through the very strong avidin-biotin interaction, the biotin-labeled
+protein specifically binds to the surface of the magnetic beads. Then
+you can isolate the protein attached to the magnetic beads using a
+magnet or something similar. Because magnetic beads move in response to
+an external magnetic field, you can manipulate them in various ways,
+e.g. to align them like a pearl chain.
+
+![](media/image40.png)
+
+**Fluorescent Beads**
+
+Fluorescence beads, which each carry a fluorescent dye and emit light in
+response to excitation light, are also used in various applications.
+Advantageously, fluorescent dyes are less subject to degradation and
+bleaching than those in a free state, because they is contained in
+beads. Indeed, in BIOMOD 2014, a team modified DNA with fluorescence
+beads to obtain bright and stable fluorescence for observation.
+
+**Other Beads and Particles**
+
+Gel particles are easy to produce. Gel is a material that contains water
+in a three-dimensional network structure of macromolecules. It can be
+prepared in laboratory to enclose a variety of substances in a gel
+particle. For example, you can prepare cell-containing gel particles by
+forming gel particles from a mixture of macromolecule solution and
+cells.
+
+Gold, platinum, and other metal nanoparticles can also be useful tools
+in various applications. When exposed to light with a wavelength of 700
+to 800 nm, gold emits heat. Thus, gold nanoparticles can serve as a
+localized heat source that responds to light. Platinum is known to
+decompose aqueous hydrogen peroxide solution to generate oxygen. By
+installing a platinum nanoparticle in an appropriate place, it can serve
+as an ultra-small engine that jets oxygen bubbles to drive.
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Column: Biomolecular Rocket</strong></p>
+<p>The biomolecular rocket designed by the TITECH team 2012 takes advantage of nano/microbeads described in this section. The biomolecular rocket is an ultra-small rocket driven by platinum particle engines in an aqueous hydrogen peroxide solution. Moreover, the moving rocket can change the direction it is moving in response to UV light. A biomolecular rocket is made of two kinds of microbeads: a polystyrene bead (10 µm) for the body, and platinum particles (1 µm) for the engines. Each engine is linked to the body through hybridization of DNA. The rocket employs two kinds of double strand DNA linkers, one of which is azobenzene-based photoreactive DNA.</p>
+<p>The double strand of this photoreactive DNA dissociates in response to UV light, releasing some of the engines, and changing the direction of motion. The TITECH team won five prizes, including its third top prize, for this idea.</p>
+<p><img src="media/image41.png" style="width:1.62907in;height:2.55486in" /></p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Column: Preparation of Microgel Beads</strong></p>
+<p>As already described in this section, gel particles can be prepared more easily than polystyrene beads or metal particles. This column introduces a device that can produce a large amount of microgel particles in only a few minutes. All parts and materials are commercially available, including an aqueous sodium alginate solution, a microtube, and a capillary. The aqueous sodium alginate solution can react with calcium ions to form a calcium alginate gel. First, the aqueous sodium alginate solution is injected into the capillary, which is then set in the microtube containing an aqueous CaCl<sub>2</sub> solution. This microtube is subjected to benchtop centrifugation to form a droplet of a micrometer size on the tip of the capillary by the action of the centrifugal force. The droplet leaves the capillary to form a gel in the aqueous CaCl<sub>2</sub> solution. During a few minutes of centrifugation, this process is repeated again and again to produce a large amount of gel particles. This device has been used successfully to produce microgel particles that contain a magnetic particle or cell.</p>
+<p><img src="media/image42.png" style="width:3.78994in;height:2.28333in" /></p></td>
+</tr>
+</tbody>
+</table>
+
+_—Masayuki Hayakawa, Masamune Morita, and Masahiro Takinoue (TITECH)_
+
+## 91. Analytical Methods: MS, NMR, and CD
+
+This section introduces magnetic resonance spectrum, mass spectrometry,
+and CD spectrum. These techniques are generally used to confirm the
+synthesis of a novel compound and check for impurities, and to observe
+changes in higher structure of DNA or proteins due to denaturing.
+
+**Mass Spectrometry (MS)**
+
+Principles: In mass spectrometry, molecules are ionized, and
+separated/detected based on the ratio of the mass m to the electric
+charge z (mass/charge ratio m/z), to deduce the molecular weight and
+molecular structure. A mass spectrometer (Fig. 1) is composed of (1) an
+ion source to ionize the sample and accelerate the generated ions into a
+mass analyzer, (2) a mass analyzer to separate the ions based on the
+mass/charge ratio, and (3) an ion detector to detect the separated ions.
+There are several ways to achieve ionization and separation; you should
+select a method depending on the substance of interest.
+
+When an ionized molecule moves in an electric/magnetic field, the
+direction of movement is changed by a force proportional to the charge
+of the ion (centripetal force) (Fig. 2, left). After the direction of
+motion has been changed, the ion receives a centrifugal force
+proportional to the mass of the ion (Fig. 2, right). Through this
+mechanism, different ions can arrive at distinct positions on the
+detector and thus can be separated/detected, based on the mass/charge
+ratio.
+
+![](media/image43.png)
+
+**Fig. 1.** Configuration of mass spectrometer.
+
+![](media/image44.png)
+
+**Fig. 2.** Movement of ion under different forces.
+
+Information provided: Mass spectrometry provides mass spectrum data,
+which show the mass/charge ratio (m/z; horizontal axis) and the relative
+abundance of ions (vertical axis). When a molecule M is analyzed, you
+will see peaks of positive ion M<sup>+</sup>, negative ion
+M<sup>-</sup>, protonated ion (M+H)<sup>+</sup>, and fragment ions
+produced by cleavage of the original molecule, depending on the
+ionization method. Isotopic ion peaks will also appear around these
+peaks. By considering the entire information altogether, you can deduce
+the molecular weight and molecular structure of the sample. For details,
+see references \[1-3\].
+
+**NMR (Nuclear Magnetic Resonance)**
+
+Principles: <sup>1</sup>H, <sup>13</sup>C, or any other atom with a
+nuclear spin *I* has a magnetic moment *µ* that is proportional to *I*.
+When such an atom is placed in an external magnetic field
+*H*<sub>0</sub>, the energy level of the atomic nucleus splits up
+(Zeeman splitting), and resonance absorption occurs: i.e., the atom
+absorbs an electromagnetic wave (radio wave) of an energy that
+corresponds to a difference between the energy levels (Zeeman levels).
+Because the magnetic field is shielded by electrons around each atomic
+nucleus, a difference in environment (e.g., the nature of surrounding
+atoms) between atomic nuclei in the molecule results in a difference in
+resonance magnetic field. NMR analysis makes use of this phenomenon to
+analyze the structure of a compound.
+
+The difference in resonance magnetic field that results from the
+above-described principle is so small that it is expressed as a chemical
+shift *δ* in the unit of ppm (parts per million). With the resonance
+magnetic field of tetramethylsilane (TMS) or any other standard
+substance and that of the atomic nucleus X of interest being
+*H*<sub>TMS</sub> and *H*<sub>X</sub>, respectively, the chemical shift
+is calculated at *δ* = (*H*<sub>X</sub> -
+*H*<sub>TMS</sub>)/*H*<sub>TMS</sub> x 10<sup>6</sup>. A larger *δ*
+means a weaker shielding effect.
+
+An NMR system is composed of a radio wave generator, a superconducting
+magnet to generate a strong magnetic field, and a detector to detect
+resonance absorption. Because Zeeman splitting is proportional to the
+magnetic field strength, a stronger magnetic field of the
+superconducting magnet results in higher performance of the instrument.
+You need to circulate a cooling medium all the time, e.g. liquid helium,
+in order to run the superconducting magnet stably, which is expensive.
+Keep all cash cards or cards with a magnetic strip away from the NMR, or
+the information will be lost under the strong magnetic field.
+
+Information provided: an NMR spectrum provides a graph of the chemical
+shift *δ* against absorption intensity, from which you can deduce the
+structure of an organic molecule based on the chemical shift, spin-spin
+coupling, integrated intensity, and so on of the peaks obtained.
+
+<sup>1</sup>H-NMR data for ethanol is shown in Fig. 3. The atomic
+nucleus of H in the -OH group is less shielded than -CH<sub>3</sub> and
+-CH<sub>2</sub>-, and thus shows a peak at a position of a greater *δ*.
+In this way, the value of the chemical shift can provide information on
+functional groups etc. On the other hand, the peak of -CH<sub>3</sub> or
+-CH<sub>2</sub>- is split into several subpeaks, caused by a spin-spin
+coupling event between adjacent atomic nuclei. This splitting occurs
+according to defined rules, providing information such as the number of
+protons attached to neighboring carbon atoms. The integrated intensity
+of a peak is proportional to the number of protons. Based on such
+information, the structure is deduced.
+
+![](media/image45.png)
+
+**Fig. 3.** Exemplary 1H-NMR of ethanol.
+
+Detailed information on NMR spectrum interpretation can be found in
+textbooks on organic chemistry \[2\]. Software programs such as ChemDraw
+can also help you to easily predict the theoretical NMR spectrum for a
+given molecular structure.
+
+Other applications include dynamics analysis based on the relaxation
+time in NMR, analysis of <sup>29</sup>Si, <sup>31</sup>P, and other
+nuclear species, solid sample analysis, and two-dimensional NMR. For
+details, see textbooks \[2, 3\].
+
+**CD Spectrum**
+
+Principles: Light is a wave that oscillates in a plane perpendicular to
+the direction of its propagation. Our eyes can recognize the wavelength
+and amplitude of a light as its color and intensity. On the other hand,
+each light oscillates in a distinctive direction in the plane of
+oscillation. Linearly polarized light oscillates in a linear geometry,
+whereas circularly polarized light and elliptically polarized light
+oscillate in a circular geometry. A circularly polarized light or
+elliptically polarized light is classified as right-handed circularly
+polarized light or left-handed circularly polarized light, depending on
+the direction of the rotation.
+
+Our eyes cannot see the polarization state of a light. However, the
+absorption coefficient of an optically active substance, such as an
+organic molecule with a chiral carbon and a helix-structured DNA double
+strand, differs between right-handed circularly polarized light and
+left-handed circularly polarized light. A CD spectrum (circular
+dichroism spectrum) is a way to measure the difference in absorbance
+between right-handed circularly polarized light and left-handed
+circularly polarized light.
+
+Information provided: With a CD spectrum, you can generate information
+on the D/L ratio of chiral molecules, higher structures of biological
+macromolecules, and so on, by measuring the difference in absorbance
+between right-handed circularly polarized light and left-handed
+circularly polarized light. CD spectra are also useful in detecting
+changes in higher structure of DNA or proteins due to denaturing, which
+can cause remarkable changes in CD spectra.
+
+_—Nobuyoshi Miyamoto and Miki Nakayama (Fukuoka Institute of Technology)_
+
+![](media/image46.png)
+
+BIOMOD 2013 domestic trial
