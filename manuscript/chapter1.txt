@@ -10,6 +10,13 @@ The BIOMOD Handbook is an English-language translation of the following book:
 
 The authors retain the copyright to the original book, and the CBI society holds the rights to copy/distribute/edit/republish Japanese version.
 
+## Support
+
+Translation and editing costs were paid by the BIOMOD Foundation with support from many [sponsors](http://biomod.net/sponsors/).
+
+S.M.D. was supported by a Burroughs Wellcome Fund Career Award at the Scientific Interface, the Pew-Stewart Scholars Program for Cancer Research, the Del E. Webb Foundation, and National Science Foundation (CCF-1317694, CCF-1453847, SI2-1740282), Army Research Office (W911NF-14-1-0507), Office of Naval Research (GRANT12390474), and the UCSF Program for Breakthrough  Biomedical Research.
+
+
 {pagebreak}
 
 # Chapter 1 Let's go to BIOMOD
