@@ -84,10 +84,12 @@ In our daily life, some phenomena can occur spontaneously and others not. For ex
 
 Imagine a heat engine that receives heat *Q~i~* from ![](images/ch4/ch4fig08.png)*n* heat sources to perform work *w* in a cyclic process, then returns to the original state. With the temperature of each heat source being *T ~i~*,
 
+{width:50}
 ![](images/ch4/ch4fig09.png)
 
 holds\*. This is a mathematical representation of the second law of thermodynamics, called the inequality of Clausius. When *n* → ∞,
 
+{width:50}
 ![](images/ch4/ch4fig10.png)
 
 holds for any heat engine that continuously changes its state. In the inequalities (7) and (8), the left and right hand sides are equal when the cycle is a reversible process.
@@ -96,22 +98,27 @@ holds for any heat engine that continuously changes its state. In the inequaliti
 
 Entropy *S* is defined as follows.
 
+{width:50}
 ![](images/ch4/ch4fig11.png)
 
 The left-hand side represents a reversible change from state A to a state B. In a cycle in which the system is changed from state A to B through an irreversible process, and then returned to A through a reversible process,
 
+{width:50}
 ![](images/ch4/ch4fig12.png)
 
 based on the inequality (8). Therefore,
 
+{width:50}
 ![](images/ch4/ch4fig13.png)
 
 based on the equation (9). Thus, for any change of state in general,
 
+{width:50}
 ![](images/ch4/ch4fig14.png)
 
 holds. For an infinitesimal change, it can be written as: d*S* ≥ d*Q*/*T*. In an adiabatic process,
 
+{width:50}
 ![](images/ch4/ch4fig15.png)
 
 because d′*Q* = 0. This is called the law of entropy increase, meaning that any spontaneous change in an isolated system does not cause a decrease in the entropy.
@@ -120,6 +127,7 @@ because d′*Q* = 0. This is called the law of entropy increase, meaning that an
 
 In statistical mechanics, entropy can be expressed as follows (Boltzmann's Principle).
 
+{width:50}
 ![](images/ch4/ch4fig16.png)
 
 *W* is the number of possible microscopic states of the system in a given macroscopic state. For example, for a given volume, the position of molecules in the system cannot be determined unequivocally. When a space of a volume *V* is divided into infinitesimal spaces of a volume δ*V* and n molecules are placed therein, the number of possible states is: *W* = (*V*⁄𝛿*V*)^n^. Therefore, most simply, an increase in the number of molecules and/or the volume results in an increase in the entropy.
@@ -150,32 +158,39 @@ from the above-mentioned inequality. In other words, in a system at constant pre
 
 A reversible change in a closed system where the work is only pressure-volume work is discussed below. An infinitesimal change in three state variables (internal energy *U*, enthalpy *H*, and Gibbs energy *G*) can be rewritten as follows,
 
+{width:50}
 ![](images/ch4/ch4fig19.png)
 
 wherein each depends on infinitesimal changes in two other state variables. Then, when *G* is regarded as a function of temperature and pressure and totally differentiated, it can be expressed as follows.
 
+{width:50}
 ![](images/ch4/ch4fig20.png)
 
 The subscripts in the derivative terms indicate the partial differentiation of *G* by *T* and *p*, with *p* and *T* being constant, respectively. By comparing the equations (5) and (6),
 
+{width:50}
 ![](images/ch4/ch4fig21.png)
 
 Because *S* and *V* always have positive values, Gibbs energy is decreased by an increase in temperature and increased by an increase in pressure.
 
 When the pressure is changed from *p*~1~ to *p*~2~ at a constant temperature (d*T* = 0), the change in *G* is as follows based on the equation (5).
 
+{width:50}
 ![](images/ch4/ch4fig22.png)
 
 In the case of ideal gas, wherein *pV* = *nRT* (the combined gas law),
 
+{width:50}
 ![](images/ch4/ch4fig23.png)
 
 Based on the Gibbs energy *G*^0^ for the state of a pure form (standard conditions) under the standard pressure (*p*^0^ = 1 bar), the Gibbs energy under pressure *p* can be expressed as follows.
 
+{width:50}
 ![](images/ch4/ch4fig24.png)
 
 Alternatively, it can be written as follows by choosing a system of measurement in which *p*^0^ = 1.
 
+{width:50}
 ![](images/ch4/ch4fig25.png)
 
 ### Chemical Equilibrium
@@ -184,70 +199,85 @@ In a reversible reaction, when the rate of the forward reaction and the rate of 
 
 Look at the reversible reaction below.
 
+{width:50}
 ![](images/ch4/ch4fig26.png)
 
 The upper-case letters A, B, Y, and Z represent molecular species. Each *v~i~* is a stoichiometric coefficient for the corresponding species (the relative molar amount used in the reaction). When dn~A~ mol of A and dn~B~ mol of B have reacted in the forward reaction to produce dn~Y~ mol of Y and dn~Z~ mol of Z,
 
+{width:50}
 ![](images/ch4/ch4fig27.png)
 
 Therefore,
 
+{width:50}
 ![](images/ch4/ch4fig28.png)
 
 𝜉 is the advancement (see section 39).
 
 At a constant temperature and pressure, the total differentiation of the Gibbs energy in this chemical reaction system is expressed as follows.
 
+{width:50}
 ![](images/ch4/ch4fig29.png)
 
 𝜇~𝑖~ is a state variable called "chemical potential", and this can be regarded as the Gibbs energy per amount of substance of the component *i*. From the equation (12), the equation (13) can be rewritten as follows.
 
+{width:50}
 ![](images/ch4/ch4fig30.png)
 
 Here, reaction Gibbs energy Δ~r~*G* is introduced as the change in the Gibbs energy due to the advancement of the reaction. Based on the equation (15),
 
+{width:50}
 ![](images/ch4/ch4fig31.png)
 
 Thus, Δ~r~*G* can be expressed as the difference in chemical potential between the reactants and the products in the reaction mixture composition. Because a spontaneous reaction proceeds toward a decrease in Gibbs energy, the forward reaction will dominate when Δ~r~*G* &lt; 0, whereas the reverse reaction will dominate when Δ~r~*G* &gt; 0. When Δ~r~*G* = 0, the reaction no longer proceeds in either direction, resulting in an equilibrium state.
 
+{width:50}
 ![](images/ch4/ch4fig32.png)
 
 ### Equilibrium Constant and Gibbs Energy
 
 In the case of an ideal gas, based on the equations (11) and (14),
 
+{width:50}
 ![](images/ch4/ch4fig33.png)
 
 *p*~i~ is the partial pressure of substance 𝑖. Therefore, using the standard Gibbs energy change,
 
+{width:50}
 ![](images/ch4/ch4fig34.png)
 
 the reaction Gibbs energy can be written as follows.
 
+{width:50}
 ![](images/ch4/ch4fig35.png)
 
 Because Δ~r~*G* = 0 in an equilibrium state,
 
+{width:50}
 ![](images/ch4/ch4fig36.png)
 
 based on the partial pressure *p*~i~^eq^ of each substance in the equilibrium state. When the ratio of the partial pressure of the reactants and products in the equilibrium state is represented by *K~p~*,
 
+{width:50}
 ![](images/ch4/ch4fig37.png)
 
 *K~p~* is called a pressure equilibrium constant.
 
 If we consider a typical solution instead of an ideal gas, we use a physical quantity *a*~i~, called activity, instead of partial pressure, to express the following relationship:
 
+{width:50}
 ![](images/ch4/ch4fig38.png)
 
 The activity is usually a complex function of temperature, pressure, and amount of substance. The equation is similar to that of a molar fraction or any other concentration. In particular, in a dilute solution, it is equal to molar fraction 𝑥~𝑖~ = *n~𝑖~/n* \[1\]. An equilibrium constant based on activity
 
+{width:50}
 ![](images/ch4/ch4fig39.png)
 
 is called the "thermodynamic equilibrium constant", based on which Δ~r~*G*^0^ = −*RT* ln*K* in a typical solution.
 
 In a dilute solution, the molar fraction of the solvent is substantially proportional to the molar concentration. Therefore, by approximation, the activity is often replaced with the concentration and the following equation based on the concentration equilibrium constant *K~c~* is used \[2\].
 
+{width:50}
 ![](images/ch4/ch4fig40.png)
 
 _—Fumi Takabatake (Tohoku University)_
@@ -392,7 +422,7 @@ DNA, or *d*eoxyribo*n*ucleic *a*cid, is a macromolecule that carries genetic inf
 
 The double helix structure of DNA was reported by Watson and Crick in 1953 (Fig. 1)\[1\]. The diameter of the double helix is about 2 nm, and its length is about 3.4 nm per turn. The double helix contains two kinds of grooves that are different in width, with the wider one referred to as major groove and the narrower one as minor groove. When two DNA molecules wind around each other to form a double helix, we call this double-stranded DNA or a DNA double strand. When they are separated from each other, each we call them single-stranded DNA or a DNA single strand. A double helix usually exists as a "B form" structure, and as "A form" and "Z form" structures only under particular conditions. These forms have different geometries and dimensions (see the table below).
 
-{width=80%}
+{width:80%}
 ![Fig. 1. DNA double helix.](images/ch4/ch4fig63.png)
 
 Form |Chirality     |Diameter |Bases per turn |Rise per base
@@ -404,7 +434,7 @@ Z    |Left-handed   |1.8 nm   |12             |0.37 nm
 ### Bases
 
 
-{width=50%,float=left}
+{width:50, align:left}
 ![Fig. 2. Nucleotide and bases.](images/ch4/ch4fig64.png)
 
 DNA is composed of four distinct bases, i.e., adenine (A), guanine (G), cytosine (C), and thymine (T) (Fig. 2). Each base, together with a sugar and a phosphate, forms a "nucleotide" unit (Fig. 2). A compound made of a base bound to the 1' carbon atom in the sugar is called a nucleoside, and an ester compound made of a phosphate bound to the 5' position of the nucleoside is called a nucleotide \[2\]. In a single strand DNA, its terminus at a 5' carbon atom is called a 5' end, and that at a 3' carbon atom is called a 3' end. The strand is written in the 5' to 3' direction (see Fig. 2). Two DNA strands in a double strand DNA run in opposite directions (antiparallel).
@@ -412,7 +442,7 @@ DNA is composed of four distinct bases, i.e., adenine (A), guanine (G), cytosine
 
 ### Base Pairing and Complementary Strands
 
-{width=50%,float=left}
+{width:50, align:left}
 ![Fig. 3. Base pairing between DNA strands](images/ch4/ch4fig65.png)
 
 In a DNA double helix, bases in the DNA form Watson-Crick base pairs through hydrogen bonding. A Watson-Crick base pair can be formed only between A and T or between G and C (Fig. 3). An A/T pair is formed by two hydrogen bonds, while a G/C pair is formed by three hydrogen bonds, providing a stronger interaction. As a result, a double helix with a higher GC content is more stable \[2\]. For example, the sequence 5'-ATGCGTA-3' can form a stable double helix only with 5'-TACGCAT-3'. This property of bases is called complementarity, and these sequences are called mutually complementary sequences or complementary strands. In addition, when multiple base pairs are formed consecutively in a helix, they stack up to stabilize each other. This interaction between base pairs is called stacking. In this manner, the DNA double helix is stabilized both through the hydrogen bonding of Watson-Crick base pairs and the stacking between base pairs. The length of DNA is expressed in the number of nucleotides (bases) (nt) when it is in a single-strand state, and in the number of base pairs (bp) when in a double-strand state. For example, a single strand DNA of 20 bases is 20 nt long, a double strand DNA made of two completely complementary 20 nt-long strands is 20 bp long.
