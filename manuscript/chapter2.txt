@@ -174,6 +174,7 @@ In principle, the design should proceed from the whole to details, from abstract
 
 The process of dividing a system into smaller concrete parts is called decomposition, and the process of combining the resultant parts back is called integration. Successful design requires going from decomposition to integration and vice versa to specify details of the system. Remember this important constraint: one function per part. Any part with more than one function will hinder design changes and error corrections. Such "optimization" should be done, if any, after the basic design has been established.
 
+{width:50, align:right}
 ![Decomposition and Integration](images/ch2/ch2fig02.png)
 
 ### Talents for Handicraft

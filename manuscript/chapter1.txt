@@ -598,4 +598,5 @@ You can best understand what BIOMOD is like from the voice of previous student p
 _— Kei Fujiwara (Keio University)_
 
 
+{width:50}
 ![Tokyo University, Kashiwa, 2014](images/ch1/ch1fig06.png)

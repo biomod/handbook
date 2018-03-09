@@ -10,26 +10,32 @@ Most enzymes are proteins and can catalyze a variety of chemical reactions with 
 
 Let’s discuss a reaction between reactants A and B to form a product C that proceeds through a transition state AB‡. An enzyme can promote the reaction by stabilizing (lowering the energy required for) the transition state.
 
+{width:50}
 ![Michaelis-Menten Equation](images/ch5/ch5fig01.png)
 
 The reactants A and B are called substrates (S) of the enzyme (E). With the product C being P, the rate equation of the reaction can be as follows.
 
+{width:50}
 ![equation 2](images/ch5/ch5fig02.png)
 
 If the first step (E + S &lt;-&gt; ES) in the reaction readily reaches chemical equilibrium, the second step (ES -&gt; E + P) is the rate-limiting step in the reaction. When the dissociation constant *K~s~* = \[*E*\]\[*S*\]/\[*ES*\] (equation 1) and the total enzyme concentration \[*E*\]~0~ = \[*E*\]+\[*ES*\] (equation 2), equation 2 can be substituted into equation 1 to provide the following equation.
 
+{width:50}
 ![equation 3](images/ch5/ch5fig03.png)
 
 The rate *v* to yield the product can be written as follows.
 
+{width:50}
 ![equation 4](images/ch5/ch5fig04.png)
 
 Equation 3 can be substituted into equation 4, with *V*~max~ = *k~+2~*\[*E*\]~0~, to provide the well-known Michaelis-Menten equation, as follows.
 
+{width:50}
 ![equation 5](images/ch5/ch5fig05.png)
 
 Equation 5 holds true when the second step (ES -&gt; E+P) is the rate-limiting step (i.e., k~-1~ &gt;&gt; k~+2~). You can derive a similar equation assuming a steady state.. In that case, *K~s~* in the equation 5 is substituted by *K~m~* as follows.
 
+{width:50}
 ![equation 6](images/ch5/ch5fig06.png)
 
 If *k~-1~* &gt;&gt; *k~+2~* in the equation 6, then k~+2~ can be ignored so that *K~m\ ~*= *K~s~*.
@@ -38,6 +44,7 @@ If *k~-1~* &gt;&gt; *k~+2~* in the equation 6, then k~+2~ can be ignored so that
 
 The corresponding changes in the energy can be schematized as follows based on E, S, and P.
 
+{width:50}
 ![](images/ch5/ch5fig07.png)
 
 The energy change dG^0^ in the first step (E+S &lt;-&gt; ES) takes a negative value, and is related to *K~m~* (see above). After that, the energy change dG‡ in ES -&gt; ES‡ takes a positive value, and is related to *k*~+2~ (see above). An enzyme can stabilize the transition state ES‡ (i.e., lower the energy) to promote the reaction. As a result, the sum of the two energy changes (dGT‡ = dG^0^ + dG‡) is important for the overall reaction rate, and its value can vary greatly among different enzymatic reactions.
@@ -78,6 +85,7 @@ Enzymatic reactions are important to build for nucleic acid building blocks beca
 
 By definition, DNA polymerase is an enzyme that extends (polymerizes) DNA. Along a template DNA, it synthesizes the complementary DNA sequence in the 5’-3’ direction, which starts from a primer DNA that has been hybridized to part of the template. During this process, one of the dNTPs (deoxynucleoside triphosphates) in the solution, i.e. dATP, dTTP, dCTP, or dGTP, is consumed as a substrate per corresponding base.
 
+{width:50}
 ![](images/ch5/ch5fig08.png)
 
 Figure based on \[2\].
@@ -130,6 +138,7 @@ Note: - indicates the absence of the corresponding activity, and the number of +
 The below PCR technique is among the most popular DNA polymerase-based reactions, (see the figure below); it can amplify any desired portion of a double strand DNA. First, the double strand DNA is heated in an aqueous solution into single strand DNAs. The solution includes a large amount of primers that specify the portion to be amplified (green and red arrows in the figure) in advance, which undergo hybridization as a result of annealing. In this state, DNA polymerase starts extension to synthesize mutually complementary DNA strands (light green and light red). After that, it is heated back into the single strand DNA state and subjected to annealing again, which allows the primers to hybridize to the synthesized DNA, to initiate another extension reaction. By repeating this cycle, a double strand DNA solely composed of the desired portion is replicated exponentially, as indicated by yellow in the figure. Thanks to thermostable DNA polymerase, you no longer have to add enzyme after each cycle.
 {/aside}
 
+{width:50}
 ![](images/ch5/ch5fig09.png)
 
 Figure based on \[2\].
@@ -140,6 +149,7 @@ RNA polymerase is an important enzyme that serves as a central component of tran
 
 One representative RNA polymerase is so-called T7 RNA polymerase. As shown in the figure below, T7 RNA polymerase uses NTPs (nucleoside triphosphates) as substrate to synthesize RNA from a double stranded DNA template, proceeding from a specific "initiation sequence" called T7 promoter sequence toward the 3’ direction. This enzyme is commonly employed in the field of DNA/RNA nanotechnology and DNA computing, e.g. in reaction systems such as RNA tiles \[3, 4\] and RTRACS \[4\].
 
+{width:50}
 ![](images/ch5/ch5fig10.png)
 
 _—Shogo Hamada (Cornell University)_
@@ -162,6 +172,7 @@ Type II restriction enzymes, now commonly used, were proposed and discovered by 
 
 Each cleaved fragment has either a blunt end, in which the ends of both strands are cut even, or a sticky end, in which one strand overhangs. The most popular ones are so-called type II restriction enzymes, each of which recognizes a palindrome sequence. In both of the examples shown below, it reads the same on one strand in the 5'-3' direction and on its complementary sequence in the 5'-3' direction. *Hind*III produces sticky ends (left), while *Eco*RV produces blunt ends (right).
 
+{width:50}
 ![](images/ch5/ch5fig11.png)
 
 When you use a restriction enzyme, you must pay attention to the salt concentration. The activity of a typical restriction enzyme is dependent on monovalent ion (K^+^, Na^+^, Cl^-^, OAc, etc.), divalent ion (Mg^2+^ etc.), and/or pH. From optimized buffer solutions available from enzyme manufacturers, you can choose one appropriate for the enzyme to be used. When you have to use more than one enzyme in combination, you can refer to buffer compatibility charts and apps provided by the same manufacturers. Recombinantly improved enzymes that can function in a single buffer solution have also been developed.
@@ -200,6 +211,7 @@ Researchers conducting chemical synthesis of DNA (see section 44) made remarkabl
 
 This artificial base, developed by Hiroyuki Asanuma (Nagoya University) and Xingguo Liang (Ocean University of China) et al., can photo-switch DNA double helix formation/dissociation.
 
+{width:50}
 ![](images/ch5/ch5fig12.png)
 
 When this azobenzene residue absorbs UV light with a long wavelength (300 to 400 nm), it can photo-isomerize from the *trans* form (top) to the *cis* form (bottom). Upon absorption of visible light of &gt;400 nm, it can photo-isomerize from the *cis* form to the *trans* form. The standard *trans* form has a planar structure, and thus stabilizes the DNA double helix when inserted between base pairs in DNA. The *cis* form has a slightly twisted, bulky structure due to steric repulsion between the benzene rings, and thus greatly destabilizes the DNA double helix. This difference allows the selective dissociation of a DNA double helix controlled by UV irradiation and its selective formation by visible light irradiation. Because the isomerization efficiency is below 100%, it may not be effective to insert only one moiety. Amazingly, multiple moieties, with one inserted after every two bases, greatly stabilize the double helix in the *trans* form, and greatly destabilize it when isomerized to the *cis* form. If financially feasible, you should include multiple moieties.
@@ -208,6 +220,7 @@ When this azobenzene residue absorbs UV light with a long wavelength (300 to 400
 
 When exposed to light, this artificial base, developed by Kenzo Fujimoto et al. (JAIST), can fix a DNA double helix through covalent bonding.
 
+{width:50}
 ![](images/ch5/ch5fig13.png)
 
 When it is incorporated into one of the strands, it can be covalently bonded to T in the complementary strand upon one second of 366 nm UV irradiation. In order to separate them, you only have to expose them to 312 nm light. To make the connection more efficient, the base T in the complementary strand should be in the position facing **^CNV^**K or in a position next to that.
@@ -224,7 +237,8 @@ When this linker is inserted in the backbone of DNA, you can readily cleave the 
 
 These artificial bases have been developed to take advantage of the tautomerism of nucleic acid bases to allow base pairing with more than one type of base.
 
-![p118-1.gif](images/ch5/ch5fig15.png)
+{width:50}
+![](images/ch5/ch5fig15.png)
 
 dK is an analog of A and G, and can form a stable base pair with either of T and C. Likewise, dP is capable of base pairing with either of A and G.
 
@@ -232,7 +246,8 @@ dK is an analog of A and G, and can form a stable base pair with either of T and
 
 This world's first artificial base pair was developed by Benner et al. (formerly of Florida University) as a third base pair to add to A-T and G-C pairs.
 
-![p118-2.gif](images/ch5/ch5fig16.png)
+{width:50}
+![](images/ch5/ch5fig16.png)
 
 Compared to naturally occurring G and C, the positions of the amino and carbonyl substituents are all inverted. They are not recognized well by enzymes such as polymerases, but will suffice to serve as a third base pair in ordinary DNA computing systems.
 
@@ -240,7 +255,7 @@ Compared to naturally occurring G and C, the positions of the amino and carbonyl
 
 Below is another third type of base pair developed by Ichiro Hirao et al. (RIKEN).
 
-![p118-3.gif](images/ch5/ch5fig17.png)
+![](images/ch5/ch5fig17.png)
 
 Surprisingly, this only relies on shape complementarity and not on hydrogen bond in base pairing, and can still be recognized by enzymes and correctly replicated.
 
@@ -249,13 +264,15 @@ Surprisingly, this only relies on shape complementarity and not on hydrogen bond
 
 Streptavidin is one of the proteins most commonly used in the field of biochemistry. This protein, made of four identical subunits associated with each other, can bind to a compound called biotin (vitamin B7) with extreme strength (highest in biological systems), and is employed in many applications, e.g. in the immobilization of an enzyme. Biotin amidite, applicable to DNA synthesis, is also commercially available and can be introduced anywhere in a DNA strand, i.e. in the 5’ end, the 3’ end, or even the middle of it.
 
-![](images/ch5/ch5fig18.png){width="1.3452088801399824in" height="0.7768755468066492in"}
+{width:50}
+![](images/ch5/ch5fig18.png)
 
 Chemical structure of biotin. It can be conjugated to a different molecule through the carboxylate side chain.
 
 Biotin has many merits in DNA nanotechnology. For example, it is free of nonspecific adsorption onto mica, and can be observed as a bright 5 nm dot, which is taller than DNA. Our laboratory is so fond of this protein that there is a proverb: "Call streptavidin if you need help".
 
-![](images/ch5/ch5fig19.png){width="0.9441666666666667in" height="0.8616666666666667in"}
+{width:50}
+![](images/ch5/ch5fig19.png)
 
 Streptavidin (bright dot) caught by closed DNA pliers.
 {/aside}
@@ -268,10 +285,12 @@ A-T and G-C pairs, which are the source of DNA complementary, are called Watson-
 
 In Watson-Crick base pairs, the imino proton (the 1 position) of a purine base participates in base pairing. In "Hoogsteen" base pairs, the 2 and 7 positions participate in base pairing, wherein T binds to an A-T pair and protonated C^+^ binds to a G-C pair.
 
+{width:50}
 ![DNA Triplex](images/ch5/ch5fig20.png)
 
 As seen from the figure above, only pyrimidines are capable of Hoogsteen bonding with normal Watson-Crick base (purine-pyrimidine) pairs. In line with this, naturally occurring DNA triplexes have been discovered that are each formed by Hoogsteen bonding between a homopurine-homopyrimidine region in a double helix (a sequence of consecutive purines or pyrimidines in one strand, such as AAAAAAAA/TTTTTTTT) and a third homopyrimidine strand (TTTTTTTT), which have been implicated in the regulation of gene expression.
 
+{width:50}
 ![](images/ch5/ch5fig21.png)
 
 Of the two kinds of triplets (triplet = a combination of three bases), the T-A-T triplet can form under any conditions. The C^+^-G-C triplet can only form under acidic conditions, because it requires protonated C^+^.
@@ -284,6 +303,7 @@ Because a DNA triplex is not very stable, you may not be willing to use it in yo
 
 Naturally occurring DNA quadruplexes \[2\], composed of even more strands, have also been discovered. The most famous one is the guanine quadruplex.
 
+{width:50}
 ![](images/ch5/ch5fig22.png)
 
 This is derived from a G quartet structure that is formed by Hoogsteen bonding among four guanine bases surrounding a coordinated metal ion. The metal ion trapped in the center is usually Na^+^ or K^+^ (K^+^ provides a stronger bond).
@@ -298,10 +318,12 @@ Conversely, you can make use of a guanine quadruplex to make a DNA-based molecul
 
 The so-called i-motif\[3\] structure is another DNA quadruplex.. This structure does not involve Hoogsteen bonding, but is derived from mismatched base pairing between C and protonated C^+^.
 
+{width:50}
 ![](images/ch5/ch5fig23.png)
 
 One C-C^+^ base pair only results in a double strand. The i-motif is formed as a very unique structure; i.e., two double strands each formed by the C-C^+^ base-pairing align with each other in a head-to-tail orientation, through mutual intercalation of the hydrogen bonds in the two double strands.
 
+{width:50}
 ![](images/ch5/ch5fig24.png)
 
 Like the C^+^-G-C triplet, this requires the protonation of C, which means that an i-motif can be formed only under acidic conditions. Accordingly, several i-motif-based, pH-responsive DNA molecular machines have been reported.
@@ -318,12 +340,14 @@ The most important function of muscle is to generate a force to move the body. T
 
 Myosin has a molecular weight of 520,000, which contains a head for actin binding and ATP hydrolysis and a tail for self-assembly into a filament (FIG. 1(A)). Actin filament is a filamentous polymer of a right-handed double helix structure, with about 13 monomers of globular (G) actin per turn, which has a molecular weight of about 42,000 (FIG. 1(B)). G-actin is composed of four subdomains that are different in size, conferring a polarity to actin filament. Myosin moves actin toward the minus end to cause muscle contraction.
 
+{width:50}
 ![Actin (A) and myosin (B) filaments](images/ch5/ch5fig25.png)
 
 ### Molecular Mechanism of Muscle Contraction
 
 The swinging crossbridge hypothesis has been proposed to explain contraction by myosin and actin; in this hypothesis, the myosin head binds to actin and changes its angle to generate a force. This hypothesis has been examined using X-ray crystallography, optical tweezers, etc. After measurement with optical tweezers, the step length of myosin proved to be 9 to 13 nm. A glass needle measuring the displacement of myosin revealed that myosin moves through successive sub-steps of about 5.3 nm, which is comparable to the diameter of the actin monomer. Moreover, a single-molecule observation of myosin under a varying external load has demonstrated that the step length of myosin decreases in response to an increase in the load; i.e. it is load-dependent.
 
+{width:50}
 ![](images/ch5/ch5fig26.png)
 
 (A) The use of a biotin-streptavidin interaction to observe the displacement of a myosin head moving along an actin filament. (B) Step length observed by the needle. An average sub-step of 5.3 nm was observed. Reprinted with permission from *Nature*, 1999 \[2\].
@@ -340,12 +364,14 @@ Kinesin can bind a cargo to its tail, and repeat ATP hydrolysis and the associat
 
 Characteristically, kinesin is capable of continuous motion, which has been demonstrated in *in vitro* motility assays. Principally, there are two types of such assays. One works by immobilizing kinesin on a glass surface and observing a microtubule moving over it (FIG. 3(A)); the other works by immobilizing a microtubule on a glass surface and observing the movement of a kinesin-adsorbed bead or fluorescently labeled kinesin along it (FIG. 3(B)). The latter assay has also been combined with optical tweezers to demonstrate that kinesin moves along a microtubule with a step length of 8 nm.
 
+{width:50}
 ![*In vitro* motility assays](images/ch5/ch5fig27.png)
 
 The "hand-over-hand" model has been proposed to explain the mechanism of kinesin moving along a microtubule. In this model, kinesin alternately moves two heads to "walk" like a human (FIG. 4). In the solution, each kinesin head has ADP bound to it but, upon microtubule binding, one of the heads dissociates from ADP and binds to ATP. Then, ADP dissociation from another head is promoted. In this manner, the two heads alternately repeat ADP dissociation, allowing the stepwise movement of kinesin along a microtubule.
 
 By attaching a fluorescent dye to one motor domain of kinesin and subjecting it to a single-molecule measurement, researchers have demonstrated that the motor domain achieves an average step length of about 17 nm and that kinesin moves hand-over-hand.
 
+{width:50}
 ![Hand-over-hand model](images/ch5/ch5fig28.png)
 
 _—Ren Sasaki and Akira Kakugo (Hokkaido University)_
@@ -364,6 +390,7 @@ In principle, a molecular beacon is similar to FRET, except that one of two dyes
 
 Fluorescence is emitted during the process of a molecule being excited from its ground state (S0) to an excited state (S1) and then returning to the ground state, releasing energy. This process can be illustrated by a Jablonski diagram. The time scale of the entire phenomenon is in nanoseconds, wherein the transition to the excited state occurs on a scale of femto (10^-15^) seconds, and the emission of fluorescence occurs on a scale of nano (10^-9^) seconds. Due to thermal vibration etc., the energy of the fluorescence is lower than that absorbed by the fluorescent dye (i.e. the wavelength shifts to a longer wavelength), which is called a Stokes shift. Because the properties of the fluorescence (wavelength and half-life) can be affected by the motion of the fluorescent molecule and its interaction with its surroundings, various fluorescence spectroscopy techniques have been developed.
 
+{width:50}
 ![](images/ch5/ch5fig29.png)
 
 ### Principles of FRET
@@ -372,12 +399,15 @@ A fluorescent molecule (donor) emits energy as fluorescence and returns to the g
 
 The energy transfer efficiency E~FRET~, which is a measure of the energy transfer, can be expressed as
 
+{width:50}
 ![equation 1](images/ch5/ch5fig30.png)
 
 with R being the distance between the two fluorescent dyes, I~D~ being the fluorescence intensity of the donor, and I~A~ being the fluorescence intensity of the acceptor. R~0~ is the distance at which E~FRET~ is 50% (Förster distance), calculated as follows.
 
+{width:50}
 ![equation 2](images/ch5/ch5fig31.png)
 
+{width:50}
 ![equation 3](images/ch5/ch5fig32.png)
 
 εA(λ) : molar extinction coefficient of the acceptor at wavelength λ
@@ -418,6 +448,7 @@ Lipid molecules are amphiphilic; each contains both hydrophilic and hydrophobic 
 
 A liposome is a closed vesicle made of a lipid bilayer membrane, first reported in 1964 by Bangham. The lipid membrane is an excellent hydrophobic barrier to enclose and separate the inside microvolume from the outside. It has a lipid bilayer structure similar to a cell membrane, and thus its application to the biological membrane model, cosmetics, DDS (drug delivery system \[4\]), and artificial cells has been extensively studied. A liposome can be classified as SUV, LUV, MLV, or GUV depending on its size and membrane structure. There is also growing interest in polymersomes, which are made of amphiphilic macromolecules (polymers), because of their robustness and ease of functionalization. Since Hotani et al. succeeded in the direct observation of GUV by dark field microscopy in 1980s, high-resolution observation techniques using fluorescently labeled molecules to look at cell-sized liposomes have also been developed \[1\]. There have been a number of attempts to install a biochemical reaction system inside a liposome, and monitor/assess it. Thanks to advances in microprocessing technology and other techniques, it has become much easier to prepare cell-sized liposomes of a uniform size (see section 89).
 
+{width:50}
 ![](images/ch5/ch5fig33.png)
 
 ### Artificial Cell
