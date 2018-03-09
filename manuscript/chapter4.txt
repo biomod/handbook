@@ -392,29 +392,31 @@ DNA, or *d*eoxyribo*n*ucleic *a*cid, is a macromolecule that carries genetic inf
 
 The double helix structure of DNA was reported by Watson and Crick in 1953 (Fig. 1)\[1\]. The diameter of the double helix is about 2 nm, and its length is about 3.4 nm per turn. The double helix contains two kinds of grooves that are different in width, with the wider one referred to as major groove and the narrower one as minor groove. When two DNA molecules wind around each other to form a double helix, we call this double-stranded DNA or a DNA double strand. When they are separated from each other, each we call them single-stranded DNA or a DNA single strand. A double helix usually exists as a "B form" structure, and as "A form" and "Z form" structures only under particular conditions. These forms have different geometries and dimensions (see the table below).
 
+{width=80%}
 ![Fig. 1. DNA double helix.](images/ch4/ch4fig63.png)
 
-Form |Chirality     |Diameter |Bases per turn |Rise between neighboring bases
-----:|-------------:|--------:|--------------:|------------------------------:
+Form |Chirality     |Diameter |Bases per turn |Rise per base
+----:|:-------------|--------:|--------------:|--------------:
 A    |Right-handed  |2.3 nm   |11             |0.26 nm
 B    |Right-handed  |2 nm     |10.5           |0.34 nm
 Z    |Left-handed   |1.8 nm   |12             |0.37 nm
 
 ### Bases
 
+
+{width=50%,float=left}
+![Fig. 2. Nucleotide and bases.](images/ch4/ch4fig64.png)
+
 DNA is composed of four distinct bases, i.e., adenine (A), guanine (G), cytosine (C), and thymine (T) (Fig. 2). Each base, together with a sugar and a phosphate, forms a "nucleotide" unit (Fig. 2). A compound made of a base bound to the 1' carbon atom in the sugar is called a nucleoside, and an ester compound made of a phosphate bound to the 5' position of the nucleoside is called a nucleotide \[2\]. In a single strand DNA, its terminus at a 5' carbon atom is called a 5' end, and that at a 3' carbon atom is called a 3' end. The strand is written in the 5' to 3' direction (see Fig. 2). Two DNA strands in a double strand DNA run in opposite directions (antiparallel).
 
-![](images/ch4/ch4fig64.png)
-
-### Fig. 2.** Nucleotide and bases.
 
 ### Base Pairing and Complementary Strands
 
+{width=50%,float=left}
+![Fig. 3. Base pairing between DNA strands](images/ch4/ch4fig65.png)
+
 In a DNA double helix, bases in the DNA form Watson-Crick base pairs through hydrogen bonding. A Watson-Crick base pair can be formed only between A and T or between G and C (Fig. 3). An A/T pair is formed by two hydrogen bonds, while a G/C pair is formed by three hydrogen bonds, providing a stronger interaction. As a result, a double helix with a higher GC content is more stable \[2\]. For example, the sequence 5'-ATGCGTA-3' can form a stable double helix only with 5'-TACGCAT-3'. This property of bases is called complementarity, and these sequences are called mutually complementary sequences or complementary strands. In addition, when multiple base pairs are formed consecutively in a helix, they stack up to stabilize each other. This interaction between base pairs is called stacking. In this manner, the DNA double helix is stabilized both through the hydrogen bonding of Watson-Crick base pairs and the stacking between base pairs. The length of DNA is expressed in the number of nucleotides (bases) (nt) when it is in a single-strand state, and in the number of base pairs (bp) when in a double-strand state. For example, a single strand DNA of 20 bases is 20 nt long, a double strand DNA made of two completely complementary 20 nt-long strands is 20 bp long.
 
-![](images/ch4/ch4fig65.png)
-
-### Fig. 3.** Base pairing between DNA strands.
 
 ### Melting and Hybridization of DNA
 
