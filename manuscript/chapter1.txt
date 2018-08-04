@@ -409,7 +409,7 @@ The Website should consist of more than one page for reasons of clarity. A stand
 5. Protocols: Like paper writing, the project will be forgotten if others cannot reproduce your results based on the Website. Describe your protocols in as clear and detailed a manner as possible. The underclass students will enjoy learning from it in the next year.
 6. About the Team: Introduce your team members. Also include acknowledgements and links to the sponsors who support multiple aspects of BIOMOD.
 
-### How to Setup A Website
+### How to Create A Website
 
 There are many options to set up a website including Weebly, Wordpress, GitHub Pages or GitLab Pages.
 
